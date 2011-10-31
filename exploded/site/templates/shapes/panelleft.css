@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color:#eee;
+
+	}
+.headercontainer {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/leftpanel-top.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+.maincontainer {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/leftpanel-middle.png);
+	background-repeat:repeat-y;
+	background-position:center top;
+
+
+}
+.footercontainer {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/leftpanel-bottom.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapperBottom {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/corner9-left.jpg);
+	background-position:left bottom;
+	background-repeat:no-repeat;
+}
+.wrapperTop {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/corner9-right.jpg);
+	background-position:right top;
+	background-repeat:no-repeat;
+}

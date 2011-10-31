@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Blogger twice template</name>
+    <thumbnail>tn_purple.png</thumbnail>
+    <order>20</order>
+
+    <layout thumbnailFile="header_main_left.gif">
+        <name>Header, left and main panels</name>
+        <file>header_main_leftmenu.html</file>
+
+
+    </layout>
+    <layout thumbnailFile="header_main.gif">
+        <name>Header and main panel</name>
+        <file>header_main.html</file>
+
+    </layout>
+    <layout thumbnailFile="header_main_right.gif">
+        <name>Header, right and main panels</name>
+        <file>header_main_rightmenu.html</file>
+
+    </layout>
+    <layout thumbnailFile="header_main_footer.gif" useForDefault="true">
+        <name>Header, main panel and footer</name>
+        <file>header_main_footer.html</file>
+          <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+    <layout thumbnailFile="header_main_left_footer.gif">
+        <name>Header, left, main panels and footer</name>
+        <file>header_main_footer_leftmenu.html</file>
+
+    </layout>
+    <layout thumbnailFile="header_main_right_footer.gif">
+        <name>Header, right, main panels and footer</name>
+        <file>header_main_footer_rightmenu.html</file>
+     
+    </layout>
+
+    <theme>
+        <imageFile>super_orange.gif</imageFile>
+        <name>Super Orange</name>
+        <file>orange.css</file>
+        <thumbnailFile>tn_orange.png</thumbnailFile>
+          <colorTileFile>tile_orange.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>super_purple.gif</imageFile>
+        <name>Super Purple</name>
+        <file>purple.css</file>
+        <thumbnailFile>tn_purple.png</thumbnailFile>
+          <colorTileFile>tile_purple.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>super_grey.gif</imageFile>
+        <name>Super Grey</name>
+        <file>grey.css</file>
+        <thumbnailFile>tn_grey.png</thumbnailFile>
+          <colorTileFile>tile_grey.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>super_green.gif</imageFile>
+        <name>Super Green</name>
+        <file>green.css</file>
+        <thumbnailFile>tn_green.png</thumbnailFile>
+          <colorTileFile>tile_green.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>super_blue.gif</imageFile>
+        <name>Super Blue</name>
+        <file>blue.css</file>
+        <thumbnailFile>tn_blue.png</thumbnailFile>
+          <colorTileFile>tile_blue.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>super_rust.gif</imageFile>
+        <name>Super Rust</name>
+        <file>red.css</file>
+        <thumbnailFile>tn_rust.png</thumbnailFile>
+          <colorTileFile>tile_rust.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>super_white.gif</imageFile>
+        <name>Super White</name>
+        <file>white.css</file>
+        <thumbnailFile>tn_white.png</thumbnailFile>
+          <colorTileFile>tile_white.gif</colorTileFile>
+    </theme>
+
+</template>

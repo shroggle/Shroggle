@@ -1,0 +1,12 @@
+manageVisitorGroups = Manage Visitor Groups
+name = Name
+visitorsCount = Visitors Count
+delete = Delete
+add = Add
+save = Save
+cancel = Cancel
+removeGroupConfirm = Are you sure that you want to remove this group. Note that all permission/accessibility settings you have should be verified.
+invited = Invited
+groupNameCantBeEmpty = Group name can`t be empty!
+duplicateGroupNames = Group name should be unique within the site!
+newGroup = New Group

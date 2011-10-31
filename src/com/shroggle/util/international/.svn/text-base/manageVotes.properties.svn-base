@@ -1,0 +1,41 @@
+subHeader = Edit Manage Your Votes Module: Module Settings
+firstInstruction = The Manage Your Votes table allows voters to manage their star ratings and edit their comments for items from one or more galleries / catalogs.
+manageVotesName = Manage Your Votes Module &mdash; Name
+
+manageVotesDescription = Header / Description
+editDesc = Edit
+
+selectVotingModulesInfo = Please select which voting modules to include (note voting modules are attached to galleries / catalogs):
+moreInfo = more info
+votingModulesMoreInfoText = This list only includes those galleries and catalogs that offer the option to vote.<br/> \
+                            To turn on the option to vote in a gallery or catalog &mdash; please go back to your site \
+                            editing page select the gallery, select the 'edit settings' option, click on the third 'tab' labeled 'voting'.
+currentSiteOnly = Current site only
+allAvailble = All available voting modules
+
+votingModulesTableInstruction = To help voters recognize different galleries / catalogs in this list &mdash; please provide a header and select a color code for each gallery.
+
+#voting modules table
+select = Select
+moduleName = Vote module name
+editModuleName = Edit Category / Gallery Header
+modulePage = Site page
+recordName = Record name
+colorCode = Select Color Code
+
+pickAWinner = Include option to 'Pick a winner'
+pickAWinnerMoreInfoText = 'Pick a Winner' allows voters to select one item from each gallery as the 'Best of its Kind'. \
+                          To do this they will select from the items they have already rated.
+
+apply = Apply
+save = Save
+cancel = Cancel
+
+#Exceptions
+ManageVotesNotUniqueNameException = Please, enter unique name for Manage Your Votes.
+ManageVotesNullOrEmptyNameException = Please, enter Manage Your Votes name.
+ManageVotesNotSelectedException = Please, select existing Manage Your Votes.
+
+#itemDescription
+defaultHeader = Header / Description
+displayHeader = Display Header / Description

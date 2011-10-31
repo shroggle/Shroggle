@@ -1,0 +1,44 @@
+title = Request for Content
+header = Request for Content
+subHeader = You have chosen to share your {0} called "{1}" found on your site "{2}". \
+  This {0} can now be used on {3} {4}`s site called:
+description = Please choose what type of access you want to give to {0} {1}
+subject = Request for Content Accepted
+acceptEdit = By selecting 'Editing Access' you agree to give editing access to {0} {1}.  Editing access includes \
+  ability to modify the object settings, permission and content.
+
+sucessREAD = The {0} called {1} has been successfully shared in Read-Only Mode.
+sucessEDIT = The {0} called {1} has been successfully shared in Editing Access (Read & Edit) Mode.
+
+
+
+# -----------------------------------------------------Letters texts----------------------------------------------------
+toContentOwnerSubject = Request for Content Accepted
+toContentOwnerBody = Dear {0},\n\n\
+Regarding: A Request for Content\n\n\
+You have chosen to share your {1} called {2}, found on your site called {3}.\n\
+This has successfully been shared with the site called {4}.\n\n\
+The requester, {5} now has {6} access to this {1}.\n\n\
+To view or manage shared content, please `login to your dashboard` on the http://www.Web-Deva.comand select the \
+`Manage {8}` option.\n\n\
+To contact technical support please email us at {7}.
+
+toRequesterSubjectAccepted = Request for Content Accepted
+toRequesterBodyAccepted = Your request to display the {0} called {1} on your site: {2} ({3}), has been:\n\n\
+Accepted\n\n\
+The content administrator {4} has granted you {5} access permission on  {0}, {1}.\n\n\
+To insert this content module on your site: Go to the page where you would like to place the \
+item, select `insert content module` select the module type, and then from the list of existing modules on that page, \
+select this item.\n\n\
+To view or manage shared content, please `login to your dashboard` on the http://www.Web-Deva.comand select the \
+`Manage {7}` option.\n\n\
+To contact technical support please email us at {6}.
+
+toRequesterSubjectDenied = Request for Content Denied
+toRequesterBodyDenied = Your request to display the {0} called {1} on your site: {2} ({3}), has been:\n\n\
+Denied\n\n\
+To contact technical support please email us at {4}.
+
+
+readOnly = Read-Only
+administrative = Full Administrative

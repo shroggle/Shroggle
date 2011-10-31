@@ -1,0 +1,384 @@
+<project name="Shroggle Application. Cruise Build" default="build" basedir=".">
+    <description>Build Shroggle Application. Prepared for CruiseControl</description>
+
+    <!-- Define project.root varible. -->
+    <import file="imported.xml"/>
+
+    <property name="current.module.root" value="${project.root}"/>
+    <property name="app.version" value="${version}_build${label}"/>
+
+    <!-- set global properties for this build -->
+    <property name="src" value="${current.module.root}/src"/>
+    <property name="test" value="${current.module.root}/test"/>
+    <property name="lib" value="${project.root}/lib"/>
+
+    <property name="target.dir" value="${current.module.root}/classes"/>
+    <property name="test.target.dir" value="${current.module.root}/classes_test"/>
+    <property name="test.exec.dir"
+              value="${current.module.root}/classes_test_exec/WEB-INF/classes"/>
+    <property name="dep.cache.dir" value="${current.module.root}/depcache"/>
+    <property name="dist.dir" value="${current.module.root}/dist"/>
+    <property name="cruisecontrol.dist.home" value="${dist.dir}/testreports"/>
+
+    <!-- set global properties to compile JSP -->
+    <property name="defaultroot.path" value="${current.module.root}/resources"/>
+    <property name="temp.jsp.src" value="${current.module.root}/tmp_jsp_src"/>
+    <property name="tmp.exploaded" value="${current.module.root}/tmp_exploaded"/>
+    <property name="tmp.static" value="${current.module.root}/tmp_static"/>
+
+    <property name="version.file" value="${current.module.root}/version.properties"/>
+    <property name="tmp.version.file"
+              value="${current.module.root}/application-version.properties"/>
+
+
+
+    <!--
+      <import file="${project.root}/Lib/antTask/javamake-taskdef.xml" />
+    -->
+
+    <!--if="has.deleted"-->
+    <target name="deleteDirs">
+        <delete dir="${target.dir}" quiet="true"/>
+        <delete dir="${test.target.dir}" quiet="true"/>
+        <!--        <delete dir="${dep.cache.dir}" quiet="true"/>-->
+    </target>
+
+    <target name="init" depends="initDist, initJspc, deleteDirs">
+        <!-- Recreate the compile target directory -->
+        <mkdir dir="${target.dir}"/>
+        <mkdir dir="${test.target.dir}"/>
+        <!--        <mkdir dir="${dep.cache.dir}"/>-->
+    </target>
+
+    <path id="module.classpath">
+        <fileset dir="${lib}"/>
+        <fileset dir="${tomcat.home}/lib">
+            <include name="servlet-api.jar"/>
+            <include name="jsp-api.jar"/>
+            <include name="el-api.jar"/>
+        </fileset>
+    </path>
+
+    <path id="module.test.classpath">
+        <path refid="module.classpath"/>
+        <fileset dir="${lib}" casesensitive="yes">
+            <include name="junit.jar"/>
+            <include name="easymock*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="copyResources">
+        <copy todir="${target.dir}">
+            <fileset dir="${src}">
+                <include name="**/*.conf"/>
+                <include name="**/*.properties"/>
+                <include name="**/*.xml"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="compileSrc" depends="init" description="compile whole module">
+        <javac srcdir="${src}" destdir="${target.dir}"
+               debug="on" encoding="utf-8">
+            <classpath>
+                <path refid="module.classpath"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="compileTest" depends="compileSrc"
+            description="compile whole module">
+
+        <javac srcdir="${test}" destdir="${test.target.dir}" debug="on" encoding="utf-8">
+            <classpath>
+                <path refid="module.test.classpath"/>
+                <pathelement location="${target.dir}"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="initDist">
+        <!-- Recreate the compile target directory -->
+        <delete dir="${dist.dir}" quiet="true"/>
+        <mkdir dir="${dist.dir}"/>
+        <mkdir dir="${dist.dir}/testreports"/>
+    </target>
+
+    <target name="initTestExecDir">
+        <sync todir="${test.exec.dir}">
+            <fileset dir="${target.dir}"/>
+            <fileset dir="${test.target.dir}"/>
+
+            <fileset dir="${src}">
+                <include name="**/*.properties"/>
+            </fileset>
+
+            <fileset dir="${test}">
+                <!--<include name="**/*.properties"/>-->
+                <!--<include name="**/*.flv"/>-->
+                <!--<include name="**/*.avi"/>-->
+                <!--<include name="**/*.png"/>-->
+            </fileset>
+            <fileset dir="${test}/">
+                <include name="com/superwiki/util/filesystem/**.*"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </sync>
+    </target>
+
+    <target name="runTests" depends="initTestExecDir">
+        <junit printsummary="on" haltonfailure="no" haltonerror="no"
+               errorproperty="test.failed" failureproperty="test.failed"
+               fork="yes" showoutput="yes" timeout="300000" maxmemory="256M">
+            <formatter type="xml"/>
+
+            <classpath>
+                <fileset dir="${lib}">
+                    <include name="*.jar"/>
+                </fileset>
+                <pathelement location="${test.exec.dir}"/>
+
+                <fileset dir="${tomcat.home}/bin">
+                    <include name="*.jar"/>
+                </fileset>
+                <fileset dir="${tomcat.home}/lib">
+                    <include name="*.jar"/>
+                </fileset>
+
+            </classpath>
+
+            <sysproperty key="org.apache.commons.logging.LogFactory"
+                         value="org.apache.commons.logging.impl.LogFactoryImpl"/>
+            <sysproperty key="org.apache.commons.logging.Log"
+                         value="org.apache.commons.logging.impl.SimpleLog"/>
+
+            <batchtest todir="${cruisecontrol.dist.home}">
+                <fileset dir="${test}">
+                    <include name="**/*Test.java"/>
+                    <include name="**/*TestCase.java"/>
+                    <!--                                        <include name="**/RealFileSystemTest.java"/>-->
+                </fileset>
+            </batchtest>
+        </junit>
+        <fail if="test.failed">SuperWiki unit tests failed.</fail>
+    </target>
+
+    <target name="initJspc">
+        <!-- Recreate the target directory -->
+        <delete dir="${temp.jsp.src}" quiet="true"/>
+        <mkdir dir="${temp.jsp.src}"/>
+    </target>
+
+    <target name="deleteExploaded" if="has.deleted">
+        <delete dir="${tmp.exploaded}" quiet="true"/>
+    </target>
+
+    <target name="initExploaded" depends="deleteExploaded">
+        <!-- Recreate the target directory -->
+        <delete dir="${tmp.exploaded}"/>
+        <mkdir dir="${tmp.exploaded}"/>
+    </target>
+
+    <target name="copyLibsExploded">
+        <sync todir="${tmp.exploaded}/WEB-INF/lib">
+            <fileset dir="${lib}">
+                <include name="*.jar"/>
+            </fileset>
+        </sync>
+    </target>
+
+    <target name="copyExploded" depends="initExploaded, copyLibsExploded">
+        <copy todir="${tmp.exploaded}/WEB-INF">
+            <fileset dir="${project.root}/resources/WEB-INF">
+                <include name="**/*.sql"/>
+            </fileset>
+        </copy>
+        <copy todir="${tmp.exploaded}">
+            <fileset dir="${defaultroot.path}">
+                <include name="**/*.js"/>
+                <include name="**/*.bmp"/>
+                <include name="**/*.gif"/>
+                <include name="**/*.jpg"/>
+                <include name="**/*.png"/>
+                <include name="**/*.css"/>
+                <include name="**/*.swf"/>
+                <include name="**/*.txt"/>
+                <include name="**/*.pdf"/>
+
+                <include name="**/*.jsp"/>
+                <include name="**/*.jar"/>
+                <include name="**/*.properties"/>
+                <include name="**/*.xml"/>
+                <include name="**/*.tld"/>
+                <include name="**/*.tag"/>
+
+                <include name="**/*.htm"/>
+                <include name="**/*.html"/>
+
+                <include name="**/*.xls"/>
+                <include name="**/*.pps"/>
+                <include name="**/*.ico"/>
+                <include name="**/*.cur"/>
+                
+                <include name="**/*.eot"/>
+                <include name="**/*.ttf"/>
+            </fileset>
+        </copy>
+
+        <copy todir="${tmp.exploaded}/WEB-INF/classes">
+            <fileset dir="${current.module.root}/classes"/>
+        </copy>
+        <copy todir="${tmp.exploaded}/WEB-INF/classes">
+            <fileset dir="${src}">
+                <include name="**/*.properties"/>
+                <include name="**/*.xml"/>
+            </fileset>
+        </copy>
+
+    </target>
+
+    <target name="jspc" depends="copyExploded">
+        <taskdef classname="org.apache.jasper.JspC" name="jasper2">
+            <classpath id="jspc.classpath">
+                <pathelement location="${java.home}/../lib/tools.jar"/>
+                <fileset dir="${tomcat.home}/bin">
+                    <include name="*.jar"/>
+                </fileset>
+                <fileset dir="${tomcat.home}/lib">
+                    <include name="*.jar"/>
+                </fileset>
+                <fileset dir="${lib}">
+                    <include name="commons-logging.jar"/>
+                    <include name="commons-logging.jar"/>
+                </fileset>
+                <fileset dir="${tmp.exploaded}/WEB-INF/lib">
+                    <include name="*.jar"/>
+                </fileset>
+            </classpath>
+        </taskdef>
+
+        <jasper2
+                validateXml="false"
+                package="com.shroggle.jsp"
+                uriroot="${tmp.exploaded}"
+                webXmlFragment="${tmp.exploaded}/WEB-INF/generated_jsp_web.xml"
+                outputDir="${temp.jsp.src}"
+                compilerSourceVM="1.6"
+                compilerTargetVM="1.6"/>
+    </target>
+
+    <target name="compileJSP" depends="jspc">
+
+        <mkdir dir="${tmp.exploaded}/WEB-INF/classes"/>
+        <mkdir dir="${tmp.exploaded}/WEB-INF/lib"/>
+
+        <javac destdir="${tmp.exploaded}/WEB-INF/classes" encoding="utf-8"
+               source="1.6"
+               optimize="off"
+               debug="on" failonerror="true"
+               srcdir="${temp.jsp.src}">
+            <classpath>
+                <pathelement location="${tmp.exploaded}/WEB-INF/classes"/>
+                <fileset dir="${tmp.exploaded}/WEB-INF/lib">
+                    <include name="*.jar"/>
+                    <exclude name="servlet.jar"/>
+                </fileset>
+                <fileset dir="${tomcat.home}/lib">
+                    <include name="*.jar"/>
+                </fileset>
+            </classpath>
+            <include name="**/*.java"/>
+            <exclude name="**/includeHead_jsp.java"/>
+            <exclude name="**/accountMenuInclude_jsp.java"/>
+        </javac>
+    </target>
+
+    <target name="removeJSP">
+        <delete quiet="true" includeEmptyDirs="true">
+            <fileset dir="${tmp.exploaded}">
+                <include name="**/*.jsp"/>
+                <!--
+                        <exclude name="**/*.smap,**/*includeMainFooter*,**/*includeMainHeader*"/>
+                -->
+            </fileset>
+        </delete>
+    </target>
+
+    <target name="initStatic">
+        <delete dir="${tmp.static}" quiet="true"/>
+        <mkdir dir="${tmp.static}"/>
+    </target>
+
+    <target name="moveStatic" depends="initStatic">
+        <move todir="${tmp.static}">
+            <fileset dir="${tmp.exploaded}">
+                <include name="**/*.gif"/>
+                <include name="**/*.jpg"/>
+                <include name="**/*.png"/>
+                <include name="**/*.swf"/>
+                <include name="**/*.pdf"/>
+                <include name="**/*.css"/>
+                <include name="**/*.ico"/>
+                <include name="*.txt"/>
+
+                <include name="**/*.eot"/>
+                <include name="**/*.ttf"/>                
+            </fileset>
+        </move>
+        <copy todir="${tmp.static}">
+            <fileset dir="${tmp.exploaded}">
+                <include name="**/*.js"/>
+            </fileset>
+        </copy>
+
+        <copy file="${tmp.version.file}" todir="${tmp.static}"/>
+    </target>
+
+    <target name="makeStatic" depends="moveStatic">
+        <zip destfile="${dist.dir}/shroggle-static.zip" basedir="${tmp.static}"/>
+    </target>
+
+    <target name="makeApp">
+        <copy file="${tmp.version.file}" todir="${dist.dir}"/>
+        <copy file="${tmp.version.file}" todir="${tmp.exploaded}/WEB-INF/classes"/>
+
+        <copy file="${tmp.version.file}" todir="${tmp.exploaded}"/>
+        <war destfile="${dist.dir}/shroggle.war.zip" webxml="${tmp.exploaded}/WEB-INF/web.xml">
+            <fileset dir="${tmp.exploaded}"/>
+        </war>
+    </target>
+
+    <target name="createVersionFile">
+        <copy file="${version.file}" tofile="${tmp.version.file}" overwrite="true"/>
+
+        <tstamp>
+            <format property="build.time" pattern="yyyy/MM/dd hh:mm aa"/>
+        </tstamp>
+
+        <replace file="${tmp.version.file}" value="${version}">
+            <replacetoken>#version#</replacetoken>
+        </replace>
+        <replace file="${tmp.version.file}" value="${label}">
+            <replacetoken>#label#</replacetoken>
+        </replace>
+        <replace file="${tmp.version.file}" value="${build.time}">
+            <replacetoken>#date#</replacetoken>
+        </replace>
+        <replace file="${tmp.version.file}">
+            <replacetoken>build.</replacetoken>
+        </replace>
+    </target>
+
+
+    <target name="buildJSP" depends="compileJSP"/>
+
+    <target name="fixBuild" depends="makeStatic, makeApp"/>
+
+    <target name="buildFull"
+            depends="init, compileTest, runTests, buildJSP, createVersionFile, fixBuild"/>
+
+    <!--    , buildJSP-->
+    <target name="build" depends="init, compileTest, runTests"/>
+
+
+</project>

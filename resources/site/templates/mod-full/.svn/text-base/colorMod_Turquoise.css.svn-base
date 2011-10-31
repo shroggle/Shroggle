@@ -1,0 +1,637 @@
+body {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+	  background-color: #def7fb;
+}
+.headercontainer {
+	   background-color: #fcfaed;
+	   color: #333333;
+	}
+
+
+#break {
+    background-color: #d6d6d6;
+}
+
+
+
+/* item styles */
+/*Blog visual item tyles. Beginning*/
+.widgetBLOGStyle {
+ 
+    font-size: 11pt;
+    padding: 15px;
+}
+
+.widgetBLOGStyle a {
+    font-size: 10pt;
+}
+
+.blogName {
+    color: #304793;
+    font-size: 18pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.blogPostTitle {
+    display: block;
+    color: #333333;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 1px solid #dedede;
+
+}
+
+.blogPostInfo {
+    padding-bottom: 15px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+
+}
+
+.blogPostDate {
+    padding-left: 20px;
+    font-size: 9pt;
+}
+
+.addBlogPost a:link, .addBlogPost a:visited, .addBlogPost a:visited {
+    color: #005e9e;
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+}
+
+.blogPostLinks   a:link,
+    .addBlogPostComment  a:link, addBlogPostComment a:visited,
+    .blogPostCommentsShowHide a:link, .blogPostCommentsShowHide a:visited {
+    color: #005e9e;
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+    padding-bottom: 10px;
+}
+
+.addBlogPost a:hover, .addBlogPost a:active,
+    .blogPostLinks   a:hover, .addBlogPost a:active,
+    .addBlogPostComment  a:hover, addBlogPostComment a:active,
+    .blogPostCommentsShowHide a:hover, .blogPostCommentsShowHide a:active {
+    color: #C54C00;
+    letter-spacing: 0.1em;
+
+}
+
+.addBlogPost a {
+    padding-bottom: 10px;
+}
+
+.blogPostUpdate {
+    padding-left: 20px;
+}
+
+.blogPostText p {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #000000;
+}
+
+.addBlogPostComment {
+    padding-top: 7px;
+    padding-bottom: 3px;
+}
+
+.blogPostCommentsShowHide {
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+.blogPostComments {
+    padding: 5px;
+    margin: 5px 5px 15px 50px;
+    border: 1px dotted #6e6e6e;
+}
+
+/*Blog visual item tyles. The end*/
+
+/* image    styles*/
+.widgetIMAGEStyle {
+    padding: 15px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.imageTitle {
+    padding-top: 7px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+
+}
+
+.imageDescription {
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: #304793;
+}
+
+/* image styles the end*/
+
+/*forum styles*/
+.widgetFORUMStyle {
+    margin: 15px;
+    font-size: 10pt;
+}
+
+.widgetFORUMStyle a {
+    padding-left: 2px;
+    padding-right: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.manageForumLink {
+
+    color: #3466F3;
+}
+
+.manageForumLink:hover {
+    color: #304793;
+}
+
+.forumLink {
+    color: #3466F3;
+}
+
+.forumLink:hover {
+    color: #304793;
+}
+
+.threadNameLink {
+    color: #304793;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.threadNameLink:hover {
+    color: #3466F3;
+}
+
+.postList {
+
+}
+
+.postListHeading {
+
+}
+
+.forumFont {
+
+}
+
+.postRow {
+
+}
+
+.subForumListHeadingRow {
+
+}
+
+.threadDescription {
+    color: navy;
+    font-size: 10pt;
+
+}
+
+.subForumListBorder {
+
+}
+
+.subForumNameCell {
+
+}
+
+.subForumRow {
+
+}
+
+.postCountCell {
+}
+
+.threadCountCell {
+}
+
+.subForumLastUpdatedCell {
+
+}
+
+.subForumNameLink {
+    color: #304793;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.subForumNameLink:hover {
+    color: #3466F3;
+    text-decoration: none;
+}
+
+.subForumDescription {
+    font-size: 10pt;
+    color: navy;
+}
+
+.manageSubForumText {
+    color: #333333;
+}
+
+.forumBreadCrumbs {
+
+    color: #333333;
+    border: 1px solid #304793;
+
+}
+
+.forumBreadCrumbs a:link {
+    color: #304793;
+}
+
+.forumBreadCrumbs a:hover {
+    color: #3466F3;
+}
+
+a.navigateForumLink {
+    color: #3466F3;
+    text-decoration: none;
+}
+
+.forumAddingLinks {
+
+    border: 1px solid #3466F3;
+    background-color: #fcfaed;
+}
+
+.forumAddingLinks a:hover {
+    color: #304793;
+}
+
+.threadList {
+
+}
+
+.threadListHeading {
+
+}
+
+.threadRow {
+
+}
+
+.evenPostBGColor {
+
+}
+
+.notEvenPostBGColor {
+
+}
+
+.postAuthorText {
+
+}
+
+/* forum style end*/
+
+/*Menu visual item tyles. Beginning*/
+
+
+
+.horizontalSeparator {
+    color: #304793;
+}
+
+.topLevelMenuItem_TREE_STYLE a, .selectedTopLevelMenuItem_TREE_STYLE a {
+    color: #304793;
+    font-weight: bold;
+}
+
+
+
+.subMenu_TREE_STYLE td a, .selectedSubMenu_TREE_STYLE td a {
+    color: #304793;
+    font-weight: bold;
+}
+
+
+
+.subMenu_TREE_STYLE.mouseOver td, .selectedSubMenu_TREE_STYLE td {
+    background-color: #def7eb;
+    font-weight: bold;
+}
+
+.topLevelMenuItem_TREE_STYLE.mouseOver a, .selectedTopLevelMenuItem_TREE_STYLE span {
+    color: #304793;
+    font-weight: bold;
+}
+
+
+
+/*Menu visual item tyles. The end*/
+/*blog summary visual item styles*/
+
+.widgetBLOG_SUMMARYStyle {
+
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 10pt;
+    padding: 15px;
+}
+
+.widgetBLOG_SUMMARYStyle p, .widgetBLOG_SUMMARYStyle span {
+    padding: 0;
+    margin: 0;
+}
+
+.blogSummaryHeader {
+    font-size: 12pt;
+    padding-top: 5px;
+    padding-bottom: 15px !important;
+    font-weight: bold;
+    color: #304793;
+    display: block;
+}
+
+.blogSummaryPostName {
+    font-size: 10pt;
+    font-weight: bold;
+    display: block;
+}
+
+.blogSummaryPostText {
+    color: #333333;
+    font-size: 10pt;
+}
+
+/*blog summary visual item styles. the end*/
+/*video item style*/
+
+.widgetVIDEOStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #333333;
+    padding: 10px;
+}
+
+/*video item style. the end*/
+
+/*login form style*/
+.widgetLOGINStyle {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #005e9e;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.loginFormHeader {
+
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: #C54C00;
+
+}
+
+.loginForm {
+    font-weight: bold;
+    line-height: 1.6em;
+    padding-top: 5px;
+}
+
+.loginFormLabel {
+    font-size: 10pt;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.loginForm a:link, .loginForm a:visited {
+    color: #3466F3;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.loginForm a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+#loginForm110 {
+    line-height: 1.6em;
+}
+
+a:link.loginFormReturnToRegLink {
+    color: #C54C00;
+    font-weight: bold;
+    font-size: 11pt;
+    text-decoration: none;
+}
+
+a:hover.loginFormReturnToRegLink {
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+a:link.loginFormRegLink {
+    color: #C54C00;
+    font-size: 11pt;
+}
+
+a:hover.loginFormRegLink {
+    color: orange;
+}
+
+#forgotPasswordArea110 {
+    color: #C54C00;
+    font-size: 10pt;
+    margin-top: 30px;
+    line-height: 1.6em;
+}
+
+#forgotPasswordArea110 td {
+    color: #005e9e;
+    padding: 5px;
+
+}
+
+#forgotPasswordOkArea110 {
+
+    padding-top: 30px;
+    line-height: 1.6em;
+}
+
+#forgotPasswordOkArea110  span {
+    color: #005e9e !important;
+}
+
+/*login form style the end */
+/*Registration item styles. The beginning*/
+.widgetREGISTRATIONStyle {
+    padding-left: 15px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+.widgetREGISTRATIONStyle a {
+    font-weight: bold;
+    color: navy;
+}
+
+.widgetREGISTRATIONStyle a:hover {
+    color: #8aafee;
+
+}
+
+.registrationHeader p {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: block;
+    font-size: 12pt;
+    font-weight: bold;
+    color: navy;
+}
+
+.registrationTable {
+    font-size: 10pt;
+    color: #005e9e;
+    font-weight: bold;
+}
+
+.registrationTable td {
+    padding: 7px;
+}
+
+#securityCodeText {
+    font-weight: bold;
+    font-size: 10pt;
+    color: navy;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+/*Registration item styles. The End*/
+/*Contact us item style. The beginning*/
+.widgetCONTACT_USStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    width: 100%;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #304793;
+}
+
+.widgetCONTACT_USStyle p {
+    font-size: 12pt !important;
+}
+
+.widgetCONTACT_USStyle td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 9pt;
+}
+
+/*Contact us item style. The end*/
+
+.formInstruction {
+    margin-left: 5px;
+    margin-top: -5px;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+/*custom form style. the beginning*/
+.widgetCUSTOM_FORMStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    width: 100%;
+    font-weight: bold;
+    color: #304793;
+    font-size: 9pt;
+}
+
+.widgetCUSTOM_FORMStyle  td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #304793;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+/*custom form style. the end*/
+/*child site registration. the beginning*/
+.widgetCHILD_SITE_REGISTRATIONStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: bold;
+    font-size: 11pt;
+    padding-left: 10px;
+    color: #304793;
+}
+
+.widgetCHILD_SITE_REGISTRATIONStyle p {
+    color: #304793;
+}
+
+.widgetCHILD_SITE_REGISTRATIONStyle td {
+    font-size: 9pt;
+}
+
+/*child site registration. the end*/
+/*text item style. the beginning*/
+.widgetTEXTStyle {
+    font-size: 10pt;
+    color: #304793;
+}
+
+/*text item style. the end*/
+/* gallery styles*/
+/*next*/
+.galleryDataAfterItemBordered {
+    border: 1px solid #dedede;
+}
+
+/*digits*/
+.galleryDataItemBordered {
+    border: 1px solid #dedede;
+}
+
+/*current*/
+
+.galleryDataCurrentItemBordered {
+    border: 1px solid #4d6498;
+    background-color: #4d6498;
+    color: #dedede;
+}
+
+/*previous*/
+.galleryDataBeforeItemBordered {
+    border: 1px solid #dedede;
+}
+
+/* gallery styles, the end */
+
+
+
+/*DROP DOWN MENU STYLE SECTION*/
+.menuStrecher_DROP_DOWN_STYLE {
+    background-color: #005e9e;
+}
+.selectedTopLevelMenuItem_DROP_DOWN_STYLE {
+    background: #a1a1a0;
+}
+/*DROP DOWN MENU STYLE SECTION END*/
+/*gallery data display field labels*/
+
+
+/*gallery data display field labels end*/

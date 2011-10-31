@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Corner template</name>
+    <thumbnail>images/tn_corner1.png</thumbnail>
+    <order>330</order>
+	 <layout thumbnailFile="images/header_2main_2footers.png" useForDefault="true">
+        <name>Header, 2 Main Content, 2 Footers</name>
+        <file>header_2main_2footers.html</file>
+<pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+	  <layout thumbnailFile="images/header_2main_footer.png" >
+        <name>Header, 2 Main Content, Footer</name>
+        <file>header_2main_footer.html</file>
+ 
+    </layout>
+   
+
+    <layout thumbnailFile="images/header_2main_2footers_rightmenu.png">
+        <name>Header,2 Main Content, 2 Footers, Right Panel</name>
+        <file>header_2main_2footers_rightmenu.html</file>
+
+    </layout>
+   
+
+     <layout thumbnailFile="images/header_main_2footers_rightmenu.png">
+        <name>Header, Main Content, 2 Footers, Right Panel</name>
+        <file>header_main_2footers_rightmenu.html</file>
+
+    </layout>
+
+   <theme>
+        <imageFile>images/corner1.jpg</imageFile>
+        <name>Hydrangea</name>
+        <file>corner1.css</file>
+        <colorTileFile>images/tile_corner1.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner1.png</thumbnailFile>
+    </theme>
+   <theme>
+        <imageFile>images/corner2.jpg</imageFile>
+        <name>Type Writer</name>
+        <file>corner2.css</file>
+        <colorTileFile>images/tile_corner2.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner2.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner3.jpg</imageFile>
+        <name>White Plate</name>
+        <file>corner3.css</file>
+        <colorTileFile>images/tile_corner3.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner3.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner4.jpg</imageFile>
+        <name>Blue Plate</name>
+        <file>corner4.css</file>
+        <colorTileFile>images/tile_corner4.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner4.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner5.jpg</imageFile>
+        <name>Maple</name>
+        <file>corner5.css</file>
+        <colorTileFile>images/tile_corner5.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner5.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner6.jpg</imageFile>
+        <name>Teacup</name>
+        <file>corner6.css</file>
+        <colorTileFile>images/tile_corner6.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner6.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner7.jpg</imageFile>
+        <name>Spring Time</name>
+        <file>corner7.css</file>
+        <colorTileFile>images/tile_corner7.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner7.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner8.jpg</imageFile>
+        <name>Spokes</name>
+        <file>corner8.css</file>
+        <colorTileFile>images/tile_corner8.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner8.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner9.jpg</imageFile>
+        <name>Honeysuckle</name>
+        <file>corner9.css</file>
+        <colorTileFile>images/tile_corner9.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner9.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner10.jpg</imageFile>
+        <name>Butterfly</name>
+        <file>corner10.css</file>
+        <colorTileFile>images/tile_corner10.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner10.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner11.jpg</imageFile>
+        <name>Light Scroll</name>
+        <file>corner11.css</file>
+        <colorTileFile>images/tile_corner11.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner11.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner12.jpg</imageFile>
+        <name>Music</name>
+        <file>corner12.css</file>
+        <colorTileFile>images/tile_corner12.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner12.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner13.jpg</imageFile>
+        <name>Lamps</name>
+        <file>corner13.css</file>
+        <colorTileFile>images/tile_corner13.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner13.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner14.jpg</imageFile>
+        <name>Birds</name>
+        <file>corner14.css</file>
+        <colorTileFile>images/tile_corner14.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner14.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/corner15.jpg</imageFile>
+        <name>Jigsaw</name>
+        <file>corner15.css</file>
+        <colorTileFile>images/tile_corner15.jpg</colorTileFile>
+        <thumbnailFile>images/tn_corner15.png</thumbnailFile>
+    </theme>
+
+</template>

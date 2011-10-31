@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Therapy template</name>
+    <thumbnail>images/tn_grey-purple2-b.png</thumbnail>
+    <order>320</order>
+    <layout thumbnailFile="images/2headers_left_2main_footer.png" useForDefault="true">
+        <name>2 Headers, Left Panel, 2 Main Content, Footer</name>
+        <file>2headers_2main_footer_leftmenu.html</file>
+
+           <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="4"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="4"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="4"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="4"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="4"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="4"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="4"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="4"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="4"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="4"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="4"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="4"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="4"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="4"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="4"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="4"/>
+        </pattern>
+    </layout>
+
+    <layout thumbnailFile="images/2headers_left_2mainwide_footer.png">
+        <name>2 Headers, Left Panel, 2 Main Content wide, Footer</name>
+        <file>2headers_2main2_footer_leftmenu.html</file>
+
+    </layout>
+     <layout thumbnailFile="images/2headers_left_main_footer.png">
+        <name>2 Headers, Left Panel, Main Content, Footer</name>
+        <file>2headers_main_footer_leftmenu.html</file>
+
+    </layout>
+
+     <layout thumbnailFile="images/header_left_2main_footer.png">
+        <name>Header, Left Panel, 2 Main Content, Footer</name>
+        <file>header_2main_footer_leftmenu.html</file>
+
+    </layout>
+
+    <layout thumbnailFile="images/header_left_main_footer.png">
+        <name>Header, Left Panel, Main Content, Footer</name>
+        <file>header_main_footer_leftmenu.html</file>
+       
+    </layout>
+
+
+
+
+
+   <theme>
+        <imageFile>images/beige-beige.png</imageFile>
+        <name>Therapy Beige</name>
+        <file>beige-beige.css</file>
+        <colorTileFile>images/tile_beige-beige.png</colorTileFile>
+        <thumbnailFile>images/tn_beige-beige-b.png</thumbnailFile>
+    </theme>
+     <theme>
+        <imageFile>images/blue-purple3.png</imageFile>
+        <name>Therapy Purple</name>
+        <file>blue-purple3.css</file>
+        <colorTileFile>images/tile_blue-purple3.png</colorTileFile>
+        <thumbnailFile>images/tn_blue-purple3-b.png</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/grey-grey2.png</imageFile>
+        <name>Therapy Grey</name>
+        <file>grey-grey2.css</file>
+        <colorTileFile>images/tile_grey-grey2.png</colorTileFile>
+        <thumbnailFile>images/tn_grey-grey2-b.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/grey-purple2.png</imageFile>
+        <name>Therapy Light Purple</name>
+        <file>grey-purple2.css</file>
+        <colorTileFile>images/tile_grey-purple2.png</colorTileFile>
+        <thumbnailFile>images/tn_grey-purple2-b.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/pink-sage.png</imageFile>
+        <name>Therapy Sage</name>
+        <file>pink-sage.css</file>
+        <colorTileFile>images/tile_pink-sage.png</colorTileFile>
+        <thumbnailFile>images/tn_pink-sage-b.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/purple-black.png</imageFile>
+        <name>Therapy Black</name>
+        <file>purple-black.css</file>
+        <colorTileFile>images/tile_purple-black.png</colorTileFile>
+        <thumbnailFile>images/tn_purple-black-b.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/purple-green.png</imageFile>
+        <name>Therapy Green</name>
+        <file>purple-green.css</file>
+        <colorTileFile>images/tile_purple-green.png</colorTileFile>
+        <thumbnailFile>images/tn_purple-green-b.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/sage2-darkblue.png</imageFile>
+        <name>Therapy Dark Blue</name>
+        <file>sage2-darkblue.css</file>
+        <colorTileFile>images/tile_sage2-darkblue.png</colorTileFile>
+        <thumbnailFile>images/tn_sage2-darkblue-b.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/sage2-darkgrey.png</imageFile>
+        <name>Therapy Dark Grey</name>
+        <file>sage2-darkgrey.css</file>
+        <colorTileFile>images/tile_sage2-darkgrey.png</colorTileFile>
+        <thumbnailFile>images/tn_sage2-darkgrey-b.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/sage-blue1.png</imageFile>
+        <name>Therapy Blue</name>
+        <file>sage-blue1.css</file>
+        <colorTileFile>images/tile_sage-blue1.png</colorTileFile>
+        <thumbnailFile>images/tn_sage-blue1-b.png</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/yellow-blue.png</imageFile>
+        <name>Therapy Light Blue</name>
+        <file>yellow-blue.css</file>
+        <colorTileFile>images/tile_yellow-blue.png</colorTileFile>
+        <thumbnailFile>images/tn_yellow-blue-b.png</thumbnailFile>
+    </theme>
+     <theme>
+        <imageFile>images/rose-blue.png</imageFile>
+        <name>Therapy Light Blue 2</name>
+        <file>pink-blue.css</file>
+        <colorTileFile>images/tile_pink-blue.png</colorTileFile>
+        <thumbnailFile>images/tn_pink-blue-b.png</thumbnailFile>
+    </theme>
+</template>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Vellum</name>
+    <thumbnail>images/tn_wood.jpg</thumbnail>
+    <order>280</order>
+
+    
+    <layout thumbnailFile="images/cuttingboard-head_foot.jpg" useForDefault="true">
+        <name>Header, Footer, Main Content </name>
+        <file>header_main_footer.html</file>
+       
+    <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+    <layout thumbnailFile="images/cuttingboard-head_foot_leftmenu.jpg">
+        <name>Header, Left Menu, Footer</name>
+        <file>header_main_footer_leftmenu.html</file>
+
+    </layout>
+    <layout thumbnailFile="images/cuttingboard-head_foot_rightmenu.jpg">
+        <name>Header, Right Menu, Footer </name>
+        <file>header_main_footer_rightmenu.html</file>
+
+    </layout>
+    <layout thumbnailFile="images/cuttingboard-head_foot_1top_2bottom.jpg">
+        <name>Header, Footer, 1 Top main, 2 Bottom main content </name>
+        <file>header_main_footer_2bottom.html</file>
+
+    </layout>
+   <layout thumbnailFile="images/cuttingboard-head_foot_2top_1bottom.jpg">
+        <name>Header, Footer, 2 Top main, 1 Bottom main content </name>
+        <file>header_main_footer_2top.html</file>
+    
+    </layout>
+  
+   <theme>
+        <imageFile>images/brownpaper.jpg</imageFile>
+        <name>Brown Paper</name>
+        <file>brownpaper.css</file>
+        <colorTileFile>images/tile_brownpaper.jpg</colorTileFile>
+        <thumbnailFile>images/tn_brownpaper.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/leather.jpg</imageFile>
+        <name>Leather</name>
+        <file>leather.css</file>
+        <colorTileFile>images/tile_leather.jpg</colorTileFile>
+        <thumbnailFile>images/tn_leather.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/wood.jpg</imageFile>
+        <name>Wood</name>
+        <file>wood.css</file>
+        <colorTileFile>images/tile_wood.jpg</colorTileFile>
+        <thumbnailFile>images/tn_wood.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/blue.jpg</imageFile>
+        <name>Blue</name>
+        <file>blue.css</file>
+        <colorTileFile>images/tile_blue.jpg</colorTileFile>
+        <thumbnailFile>images/tn_blue.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/orange.jpg</imageFile>
+        <name>Orange</name>
+        <file>orange.css</file>
+        <colorTileFile>images/tile_orange.jpg</colorTileFile>
+        <thumbnailFile>images/tn_orange.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/teal.jpg</imageFile>
+        <name>Teal</name>
+        <file>teal.css</file>
+        <colorTileFile>images/tile_teal.jpg</colorTileFile>
+        <thumbnailFile>images/tn_teal.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/darkgrey.jpg</imageFile>
+        <name>Dark Grey</name>
+        <file>darkgrey.css</file>
+        <colorTileFile>images/tile_darkgrey.jpg</colorTileFile>
+        <thumbnailFile>images/tn_darkgrey.jpg</thumbnailFile>
+    </theme>
+
+    <theme>
+        <imageFile>images/brownpaper.jpg</imageFile>
+        <name>Brown Paper, Note</name>
+        <file>brownpaper-note.css</file>
+        <colorTileFile>images/tile_brownpaper-note.jpg</colorTileFile>
+        <thumbnailFile>images/tn_brownpaper-note.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/leather.jpg</imageFile>
+        <name>Leather, Note</name>
+        <file>leather-note.css</file>
+        <colorTileFile>images/tile_leather-note.jpg</colorTileFile>
+        <thumbnailFile>images/tn_leather-note.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/wood.jpg</imageFile>
+        <name>Wood, Note</name>
+        <file>wood-note.css</file>
+        <colorTileFile>images/tile_wood-note.jpg</colorTileFile>
+        <thumbnailFile>images/tn_wood-note.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/blue.jpg</imageFile>
+        <name>Blue, Note</name>
+        <file>blue-note.css</file>
+        <colorTileFile>images/tile_blue-note.jpg</colorTileFile>
+        <thumbnailFile>images/tn_blue-note.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/orange.jpg</imageFile>
+        <name>Orange, Note</name>
+        <file>orange-note.css</file>
+        <colorTileFile>images/tile_orange-note.jpg</colorTileFile>
+        <thumbnailFile>images/tn_orange-note.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/teal.jpg</imageFile>
+        <name>Teal, Note</name>
+        <file>teal-note.css</file>
+        <colorTileFile>images/tile_teal-note.jpg</colorTileFile>
+        <thumbnailFile>images/tn_teal-note.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/darkgrey.jpg</imageFile>
+        <name>Dark Grey, Note</name>
+        <file>darkgrey-note.css</file>
+        <colorTileFile>images/tile_darkgrey-note.jpg</colorTileFile>
+        <thumbnailFile>images/tn_darkgrey-note.jpg</thumbnailFile>
+    </theme>
+     <theme>
+        <imageFile>images/white.jpg</imageFile>
+        <name>White</name>
+        <file>white.css</file>
+        <colorTileFile>images/tile_white.jpg</colorTileFile>
+        <thumbnailFile>images/tn_white.jpg</thumbnailFile>
+    </theme>
+	  <theme>
+        <imageFile>images/wood1.jpg</imageFile>
+        <name>Wood 1</name>
+        <file>wood1.css</file>
+        <colorTileFile>images/tile_wood1.jpg</colorTileFile>
+        <thumbnailFile>images/tn_wood1.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/cherry.jpg</imageFile>
+        <name>Cherry</name>
+        <file>cherry.css</file>
+        <colorTileFile>images/tile_cherry.jpg</colorTileFile>
+        <thumbnailFile>images/tn_cherry.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/paper1.jpg</imageFile>
+        <name>Paper</name>
+        <file>paper1.css</file>
+        <colorTileFile>images/tile_paper1.jpg</colorTileFile>
+        <thumbnailFile>images/tn_paper1.jpg</thumbnailFile>
+    </theme>
+      <theme>
+        <imageFile>images/white-note.jpg</imageFile>
+        <name>White note</name>
+        <file>white-note.css</file>
+        <colorTileFile>images/tile_white-note.jpg</colorTileFile>
+        <thumbnailFile>images/tn_white-note.jpg</thumbnailFile>
+    </theme>
+	  <theme>
+        <imageFile>images/wood1-note.jpg</imageFile>
+        <name>Wood 1 note</name>
+        <file>wood1-note.css</file>
+        <colorTileFile>images/tile_wood1-note.jpg</colorTileFile>
+        <thumbnailFile>images/tn_wood1-note.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/cherry-note.jpg</imageFile>
+        <name>Cherry note</name>
+        <file>cherry-note.css</file>
+        <colorTileFile>images/tile_cherry1-note.jpg</colorTileFile>
+        <thumbnailFile>images/tn_cherry-note.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/paper1-note.jpg</imageFile>
+        <name>Paper note</name>
+        <file>paper1-note.css</file>
+        <colorTileFile>images/tile_paper1-note.jpg</colorTileFile>
+        <thumbnailFile>images/tn_paper1-note.jpg</thumbnailFile>
+    </theme>
+
+
+	
+</template>

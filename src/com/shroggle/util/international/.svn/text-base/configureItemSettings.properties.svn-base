@@ -1,0 +1,19 @@
+itemSettingsHeader = Module Settings
+
+settings = Module Settings
+fontsColors = Fonts & Styles
+border = Border & Spacing
+background = Background
+widgetSize = Display Size
+accessible = Accessibility
+blueprintPermissions = Blueprint perm-s
+
+selectImage = Primary Image
+rollOverEffect = Roll Over Image
+labelsLinks = Labels and Links
+
+formSettings=Form Settings
+paymentSettings=Network Settings
+whiteLabelSettings=White Label Settings
+
+manageImages = Manage Images

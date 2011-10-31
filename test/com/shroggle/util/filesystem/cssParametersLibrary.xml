@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cssParametersLibrary>
+    <records>
+        <cssParameters>
+            <description>bbb</description>
+            <name>aaa</name>
+            <selector>ccc</selector>
+            <type>color</type>
+        </cssParameters>
+        <itemType>TELL_FRIEND</itemType>
+    </records>
+
+    <floatRecord itemType="FORUM">
+        <floatParameter name="color" selector="1" description="Forum item color"/>
+    </floatRecord>
+</cssParametersLibrary>

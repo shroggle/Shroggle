@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <useInternationalHightlight>true</useInternationalHightlight>
+    <!-- If true merge link on outer scripts and css on pages to one big file. It more fast for sensetive bandwidth -->
+    <usePageResourcesMerge>true</usePageResourcesMerge>
+    <!-- Path to folder where stored all resources from accounts in application that as images, videos e.g. -->
+    <siteResourcesPath>siteResources</siteResourcesPath>
+    <!-- Part settings for database -->
+    <database>
+        <!--<login>sa</login>-->
+        <login>root</login>
+        <password>1</password>
+        <!--<password/>-->
+        <driver>com.mysql.jdbc.TimeCounterMySqlDriver</driver>
+        <!--<driver>org.h2.Driver</driver>-->
+        <!--<url>jdbc:h2:c:/artem/work/kanshin/superwiki/db/db;LOCK_MODE=3;LOCK_TIMEOUT=5000</url>-->
+        <url>jdbc:mysql://localhost/superwiki?useUnicode=true&amp;characterEncoding=utf8</url>
+        <!--<dialect>org.hibernate.dialect.H2Dialect</dialect>-->
+        <dialect>org.hibernate.dialect.MySQL5InnoDBDialect</dialect>
+        <created>update</created>
+    </database>
+    <mail>
+        <login>artem.stasuk@gmail.com</login>
+        <password/>
+        <url>smtp.svitonline.com</url>
+    </mail>
+    <adminLogin>admin</adminLogin>
+    <adminPassword>1</adminPassword>
+    <defaultTemplate>
+        <directory>template1</directory>
+        <css>bw.css</css>
+        <layoutFile>twopanel.htm</layoutFile>
+    </defaultTemplate>
+    <registration>
+        <infoEMail>admin@com</infoEMail>
+        <confirm>false</confirm>
+        <registrationUrl/>
+    </registration>
+    <!-- -->
+    <useConsoleMailSender>false</useConsoleMailSender>
+    <!-- This url used for create user sites url with url prefix: a.sitesUrl -->
+    <userSitesUrl>localhost</userSitesUrl>
+    <useCacheConfigStorage>false</useCacheConfigStorage>
+    <useCacheFileSystem>false</useCacheFileSystem>
+    <useCacheResourceMerge>false</useCacheResourceMerge>
+    <useCacheShowWorkPageVersion>false</useCacheShowWorkPageVersion>
+    <useCacheHibernate>false</useCacheHibernate>
+    <useJournalToConsole>true</useJournalToConsole>
+    <useJournalToPersistance>false</useJournalToPersistance>
+    <javien>
+        <useTestUrl>true</useTestUrl>
+        <testUrl>http://dps2.javien.com/ws/services/</testUrl>
+        <workUrl>http://dps10.javien.com/ws/services/</workUrl>
+        <useProxy>false</useProxy>
+        <proxyHost>137.99.11.87</proxyHost>
+        <proxyPort>3127</proxyPort>
+    </javien>
+    <payPal>
+        <use>false</use>
+    </payPal>
+</config>

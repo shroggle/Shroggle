@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Mod</name>
+    <thumbnail>tn_indigo.png</thumbnail>
+    <order>310</order>
+    <layout thumbnailFile="1header.png">
+        <name>1 Header</name>
+        <file>2headers_main.html</file>
+
+
+    </layout>
+
+    <layout thumbnailFile="1header_left.png">
+        <name>1 Header and Left Side Menu</name>
+        <file>header_main_leftmenu.html</file>
+
+    </layout>
+     <layout thumbnailFile="1header_main.png" useForDefault="true">
+        <name>1 Header and Main Content</name>
+        <file>header_main.html</file>
+         <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+
+     <layout thumbnailFile="1header_right.png">
+        <name>1 Header and Right Side Menu</name>
+        <file>header_main_rightmenu.html</file>
+
+    </layout>
+
+    <layout thumbnailFile="logo_1header_left.png">
+        <name>Logo, 1 Header and Left Side Menu</name>
+        <file>2headers_main_leftmenu.html</file>
+
+    </layout>
+
+
+
+    <layout thumbnailFile="1header_left_right.png">
+        <name>1 Header, Left ad Right Side Menu</name>
+        <file>header_2main_leftmenu.html</file>
+    
+    </layout>
+
+    <theme>
+        <imageFile>TemplateMod_Black.png</imageFile>
+        <name>Mod Long Black</name>
+        <file>colorMod_Black.css</file>
+        <thumbnailFile>tn_black.png</thumbnailFile>
+        <colorTileFile>tile_black.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>TemplateMod_BlueGrey.png</imageFile>
+        <name>Mod Long BlueGrey</name>
+        <file>colorMod_BlueGrey.css</file>
+        <thumbnailFile>tn_bluegrey.png</thumbnailFile>
+        <colorTileFile>tile_bluegrey.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>TemplateMod_Indigo.png</imageFile>
+        <name>Mod Long Indigo</name>
+        <file>colorMod_indigo.css</file>
+        <thumbnailFile>tn_indigo.png</thumbnailFile>
+        <colorTileFile>tile_indigo.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>TemplateMod_Sage.png</imageFile>
+        <name>Mod Long Sage</name>
+        <file>colorMod_Sage.css</file>
+        <thumbnailFile>tn_sage.png</thumbnailFile>
+        <colorTileFile>tile_sage.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>TemplateMod_Turquoise.png</imageFile>
+        <name>Mod Long Turquoise</name>
+        <file>colorMod_Turquoise.css</file>
+        <thumbnailFile>tn_turquoise.png</thumbnailFile>
+        <colorTileFile>tile_turquoise.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>TemplateMod_White.png</imageFile>
+        <name>Mod Long White</name>
+        <file>colorMod_white.css</file>
+        <thumbnailFile>tn_white.png</thumbnailFile>
+        <colorTileFile>tile_white.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>TemplateMod_Peacock.png</imageFile>
+        <name>Mod Long Peacock</name>
+        <file>colorMod_Peacock.css</file>
+        <thumbnailFile>tn_peacock.png</thumbnailFile>
+        <colorTileFile>tile_peacock.gif</colorTileFile>
+    </theme>
+
+</template>

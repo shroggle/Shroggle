@@ -1,0 +1,589 @@
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url(/images/imagesnew/bg-gr2.jpg) repeat-x;
+    height: 100%;
+}
+
+img {
+    border: 0;
+}
+
+body {
+    background: url(/images/imagesnew/bg-inside3.jpg) no-repeat top center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #545454;
+    height: 100%;
+}
+
+body.homeNd {
+    background: #d9e8ef url(/images/imagesnew/bg-2000.jpg) no-repeat top center;
+}
+
+.homeNd a:link, a:visited {
+    color: #7f5f39;
+}
+
+.homeNd  a:hover, a:active {
+    color: #7f5f39;
+}
+
+.clearbothNd {
+    clear: both;
+}
+
+h2 {
+    padding: 5px 0 5px 0;
+    color: #ee7900;
+    margin-top: 15px;
+    font-size: 14pt;
+}
+
+p, li {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 0 5px;
+    line-height: 15pt;
+}
+
+#wrapper {
+     background: url(/images/imagesnew/bg-inside3.jpg) no-repeat top center;
+    width: 100%;
+
+}
+#wrapperHome{
+       width:960px;
+    margin:0 auto;
+
+}
+#container {
+    width:960px;
+    margin:0 auto;
+  
+}
+
+#headerNd {
+    height: auto;
+    overflow: hidden;
+}
+
+#logoNd {
+    height: 120px;
+    width: 365px;
+    float: left;
+
+}
+
+#logoNd h1 a,
+#logoNd h1 a:link,
+#logoNd h1 a:visited {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    width: 364px;
+    height: 115px;
+    cursor: pointer;
+}
+
+.loginNd {
+    width: 580px;
+    height: 40px;
+    background: url(../images/imagesnew/loginpaneltop-bg.gif) no-repeat;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #7f5f39;
+    overflow: hidden;
+}
+
+.logoNdImage {
+    margin-top: 15px;
+}
+
+.loginNd  a {
+    color: #7f5f39;
+}
+
+.loginedUserEmailSpan {
+    width: 215px !important;
+    overflow: hidden;
+    display: block;
+    float: left;
+    padding: 10px 0 0 0 !important;
+}
+
+.loginedUserWelcomeSpan {
+    display: block;
+    padding: 10px 0 10px 10px !important;
+    float: left;
+}
+
+.startPageLoginLinks a:link, .startPageLoginLinks a:visited {
+    color: #333 !important;
+    font-size: 14px;
+}
+
+.startPageLoginLinks a:hover, .startPageLoginLinks a:active {
+    color: #fff !important;
+    font-size: 14px;
+}
+
+.loginNd_additinal_block {
+    font-size: 13px;
+    width: 314px;
+    position: relative;
+    top: -5px;
+    margin-left: 95px;
+    text-align: left;
+    padding-left: 16px;
+}
+
+.login_expanded {
+    background: url(/images/imagesnew/loginpanel-bg.gif) no-repeat !important;
+}
+
+.loginNd table {
+    width: 100%;
+    height: 38px;
+}
+
+.loginNd span {
+    padding: 10px;
+}
+
+.logtext, .passtext {
+    width: 130px;
+    font-size: 10pt;
+    color: #333;
+    border: #999 1px solid;
+}
+
+.logPassTextDefault {
+    color: #999 !important;
+}
+
+#loginError_start {
+    color: #ff0000;
+    overflow: auto;
+    height: 16px;
+}
+
+#loginLinksBlock {
+    margin-top: 8px;
+}
+
+#logbutton {
+    width: 65px;
+    color: #333;
+    height: 26px;
+}
+
+#topMenuNd {
+    width: 950px;
+    height: 60px;
+    clear: both;
+}
+
+.topMenuButtons {
+    float: left;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#mainTopNd {
+    width: 1000px;
+    height: 280px;
+    clear: both;
+    margin-left: -50px;
+}
+
+#freetotry {
+    float: left;
+}
+
+#mainTopText {
+    width: 950px;
+    margin: auto;
+    height: 620px;
+}
+
+#mainTopMenu a {
+    display: block;
+    padding-top: 15px;
+}
+
+#middleTopNd {
+    width: 950px;
+    height: auto;
+}
+
+#steps {
+    width: 950px;
+    height: 50px;
+    background: url(../images/imagesnew/star1.png) no-repeat;
+    margin-top: -30px;
+    padding: 30px 0 0 80px;
+}
+
+#menu4steps {
+    width: 950px;
+    height: 80px;
+    clear: both;
+    background: url(../images/imagesnew/greybgline.png) no-repeat;
+    padding: 20px 0 0 4px;
+}
+
+#menu4steps table {
+    vertical-align: top;
+}
+
+#menu4steps img {
+    margin-left: 4px;
+}
+
+#publish {
+    width: 750px;
+    height: 60px;
+    background: url(../images/imagesnew/greyline-29.gif) no-repeat;
+    clear: both;
+    margin-left: 130px;
+}
+
+#publish p {
+    font-size: 12pt;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    padding-left: 35px;
+}
+
+#publish a:link, #publish a:visited {
+    color: #545454;
+    text-decoration: none;
+}
+
+#publish a:hover, #publish a:active {
+    color: #ee7900;
+    text-decoration: underline;
+}
+
+#business {
+    width: 950px;
+    height: auto;
+    background-image: url(../images/imagesnew/wdperfect.png);
+    background-repeat: no-repeat;
+    clear: both;
+    margin-top: 130px;
+    padding-top: 80px;
+}
+
+.businessblock {
+    width: 475px;
+    float: left;
+}
+
+.businessimg {
+    float: left;
+}
+
+.businesstext {
+    width: 300px;
+    margin-left: 145px;
+    text-align: left;
+}
+
+h2.busyh2 {
+    color: #ee7900;
+}
+
+p.busy {
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 15pt;
+    color: #333;
+}
+
+#middleBottomNd {
+    width: 950px;
+    height: 220px;
+    clear: both;
+}
+
+#middleBottomTextNd {
+    width: 560px;
+    height: 220px;
+    float: left;
+}
+
+#middleBottomTextNd h2 {
+    color: #ee7900;
+    padding: 15px;
+}
+
+#middleBottomTextNd p {
+    width: 530px;
+    padding: 3px 15px;
+    line-height: 15pt;
+}
+
+#middleBottomInside {
+    width: 960px;
+    height: 220px;
+    clear: both;
+}
+
+#middleBottomInsideText {
+    padding: 25px;
+    float: left;
+}
+
+#middleBottomInsideText p {
+    width: 530px;
+    padding: 3px 15px;
+    line-height: 15pt;
+}
+
+#findoutmore {
+    height: 220px;
+    width: 385px;
+    margin-left: 560px;
+}
+
+#findoutmore span a,
+#findoutmore span a:link,
+#findoutmore span a:visited {
+    display: block;
+    position: absolute;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 385px;
+    height: 220px;
+    background: url(../images/imagesnew/findoutmorebig.gif) no-repeat right bottom;
+    cursor: pointer;
+}
+
+#footerNd {
+    width: 950px;
+    margin-top: 20px;
+}
+
+#customers {
+    width: 950px;
+    height: 90px;
+}
+
+.customers1 {
+    padding: 40px 5px 0 30px;
+    background: url(../images/imagesnew/customers.png) no-repeat;
+    float: left;
+    width: 440px;
+    height: 90px;
+    color: #333;
+}
+
+.customername {
+    text-align: right;
+    font-weight: bold;
+    padding: 0 10px 10px 0;
+}
+
+#footerBottomNd {
+    clear: both;
+    width: 960px;
+    text-align: center;
+    color: #7f5f39;
+    padding-top: 20px;
+}
+
+#footerBottomInside {
+    clear: both;
+    width: 960px;
+    height: 174px;
+    text-align: center;
+    color: #7f5f39;
+
+}
+
+#footerBottomInside a:link, #footerBottomInsideNd  a:visited, #footerBottomNd a:link, #footerBottomNd a:visited {
+    text-decoration: none;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #7f5f39;
+}
+
+#footerBottomInside a:hover, #footerBottomInside  a:active, #footerBottomNd a:hover, #footerBottomNd a:active {
+    text-decoration: underline;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #ee7900;
+}
+
+#footerBottomInside p, #footerBottomNd p {
+    padding-bottom: 10px;
+}
+
+/*button*/
+.butSubmit, .butSubmitOver {
+    background: transparent url(../images/imagesnew/NextBackBtn-new.png) no-repeat scroll 0%;
+    border: medium none;
+    height: 64px;
+    width: 163px;
+    cursor: pointer;
+}
+
+.butSubmit {
+    background-position: right 0pt;
+}
+
+.butSubmitOver {
+    background-position: right -66px;
+}
+
+.linkBack {
+    display: block;
+    background: transparent url(../images/imagesnew/NextBackBtn-new.png) no-repeat scroll 0%;
+    border: medium none;
+    height: 40px;
+    width: 110px;
+    cursor: pointer;
+}
+
+.linkBack {
+    background-position: left 0pt;
+}
+
+.linkBack:hover, .linkBack:active {
+    background-position: left -66px;
+    display: block;
+}
+
+/*inside pages (registration)*/
+#mainContentNdi {
+    width: 880px;
+    padding: 10px 20px 40px 60px;
+    height: auto;
+    min-height: 250px;
+    text-align: left;
+}
+
+#mainContentCentered {
+    padding: 10px 20px 80px 60px;
+    height: auto;
+    text-align: center;
+}
+
+#mainContentCentered p {
+    padding: 3px 0;
+    margin: 0;
+}
+
+#mainContentCentered h1 {
+    padding: 15px 0;
+    margin: 0;
+}
+
+#mainContentNdi h1 {
+    padding: 15px 0;
+    margin: 0;
+    width: 650px;
+}
+
+#mainContentNdi p {
+    padding: 3px 0;
+    margin: 0;
+    width: 650px;
+}
+
+.regsteps, .shroggledefinition {
+    padding: 15px 5px;
+}
+
+.regsteps span {
+    color: #5d727c;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.regsteps h1, .shroggledefinition h1 {
+    color: #5d727c;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.regstepsp, .regfin {
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.registrationtable {
+    width: 500px;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.registrationtable  td {
+    vertical-align: bottom;
+}
+
+.registrationtable input {
+    width: 200px;
+    height: 20px;
+    border: 1px solid #5d727c;
+    margin: 5px;
+}
+
+.hightd {
+    height: 50px;
+}
+
+.regfin h2 {
+    margin: 0;
+    padding: 15px 0;
+    font-size: 14pt;
+}
+
+#termsAndConditions {
+    font-family: "Times New Roman", Times, serif;
+}
+
+#mainfaq {
+    padding: 15px 20px;
+    color: #333;
+}
+
+#mainfaq a {
+    color: #333;
+    text-decoration: underline;
+}
+
+#mainfaq h2 {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 11pt;
+}
+
+#mainfaq ul, #mainfaq ol {
+    margin-left: 20px;
+}
+
+.shroggledefinition p, li {
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 18px;
+}
+
+.shroggledefinition ul li {
+    list-style-type: none;
+    padding: 2px 0 5px 20px;
+    width: 800px;
+}
+
+.shroggledefinition span {
+    color: #ee7900;
+}

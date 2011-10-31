@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.leftpanelcontainer {
+	background:url(<!-- TEMPLATE_RESOURCE -->/images/bg-leftpanel-middle-beige.png) repeat-y;
+	}
+.leftpaneltop {
+	background:url(<!-- TEMPLATE_RESOURCE -->/images/bg-leftpanel-top-beige.png) no-repeat right top;
+}
+.leftpanelbottom {
+	background:url(<!-- TEMPLATE_RESOURCE -->/images/bg-leftpanel-bottom-beige.png) no-repeat right bottom;
+}
+.mainareacontainer {
+	background:url(<!-- TEMPLATE_RESOURCE -->/images/bg-mainmiddle-beige.png) repeat-y;}
+.mainareatop {
+	background:url(<!-- TEMPLATE_RESOURCE -->/images/bg-maintop-beige.png) no-repeat ;}
+.mainareabottom {
+ background:url(<!-- TEMPLATE_RESOURCE -->/images/bg-mainbottom-beige.png) no-repeat left bottom;} 
+	
+
+.mainleft {
+	background-color:#ece8dd;
+}

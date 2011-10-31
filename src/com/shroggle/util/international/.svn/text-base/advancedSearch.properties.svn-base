@@ -1,0 +1,74 @@
+#Configure registration form
+subHeader = Edit Advanced Search Module: Module Settings
+advancedSearchName = Advanced Search Name
+existingAdvancedSearchOption = Select an existing Advanced Search
+
+advancedSearchHeader = Header / Comment
+editAdvancedSearchHeader = Edit
+
+defaultHeader = Header / Comment
+displayHeader = Display Header / Comment
+
+advSearchSubHeader = Advanced Search requires a Data Source, Display Layout and optionally a Data Filter.
+advSearchExplanWindow = 1) You can either use an existing gallery / catalog that you have already created (this will already have a data source and display settings &ndash; and maybe a filter too).<br/>\
+                        2) You may choose to use our default display and then either manually select the data source, or<br/>\
+                        3) Create / manually upload images and text. All three options allow you to edit settings and data later.
+moreInfo = More info
+
+recordsSourceGallery = Select an existing gallery on the page
+recordsSourceUpload = Use the default display and UPLOAD images and manually enter text
+recordsSourceForm = Use the default display and select an existing form (set of form record data)
+
+gallerySelectDefaultOption = Select a Gallery
+editSelectedGallery = Edit Selected Gallery
+formsSelectDefaultOption = Select a Form
+
+searchOptionsSubHeader = The search options can either be displayed above or to the left of the search results (gallery navigation area)
+
+displayTypeABOVE = Display Search options ABOVE search result
+displayTypeLEFT = Display Search options to the LEFT of search result
+
+editGallery = Edit Gallery Settings & filters
+manageRecords = Manage Records
+
+whatsThis = What's this?
+whatsThisWindow = Click on the 'Manage Records' link to add, delete or edit records.<br/><br/>\
+                  Click on the 'Edit Selected Gallery' link to edit gallery layout and display, or to set up filters that show only specific records in the gallery and search results.<br/><br/>\
+                  A 'filter' adds and / or removes records from the full set associated with that form. Filters are created within a gallery and applied to a gallery. You can create or edit a filter from your Gallery Settings page.
+
+defineSearchOptionsSubHeader = Define Search Options
+defineSearchOptionExplan = Default settings allow user to search by ANY / ALL fields on the selected form
+editSearchOptions = Edit Search Options
+includeResultsNumber = Include number of matching results beside each search option
+
+confirmSoruceChange = Changing gallery for existing advanced search item will clear all your filter configuration. Would you like to proceed?
+
+#Configure registration exception's
+AdvancedSearchNullOrEmptyNameException = Please, enter name for Advanced Search.
+AdvancedSearchNotUniqueNameException = Please, enter unique Advanced Search name.
+AdvancedSearchGalleryNotSelectException = Please, select an existing gallery before editing search options.
+AdvancedSearchFormNotSelectException = Please, select an existing from before editing search options.
+AdvancedSearchGalleryNotSelectBeforeSaveException = Please, select an existing gallery.
+AdvancedSearchFormNotSelectBeforeSaveException = Please, select an existing from.
+
+#Presentation part
+newSearchBtn = New Search
+search = Search
+deselect = deselect
+selectDefaultOption = Any value
+rangeStart = From:
+rangeEnd = Till:
+
+enterZipCode = Zip Code:
+selectPostCodeOption1 = 3 miles
+selectPostCodeOption2 = 5 miles
+selectPostCodeOption3 = 10 miles
+selectPostCodeOption4 = 20 miles
+selectPostCodeOption5 = 50 miles
+selectPostCodeOption6 = 100 miles
+selectPostCodeOption7 = 200 miles
+
+advSearchBothDateAreEmptyException = Please, enter at least start or end range.
+advSearchStartDateIsntValidException = Start range isn't valid.
+advSearchEndDateIsntValidException = End range isn't valid.
+

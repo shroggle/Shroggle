@@ -1,0 +1,16 @@
+optOutFromNetworkMailSubject = {0} has opted out of the {1} Network. 
+optOutFromNetworkMail = {0} has opted out of the {1} Network.\nNetwork administrators no longer have any \
+  administrative access to {0}. All content associated with the network blueprint site, belonging to the Network \
+  has been removed from this site. We recommend that you update your records accordingly, removing references to \
+  this child site where appropriate.\nTo withdraw content manually shared content with the Child Site please visit \
+  the following pages from your Dashboard: 'Manage Blogs', 'Manage Forums', 'Manage Forms & Records'
+
+removeFromNetworkMailSubject = {0} has been removed from the {1} Network.
+removeFromNetworkMail = {0} has been removed from the {1} Network, but has NOT been deleted. Should you choose to \
+  keep your site now that it is independent of the network, you may find that there is a different subscription \
+  fee: <b>Your monthly subscription fee is now: ${2}pm</b> The network owners no longer have any administrative access \
+  to {0}. All content associated with the network blueprint site, belonging to the Network has been removed from \
+  this site. We recommend that you examine your site carefully now to make sure that it is as you would want it \
+  to be. To withdraw content manually shared with the Network Site please visit the following pages from your \
+  Dashboard: 'Manage Blogs', 'Manage Forums', 'Manage Forms & Records'. You may delete your site at any time by logging \
+  in at {3}, going to your dashboard page, and selecting the 'Delete' below your site name.

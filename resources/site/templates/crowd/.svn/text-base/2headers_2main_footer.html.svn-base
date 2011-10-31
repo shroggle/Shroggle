@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title><!-- PAGE_TITLE --></title>
+<style type="text/css">
+* {
+	margin:0;
+	padding:0;
+}
+.clear {
+	clear:both;
+}
+
+.wrapper {
+	width:975px;
+	margin:auto;
+}
+.header {
+	height:80px;
+    margin:4px 0 0;
+}
+.subheader {
+	height:24px;
+	margin:2px 0 5px;
+}
+.content{
+	min-height:380px;
+	height:auto;
+	overflow:hidden;
+}
+.contentleft {
+	width:487px;
+	float:left;
+}
+.contentright {
+	width:487px;
+	float:right;
+}
+.footercontainer {
+	height:167px;
+}
+.footer {
+	width:975px;
+	margin:auto;
+}
+</style>
+    <!-- PAGE_HEADER -->
+</head>
+
+<body>
+
+
+<div class="wrapper">
+	<div class="header mediaBlock"></div>
+	<div class="subheader mediaBlock"></div>
+	<div class="content">
+	    <div class="contentleft mediaBlock"></div>
+		<div class="contentright mediaBlock"></div>
+	</div>
+</div>
+<div class="footercontainer clear">
+    <div class="footer mediaBlock"></div>
+</div>
+</body>
+</html>

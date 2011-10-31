@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Shapes</name>
+    <thumbnail>tn_panelleft.png</thumbnail>
+    <order>350</order>
+	 <layout thumbnailFile="images/header2_main_footer2.png" useForDefault="true">
+        <name>Big Header, Main Content, Big Footer</name>
+        <file>header2_main_footer2.html</file>
+<pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+	  <layout thumbnailFile="images/header2_3main_footer2.png" >
+        <name>Big Header, 3 Main Content, Big Footer</name>
+        <file>header2_3main_footer2.html</file>
+ 
+    </layout>
+   
+
+    <layout thumbnailFile="images/header2_main_footer2-leftmenu.png">
+        <name>Big Header, Main Content, Big Footer, Left Panel</name>
+        <file>header2_main_footer2-leftmenu.html</file>
+
+    </layout>                                                                  
+   
+
+      <layout thumbnailFile="images/header2_main_footer2-rightmenu.png">
+        <name>Big Header, Main Content, Big Footer, Right Panel</name>
+        <file>header2_main_footer2-rightmenu.html</file>
+
+    </layout>
+	
+	  <layout thumbnailFile="images/header3_3main_footer2.png">
+        <name>Full Header,3 Main Content, Big Footer</name>
+        <file>header3_3main_footer2.html</file>
+    </layout>
+    <layout thumbnailFile="images/header2_2main_footer2.png">
+        <name>Big Header,2 Main Content, Big Footer</name>
+        <file>header2_2main_footer2.html</file>
+    </layout>
+      <layout thumbnailFile="images/2main.png">
+        <name>2 Main Content</name>
+        <file>2main.html</file>
+    </layout>
+      <layout thumbnailFile="images/main.png">
+        <name>Main Content</name>
+        <file>main.html</file>
+    </layout>
+
+
+
+     <theme>
+        <imageFile>images/cornerleft.png</imageFile>
+        <name>Spatula Left</name>
+        <file>cornerleft.css</file>
+        <colorTileFile>images/tile_cornerleft.png</colorTileFile>
+        <thumbnailFile>images/tn_cornerleft.png</thumbnailFile>
+    </theme>
+	    <theme>
+        <imageFile>images/cornerright.png</imageFile>
+        <name>Spatula Right</name>
+        <file>cornerright.css</file>
+        <colorTileFile>images/tile_cornerright.png</colorTileFile>
+        <thumbnailFile>images/tn_cornerright.png</thumbnailFile>
+    </theme>
+	  <theme>
+        <imageFile>images/panelleft.png</imageFile>
+        <name>Left Lobe</name>
+        <file>panelleft.css</file>
+        <colorTileFile>images/tile_panelleft.png</colorTileFile>
+        <thumbnailFile>images/tn_panelleft.png</thumbnailFile>
+    </theme>
+	    <theme>
+        <imageFile>images/panelright.png</imageFile>
+        <name>Right Lobe</name>
+        <file>panelright.css</file>
+        <colorTileFile>images/tile_panelright.png</colorTileFile>
+        <thumbnailFile>images/tn_panelright.png</thumbnailFile>
+    </theme>
+	   <theme>
+        <imageFile>images/round.png</imageFile>
+        <name>Round Corner</name>
+        <file>round.css</file>
+        <colorTileFile>images/tile_round.png</colorTileFile>
+        <thumbnailFile>images/tn_round.png</thumbnailFile>
+    </theme>
+	    <theme>
+        <imageFile>images/square.png</imageFile>
+        <name>Rectangle</name>
+        <file>square.css</file>
+        <colorTileFile>images/tile_square.png</colorTileFile>
+        <thumbnailFile>images/tn_square.png</thumbnailFile>
+    </theme>
+
+</template>

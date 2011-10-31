@@ -1,0 +1,11 @@
+title = Sort Order
+description = Use this tool to edit the sort order of the navigation thumbnails. You can sort by two different \
+  methods, both will be applied at the same time. For Example: Sort Chronologically by date added and then \
+  alphabetically by name.
+first = 1st
+sortOrder1 = Ascending (First to Last)
+sortOrder2 = Descending (Last to First)
+sortOrder3 = Random
+second = 2nd
+save = Save
+cancel = Cancel

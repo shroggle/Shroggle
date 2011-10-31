@@ -1,0 +1,45 @@
+/*********************************************************************
+ *                                                                   *
+ * Copyright (c) 2007-2011 by Web-Deva.                              *
+ * All rights reserved.                                              *
+ *                                                                   *
+ * This computer program is protected by copyright law and           *
+ * international treaties. Unauthorized reproduction or distribution *
+ * of this program, or any portion of it, may result in severe civil *
+ * and criminal penalties, and will be prosecuted to the maximum     *
+ * extent possible under the law.                                    *
+ *                                                                   *
+ *********************************************************************/
+package com.shroggle.util.copier.stack;
+
+/**
+ * @author Artem Stasuk
+ */
+public class CopierStackExecutorMock implements CopierStackExecutor {
+
+    @Override
+    public void copy(final CopierStack stack, final Object original) {
+        called = true;
+        stack.add(original, result);
+    }
+
+    public Object getResult() {
+        return result;
+    }
+
+    public void setResult(final Object result) {
+        this.result = result;
+    }
+
+    public boolean isCalled() {
+        return called;
+    }
+
+    public void setCalled(boolean called) {
+        this.called = called;
+    }
+
+    private Object result;
+    private boolean called;
+
+}

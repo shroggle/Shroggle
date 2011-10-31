@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Sky</name>
+    <thumbnail>images/tn_early-morning.jpg</thumbnail>
+    <order>350</order>
+	 <layout thumbnailFile="images/header_2main_footer.png" useForDefault="true">
+        <name>Header, 2 Main Content, Footer</name>
+        <file>header_2main_footer.html</file>
+<pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+	  <layout thumbnailFile="images/header_4main_2footers.png" >
+        <name>Header, 2 Main Top Content, 2 Bottom Content, 2 Footers</name>
+        <file>header_4main_2footers.html</file>
+ 
+    </layout>
+   
+
+    <layout thumbnailFile="images/2header_2main_footer.png">
+        <name>2 Headers,2 Main Content, Footer</name>
+        <file>2header_2main_footer.html</file>
+
+    </layout>
+   
+
+     <layout thumbnailFile="images/header_2main_footer_rightmenu.png">
+        <name>Header, Main Content, Footer, Right Panel</name>
+        <file>header_2main_footer_rightmenu.html</file>
+    </layout>
+	
+	  <layout thumbnailFile="images/4main_footer.png">
+        <name>Top, 2 Middle, 1 Bottom Content, Footer</name>
+        <file>4main_footer.html</file>
+    </layout>
+	 <layout thumbnailFile="images/header_4main_footer.png">
+        <name>2 Headers, Main Content, Footer, Left Menu</name>
+        <file>header_4main_footer.html</file>
+    </layout>
+
+
+   <theme>
+        <imageFile>images/day.jpg</imageFile>
+        <name>Day</name>
+        <file>day.css</file>
+        <colorTileFile>images/tile_day.jpg</colorTileFile>
+        <thumbnailFile>images/tn_day.jpg</thumbnailFile>
+    </theme>
+
+   <theme>
+        <imageFile>images/night.jpg</imageFile>
+        <name>Night</name>
+        <file>night.css</file>
+        <colorTileFile>images/tile_night.jpg</colorTileFile>
+        <thumbnailFile>images/tn_night.jpg</thumbnailFile>
+    </theme>
+      <theme>
+        <imageFile>images/early-morning.jpg</imageFile>
+        <name>Early Morning</name>
+        <file>early-morning.css</file>
+        <colorTileFile>images/tile_early-morning.jpg</colorTileFile>
+        <thumbnailFile>images/tn_early-morning.jpg</thumbnailFile>
+    </theme>
+       <theme>
+        <imageFile>images/mid-morning.jpg</imageFile>
+        <name>Mid Morning</name>
+        <file>mid-morning.css</file>
+        <colorTileFile>images/tile_mid-morning.jpg</colorTileFile>
+        <thumbnailFile>images/tn_mid-morning.jpg</thumbnailFile>
+    </theme>
+       <theme>
+        <imageFile>images/evening.jpg</imageFile>
+        <name>Evening</name>
+        <file>evening.css</file>
+        <colorTileFile>images/tile_evening.jpg</colorTileFile>
+        <thumbnailFile>images/tn_evening.jpg</thumbnailFile>
+    </theme>
+
+</template>

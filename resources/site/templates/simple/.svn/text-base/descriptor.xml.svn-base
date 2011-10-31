@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Simple template collection</name>
+    <thumbnail>tn_beige.png</thumbnail>
+    <order>40</order>
+
+
+    <layout thumbnailFile="1header_left.png" useForDefault="true">
+        <name>1 Header and Left Side Menu</name>
+        <file>header_main_leftmenu.html</file>
+
+    </layout>
+   <layout thumbnailFile="1header_right.png">
+        <name>1 Header and Right Side Menu</name>
+        <file>header_main_rightmenu.html</file>
+
+    </layout>
+    <layout thumbnailFile="1header.png">
+        <name>1 Header</name>
+        <file>header_main.html</file>
+
+    </layout>
+     <layout thumbnailFile="1header_1footer.png">
+        <name>1 Header and 1 Footer</name>
+        <file>header_main_footer.html</file>
+
+           <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+     <layout thumbnailFile="1header_right_1footer.png">
+        <name>1 Header, 1 Footer and Right Side Menu</name>
+        <file>header_main_footer_rightmenu.html</file>
+
+    </layout>
+     <layout thumbnailFile="1header_left_1footer.png">
+        <name>1 Header, 1 Footer and Left Side Menu</name>
+        <file>header_main_footer_leftmenu.html</file>
+
+    </layout>
+
+      <layout thumbnailFile="head_foot_2rowcontent.jpg">
+        <name>1 header, 1 Footer, 2 Rows Content Areas</name>
+        <file>header_3main_footer_leftmenu.html</file>
+
+    </layout>
+
+	 <layout thumbnailFile="head_foot_1top2bottomcontent.jpg">
+        <name>1 Header, 1 Footer, 1Top 2 Bottom Content Areas</name>
+        <file>header_3main_footer.html</file>
+
+    </layout>
+   <layout thumbnailFile="head_foot_1top1bottomcontent.jpg">
+        <name>1 Header, 1 Footer, 1Top 1 Bottom Content Areas</name>
+        <file>header_2main_footer.html</file>
+
+    </layout>
+    <layout thumbnailFile="head_foot_4content-fixed.jpg">
+        <name>1 Header, 1 Footer, 4 Content Areas fixed width</name>
+        <file>header_4main_footer.html</file>
+
+    </layout>
+    <layout thumbnailFile="4blocks.gif">
+        <name>4 blocks</name>
+        <file>4blocks.html</file>
+     
+    </layout>
+    <theme>
+        <imageFile>blue.png</imageFile>
+        <name>Simple Baby Blue</name>
+        <file>blue.css</file>
+        <colorTileFile>blueTile.gif</colorTileFile>
+        <thumbnailFile>tn_blue.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>beige.png</imageFile>
+        <name>Simple Beige</name>
+        <file>beige.css</file>
+        <colorTileFile>beigeTile.gif</colorTileFile>
+        <thumbnailFile>tn_beige.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>black.png</imageFile>
+        <name>Simple Black and White</name>
+        <file>black.css</file>
+        <colorTileFile>blackTile.gif</colorTileFile>
+       <thumbnailFile>tn_black.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>navy.png</imageFile>
+        <name>Simple Royal Blue</name>
+        <file>navy.css</file>
+        <colorTileFile>navyTile.gif</colorTileFile>
+        <thumbnailFile>tn_navy.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>red.png</imageFile>
+        <name>Simple Crimson</name>
+        <file>red.css</file>
+        <colorTileFile>redTile.gif</colorTileFile>
+        <thumbnailFile>tn_red.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>green.png</imageFile>
+        <name>Simple Leaf Green</name>
+        <file>green.css</file>
+        <colorTileFile>greenTile.gif</colorTileFile>
+        <thumbnailFile>tn_green.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>white.png</imageFile>
+        <name>Simple White</name>
+        <file>white.css</file>
+        <colorTileFile>whiteTile.gif</colorTileFile>
+        <thumbnailFile>simple_white.jpg</thumbnailFile>
+    </theme>
+
+</template>

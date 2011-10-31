@@ -1,0 +1,24 @@
+<project name="global.backup.properties">
+
+    <property name="archives.storage.dir" value="/data1/backup-storage/"/>
+<!--    <property name="archives.storage.dir" value="c:/DD/"/>-->
+
+    <!-- mySQL server information. >>>> -->
+    <property name="mySQL.path" value=""/>
+    <property name="mySQL.host" value="192.168.10.1"/>
+    <!-- <<<< mySQL server information. -->
+
+    <!-- Amazon S3 shroggle account information. >>>> -->
+    <property name="aws.accessId" value="AKIAITVI7JVIYQ4WEF3Q"/>
+    <property name="aws.secretKey" value="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"/>
+    <property name="aws.bucket" value="shroggle-server-backups"/>
+
+    <!--
+    //  igor.kanshin account credentials
+    <property name="aws.accessId" value="AKIAI2Z4AGTNN6UR7NAQ"/>
+    <property name="aws.secretKey" value="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"/>
+    <property name="aws.bucket" value="shroggle-backups"/>
+-->
+    <!-- <<<< Amazon S3 shroggle account information. -->
+
+</project>

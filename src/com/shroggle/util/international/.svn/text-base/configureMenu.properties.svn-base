@@ -1,0 +1,40 @@
+menu=Menu
+menuOrientation=Menu orientation:
+editMenuStructure=Edit Menu
+editSelectedMenuItem=Edit Selected Menu Item
+uncheckAllPagesThatShouldnotBeAddedToTheSiteMenu= Uncheck all pages that shouldn't be added to the site menu
+eachMenuItemCanBeAdjustedHere=Each menu item can be adjusted here
+addEditMenu=Edit Menu & Navigation Module: Module Settings
+newMenuForm=New Menu
+existingMenuForm=Existing Menu
+selectMenu=Select menu
+formName=Menu Name:
+
+menuStyle = Menu Style:
+menuStyleExample = Menu Style Example:
+menuStyleSelect = Select Menu Style
+TREE_STYLE = Tree Style Menu
+DROP_DOWN_STYLE = Drop-Down Style Menu
+FULL_HEIGHT_STYLE = Full Height Drop-Down Menu
+TABBED_STYLE = Tabbed Menu
+HORIZONTAL=Horizontal
+VERTICAL=Vertical
+
+DROP_DOWN_STYLE_HORIZONTAL = Drop-Down Style - Horizontal Menu
+DROP_DOWN_STYLE_VERTICAL = Drop-Down Style - Vertical Menu
+FULL_HEIGHT_STYLE_HORIZONTAL = Full Height Style - Horizontal Menu
+FULL_HEIGHT_STYLE_VERTICAL = Full Height Style - Vertical Menu
+TABBED_STYLE_HORIZONTAL = Tabbed Style - Horizontal Menu
+TREE_STYLE_HORIZONTAL = Tree Style - Horizontal Menu
+TREE_STYLE_VERTICAL = Tree Style - Vertical Menu
+
+menuNameCannotBeEmpty=Please, enter menu name.
+menuItemNameCannotBeEmpty=Menu item name can't be empty.
+menuNameNotUnique=Please enter unique menu name.
+selectExistingMenu=Please select an existing menu to change its settings or select 'New Menu' radiobutton!
+selectMenuStyle = Please, select menu style.
+includePageTitle = Include page title
+deleteSelected=Delete Selected
+selectExistingMenuForDelete=Please select an existing menu.
+useDefaultStructure=Use default structure
+discardCustomizedPageStructure=Are you sure that you want to discard you customized page structure and apply a default one?

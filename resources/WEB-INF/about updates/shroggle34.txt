@@ -1,0 +1,11 @@
+This update:
+
+1. changes page type from VISITOR_REGISTRATION to REGISTRATION.
+2. sets itemId = null in widgetItems where itemId mentioned on the removed items; 
+3. replaces VISITOR_REGISTRATION by REGISTRATION and SITE_MENU by MENU in the saved pageVersions html and css (I change them in one transaction);
+
+
+
+
+
+Tolik.

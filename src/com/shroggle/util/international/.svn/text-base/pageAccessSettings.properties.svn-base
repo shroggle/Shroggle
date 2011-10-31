@@ -1,0 +1,7 @@
+subHeader=Page Access - Settings
+info=Please select which type of access permissions you would like to apply to this page. Access may be: Unrestricted (anyone can view the page) or it can be limited to 'logged in users' of various types.
+text=Select Type of Page Access:
+administrators=Administrators
+invitedGuests=Invited Guests
+registeredVisitors=Registered Visitors
+everyone=Everyone – Unlimited

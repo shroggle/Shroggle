@@ -1,0 +1,57 @@
+pageHeader = View / Edit Account Registrations
+helpText=You may search by first name, last name or email address. If you enter two names the search results will return all matches for either name.<br>
+
+firstNameTd = First Name
+lastNameTd = Last Name
+emailTd = Email
+createdTd = Created
+updatedTd = Updated
+formNameTd = Form Name
+statusTd = Status
+groupsTd = Groups
+deleteTd = Delete
+
+REGISTERED_STATUS = Registered
+EXPIRED_STATUS = Expired
+PENDING_STATUS = Pending
+
+emptyTable = There are no registrants
+
+visitorDeleted = Visitor has been successfully removed.
+visitorInvited = Visitor has been successfully invited.
+
+delUnregGuest = You are about to delete this unregistered guest. Clicks Ok to proceed.
+delRegGuest = You are about to delete a registered guest. This person will have their access privileges revoked as a result.
+delRegVisitor = You are about to delete a registered visitor. This person will have their access privileges revoked as a result.
+
+deleteVisitors = You are about to delete {0} visitors. They will have their access privileges revoked as a result.
+
+#Edit reg. visitor
+editRegistrationData = Edit Registered Visitor
+enterEmail = Email
+
+#Exceptions
+assignGroups = Assign groups
+addSelectedVisitorsToGroup = Add selected visitors to group
+removeSelectedVisitorsFromGroup = Remove selected visitors from group
+selectAll = select all
+deselectAll = deselect all
+selectVisitors = Please, select visitors first!
+
+pageTitle = Manage Registrants
+info = These records are a sub set of your `form data`, and can also be found in the `Manage Forms & Records` area.
+registrantsFilterInfo = To change an existing registrant, to an invited guest click on the `Filter registrants' pick list and select the show all option. This will display both invited and not invited registrants in the list. Then using the `invited` checkbox beside their name, change them to `invited`.
+statusInfo = Status indicates whether the invited guest has in fact registered yet. Pending means that they have not yet registered. Expired means that more than 10 days has passed since the invitation was sent, and that the email link in the invitation will no longer work.
+filter = Filter Registrants:
+show_all = Show all
+registered = Registered
+pending = Pending
+expired = Expired
+invited = Invited
+search = Search:
+showAll = Show all
+manageGroups = Manage Groups
+createRegistrationForm = Create Registration Form
+inviteNew = Invite New
+delete = Delete
+close = Close 

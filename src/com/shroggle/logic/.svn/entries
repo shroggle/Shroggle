@@ -1,0 +1,352 @@
+10
+
+dir
+11784
+svn://svn.web-deva.com/kanshin/src/com/shroggle/logic
+svn://svn.web-deva.com
+
+
+
+2011-07-03T02:56:57.683281Z
+11784
+aneha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f8309a67-69d0-cf49-981f-a3ba50c0350b
+
+DefaultNameUtil.java
+file
+
+
+
+
+2010-11-10T00:48:42.000000Z
+9457039d5411d81801111c7cf056eb00
+2010-10-13T00:07:34.168725Z
+11418
+igor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1821
+
+SiteItemsManager.java
+file
+
+
+
+
+2010-11-10T00:48:38.000000Z
+b38fc8f7bc1a33ec5f0cd924dde1471e
+2010-10-13T00:07:34.168725Z
+11418
+igor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2992
+
+SiteOnItemAsOwnerManager.java
+file
+
+
+
+
+2010-11-10T00:48:49.000000Z
+093a2599df47500c9be1edea5abb2f88
+2010-10-13T00:07:34.168725Z
+11418
+igor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2088
+
+SiteOnItemAsRightManager.java
+file
+
+
+
+
+2010-11-10T00:48:51.000000Z
+42dc00dc423ba14dca9a335a6405099d
+2010-10-13T00:07:34.168725Z
+11418
+igor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3012
+
+SiteOnItemManager.java
+file
+
+
+
+
+2010-11-10T00:48:49.000000Z
+fe71bb51acc17ce02a39fd3460776969
+2010-10-13T00:07:34.168725Z
+11418
+igor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1205
+
+StyleManager.java
+file
+
+
+
+
+2010-11-10T00:48:49.000000Z
+cd8f7314015454c65f2668f79dc648c4
+2010-10-13T00:07:34.168725Z
+11418
+igor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2944
+
+accessibility
+dir
+
+advancedSearch
+dir
+
+blog
+dir
+
+blogSummary
+dir
+
+blueprintsPublishing
+dir
+
+borderBackground
+dir
+
+childSites
+dir
+
+content
+dir
+
+coordinates
+dir
+
+countries
+dir
+
+creditCard
+dir
+
+customtag
+dir
+
+distance
+dir
+
+fontsAndColors
+dir
+
+form
+dir
+
+forum
+dir
+
+gallery
+dir
+
+groups
+dir
+
+image
+dir
+
+javien
+dir
+
+manageRegistrants
+dir
+
+manageVotes
+dir
+
+menu
+dir
+
+paginator
+dir
+
+payment
+dir
+
+purchaseHistory
+dir
+
+registration
+dir
+
+registrationConfirmation
+dir
+
+shoppingCart
+dir
+
+site
+dir
+
+slideShow
+dir
+
+start
+dir
+
+statistics
+dir
+
+stripes
+dir
+
+system
+dir
+
+text
+dir
+
+user
+dir
+
+video
+dir
+
+visitor
+dir
+
+widget
+dir
+

@@ -1,0 +1,2330 @@
+/*--------------------------------------------------------FORMS-------------------------------------------------------*/
+.headerInlineBlock p {
+    display: inline;
+}
+
+.initTableDescriptionInfoMark {
+    display: inline;
+    float: right;
+}
+
+.ie .initTableDescriptionInfoMark {
+    display: inline;
+    float: none;
+}
+
+.init_form_div {
+    width: 400px;
+    float: left;
+}
+
+.manage_form_div {
+    width: 65px;
+    float: left;
+    text-align: center;
+}
+
+.your_form_div {
+    width: 440px;
+    float: right;
+    position: relative;
+}
+
+.your_form_div input[type='text'] {
+    width: 114px;
+}
+
+/*------------------------------------------------------ADD WIDGET----------------------------------------------------*/
+.addWidgetLeftDiv {
+    border: 1px solid #666666;
+    height: 450px;
+    padding: 0 0 7px 0;
+    margin: 10px;
+    overflow-y: hidden;
+}
+
+.addWidgetRightInfoDiv {
+    border: 1px solid #666666;
+    padding: 5px;
+    height: 160px;
+    float: right !important;
+    margin: 10px;
+    overflow-y: auto;
+}
+
+.addWidgetRightInsertDiv {
+    border: 1px solid #666;
+    height: 265px;
+    width: 320px !important;
+    float: right !important;
+    margin: 10px;
+}
+
+.addWidgetRightInfoDivShrinked {
+    height: 120px !important;
+}
+
+.addWidgetRightInsertDivExtended {
+    height: 305px !important;
+}
+
+.addWidgetRightInsertInnerDiv {
+    padding: 0 5px;
+}
+
+.addWidgetRightInsertOptionsText {
+    font-weight: bold;
+    margin-bottom: 5px;
+    background-color: #EE7900;
+    border-bottom: 1px solid #666;
+    padding: 5px 5px 5px 7px;
+}
+
+.addWidgetRightInsertOptionsDiv {
+    margin: 10px 2px 2px;
+    padding: 5px 5px 6px;
+    border: 1px solid #aaa;
+}
+
+.addWidgetRightInsertOptionsModeDiv {
+    margin: 6px 2px 2px 2px;
+    padding: 6px 5px;
+    border: 1px solid #aaa;
+}
+
+.addWidgetLeftDiv span.addWidgetHeader:hover {
+    color: #EE7900;
+}
+
+.addWidgetHeader {
+    display: block;
+    text-align: left;
+    padding: 6px 0 6px 32px;
+    background-color: #E3DEDA;
+    border-top: 1px solid #aaa;
+    cursor: pointer;
+}
+
+.addWidgetHeaderLast {
+    border-bottom: 1px solid #aaa;
+}
+
+.ui-state-active {
+    border-bottom: none;
+}
+
+.addWidgetHeaderText {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.ui-state-active .addWidgetHeaderText {
+    color: #EE7900;
+}
+
+.selectedAddWidget {
+    background: #EE7900;
+    text-align: left;
+    padding: 5px 0 5px 45px;
+    border-bottom: 1px solid #eee;
+}
+
+.selectedAddWidget label {
+    color: #ffffff;
+}
+
+.addWidgetItem {
+    text-align: left;
+    padding: 5px 0 5px 45px;
+    border-bottom: 1px solid #eee;
+}
+
+.addWidgetItem label,
+.selectedAddWidget label {
+    font-weight: bold;
+}
+
+.addWidgetClosedIcon {
+    background: url(../images/arrow-small-closed.png) no-repeat scroll 0%;
+    padding: 2px 6px 2px 6px;
+}
+
+.addWidgetOpenedIcon {
+    background: url(../images/arrow-small-opened.png) no-repeat scroll 0%;
+    padding: 2px 6px 2px 6px;
+}
+
+/*---------------------------------------------------ADVANCED SEARCH--------------------------------------------------*/
+.pickListOptionsList {
+    min-height: 75px;
+    max-height: 150px;
+    width: 450px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    overflow: auto;
+}
+
+.pickListOptionsSelectionDiv {
+    float: left;
+}
+
+.pickListOptionsSelectionDiv span:hover {
+    color: black;
+    border-bottom-color: black;
+}
+
+.fieldLabel {
+    width: 200px;
+}
+
+.pickListOptionLink {
+    color: #009;
+    border-bottom: 1px dashed #009;
+    cursor: pointer;
+}
+
+.searchOptionParameter {
+    display: inline;
+    padding: 2px 3px 2px 2px;
+    margin-left: 4px;
+    line-height: 20px;
+    background-color: #e3deda;
+}
+
+.searchOptionParameterDeleteImg {
+    position: relative;
+    top: 3px;
+    left: 2px;
+    cursor: pointer;
+}
+
+.advSearchRangeInput {
+    width: 80px;
+}
+
+/*-------------------------------------------------MANAGE REGISTRANTS-------------------------------------------------*/
+.manageRegistrantsSelectDeselectDiv {
+    float: left;
+    margin-top: 5px;
+}
+
+.manageRegistransManageGroupsSubDiv {
+    float: left;
+    margin-bottom: 5px;
+}
+
+.manageRegistransHR {
+    border-bottom: 1px solid #666;
+    margin: 8px 0 8px 0;
+}
+
+/*-------------------------------------------------MANAGE FORM RECORDS------------------------------------------------*/
+.manageFormsFilterDiv {
+    margin-bottom: 7px;
+}
+
+.manageFormRecordsDiv {
+    width: 100%;
+    margin-top: 10px
+}
+
+.manageRecordsBodyTable {
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.manageRecordsBodyTableDiv {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 400px;
+}
+
+.tbl_manageRecords {
+    border-collapse: collapse;
+}
+
+.tbl_manageRecords table {
+    width: 100%;
+}
+
+.tbl_manageRecords td {
+    border: 1px solid white;
+    text-align: left;
+    padding: 3px;
+}
+
+.tbl_manageRecords td input {
+    text-align: left;
+}
+
+.tbl_manageRecords thead td {
+    background-color: #D6F1FC;
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.tbl_manageRecords thead td:hover {
+    background-color: #B4D0DA;
+}
+
+.tbl_manageRecords tbody {
+    color: #1F2B41;
+}
+
+#editRegisteredVisitorTable input {
+    width: 85%;
+    margin-bottom: 5px
+}
+
+#editRegisteredVisitorTable input[type="button"] {
+    width: auto;
+    border: 0;
+}
+
+#editRegisteredVisitorTable .fileUploadInput {
+    width: 50% !important;
+}
+
+#editRegisteredVisitorTable input[type="radio"] {
+    width: auto;
+    margin-bottom: 5px
+}
+
+#editRegisteredVisitorTable input[type="checkbox"] {
+    width: auto;
+    margin-bottom: 5px
+}
+
+#editRegisteredVisitorTable textarea {
+    width: 85%;
+    height: auto;
+    margin-bottom: 5px
+}
+
+#editRegisteredVisitorTable select {
+    margin-bottom: 5px
+}
+
+#editRegisteredVisitorTable td {
+    vertical-align: top;
+}
+
+.manageRecordsBodyTable td {
+    vertical-align: top;
+}
+
+#editVisitorDiv {
+    width: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.ie #editVisitorDiv {
+    height: 400px;
+    width: 500px;
+}
+
+.ie7 #editVisitorDiv {
+    height: auto;
+}
+
+/*------------------------------------------------QUICKLY CREATE PAGES------------------------------------------------*/
+
+.quicklyPageDesc {
+    color: white;
+}
+
+.quicklyPageName label {
+    color: black !important;
+    font-size: 12pt;
+}
+
+.quicklyPageNameTd {
+    width: 250px;
+}
+
+.vertical_middle {
+    margin: 0 5px 0 5px;
+    vertical-align: middle
+}
+
+.tbl_quick_page td {
+    padding: 3px 0 3px 0;
+    vertical-align: middle
+}
+
+.butSubmit, .butSubmitOver {
+    background: transparent url(../images/NextBackBtn.png) no-repeat scroll 0%;
+    border: medium none;
+    height: 64px;
+    width: 163px;
+    cursor: pointer;
+}
+
+.butSubmit {
+    background-position: right 0;
+}
+
+.butSubmitOver {
+    background-position: right -66px;
+}
+
+/*------------------------------------------------------ADD PAGE------------------------------------------------------*/
+.keywordTableLabel {
+    width: 20%;
+    display: inline;
+    float: left;
+}
+
+.keywordTableSubheader {
+    color: #7B7878;
+    padding: 3px;
+}
+
+.keywordContainer {
+    width: 550px;
+    min-height: 60px;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 175px;
+}
+
+.addPageKeywordsDiv {
+    width: 550px;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+.addPageKeywordsTable {
+    width: 550px;
+}
+
+.pageCustomMetaTagDiv {
+    width: 550px;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+.pageCustomMetaTagTable {
+    width: 550px;
+}
+
+.customMetaTagContainer {
+    width: 100%;
+    min-height: 60px;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 125px;
+}
+
+.customHtmlContainer {
+    width: 550px;
+    min-height: 60px;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 440px;
+}
+
+.addPageTab, .hiddenAddPageTab {
+    height: 550px;
+}
+
+.hiddenAddPageTab {
+    display: none;
+}
+
+.addScriptInput {
+    width: 445px;
+    float: left;
+}
+
+.addScriptTextArea {
+    width: 435px;
+    height: 65px;
+    overflow: hidden;
+    float: left;
+}
+
+.addScriptLabel {
+    width: 17% !important;
+}
+
+.addScriptRadioLabel {
+    float: none;
+    width: auto;
+}
+
+.addScriptRadio {
+    width: auto;
+}
+
+.customMetaTagDeleteImg {
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+.addCustomMetaTagNameColumn {
+    width: 465px;
+}
+
+.addCustomMetaTagDeleteColumn {
+    text-align: center !important;
+}
+
+.customHtmlCodeTextArea {
+    width: 250px;
+    height: 65px;
+}
+
+.customHtmlCodeNameColumn {
+    width: 120px;
+    vertical-align: top;
+}
+
+.customHtmlCodeColumn {
+    width: 270px;
+}
+
+.customHtmlCodePlacementColumn {
+    width: 80px;
+    vertical-align: top;
+}
+
+.customHtmlCodeDeleteColumn {
+    vertical-align: top;
+    text-align: center !important;
+}
+
+/*-----------------------------------------------------CREATE SITE----------------------------------------------------*/
+textarea.siteDescription {
+    width: 390px;
+    height: 100px;
+    padding: 5px;
+}
+
+.linkBack {
+    display: block;
+    background: transparent url(../images/NextBackBtn.png) no-repeat scroll 0%;
+    border: medium none;
+    height: 40px;
+    width: 110px;
+    cursor: pointer;
+}
+
+.linkBack {
+    background-position: left 0pt;
+}
+
+.linkBack:hover, .linkBack:active {
+    background-position: left -66px;
+    display: block;
+}
+
+.siteUrlPrefixCheckResultDiv {
+    height: 35px;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px 0 5px 0;
+}
+
+#keywordsGroups input[type="image"] {
+    border: 0;
+    width: auto;
+    height: auto;
+}
+
+.siteKeywordsDeleteColumn {
+    width: 20px;
+    text-align: center;
+}
+
+.create_site_inform_mark {
+    margin-left: 208px !important;
+}
+
+.siteKeywordTableLabel {
+    width: 25%;
+    display: inline;
+    float: left;
+}
+
+.createSiteCustomHtmlDiv {
+    width: 500px;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+.createSiteKeywordsDiv {
+    width: 500px;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+.createSiteKeywordsAddNewDiv {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.createSiteCustomHtmlTable {
+    width: 500px;
+}
+
+.createSiteCustomHtmlContainer {
+    width: 500px;
+    min-height: 60px;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 440px;
+}
+
+.createSiteAddScriptInput {
+    width: 400px;
+    padding: 0 !important;
+    margin: 0 !important;
+    float: left;
+}
+
+.createSiteAddScriptTextArea {
+    width: 390px;
+    height: 65px;
+    float: left;
+}
+
+.createSiteCustomMetaTagDiv {
+    width: 500px;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+.createSiteCustomMetaTagTable {
+    width: 500px;
+}
+
+.createSiteCustomMetaTagContainer {
+    width: 100%;
+    min-height: 60px;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 175px;
+}
+
+.createSiteAddCustomMetaTagNameColumn {
+    width: 415px;
+}
+
+.createSiteAddCustomMetaTagDeleteColumn {
+    text-align: center !important;
+}
+
+.createSiteCustomHtmlCodeNameColumn {
+    width: 120px;
+    vertical-align: top;
+}
+
+.createSiteCustomHtmlCodeColumn {
+    width: 240px;
+}
+
+.createSiteCustomHtmlCodePlacementColumn {
+    width: 75px;
+    vertical-align: top;
+}
+
+.createSiteCustomHtmlCodeDeleteColumn {
+    vertical-align: top;
+    text-align: center !important;
+}
+
+.createSiteCustomHtmlCodeTextArea {
+    width: 220px;
+    height: 65px;
+}
+
+/* CREATE USER */
+.enterSecCodeLabel {
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+/*--------------------------------------------------------SHARE YOUR SITES--------------------------------------------*/
+.textAddedToEmailDiv {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #999;
+    padding: 5px;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-top: 7px;
+}
+
+.shareSitesEmailTextArea {
+    width: 100%;
+    border: 1px solid #999;
+    height: 100px;
+    margin-top: 7px;
+}
+
+.shareSitesTable {
+    border: 1px solid #999;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 7px;
+}
+
+.shareSitesTable input[type='radio'] {
+    margin-left: 18px;
+    margin-right: 0;
+}
+
+.activeUserSpan {
+    margin-right: 5px;
+}
+
+/*--------------------------------------------------------FORUM-------------------------------------------------------*/
+.divider {
+    height: 5px
+}
+
+.forum_tbl div {
+    clear: both;
+    margin: 5px 0 3px 0;
+    vertical-align: top;
+}
+
+.forum_tbl {
+    width: 100%;
+}
+
+.createThreadRightHeader {
+    margin-top: 21px;
+    display: block;
+    font-weight: bold;
+}
+
+.forum_tbl div input label {
+    margin-left: 2.2em;
+}
+
+.forum_tbl input[type='radio'] {
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.forum_tbl label {
+    position: relative;
+    top: -1px;
+}
+
+.forum_setting input {
+    margin: 0 5px 0 3px;
+}
+
+.forum_setting {
+    clear: both;
+    margin: 5px 0 3px 0;
+    vertical-align: top;
+}
+
+.forum_setting label {
+    position: relative;
+    top: -1px;
+}
+
+/*--------------------------------------------------------MENU--------------------------------------------------------*/
+.menuItemDetailsTable td {
+    padding: 2px;
+}
+
+.menuItemDetailsTable {
+    margin-bottom: 15px;
+}
+
+.configureMenuLeftDiv {
+    float: left;
+    width: 400px;
+    height: 390px;
+}
+
+.configureMenuRightDiv {
+    float: right;
+    width: 400px;
+    height: 390px;
+}
+
+.configureMenuSettingsDiv {
+    border: 1px solid #333;
+    padding: 5px;
+    margin-top: 5px;
+    height: 332px;
+}
+
+.configureMenuSettingsButtonsDiv {
+    text-align: right;
+    padding: 5px 0 5px 0;
+    height: auto;
+    margin-top: 3px;
+}
+
+.configureMenuInnerSettingsDiv {
+    height: 290px;
+}
+
+.configureMenuTreeDiv {
+    width: 385px;
+    overflow: auto;
+    border: 1px solid #eee;
+}
+
+.eFloatRight {
+    background: url(/images/Edit.png) no-repeat;
+    text-decoration:none;
+    white-space:normal;
+    margin:0px;
+    padding:0px;
+    float:right;
+    display:none;
+    cursor:default;	    
+}
+
+/*---------------------------------------------------REGISTRATION-----------------------------------------------------*/
+.configureRegistrationGroups {
+    width: 400px;
+    height: 100px;
+    border: 1px solid #999;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: 5px;
+}
+
+/*-----------------------------------------------------GALLERY--------------------------------------------------------*/
+.eCommerceFilledFormItemDiv {
+    float: left;
+    margin-right: 20px;
+}
+
+.eCommerceFilledFormItemDiv select {
+    width: 170px;
+}
+
+.eCommerceMerchantEmailDiv {
+    margin-bottom: 5px;
+}
+
+.eCommerceMerchantEmailDiv input {
+    width: 300px;
+}
+
+.eCommerceSettingsBlock {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.galleryTab {
+    height: 460px;
+}
+
+/*------------------------------------------------------GROUPS--------------------------------------------------------*/
+.tbl_groups {
+    border: 3px double #ccc;
+    border-collapse: collapse;
+}
+
+.tbl_groups td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 3px;
+}
+
+.tbl_groups thead td {
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+    background-color: #E5E5E5
+}
+
+.tbl_groups thead.sortable td:hover {
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 3px;
+    background-color: #C4C4C4
+}
+
+.tbl_groups tbody {
+    color: #1F2B41;
+}
+
+.tbl_groups .firstTd {
+    width: 43%;
+}
+
+.tbl_groups .secondTd {
+    width: 27%;
+}
+
+.ie7 .tbl_groups .firstTd {
+    width: 43%;
+}
+
+.ie7 .tbl_groups .secondTd {
+    width: 29%;
+}
+
+.ff3 .tbl_groups.head {
+    margin-left: 1px;
+}
+
+/*----------------------------------------------------WIDGET SIZE-----------------------------------------------------*/
+.widgetSizeTableFirstColumn {
+    width: 120px;
+}
+
+.widgetSizeTypeSelect {
+    width: 55px;
+}
+
+.widgetSizeInput {
+    width: 136px;
+}
+
+.chrome .widgetSizeInput {
+    width: 138px;
+}
+
+.widgetSizeOverflowType {
+    width: 200px;
+}
+
+.widgetSizeTableDiv {
+    margin-bottom: 10px;
+}
+
+.widgetSizeHorizontalRule {
+    border-bottom: 1px solid #aaa;
+    margin: 8px 0 8px 0;
+}
+
+/*-------------------------------------------------------TRAFFIC------------------------------------------------------*/
+.trafficPageTitle {
+    float: left;
+    font-size: 16px;
+    color: #2B3443;
+    font-weight: bold;
+}
+
+/*-----------------------------------------------------PAYMENT LOGS---------------------------------------------------*/
+.paymentErrorMessage {
+    display: none;
+}
+
+.paymentErrorMessageHiddenDiv {
+    display: inline;
+}
+
+.paymentLogsLinkDiv span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.paymentLogsLinkDiv span:hover {
+    color: #993333;
+}
+
+.paymentLogsColumnHeader {
+    font-weight: bold;
+}
+
+.paymentLogsCreditCardDetailsTable td {
+    padding: 1px;
+}
+
+/*------------------------------------------------------PAGINATOR-----------------------------------------------------*/
+.paginator {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #2B3443;
+}
+
+.paginator span {
+    line-height: 26px;
+}
+
+.paginator .pglink a {
+    color: #2B3443;
+}
+
+.paginator .numberlink a {
+    padding: 0.3em 0.4em;
+}
+
+.paginator .currentPage {
+    padding: 0.3em 0.4em;
+    color: #FFF;
+    background-color: #a09a97;
+}
+
+.paginator .pglink a:hover {
+    color: #993333;
+}
+
+.paginator .numberlink a:hover {
+    background-color: #e3deda;
+}
+
+/*-------------------------------------------------------TABS---------------------------------------------------------*/
+#tabs {
+    padding: 6px 0 6px 0;
+    border-bottom: 3px solid #cccccc;
+}
+
+#tabs ul {
+    list-style: none;
+}
+
+#tabs a.selected_tab {
+    background-color: #ffffff;
+    border: 3px solid #cccccc;
+    border-bottom-color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #666666;
+    padding: 6px 0 6px 0;
+    text-decoration: none;
+}
+
+#tabs a.unselected_tab {
+    background-color: #EFEBE8;
+    border: 3px solid #cccccc;
+    cursor: pointer;
+    color: #666666;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    text-decoration: none;
+}
+
+#tabs a.selected_tab:hover {
+    text-decoration: none;
+    color: #666666
+}
+
+#tabs a.unselected_tab:hover {
+    text-decoration: underline;
+}
+
+#tabs a.interlayer_tab {
+    padding: 6px 0 6px 0;
+    color: #ffffff;
+}
+
+.tabsWrapper {
+    width: 100%;
+    line-height: 30px;
+    color: #666666;
+    border-bottom: 3px solid #cccccc;
+}
+
+.new_selected_tab, .new_unselected_tab {
+    float: left;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid #cccccc;
+    margin-right: -3px;
+    margin-bottom: -3px;
+}
+
+.long_tab {
+    width: 220px !important;
+    border-collapse: collapse;
+}
+
+.new_selected_tab {
+    border-bottom: 3px solid #ffffff;
+    background-color: #ffffff;
+    font-weight: bold;
+    cursor: default
+}
+
+.new_unselected_tab {
+    background-color: #EFEBE8;
+    cursor: pointer;
+}
+
+.new_selected_tab:hover {
+    text-decoration: none;
+    color: #666666;
+}
+
+.new_unselected_tab:hover {
+    text-decoration: underline;
+}
+
+/*-----------------------------------------------------DASHBOARD------------------------------------------------------*/
+.box_head_bg {
+    border-left: 6px solid #D6F1FC;
+    border-right: 6px solid #D6F1FC;
+    border-bottom: 6px solid #D6F1FC;
+}
+
+.box_head_bg_site_edit_page {
+    border-left: 6px solid #D6F1FC;
+    border-bottom: 6px solid #D6F1FC;
+}
+
+.head_grey {
+    background-color: #B4D0DA;
+    padding: 0 5px 5px 5px;
+    font-size: 14px;
+    color: #2B3443;
+    text-align: center;
+}
+
+.blueprints_head_grey_left {
+    background-color: #ECE9E6;
+    padding: 0 10px 10px 10px;
+    font-size: 18px;
+    color: #2B3443;
+    text-align: left;
+}
+
+.head_white {
+    font-size: 11px;
+    padding: 6px 10px 5px 10px;
+}
+
+ul.menu_site {
+    LIST-STYLE-TYPE: none;
+    text-align: left;
+    margin: 0;
+}
+
+.menu_site LI {
+    DISPLAY: inline;
+    FLOAT: left;
+    margin: 0 30px 3px 0;
+    padding: 0;
+    line-height: 20px;
+}
+
+li.grey_18 {
+    padding-right: 30px;
+}
+
+.top_border {
+    border-top: 1px solid #D2D2D2;
+    clear: both;
+}
+
+.inside_dashboard a {
+    text-decoration: underline;
+    color: #2B3443;
+}
+
+.inside_dashboard a:hover {
+    text-decoration: underline;
+    color: #333399
+}
+
+.manage_site a, .manage_site a:hover, .manage_site a:active {
+    font-size: 11px;
+    padding-right: 10px;
+}
+
+.manage_site {
+    margin-top: 5px;
+}
+
+.parentSiteName {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.scroll_r {
+    float: right;
+    display: inline;
+    border-left: 1px solid #D2D2D2;
+    overflow: scroll;
+    padding: 5px 10px;
+    height: 75px;
+    width: 20%;
+    clear: right;
+}
+
+.scroll_r  a, .scroll_r a:hover, .scroll_r a:active {
+    font-size: 11px;
+}
+
+/*---------------------------------------------------Dashboard Menu---------------------------------------------------*/
+.topmenu2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 11pt;
+    color: #bdddeb;
+    height: auto;
+    line-height: 31px;
+}
+
+.menu_dashboard {
+    font-size: 100% !important;
+    margin: 0 auto !important;
+}
+
+.topmenulink a, .topmenulink.selected a {
+    text-decoration: none;
+    padding: 7px 5px 7px 5px;
+}
+
+.topmenulink a {
+    color: #333;
+}
+
+.topmenulink.selected a {
+    color: #fff;
+}
+
+.topmenulink, .topmenulink.selected {
+    float: left;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin: 0 5px;
+}
+
+.topmenulink div, .topmenulink.selected div {
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 31px;
+}
+
+.topmenulink {
+    background-image: url(../images/dashboard/bg_menu_left.png);
+    background-color: #BDDDED;
+}
+
+.topmenulink div {
+    background-image: url(../images/dashboard/bg_menu_right.png);
+}
+
+.topmenulink.selected {
+    background-image: url(../images/dashboard/bg_menu_left-orange.png);
+    background-color: #EE7900;
+}
+
+.topmenulink.selected div {
+    background-image: url(../images/dashboard/bg_menu_right-orange.png);
+}
+
+.menuline {
+    float: left;
+}
+
+/*---------------------------------------------------Dashboard Menu---------------------------------------------------*/
+/*-------------------------------------------------------FILTERS------------------------------------------------------*/
+.fileSizeRange {
+    width: 75px;
+}
+
+.filterDiv {
+    float: left;
+}
+
+.filterDiv a {
+    margin-left: 5px;
+}
+
+.editFilterBlock {
+    max-height: 400px;
+    overflow: auto;
+    margin-top: 5px;
+}
+
+.filterRuleTable {
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-left: 2px;
+    width: 99%;
+}
+
+.filterRuleTable td.ruleCriteriaTd {
+    width: 60%;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.filterRuleTable td.ruleNameTd {
+    width: 39%;
+    vertical-align: top;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.filterRuleTable td.deleteRuleTd {
+    vertical-align: middle;
+    width: 1%;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+/*---------------------------------------------------SITE EDIT PAGE----------------------------------------------------*/
+.siteEditPageMenuElement {
+    text-decoration: none;
+    padding: 2px 10px !important;
+    float: left;
+}
+
+.site_edit_page_arrow, .site_edit_page_arrow_transparent {
+    background: url("/images/siteEditPage/site_edit_page_arrow.png");
+    position: absolute;
+    width: 17px;
+    height: 600px;
+}
+
+.site_edit_page_arrow_turned, .site_edit_page_arrow_turned_transparent {
+    background: url("/images/siteEditPage/site_edit_page_arrow_turned.png");
+    position: absolute;
+    left: 300px;
+    width: 17px;
+    height: 600px;
+}
+
+.site_edit_page_arrow_transparent {
+    background: url("/images/siteEditPage/site_edit_page_arrow-transp.png");
+}
+
+.site_edit_page_arrow_turned_transparent {
+    background: url("/images/siteEditPage/site_edit_page_arrow_turned-transp.png");
+}
+
+.left_part {
+    background: white;
+    height: 600px;
+    border: 1px solid #d6f1fc;
+    width: 0;
+    position: absolute;
+    display: none;
+}
+
+.left_part_header {
+    background: #d8dfe2;
+    width: 100%;
+    height: 58px;
+}
+
+.sitePageBtn {
+    position: absolute;
+    background: url("/images/siteEditPage/transp-site-pages.png") no-repeat;
+    width: 28px;
+    height: 150px;
+    top: 202px;
+    left: 12px;
+}
+
+.pageComponentsBtn {
+    position: absolute;
+    background: url("/images/siteEditPage/transp-page-components.png") no-repeat;
+    width: 28px;
+    height: 150px;
+    top: 305px;
+    left: 12px;
+}
+
+.sitePageBtn_Over {
+    position: absolute;
+    background: url("/images/siteEditPage/white-site-pages.png") no-repeat;
+    width: 28px;
+    height: 150px;
+    top: 202px;
+    left: 12px;
+}
+
+.pageComponentsBtn_Over {
+    position: absolute;
+    background: url("/images/siteEditPage/white-page-components.png") no-repeat;
+    width: 28px;
+    height: 150px;
+    top: 305px;
+    left: 12px;
+}
+
+.tree_box {
+    float: left;
+    height: 100%;
+    display: inline;
+    width: 100%;
+}
+
+.right_box {
+    float: right;
+    width: 100%;
+    position: relative;
+    display: inline;
+}
+
+.start_here {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.manage_pages_span {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+.head_13 {
+    font-weight: bold;
+    font-size: 13px;
+    padding: 6px 0 10px 10px
+}
+
+.menu_editpage_r {
+    background-color: #B4D0DA;
+    color: #275218;
+    font-size: 11px;
+    padding: 4px 0 4px 10px;
+}
+
+.menu_editpage_r a {
+    color: #275218;
+}
+
+.menu_editpage_r a:hover {
+    text-decoration: underline;
+    color: #333399;
+}
+
+#rightSidePreview {
+    position: relative;
+    top: -6px;
+}
+
+#rightSideSelectText {
+    position: relative;
+    top: -4px;
+    float: right;
+    margin: 8px 5px 0 0;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+
+.siteEditPageMenuDiv {
+    float: right;
+    padding-right: 10px;
+}
+
+.siteEditPageMenu a {
+    display: block;
+}
+
+.siteEditPageMenuLine {
+    padding: 2px;
+    text-align: left;
+}
+
+.siteEditPageMenuLine.subMenu {
+    padding-left: 10px;
+}
+
+.siteEditPageMenu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #7BBBD7;
+    padding: 1px;
+    -webkit-box-shadow: 2px 3px 3px #666;
+    -moz-box-shadow: 2px 3px 3px #666;
+    box-shadow: 2px 3px 3px #666;
+}
+
+.siteEditPageMenu div a {
+    padding: 5px;
+}
+
+.siteEditPageMenu div.siteEditPageClickableMenu {
+    cursor: pointer;
+}
+
+.siteEditPageMenu div.siteEditPageClickableMenu:hover {
+    background-color: #D6F1FC;
+}
+
+.siteEditPageMenu.gray {
+    background-color: #D8DFE2;
+}
+
+.siteEditPageMenuElementDiv {
+    display: inline;
+}
+
+.siteEditPageMenuDivForPage {
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 28px;
+}
+
+/*----------------------------------------------------PAGE LAYOUT-----------------------------------------------------*/
+.layout_tbl {
+    width: 100%
+}
+
+.layout_tbl img {
+    display: block;
+    width: 220px;
+}
+
+.layout_tbl td {
+    padding: 5px 20px 15px 5px;
+    vertical-align: top;
+}
+
+.layout_tbl input {
+    float: left;
+    text-align: left;
+    width: 25px;
+    display: inline;
+}
+
+.inl {
+    float: left;
+    display: inline;
+    width: 190px;
+}
+
+/*------------------------------------------------ADD/EDIT CREDIT CARD------------------------------------------------*/
+.addEditCreditCardBlock .txt {
+    width: 155px;
+}
+
+.addEditCreditCardBlock .txt select {
+    width: 160px;
+}
+
+.addEditCreditCardBlock .creditCardExpirationMonth {
+    width: 95px;
+}
+
+.ie6 .addEditCreditCardBlock .creditCardExpirationMonth {
+    width: 100px;
+}
+
+.ie7 .addEditCreditCardBlock .creditCardExpirationMonth {
+    width: 100px;
+}
+
+.addEditCreditCardBlock .creditCardExpirationYear {
+    width: 60px;
+}
+
+/*------------------------------------------------CUSTOMIZE DATA EXPORT-----------------------------------------------*/
+
+.customizeDataExportTable {
+    width: 100%;
+}
+
+.customizeDataExportTableBodyDiv {
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.customizeDataExportTable td {
+    width: 25%;
+    text-align: center !important;
+}
+
+/*----------------------------------------------PAYMENT & SITE ACTIVATION----------------------------------------------*/
+.green_txt {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1E7B49;
+}
+
+.active_txt {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1E7B49;
+}
+
+.pending_txt {
+    font-size: 15px;
+    font-weight: bold;
+    color: #A04413;
+}
+
+#updatePaymentInfoTable {
+    width: 100%;
+}
+
+/*-------------------------------------------------SET SITE TEMPLATE--------------------------------------------------*/
+.container_site_template {
+    width: 1000px;
+    margin: auto;
+}
+
+.template_menu {
+    margin: 5px 0 0 0;
+    padding-left: 20px;
+}
+
+.contentselecttemplates {
+    width: 960px;
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.templateBottomMenu {
+    padding: 5px 2px 2px 2px;
+    width: 440px;
+}
+
+.templateblock {
+    width: 440px;
+    padding: 20px 6px 0 0;
+}
+
+.templateimg {
+    border: 2px solid #d6f1fc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    width: 440px;
+    height: 300px;
+}
+
+.exampleslink {
+    float: right;
+    padding: 12px;
+    position: relative;
+    top: 35px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    opacity: 0.6;
+    background: url("/images/magnifier.png");
+}
+
+.templateNameDiv {
+    padding-left: 3px;
+}
+
+.templateName {
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+    z-index: 2;
+}
+
+.selectdesign {
+    font-size: 18px;
+    float: right;
+    color: #ee7800;
+}
+
+.designsettings {
+    font-weight: bold;
+    font-size: 14px;
+    float: left;
+}
+
+.designsettings a {
+    text-decoration: none;
+    border-bottom: 1px dashed #333;
+}
+
+.selectcolorscheme {
+    margin-bottom: 5px;
+    border: 2px solid #d6f1fc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    height: auto;
+    overflow: hidden;
+    padding: 10px 2px;
+    overflow: hidden;
+    height: auto;
+}
+
+.colorthumb {
+    float: left;
+    width: 55px;
+    text-align: center;
+}
+
+.colorthumb img {
+    border: solid 4px #cee4ef;
+}
+
+.currentcolor img {
+    border: solid 4px #ee7800;
+}
+
+.blueprintTemplateBlock {
+    margin-right: 15px;
+}
+
+.blueprintTemplateImageBlock {
+    clear: both;
+}
+
+.blueprintTemplateImageBlock .carousel-wrap {
+    width: 440px;
+    z-index: 1;
+}
+
+.blueprintTemplateImageBlockShift {
+    position: relative;
+    top: -24px;
+}
+
+.blueprintTemplateManageBlock {
+    margin-top: 5px;
+}
+
+.blueprintTemplateMoreInfo {
+    float: left;
+}
+
+.blueprintTemplateMoreInfo a {
+    text-decoration: none;
+    border-bottom: 1px dashed #333;
+}
+
+.blueprintTemplateSubmitBlock {
+    float: right;
+    margin-left: 5px;
+}
+
+.blueprintTemplateMoreInfoBlock {
+    clear: both;
+    width: 440px;
+}
+
+.blueprintTemplateBackButton {
+    background: url("/images/slideShow/btn_previous.png") no-repeat;
+    padding: 12px;
+    cursor: pointer;
+    position: relative;
+    top: 150px;
+    left: 5px;
+    float: left;
+    z-index: 2;
+}
+
+.blueprintTemplateNextButton {
+    background: url("/images/slideShow/btn_next.png") no-repeat;
+    padding: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    left: -5px;
+    top: 150px;
+    z-index: 2;
+}
+
+.blueprintTemplatePreviewButton {
+    background: url("/images/magnifier.png") no-repeat;
+    padding: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    left: 24px;
+    top: 5px;
+    z-index: 2;
+    opacity: 0.6;
+}
+
+.blueprintTemplateDetails {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.blueprintTemplateDetailsHeader {
+    font-weight: normal;
+}
+
+.blueprintTemplateMoreInfoLoading {
+    position: relative;
+    top: 5px;
+    margin-left: 5px;
+}
+
+.blueprintTemplateEmptyImage {
+    width: 440px;
+    height: 300px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: white;
+}
+
+/*---------------------------------------------CHILD SITE REGISTRATION------------------------------------------------*/
+
+.childSiteRegistrationButtons {
+    margin-top: 10px;
+}
+
+/*-----------------------------------------ITEM SETTINGS / VISUAL SETTINGS--------------------------------------------*/
+.itemSettingsWindowDiv {
+    height: 650px;
+    width: 800px;
+}
+
+.extendedItemSettingsWindowDiv {
+    height: 650px;
+    width: 910px;
+}
+
+.wholeItemSettingsWindowDiv {
+    height: 705px;
+    width: 800px;
+}
+
+.wholeExtendedItemSettingsWindowDiv {
+    height: 705px;
+    width: 910px;
+}
+
+.itemSettingsButtonsDiv {
+
+}
+
+/* This class is used for inner button blocks to make them on bottom of bigger outer button block.*/
+.itemSettingsButtonsDivInner {
+    position: relative;
+    float: right;
+    right: 10px;
+    top: 30px;
+}
+
+.itemSettingsButtonsDivInnerInlineR {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: inline;
+}
+
+.itemSettingsButtonsDivInnerInlineL {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline;
+}
+
+.itemSettingsButtonsDiv #windowSave {
+    margin-right: 3px;
+}
+
+.itemSettingsButtonsDiv #windowApply {
+    margin-right: 12px;
+}
+
+.itemSettingsButtonsAsSeparate #windowSave {
+    margin-right: 3px;
+}
+
+.itemSettingsButtonsAsSeparate #windowApply {
+    margin-right: 12px;
+}
+
+.forItemDiv {
+    margin-bottom: 10px;
+}
+
+/*---------------------------------------------------CONFIGURE IMAGE--------------------------------------------------*/
+
+.uploadedImages {
+    overflow: auto;
+    height: 350px;
+    width: 810px;
+    float: left;
+    border: 1px solid #C5C2C2;
+    margin: 0 0 15px 0;
+    background-color: white;
+}
+
+.selectedConfigureImage {
+    border: 2px solid #EE7900 !important;
+    padding: 1px;
+}
+
+.unselectedConfigureImage {
+    border: 2px solid transparent !important;
+    padding: 1px;
+}
+
+.imageDiv {
+    padding: 5px;
+    min-width: 100px;
+}
+
+.uploadedImageNameDiv {
+    height: 36px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.uploadedImageManage {
+    position: relative;
+    top: -2px;
+}
+
+.uploadedImageName {
+    height: 20px;
+    position: relative;
+    top: 3px;
+    white-space: nowrap;
+}
+
+.uploadedImageEditImg {
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+}
+
+.uploadedImageDeleteImg {
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+}
+
+.uploadedImageNameEdit {
+    display: none;
+    height: 20px;
+}
+
+.uploadedImageNameEdit input {
+    border: 1px solid #666;
+    margin-top: 2px;
+}
+
+.ie6 .uploadedImages {
+    height: 345px;
+}
+
+.ie7 .uploadedImages {
+    height: 345px;
+}
+
+.ie8 .uploadedImages {
+    height: 345px;
+}
+
+.imageThirdTabMouseOverEffectText {
+    float: right;
+    position: relative;
+    left: 0;
+    top: -135px;
+}
+
+.uploadImageFile {
+    width: 330px;
+    height: 30px;
+    overflow: hidden;
+    float: right;
+    margin-right: 90px;
+}
+
+.ie7 .uploadImageFile {
+    width: 370px;
+    margin-right: 50px;
+    position: relative;
+    top: -20px;
+    margin-bottom: -20px;
+}
+
+/*---------------------------------------------------CONFIGURE VIDEO--------------------------------------------------*/
+
+.videoImageSelectDiv {
+    float: left;
+    width: 440px;
+}
+
+.videoImageUploadDiv {
+    float: left;
+    width: 300px;
+}
+
+.videoImageUploadedImagesDiv {
+    overflow-y: auto;
+    overflow-x: scroll;
+    height: 225px;
+    border: 1px solid #C5C2C2;
+    margin-right: 20px;
+}
+
+.videoSaveProportionsCheckbox {
+    position: relative;
+    top: 2px;
+}
+
+/*-------------------------------------------------REGISTRATION CANCEL------------------------------------------------*/
+
+.registrationCancelPickList {
+    margin-left: 10px;
+}
+
+.registrationCancelPickList div {
+    padding-bottom: 5px;
+}
+
+.registrationCancelPickListHeader {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.registrationCancelMainDiv {
+    text-align: left;
+    margin: 30px;
+}
+
+.registrationCancelSubmitButton {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.page_select_inner_div {
+    float: left;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+/*-----------------------------------------------CONFIGURE HTML/CSS PAGE----------------------------------------------*/
+
+.pageHtmlCssTextArea {
+    width: 780px;
+    height: 520px;
+}
+
+.greenMessage {
+    color: green;
+    font-weight: bold;
+}
+
+/*----------------------------------------------------INVITE GUEST----------------------------------------------------*/
+
+.inviteGuestGroupsDiv {
+    margin: 15px 0;
+}
+
+.inviteGuestEmailDiv {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.inviteGuestGroups {
+    width: 400px;
+    height: 100px;
+    border: 1px solid gray;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.inviteGuestEmail {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.inviteGuestEmail textarea {
+    width: 98%;
+    height: 100px;
+}
+
+.paddingTop15px {
+    padding-top: 15px;
+}
+
+.paddingBottom15px {
+    padding-bottom: 15px;
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+.dataExportWindowDiv {
+    height: 500px;
+    width: 800px;
+}
+
+.dataExportWindowDivWrapper {
+    height: 600px;
+    width: 800px;
+}
+
+/*--------------------------------------------------CONFIGURE TEXT----------------------------------------------------*/
+
+.textTopButtons {
+    float: right;
+    padding-bottom: 10px;
+}
+
+#textTopApply {
+    margin-right: 12px;
+}
+
+#textTopSave {
+    margin-right: 3px;
+}
+
+/*-----------------------------------------------------SLIDE SHOW-----------------------------------------------------*/
+
+.slideShowUpload {
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+.slideShowSettingsBlock {
+    margin-top: 10px;
+}
+
+.slideShowSettingsBlock h2 {
+    margin-bottom: 2px !important;
+}
+
+.slideShowSourceSelectDiv {
+    margin-left: 7px;
+}
+
+.imagesSourceDiv {
+    margin-top: 2px;
+    margin-left: 7px;
+    border: 1px solid #999;
+    padding: 5px 5px 5px 5px;
+    height: 115px;
+}
+
+.slideShowImageSizeTable {
+    margin-left: 7px;
+}
+
+.slideShowImageSizeTable input {
+    width: 35px;
+}
+
+.selectTypeDiv {
+    margin-left: 7px;
+}
+
+.multipleImagesDiv  {
+    margin-top : 5px;
+    margin-left: 7px;
+}
+
+.slideShowTransitionBlock {
+    margin-top : 5px;
+    margin-left: 7px;
+}
+
+.slideShowManageImagesDiv {
+    border: 1px solid gray;
+    background-color: white;
+    height: 500px;
+    overflow: auto;
+}
+
+.slideShowImageTd {
+    vertical-align: bottom;
+    padding: 3px;
+}
+
+.slideShowLeftArrow {
+    display: inline;
+    padding-left: 16px;
+    background-image: url("/images/arrow-left.png");
+    cursor: pointer;
+}
+
+.slideShowRightArrow {
+    display: inline;
+    padding-left: 16px;
+    margin-left: 5px;
+    background-image: url("/images/arrow-right.png");
+    cursor: pointer;
+}
+
+.slideShowDelete {
+    display: inline;
+    background-image: url("/images/cross-circle.png");
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.slideShowAddMoreImagesDiv {
+    margin-bottom: 5px;
+}
+
+/*--------------------------------------------------KEYWORD MANAGER---------------------------------------------------*/
+#processingPageDiv img {
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+
+.keywordManagerFirstTable {
+    margin-top: 10px;
+}
+
+.keywordManagerFirstTable td {
+    padding: 4px 2px;
+    height: 25px;
+}
+
+.keywordManagerMainDiv {
+    margin-top: 10px;
+}
+
+.keywordManagerMainDiv thead td {
+    font-weight: bold;
+}
+
+.keywordManagerMainDiv td {
+    padding: 4px 2px;
+    word-wrap: break-word;
+}
+
+.keywordManagerMainDiv img {
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+
+.keywordManagerMoreInfoHeader {
+    font-weight: bold;
+}
+
+.keywordManagerMoreInfoInfo {
+    margin-top: 10px;
+}
+
+.keywordManagerMoreInfoSubInfo {
+    margin-top: 4px;
+}
+
+.keywordManagerMoreInfoSubSubInfo {
+    margin-left: 15px;
+}
+
+.keywordManagerContentDiv {
+    font-size: 10px;
+    color: #666;
+}
+
+/*--------------------------------------------------REQUEST CONTENT---------------------------------------------------*/
+
+.requestContentSites {
+    border: 1px solid #bbb;
+    height: 350px;
+    width: 500px;
+    overflow-y: auto;
+    float: left;
+}
+
+.requestContentSites div {
+    cursor: pointer;
+    padding: 3px;
+    height: 15px;
+}
+
+.requestContentSites div img {
+    position: relative;
+    top: -2px;
+}
+
+.requestContentSites div.even {
+    background-color: #D6F1FC;
+}
+
+.requestContentSites div:hover {
+    background-color: #B4D0DA;
+}
+
+.requestContentSiteTitle {
+    font-size: 13px;
+}
+
+.requestContentSiteUrl {
+    font-size: 11px;
+    color: #333;
+}
+
+.requestContentSelectedSite {
+    background-color: #EE7900 !important;
+}
+
+.requestContentItems {
+    border: 1px solid #bbb;
+    height: 350px;
+    width: 290px;
+    overflow-y: auto;
+    float: left;
+    margin-left: 10px;
+}
+
+.requestContentItems div {
+    cursor: pointer;
+    padding: 3px;
+    height: 15px;
+}
+
+.requestContentItems div.notSelectable {
+    cursor: default;
+}
+
+.requestContentItems div.even {
+    background-color: #D6F1FC;
+}
+
+.requestContentItems div:hover {
+    background-color: #B4D0DA;
+}
+
+.requestContentSelectedItem {
+    background-color: #EE7900 !important;
+}
+
+.requestContentPersonalNoteTextarea {
+    height: 70px;
+    width: 100%;
+}
+
+.requestContentPersonalNoteTextareaDiv {
+    margin-top: 10px;
+}
+
+
+

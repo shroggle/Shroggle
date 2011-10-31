@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Scope 800 template collection</name>
+    <thumbnail>tn_green.png</thumbnail>
+    <order>30</order>
+
+
+      <layout thumbnailFile="head_foot.png" useForDefault="true">
+        <name>1 Header, 1 Footer</name>
+        <file>header_main_footer.html</file>
+
+           <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+
+
+    <layout thumbnailFile="head_foot_rightmenu.png">
+        <name>1 Header, 1 Footer, Right side Menu</name>
+        <file>header_main_footer_rightmenu.html</file>
+
+    </layout>
+      <layout thumbnailFile="head_foot_3content.png">
+        <name>1 header, 1 Footer, 3 equal Content Areas</name>
+        <file>header_3main_footer.html</file>
+
+    </layout>
+    <layout thumbnailFile="head_foot_leftmenu.png">
+        <name>1 Header, 1 Footer, Left side Menu</name>
+        <file>header_main_footer_leftmenu.html</file>
+
+    </layout>
+     <layout thumbnailFile="header_2main_footer.png">
+        <name>1 Header, 1 Footer, 2 Main area</name>
+        <file>header_2main_footer.html</file>
+
+    </layout>
+     <layout thumbnailFile="3head_2content_2foot.png">
+        <name>3 headerds, 2 content, 2 footers</name>
+        <file>2headers_2main_2footers.html</file>
+     </layout>
+    <theme>
+        <imageFile>rust.jpg</imageFile>
+        <name>Scope 800 Persimmon</name>
+        <file>Destination_rust.css</file>
+        <thumbnailFile>tn_rust.png</thumbnailFile>
+        <colorTileFile>tile_rust.gif</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>red.jpg</imageFile>
+        <name>Scope 800 Crimson</name>
+        <file>Destination_red.css</file>
+        <thumbnailFile>tn_red.png</thumbnailFile>
+        <colorTileFile>tile_red.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>black.jpg</imageFile>
+        <name>Scope 800 Black</name>
+        <file>Destination_black.css</file>
+        <thumbnailFile>tn_black.png</thumbnailFile>
+        <colorTileFile>tile_black.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>brown.jpg</imageFile>
+        <name>Scope 800 Brown</name>
+        <file>Destination_brown.css</file>
+        <thumbnailFile>tn_brown.png</thumbnailFile>
+        <colorTileFile>tile_brown.gif</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>green.jpg</imageFile>
+        <name>Scope 800 Green</name>
+        <file>Destination_green.css</file>
+        <thumbnailFile>tn_green.png</thumbnailFile>
+        <colorTileFile>tile_green.gif</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>white.jpg</imageFile>
+        <name>Scope 800 White</name>
+        <file>Destination_white.css</file>
+        <thumbnailFile>tn_white.png</thumbnailFile>
+         <colorTileFile>tile_white.gif</colorTileFile>
+    </theme>
+         <theme>
+        <imageFile>grey.png</imageFile>
+        <name>Scope 800 Grey</name>
+        <file>grey.css</file>
+        <thumbnailFile>tn_grey.png</thumbnailFile>
+        <colorTileFile>tile_grey.gif</colorTileFile>
+    </theme>
+</template>

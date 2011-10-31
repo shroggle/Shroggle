@@ -1,0 +1,24 @@
+addSubHeader = Add Page
+editSubHeader = Edit Page Settings
+
+pageDescription = Page Description (Meta-Tag)
+descriptionRightInfo = One sentence description advised
+descriptionMoreInfo = more info
+thePageDescriptionWillBeUsed = The page description will be used by the site's own search tool to help site visitors locate the content they are looking for; and by some search engines to describe your site in search engine natural results.
+pageTitleMetaTag = Page Title (Meta-Tag)
+pageTitleMetaTagComment = Enter several words for a page title
+pageTitleExplan = Page titles should include appropriate keywords and phrases, should be unique and should be repeated in the visible text on the web page itself.
+authorMetaTag = Author (Meta-Tag)
+authorMetaTagComment = Your name or email address
+authorMetaTagExplan = This tag is optional, but if you want the search engines to associate your name with this site, then it would be useful to put your name in this field
+copyrightMetaTag = Copyright (Meta-Tag)
+copyrightMetaTagComment = A short copyright statement
+copyrightMetaTagExplan = Suggested format: 'Copyright: Company Name or Your name Year'.
+customKeywordMetaTags = Custom Meta-Tags
+customKeywordExplan = Meta Keywords
+customKeywordColumn = Custom Meta-Tag
+customKeywordDeleteColumn = Delete
+customKeywordSubHeader = Add a new custom meta-tag to this page:
+customMetaTagExplan = Custom Meta Tags will appear in HTML code inside the main head section of the page. It can be used to place a tracking or verification tags required by third parties such as Google, Yahoo and Quantcast. Note that you need to place a complete HTML meta-tag element there. For instance, &lt;meta name="google-site-verification" content="wefieuf8-nff8erfenfie"/&gt; or &lt;meta name="generator" content="{0}"/&gt;
+robotsMetaTag = Robots Meta-Tag
+robotsMetaTagExplan = Robot.text files are special instructions that tell the search engine spiders whether to index this page, and whether to follow or not follow the links on this page. Enter only robot readable language here. NOT natural / normal language. Valid values for the "CONTENT" attribute are: "INDEX", "NOINDEX", "FOLLOW", "NOFOLLOW"...

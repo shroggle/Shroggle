@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Crowd </name>
+    <thumbnail>images/tn_crowd_green.jpg</thumbnail>
+    <order>340</order>
+	 <layout thumbnailFile="images/2headers_main_footer.png" useForDefault="true">
+        <name>2 Headers, Main Content, Footer</name>
+        <file>2headers_main_footer.html</file>
+<pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="2"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="2"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="2"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="2"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="2"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="2"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="2"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="2"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="2"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="2"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="2"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="2"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="2"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="2"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="2"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="2"/>
+        </pattern>
+    </layout>
+	  <layout thumbnailFile="images/2headers_2main_footer.png" >
+        <name>2 Headers, 2 Main Content, Footer</name>
+        <file>2headers_2main_footer.html</file>
+ 
+    </layout>
+   
+
+    <layout thumbnailFile="images/2headers_2main_footer_leftmenu.png">
+        <name>2 Headers,2 Main Content, Footer, Left Panel</name>
+        <file>2headers_2main_footer_leftmenu.html</file>
+
+    </layout>                                                                  
+   
+
+     <layout thumbnailFile="images/2headers_3main2_footer.png">
+        <name>2 Headers, 3 Main Content, Footer</name>
+        <file>2headers_3main2_footer.html</file>
+    </layout>
+	
+	  <layout thumbnailFile="images/2headers_3main_footer.png">
+        <name>2 Headers, 2 Top, 1 Bottom Content, Footer</name>
+        <file>2headers_3main_footer.html</file>
+    </layout>
+	 <layout thumbnailFile="images/2headers_main_footer_leftmenu.png">
+        <name>2 Headers, Main Content, Footer, Left Menu</name>
+        <file>2headers_main_footer_leftmenu.html</file>
+    </layout>
+	 <layout thumbnailFile="images/2headers_main_footer_rightmenu.png">
+        <name>2 Headers, Main Content, Footer, Right Menu</name>
+        <file>2headers_main_footer_rightmenu.html</file>
+    </layout>
+     <layout thumbnailFile="images/2headers_3mainleft_footer.png">
+        <name>2 Headers, Top Content, Small Left Bottom Content</name>
+        <file>2headers_3mainleft_footer.html</file>
+    </layout>
+	 <layout thumbnailFile="images/2headers_3mainright_footer.png">
+        <name>2 Headers, Top Content, Small Right Bottom Content</name>
+        <file>2headers_3mainright_footer.html</file>
+    </layout>
+   <theme>
+        <imageFile>images/crowd_green.jpg</imageFile>
+        <name>Crowd green</name>
+        <file>green.css</file>
+        <colorTileFile>images/tile_crowd_green.jpg</colorTileFile>
+        <thumbnailFile>images/tn_crowd_green.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/crowd_grey.jpg</imageFile>
+        <name>Crowd grey</name>
+        <file>grey.css</file>
+        <colorTileFile>images/tile_crowd_grey.jpg</colorTileFile>
+        <thumbnailFile>images/tn_crowd_grey.jpg</thumbnailFile>
+    </theme>
+     <theme>
+        <imageFile>images/crowd_orange.jpg</imageFile>
+        <name>Crowd orange</name>
+        <file>orange.css</file>
+        <colorTileFile>images/tile_crowd_orange.jpg</colorTileFile>
+        <thumbnailFile>images/tn_crowd_orange.jpg</thumbnailFile>
+    </theme>
+	  <theme>
+        <imageFile>images/crowd_pink.jpg</imageFile>
+        <name>Crowd pink</name>
+        <file>pink.css</file>
+        <colorTileFile>images/tile_crowd_pink.jpg</colorTileFile>
+        <thumbnailFile>images/tn_crowd_pink.jpg</thumbnailFile>
+    </theme>
+	  <theme>
+        <imageFile>images/crowd_purple.jpg</imageFile>
+        <name>Crowd purple</name>
+        <file>purple.css</file>
+        <colorTileFile>images/tile_crowd_purple.jpg</colorTileFile>
+        <thumbnailFile>images/tn_crowd_purple.jpg</thumbnailFile>
+    </theme>
+	  <theme>
+        <imageFile>images/crowd_red.jpg</imageFile>
+        <name>Crowd red</name>
+        <file>red.css</file>
+        <colorTileFile>images/tile_crowd_red.jpg</colorTileFile>
+        <thumbnailFile>images/tn_crowd_red.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/crowd_turquoise.jpg</imageFile>
+        <name>Crowd turquoise</name>
+        <file>turquoise.css</file>
+        <colorTileFile>images/tile_crowd_turquoise.jpg</colorTileFile>
+        <thumbnailFile>images/tn_crowd_turquoise.jpg</thumbnailFile>
+    </theme>
+     <theme>
+        <imageFile>images/crowd_yellow.jpg</imageFile>
+        <name>Crowd yellow</name>
+        <file>yellow.css</file>
+        <colorTileFile>images/tile_crowd_yellow.jpg</colorTileFile>
+        <thumbnailFile>images/tn_crowd_yellow.jpg</thumbnailFile>
+    </theme>
+</template>

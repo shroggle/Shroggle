@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+     color:#333;
+     background-image:url(<!-- TEMPLATE_RESOURCE -->/bgmain-press10.jpg);
+     background-position:top center;
+              background-repeat:repeat-y;
+ }
+
+  .headerTop {
+     background-color:#fff;
+     color:#333;
+}
+
+
+.headerBottom {
+		background-image:url(<!-- TEMPLATE_RESOURCE -->/transparent50white.png);
+	 color:#333;
+}
+
+
+
+.contentTop {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/contentTop-white.png);
+	background-repeat:no-repeat;
+}
+.contentTopLarge {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/contentTop-white.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+.contentBottom {
+	background-color:#FFF;
+}
+.footer {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/footer-grey.png);
+	background-repeat:no-repeat;
+
+}

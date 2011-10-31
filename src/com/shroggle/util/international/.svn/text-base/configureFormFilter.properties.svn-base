@@ -1,0 +1,37 @@
+header = Add/Edit Form Filter
+
+filterName = Filter Name:
+deleteFilterConfirm = Are you sure you want to remove this record filter?\nIf you proceed please note that that all galleries that use this filter will become 'unfiltered' ie they will display ALL records associated with the selected form.
+
+selectForm = Select a Form:
+selectFormDefaultOption = Select a form
+explan1 = A 'filter' is a saved set of form records. It is created by adding or removing records from the full set of records available for that form.
+moreInfo = More Info
+filterMoreInfoText = Filters are created by applying 'filter rules'.<br/>\
+                     Multiple filter rules can be applied to the same set of records. Filter rules can either add and subtract groups of records according to record fields and field values that you select.<br/><br/>\
+                     <b>To create a saved set of form records</b>:<br/>\
+                     1st &ndash; Select a form<br/>\
+                     2nd &ndash; Select a field from that form and press the [Add] button<br/>\
+                     3rd &ndash; Select field values<br/>\
+                     4th &ndash; Repeat 2nd and 3rd steps as necessary.
+modifyFormFilter = You are about to modify an existing filter. Please note that changes to the filter will effect all content modules where it is used,\
+   such as 'galleries' and 'advanced search' items.
+
+selectFormItem = Select a field to add a rule:
+selectFormItemDefaultOption = Select a field
+explan2 = Add one or more 'filter rules' to create your record set.
+
+editFilter = Edit Filter Rules
+
+#Rules list
+fieldName = Field Name:
+includeRecords = Include Records
+excludeRecords = Exclude Records
+filterCriteria = Select Filter Criteria
+deleteFormFilterRuleConfirm = Are you sure you want to remove this filter rule?\nPlease note that changes in the filter will effect all content modules where it is used, such as 'galleries' and 'advanced search' items
+
+formItemNotSelected = Please, select a form field.
+formFilterWithoutName = Please, enter a form filter name.
+formNotSelected = Please, select a form.
+fromDateIsAfterTillDateException = One of your date filter rules has 'till' date that is after 'from' date.
+formFilterNameNotUnique = Form Filter with such name already exists. Please, enter another name.

@@ -1,0 +1,7 @@
+ConfigureWidgetCSSParamaters = Edit {0} Module: Fonts & Styles
+
+#Buttons
+forItem = Save changes in this module only.
+apply = Apply
+save = Save
+cancel = Cancel 

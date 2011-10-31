@@ -1,0 +1,228 @@
+body {
+background-color: #EAEAEA;
+color:#dedede;
+}
+a:link {
+  color:#ffffff;
+}
+a:hover {
+    color:#666666;
+}
+h1 {
+    color:#fafafa;
+}
+
+.headerTop{
+	width:800px;
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/topcurve-darkblue.png);
+	background-repeat:no-repeat;
+	
+}
+.headerTop2{
+    width:800px;
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/topcurve-ears-darkblue.png);
+	background-repeat:no-repeat;
+}
+.headerBottom {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/bg-darkblue.png);
+	background-repeat:repeat-y;
+	
+}
+.content {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/bg-darkblue.png);
+	background-repeat:repeat-y;
+	
+}
+.mainTop {
+
+}
+
+.footer {
+	
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/bottomcurve-darkblue.png);
+	background-repeat:no-repeat;
+}
+/*widget styles*/
+/*blog summary visual item styles*/
+.widgetBLOG_SUMMARYStyle  {
+    padding: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 8pt;
+}
+
+
+   .blogSummaryHeader    {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     color: #dedede;
+       display :block;
+   }
+
+
+  .blogSummaryPostName       {
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     color:#fafafa;
+     font-size: 10pt;
+
+}
+
+
+.blogSummaryPostText   {
+ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+ padding-top: 3px;
+ display:block;
+   font-size: 8pt;
+}
+
+.widgetBLOG_SUMMARYStyle a{
+    font-size:8pt;
+    color: #fff;
+ }
+ .widgetBLOG_SUMMARYStyle a:hover{
+     color: #666;
+ }
+
+/*blog summary visual item styles. the end*/
+/*custom form style. the beginning*/
+.widgetCUSTOM_FORMStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.widgetCUSTOM_FORMStyle  td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+
+/*login form style*/
+.widgetLOGINStyle  {
+ padding-left:15px;
+ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+ font-size: 10pt;
+
+ }
+.widgetLOGINStyle td {
+   font-size: 10pt;
+   color:  ;
+    padding:5px;
+
+}
+ .loginForm {
+     font-size: 11pt!important;
+     padding: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+ }
+ .loginForm a:link {
+    color: ;
+     text-decoration: underline;
+       font-size: 10pt;
+ }
+ .loginForm a:hover {
+     color: ;
+
+ }
+
+.loginFormHeader {
+    font-size: 12pt;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: ;
+
+ }
+
+.loginFormLabel {
+    font-size: 10pt;
+    padding-top:5px;
+  }
+
+a:link.loginFormReturnToRegLink{
+      color: ;
+     text-decoration: underline;
+     font-size: 10pt;
+ }
+ a:link.loginFormRegLink    {
+
+ }
+
+
+  /*login form style the end */
+/*Registration item styles. The beginning*/
+.widgetREGISTRATIONStyle  {
+ padding-left:5px;
+ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+.registrationHeader p{
+  padding-bottom: 15px;
+  display: block;
+  font-size: 14pt;
+  color: ;
+}
+
+.registrationTable {
+ font-size:9pt;
+
+}
+.registrationTable td {
+ padding:3px;
+}
+#securityCodeText {
+
+  font-size:10pt;
+  color: ;
+  padding:3px;
+  margin-bottom:10px;
+ }
+/*Registration item styles. The End*/
+/*Contact us item style. The beginning*/
+.widgetCONTACT_USStyle     {
+ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+ padding-left:15px;
+ width:100%;
+ font-weight:bold;
+}
+
+.widgetCONTACT_USStyle td{
+   padding-top:3px;
+   padding-bottom: 3px;
+
+   font-weight:normal;
+   font-size:10pt;
+}
+
+
+/*Contact us item style. The end*/
+
+.formInstruction {
+    margin-left:5px;
+    margin-top:-5px;
+    font-size:9pt;
+    font-weight:normal;
+}
+
+
+/*child site registration. the beginning*/
+.widgetCHILD_SITE_REGISTRATIONStyle     {
+ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+ width:100%;
+ font-weight:bold;
+ font-size:11pt;
+
+}
+.widgetCHILD_SITE_REGISTRATIONStyle p {
+color: ;
+}
+ .widgetCHILD_SITE_REGISTRATIONStyle td{
+  font-size:9pt;
+
+ }
+
+/*child site registration. the end*//*custom form style. the end*/

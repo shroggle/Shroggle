@@ -1,0 +1,29 @@
+#Page
+mainHeader = Traffic
+pageHeader = Page Statistics
+pageTitle = Statistics by Pages
+pageDescritpion = Select a <b>Page Name</b> to view page specific statistics
+timePeriod = Select time period:
+backToSitesStat = Back to Site Statistics
+
+allTime = All time
+lastMonth = Last month
+thisMonth = This month
+
+#Table
+emptyTable = There are no available pages
+pageName = Page Name
+hits = Hits
+visits = Unique Visits
+timeOnPage = Time on Page
+searchTerms = Top 5 Referring Search Terms
+refURLs = Top 5 referring URLs
+seconds=&nbsp;seconds.
+minutes=&nbsp;minutes,&nbsp;
+hours=&nbsp;hours,&nbsp;
+days=&nbsp;days,&nbsp;
+
+noSearchTerms = There are no search terms
+noRefUrls = There are no referring URLs
+showAll = show all
+close = Close 

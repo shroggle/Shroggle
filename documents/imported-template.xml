@@ -1,0 +1,12 @@
+<!-- Template file for  imported.xml. Everyone has its own copy of imported.xml and do not store it in svn. -->
+<project name="imported">
+    <!-- Main project directory. It's a parent directory for src, tests, resources, ... -->
+    <property name="project.root" value="."/>
+    <!--  Path for Tomcat base directory  -->
+    <property name="tomcat.home" value="D:/apache-tomcat-6.0.18"/>
+    <!--    Version prefix-->
+    <property name="version" value="v_0"/>
+
+    <!--  Only for local building. On the production server this variable set by CruiseControl-->
+    <property name="label" value="build.1"/>
+</project>

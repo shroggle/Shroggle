@@ -1,0 +1,488 @@
+body {
+    background-color: #323232;
+    background-image: url(<!-- TEMPLATE_RESOURCE -->/blackgray.jpg);
+    background-repeat: repeat-x;
+    color: #dedede;
+}
+
+a:link, a:visited {
+    color: #fff;
+}
+
+a:hover, a:active {
+    color: red;
+}
+
+/*widget styles*/
+/*forum styles */
+
+.widgetFORUMStyle a {
+    font-weight: bold;
+    font-size: 9pt;
+    padding-left: 2px;
+    padding-right: 3px;
+}
+
+.manageForumLink {
+
+}
+
+.manageForumLink:hover {
+
+}
+
+.forumLink {
+
+}
+
+.forumLink:hover {
+
+}
+
+.threadNameLink {
+
+    font-size: 10pt !important;
+    text-decoration: none;
+}
+
+.postList {
+    border: 1px solid #dedede;
+}
+
+.forumFont {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.postListHeading {
+    background-
+}
+
+.postRow {
+    background-
+}
+
+.threadDescription {
+    color: navy;
+    font-size: 8pt;
+    font-style: italic;
+}
+
+.threadNameLink:hover {
+
+    font-size: 10pt !important;
+}
+
+.subForumListHeadingRow {
+    background-
+}
+
+.subForumListBorder {
+    background-
+}
+
+.subForumNameCell {
+}
+
+.subForumRow {
+    background-
+}
+
+.postCountCell {
+}
+
+.threadCountCell {
+}
+
+.subForumLastUpdatedCell {
+}
+
+.subForumNameLink {
+
+    font-size: 10pt !important;
+    text-decoration: none;
+}
+
+.subForumNameLink:hover {
+
+    font-size: 10pt;
+}
+
+.subForumDescription {
+    font-size: 8pt;
+    font-style: italic;
+
+}
+
+.forumBreadCrumbs {
+    background-
+
+}
+
+.forumBreadCrumbs a:hover {
+
+}
+
+a.navigateForumLink {
+
+}
+
+.forumAddingLinks {
+    background-
+}
+
+.forumAddingLinks a:hover {
+
+}
+
+.threadList {
+    background-
+}
+
+.threadListHeading {
+    background-
+}
+
+.threadRow {
+    background-
+}
+
+.evenPostBGColor {
+    background-
+}
+
+.notEvenPostBGColor {
+    background-
+}
+
+.postAuthorText {
+
+}
+
+/*forum style end*/
+
+blockquote {
+    background-
+    border: 1px solid #dedede;
+    text-align: left;
+}
+
+h1 {
+    color: #C4C2D2;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+/*Blog visual item tyles. Beginning*/
+
+.widgetBLOGStyle {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+.widgetBLOGStyle a {
+    text-decoration: underline;
+}
+
+.blogName {
+
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: normal !important;
+    padding: 0;
+}
+
+.blogPostText p, .blogPostText div {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.blogPostCommentText p, .blogPostCommentText div {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.addBlogPost {
+    padding-top: 7px;
+    padding-bottom: 11px;
+    padding-left: 40px;
+    display: block;
+}
+
+.blogPostTitle {
+    display: block;
+    color: #322CA8;
+    font-size: 15pt;
+    font-family: "Times new roman", Times, serif;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-top: 1px dotted #4e1957;
+
+}
+
+.blogPostInfo {
+    margin-left: 40px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.blogPostDate {
+    padding-left: 20px;
+}
+
+.blogPostLinks span, .blogPostCommentLinks span {
+    padding-right: 20px;
+    font-size: 9pt;
+
+}
+
+.blogPostLinks {
+    padding: 5px 0;
+}
+
+.blogPostComments {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blogPostCommentsShowHide {
+    padding-bottom: 10px;
+}
+
+/*Blog visual item tyles. The end*/
+
+/* - Image visual item tyles. Beginning*/
+
+.widgetIMAGEStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif !important;
+}
+
+.imageTitle {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.imageImage {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.imageDescription {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+/* - Image visual item tyles. The end*/
+
+/*Text visual item tyles. Beginning*/
+.widgetTEXTStyle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+
+    width: 100%;
+}
+
+/*Text visual item tyles. The end*/
+
+/*Menu visual item tyles. Beginning*/
+
+
+
+
+.topLevelMenuItem_TREE_STYLE a, .selectedTopLevelMenuItem_TREE_STYLE a {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+
+
+
+/* Font-Size for submenu items */
+
+
+/*Menu visual item tyles. The end*/
+
+/*blog summary visual item styles*/
+.widgetBLOG_SUMMARYStyle {
+    padding: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+.widgetBLOG_SUMMARYStyle p, .widgetBLOG_SUMMARYStyle span {
+    padding: 0;
+    margin: 0;
+}
+
+.blogSummaryHeader {
+    font-size: 11pt;
+    padding-top: 5px;
+    padding-bottom: 15px !important;
+    font-weight: bold;
+
+    display: block;
+}
+
+.blogSummaryPostName {
+
+    font-size: 10pt;
+    font-weight: bold;
+    display: block;
+}
+
+.blogSummaryPostText {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+/*blog summary visual item styles. the end*/
+
+/*login form style*/
+.loginForm {
+    font-size: 9pt;
+    font-weight: bold;
+    padding: 5px 5px 5px 20px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.loginForm a:link {
+
+    text-decoration: underline;
+}
+
+.loginForm a:hover {
+
+    text-decoration: underline;
+}
+
+/*login form style the end */
+/*Registration item styles. The beginning*/
+.widgetREGISTRATIONStyle {
+    padding-left: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+.registrationHeader p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    font-size: 10pt;
+
+}
+
+.registrationTable {
+    font-size: 9pt;
+
+}
+
+.registrationTable td {
+    padding: 3px;
+}
+
+#securityCodeText {
+    font-weight: bold;
+    font-size: 10pt;
+
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+/*Registration item styles. The End*/
+/*Contact us item style. The beginning*/
+.widgetCONTACT_USStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.widgetCONTACT_USStyle td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    font-weight: normal;
+
+}
+
+/*Contact us item style. The end*/
+
+.formInstruction {
+    margin-left: 5px;
+    margin-top: -5px;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+/*custom form style. the beginning*/
+.widgetCUSTOM_FORMStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.widgetCUSTOM_FORMStyle  td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+/*custom form style. the end*/
+/*child site registration. the beginning*/
+.widgetCHILD_SITE_REGISTRATIONStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: bold;
+    font-size: 11pt;
+
+}
+
+.widgetCHILD_SITE_REGISTRATIONStyle td {
+    font-size: 9pt;
+    padding: 3px;
+}
+
+/*child site registration. the end*/
+/* gallery styles*/
+/*next*/
+.galleryDataAfterItemBordered {
+    border: 1px solid #dedede;
+}
+
+/*digits*/
+.galleryDataItemBordered {
+    border: 1px solid #dedede;
+}
+
+/*current*/
+
+.galleryDataCurrentItemBordered {
+    border: 1px solid #dedede;
+    background-
+
+}
+
+/*previous*/
+.galleryDataBeforeItemBordered {
+    border: 1px solid #dedede;
+}
+
+/* gallery styles, the end */
+
+
+
+
+/*gallery data display field labels*/
+
+
+/*gallery data display field labels end*/

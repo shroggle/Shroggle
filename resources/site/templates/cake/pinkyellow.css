@@ -1,0 +1,451 @@
+body {
+    background-color: #fcdefa;
+    background-image: url(<!-- TEMPLATE_RESOURCE -->/bg_pinkyellow.gif);
+    background-repeat: repeat-x;
+    color: #333333;
+}
+
+.topPane {
+    background-color: #fbf2b9;
+
+}
+
+.topPane a:link, .bottomPane  a:link, .topPane a:visited, .bottomPane  a:visited  {
+    color: #333333;
+}
+
+.topPane a:hover, .bottomPane  a:hover {
+    color: red;
+}
+
+.middlePane {
+    background-color: white;
+}
+
+.bottomPane {
+    background-color: #fcdefa;
+
+}
+
+.shroggleLogo p {
+    color: white;
+}
+
+.postForm {
+    border: black solid 1px;
+}
+
+a {
+    color: #51517e;
+}
+
+a:hover {
+    color: red;
+}
+
+/*forum styles */
+
+.widgetFORUMStyle a {
+    font-weight: bold;
+    font-size: 10pt;
+    padding-left: 2px;
+    padding-right: 3px;
+}
+
+
+
+.threadNameLink {
+
+    font-size: 1.1em !important;
+}
+
+.postList {
+    border: 1px solid #51517e;
+}
+
+.forumFont {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.threadDescription {
+
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.threadNameLink:hover {
+
+    font-size: 11pt;
+}
+
+
+.subForumNameLink {
+
+    font-size: 11pt !important;
+    text-decoration: none;
+}
+
+.subForumNameLink:hover {
+    color: red;
+    font-size: 11pt;
+}
+
+.subForumDescription {
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.forumBreadCrumbs {
+
+    color: red;
+}
+
+a.navigateForumLink {
+    color: red;
+}
+
+
+
+/*forum style end*/
+
+blockquote {
+    background-color: #ffffff;
+    border: 1px solid black;
+    text-align: left;
+}
+
+/*#topPane {
+    background-color: #5B1E65;
+}
+
+#bottomPane {
+    background-color: white;
+} */
+
+.rightColumn {
+    background-color: black;
+}
+
+/*Blog visual item tyles. The beginning*/
+.widgetBLOGStyle {
+    padding: 7px;
+}
+
+.blogPostText p, .blogPostText div, .blogPostCommentText p, .blogPostCommentText div, .widgetBLOGStyle a {
+    font-size: 10pt;
+}
+
+.blogName {
+    font-weight: bold;
+    font-size: 20pt;
+    padding: 15px 0;
+    color: red;
+}
+
+.addBlogPost a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.blogPostTitle {
+    display: block;
+    font-size: 14pt;
+    color: #51517e;
+    font-style: italic;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-top: 1px dashed #51517e;
+}
+
+.blogPostText {
+    padding-right: 15px;
+    line-height: 1.4em;
+    font-family: Verdana, Helvetica, Arial, Helvetica, sans-serif;
+}
+
+.blogPostCommentText p {
+    color: #51517e;
+}
+
+.blogPostInfo span, .blogPostCommentInfo span {
+    font-size: 8pt;
+    font-style: italic;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.blogPostLinks span, .blogPostCommentLinks span {
+    padding-right: 20px;
+    font-size: 10pt;
+    font-weight: bold;
+
+}
+
+.blogPostLinks {
+    padding-top: 15px;
+}
+
+.blogPostLinks a {
+    color: #333333;
+}
+
+.addBlogPostComment a {
+    font-weight: bold;
+    color: #333333;
+}
+
+.blogPostComments {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border: 1px dashed #333333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blogpostComments a {
+    font-weight: bold;
+    color: maroon;
+}
+
+.blogpostComments a:hover {
+    color: #333333;
+}
+
+.blogPostCommentsShowHide  a {
+    font-weight: bold;
+    color: #333333;
+}
+
+/*Blog visual item tyles. The end*/
+#mainTbl {
+    background-color: white;
+}
+
+/*Menu visual item tyles. Beginning*/
+
+
+.topLevelMenuItem_TREE_STYLE a, .selectedTopLevelMenuItem_TREE_STYLE a {
+    color: #333333;
+    font-weight: bold;
+}
+
+
+
+.subMenu_TREE_STYLE td a, .selectedSubMenu_TREE_STYLE td a {
+    color: #333333;
+    font-weight: bold;
+}
+
+
+
+.subMenu_TREE_STYLE.mouseOver td, .selectedSubMenu_TREE_STYLE td {
+    background-color: #c2c2e8;
+    font-weight: bold;
+}
+
+.topLevelMenuItem_TREE_STYLE.mouseOver a, .selectedTopLevelMenuItem_TREE_STYLE span {
+    color: #333333;
+}
+
+
+
+/*Menu visual item tyles. The end*/
+
+/* - Image visual item tyles. Beginning*/
+
+.widgetIMAGEStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif !important;
+}
+
+.imageTitle {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.imageDescription {
+
+}
+
+/* - Image visual item tyles. The end*/
+
+/*Text visual item tyles. Beginning*/
+.widgetTEXTStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    padding: 5px;
+}
+
+/*Text visual item tyles. The end*/
+
+/*blog summary visual item styles*/
+.widgetBLOG_SUMMARYStyle {
+    padding: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+.blogSummaryHeader {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #51517e;
+}
+
+.blogSummaryPostName {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-weight: bold;
+}
+
+.blogSummaryPostText {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    padding-top: 3px;
+}
+
+.blogSummaryBlogName {
+
+}
+
+/*blog summary visual item styles. the end*/
+
+/*login form style*/
+.loginForm {
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 5px 5px 5px 20px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.loginForm a:link {
+    color: #51517e;
+    text-decoration: underline;
+}
+
+.loginForm a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/*login form style the end */
+/*Registration item styles. The beginning*/
+.widgetREGISTRATIONStyle {
+    padding-left: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.registrationHeader p {
+    display: block;
+    font-size: 12pt;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.registrationTable {
+    font-size: 9pt;
+    color: #717276;
+
+}
+
+.registrationTable td {
+    padding: 3px;
+}
+
+#securityCodeText {
+    font-weight: bold;
+    color: maroon;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+/*Registration item styles. The End*/
+/*Contact us item style. The beginning*/
+.widgetCONTACT_USStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 10pt;
+    width: 100%;
+}
+
+.widgetCONTACT_USStyle p {
+    font-size: 12pt !important;
+}
+
+.widgetCONTACT_USStyle td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #717276;
+    font-size: 11pt;
+}
+
+/*Contact us item style. The end*/
+
+.formInstruction {
+    margin-left: 5px;
+    margin-top: -5px;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+/*custom form style. the beginning*/
+.widgetCUSTOM_FORMStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.widgetCUSTOM_FORMStyle  td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #717276;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+/*custom form style. the end*/
+/*child site registration. the beginning*/
+.widgetCHILD_SITE_REGISTRATIONStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 11pt;
+    color: #790004;
+}
+
+.widgetCHILD_SITE_REGISTRATIONStyle p {
+    color: #51517e;
+}
+
+.widgetCHILD_SITE_REGISTRATIONStyle td {
+    font-size: 10pt;
+}
+
+/*child site registration. the end*/
+/*video item style*/
+
+.widgetVIDEOStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #51517e;
+}
+
+/*video item style. the end*/
+
+
+
+
+/*gallery data display field labels*/
+
+
+/*gallery data display field labels end*/

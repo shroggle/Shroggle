@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title><!-- PAGE_TITLE --></title>
+<!-- PAGE_HEADER -->
+<style type="text/css">
+body, div, p, table, tr, td {
+	margin: 0;
+	padding: 0;
+}
+table, tr, td {
+	vertical-align: top;
+}
+.header {
+	width: 975px;
+	min-height: 70px;
+	height: auto;
+	margin:auto;
+}
+#break {
+	width: 100%;
+	height: 5px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	clear: both;
+}
+.mainarea {
+	clear:both;
+}
+.content {
+
+	height: auto;
+	min-height: 600px;
+
+	overflow:hidden;
+}
+.leftpanel {
+	width:25%;
+	float:left;
+	
+}
+.rightpanel {
+	width:75%;
+	float:right;
+}
+
+</style>
+
+</head>
+<body>
+<div class="headercontainer">
+	<div class="header mediaBlock"> </div>
+</div>
+<div id="break"></div>
+<div class="mainarea">
+	<div class="content">
+		<div class="leftpanel mediaBlock"></div>
+		<div class="rightpanel mediaBlock"></div>
+	</div>
+</div>
+
+</body>
+</html>

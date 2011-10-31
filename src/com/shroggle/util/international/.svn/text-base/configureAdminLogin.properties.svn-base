@@ -1,0 +1,14 @@
+title = Edit Admin Access Login Module: Module Settings
+header = Admin Access Header / Description
+headerEdit = edit
+headerShow = Display Header / Description
+textLabel = Admin Access Link Text
+defaultText = Admin Access
+defaultHeader = Header / Description
+adminAccessLoginItemName = Admin Access Login item name:
+readOnlyAccess = You have only read-only access to this module.
+instructions = This item allows site administrators to login to your site builder admin pages, directly from your public site.
+apply = Apply
+save = Save
+cancel = Cancel
+pleaseEnterUniqueName = Please, enter unique Admin Access Module name.

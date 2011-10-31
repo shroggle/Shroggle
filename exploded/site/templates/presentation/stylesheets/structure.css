@@ -1,0 +1,151 @@
+/* CSS Document */
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center ;
+    font-size:10pt;
+}
+ h1, h2, h3, h4, h5, a {
+    margin: 0;
+    padding: 0
+}
+
+.wrapper {
+    width: 925px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.header .left, .header .right {
+    width: 100px;
+    height: 50px;
+    margin: 45px 0 0
+}
+
+.header .left {
+    background: url( /site/templates/presentation/images/bg_4.png ) no-repeat bottom left;
+    float: left
+}
+
+.header .right {
+    background: url( /site/templates/presentation/images/bg_4.png ) no-repeat bottom right;
+    float: right;
+}
+
+.header:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.headContent {
+    height:  auto;
+    
+}
+
+.headCont {
+    float: left;
+    height: auto;
+    margin: 10px 0;
+    width: 723px;
+
+}
+
+.bodyCont {
+    padding: 20px 9px;
+    border-left: 100px solid;
+    border-right: 100px solid;
+    clear: both
+}
+
+.bodyCont h2 {
+    background: url( /site/templates/presentation/images/title_bg.png ) no-repeat;
+    padding: 12px 10px 12px 10px;
+    min-height: 18px;
+    height: 18px;
+    overflow: hidden;
+}
+
+.description {
+    margin: 30px 38px 10px;
+    padding: 0 0 0 10px;
+    height: 46px;
+    overflow: hidden;
+
+}
+
+.content {
+    min-height: 300px;
+    margin: 30px 25px 10px;
+}
+
+.contentLeft {
+    min-height: 300px;
+    float: left;
+    width: 49%;
+    overflow: hidden;
+}
+
+.contentRight {
+    min-height: 300px;
+    float: right;
+    width: 49%;
+
+}
+
+.footer .left, .footer .right {
+    width: 100px;
+    height: 50px
+}
+
+.footer .left {
+    background: url( /site/templates/presentation/images/bg_4.png ) no-repeat top left;
+    float: left
+}
+
+.footer .right {
+    background: url( /site/templates/presentation/images/bg_4.png ) no-repeat top right;
+    float: right;
+}
+
+.footerCont {
+    float: left;
+    height: 35px;
+    margin: 10px 0;
+    width: 723px;
+    color: #999;
+    text-align: center;
+    overflow: hidden;
+}
+
+.footSUBCont {
+    clear: both;
+    height: 35px;
+    margin: 10px 30px;
+    color: #999;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+
+/* Some specific block restrictions. Beginning  */
+.bodyContrsub p, .description p, .footerCont p, .footSUBCont p {
+    margin: 0;
+}
+
+/* Some specific block restrictions. End */
+
+
+
+

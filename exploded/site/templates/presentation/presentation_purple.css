@@ -1,0 +1,430 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.header .left, .header .right,
+    .footer .left, .footer .right {
+    background-color: #100f17
+}
+
+.headContent a:link, .headContent a:visited {
+    color: #3b70e7;
+    text-decoration: none;
+
+}
+
+.headContent a:hover, .headContent a:active {
+    color: lightblue;
+    text-decoration: underline;
+
+}
+
+.bodyCont {
+    border-left: 100px solid #100f17;
+    border-right: 100px solid #100f17;
+    background: #1f1e30;
+    color: #FFFFFF;
+}
+
+.description {
+    border-bottom: 1px solid #3e3c54;
+}
+
+a:link, a:visited {
+    color: #7ea1f9;
+    text-decoration: none;
+
+}
+
+a:hover, a:active {
+    color: #fcfe96;
+    text-decoration: underline;
+
+}
+
+/*Blog visual item tyles. Beginning*/
+.widgetBLOGStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #dedede;
+}
+
+.blogPostText p, .blogPostText div {
+    line-height: 1.5em;
+}
+
+.blogPostCommentText p, .blogPostCommentText div {
+    font-size: 0.8em;
+}
+
+.blogName {
+    font-size: 1.9em;
+    padding: 15px 0;
+    color: #c9ccce;
+}
+
+.addBlogPost {
+    padding: 7px 0;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.blogPostTitle {
+    display: block;
+    font-size: 1.4em;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 0.2em;
+    color: #fdec2d;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 1px solid #dedede;
+}
+
+.blogPostInfo, .blogPostCommentInfo {
+    font-size: 0.8em;
+    padding-left: 50px;
+}
+
+.blogPostCommentInfo    span {
+    padding-left: 20px;
+}
+
+.blogPostDate {
+    padding-left: 15px;
+}
+
+.blogPostLinks span, .blogPostCommentLinks span {
+    padding-right: 10px;
+    font-size: 0.8em;
+
+}
+
+.blogPostLinks {
+    padding: 15px 0;
+}
+
+.blogPostComments {
+      padding: 15px 10px;
+    border: 1px solid #3e3c54;
+    margin-bottom: 5px;
+}
+
+.addBlogPostComment, .blogPostCommentsShowHide {
+    padding: 7px 0;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/*Blog visual item tyles. The end*/
+
+/* - Forum visual item tyles. The beginning*/
+.widgetFORUMStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: #dedede;
+}
+
+.forumBreadCrumbs {
+    border: #666666 solid 1px;
+    padding: 2px;
+    width: 90%;
+    text-align: left;
+
+}
+
+.manageForumLink {
+
+}
+
+.forumAddingLinks {
+    border: 1px solid #859fd8;
+    padding: 2px 2px 4px 3px;
+    width: 90%;
+    text-align: left;
+    padding: 2px;
+}
+
+.postAuthorCell {
+    padding: 5px;
+}
+
+.threadCell {
+    padding: 5px;
+}
+
+.forumError {
+
+    color: red;
+}
+
+.emptyForumError {
+}
+
+.creationForm {
+    text-align: left;
+}
+
+/* - Forum visual item tyles. The end*/
+
+/*Image visual item tyles. Beginning*/
+.widgetIMAGEStyle {
+    margin: 0;
+    padding: 0;
+}
+
+.imageTitle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: #dedede;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Image visual item tyles. The end*/
+
+/*Text visual item tyles. Beginning*/
+.widgetTEXTStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: #dedede;
+}
+
+/*Text visual item tyles. The end*/
+
+/*blog summary visual item styles*/
+.widgetBLOG_SUMMARYStyle {
+    padding: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+.blogSummaryHeader {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    font-size: 1.1em;
+    color: #fdec2d;
+}
+
+.blogSummaryPostName {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #7ea1f9;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.blogSummaryPostText {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding-top: 3px;
+    color: #dedede;
+}
+
+.blogSummaryBlogName {
+
+}
+
+/*blog summary visual item styles. the end*/
+
+/*video item style*/
+.widgetVIDEOStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: #dedede;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.widgetVIDEOStyle div {
+    padding-top: 5px;
+}
+
+/*video item style end*/
+/*site menu style*/
+
+
+.topLevelMenuItem_TREE_STYLE a, .selectedTopLevelMenuItem_TREE_STYLE a {
+    color: #dedede;
+}
+
+.subMenu_TREE_STYLE td a, .selectedSubMenu_TREE_STYLE td a {
+    color: #333333;
+}
+
+.subMenu_TREE_STYLE.mouseOver td, .selectedSubMenu_TREE_STYLE td {
+    background-color: #9696ff;
+}
+
+.topLevelMenuItem_TREE_STYLE.mouseOver a, .selectedTopLevelMenuItem_TREE_STYLE span {
+    color: #dedede;
+}
+
+.horizontalSeparator {
+    color: #dedede;
+}
+
+.headContent .topLevelMenuItem_TREE_STYLE a, .headContent .selectedTopLevelMenuItem_TREE_STYLE a {
+    color: #3b70e7;
+}
+
+.headContent .horizontalSeparator {
+    color: #3b70e7;
+}
+
+.headContent .topLevelMenuItem_TREE_STYLE.mouseOver a, .headContent .selectedTopLevelMenuItem_TREE_STYLE span {
+    color: #3b70e7;
+}
+
+.headContent .subMenu_TREE_STYLE td a, .selectedSubMenu_TREE_STYLE td a {
+    color: #3b70e7;
+}
+
+.headContent .subMenu_TREE_STYLE.mouseOver td, .selectedSubMenu_TREE_STYLE td {
+    background-color: #D3DBEB;
+}
+
+/*login form styles*/
+.widgetLOGINStyle {
+    font-size: 9pt;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #dedede;
+}
+
+.loginFormHeader {
+    font-weight: bold;
+}
+
+.loginFormLabel {
+    padding: 5px 0;
+}
+
+.loginFormRegLink {
+
+    font-weight: bold;
+}
+
+/*end of login form styles*/
+/*Registration item styles. The beginning*/
+.widgetREGISTRATIONStyle {
+    font-size: 9pt;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #dedede;
+
+}
+
+.registrationHeader p {
+    display: block;
+    font-size: 12pt;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+
+.registrationTable {
+    font-size: 9pt;
+    color: #dedede;
+}
+
+.registrationTable td {
+    padding: 3px;
+}
+
+/*Registration item styles. The End*/
+/*Contact us item style. The beginning*/
+.widgetCONTACT_USStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    width: 100%;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #dedede;
+}
+
+.widgetCONTACT_USStyle p {
+    font-size: 12pt !important;
+}
+
+.widgetCONTACT_USStyle td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 9pt;
+}
+
+/*Contact us item style. The end*/
+
+.formInstruction {
+    margin-left: 5px;
+    margin-top: -5px;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+/*custom form style. the beginning*/
+.widgetCUSTOM_FORMStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #fcfe96;
+}
+
+.widgetCUSTOM_FORMStyle  td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #fdec2d;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+/*custom form style. the end*/
+/*child site registration. the beginning*/
+.widgetCHILD_SITE_REGISTRATIONStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: bold;
+    font-size: 11pt;
+    color: #dedede;
+}
+
+.widgetCHILD_SITE_REGISTRATIONStyle p {
+    color: #fdec2d;
+}
+
+.widgetCHILD_SITE_REGISTRATIONStyle td {
+    font-size: 10pt;
+}
+
+/*child site registration. the end*/
+/* gallery styles*/
+/*next*/
+.galleryDataAfterItemBordered {
+    border: 1px solid #dedede;
+}
+
+/*digits*/
+.galleryDataItemBordered {
+    border: 1px solid #dedede;
+}
+
+/*current*/
+
+.galleryDataCurrentItemBordered {
+    border: 1px solid #4d6498;
+    background-color: #4d6498;
+    color: #dedede;
+}
+
+/*previous*/
+.galleryDataBeforeItemBordered {
+    border: 1px solid #dedede;
+}
+
+/* gallery styles, the end */
+
+
+
+/*gallery data display field labels*/
+
+
+/*gallery data display field labels end*/

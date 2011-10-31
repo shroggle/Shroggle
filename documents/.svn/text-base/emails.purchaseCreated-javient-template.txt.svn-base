@@ -1,0 +1,22 @@
+Dear <ognl>request.consumer.name</ognl>,
+
+Thank you very much for your order.
+
+You just purchased:
+<ognl>
+#var= new String(),
+#purchase = request.purchase,
+#currencyId = #purchase.transaction.currencyId,
+#request = request,
+#purchase.purchaseItems.{
+    #pi = #this,
+    #product = #pi.product,
+    #var = #var + #product.label + ' for: ' + #request.renderCurrency(#pi.amount, #currencyId) + '\n',
+    #pi.isPurchaseItemCoupon() ? {
+      #var = #var + "Coupon Code: " + #pi.getPurchaseItemCoupon().getCoupon().getCode() + '\n'
+    } : {}
+},
+#var + "\nTotal: " + request.renderCurrency(#purchase.getAmount(), #currencyId)
+</ognl>
+
+Note: Please do not reply to this message, replies to this message will be rejected.

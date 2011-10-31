@@ -1,0 +1,216 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="/site/templates/vent/structure.css" rel="stylesheet" type="text/css"/>
+    <title><!-- PAGE_TITLE --></title>
+      <style type="text/css">
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, tr, td {
+    vertical-align: top;
+}
+
+.header {
+    width: 100%;
+    min-height: 55px;
+    height: auto;
+}
+
+.headerContent {
+    margin: auto;
+    width: 820px;
+    min-height: 55px;
+    height: auto;
+
+}
+
+.content {
+    margin: auto;
+    width: 820px;
+    min-height: 400px;
+    height: auto;
+
+}
+
+.mainContent {
+    width: 820px;
+    min-height: 400px;
+    height: auto;
+
+}
+
+/*main top 2 bottom layout*/
+.mainContentTop {
+    width: 820px;
+    min-height: 300px;
+    height: auto;
+
+}
+
+.mainContentLeftBottom {
+    width: 500px;
+    min-width: 500px;
+    height: auto;
+
+}
+
+.mainContentRightBottom {
+    width: 320px;
+    min-width: 320px;
+    height: auto;
+
+}
+
+/*main top 2 bottom layout end*/
+
+/*main topsmall 2 bottom leftt menu layout*/
+.mainContentTop2 {
+    width: 820px;
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+}
+
+.mainContentLeftBottom2 {
+    width: 200px;
+    min-width: 200px;
+    height: auto;
+    overflow: hidden;
+}
+
+.mainContentRightBottom2 {
+    width: 620px;
+    min-width: 620px;
+    height: auto;
+    overflow: hidden;
+}
+
+/*main topsmall 2 bottom left layout end*/
+
+/*main topsmall 2 bottom right menu layout*/
+.mainContentTop4 {
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+}
+
+.mainContentLeftBottom4 {
+    width: 620px;
+    min-width: 620px;
+    height: auto;
+    overflow: hidden;
+}
+
+.mainContentRightBottom4 {
+    width: 200px;
+    min-width: 200px;
+    height: auto;
+    overflow: hidden;
+}
+
+/*main topsmall 2 bottom right layout end*/
+
+/*2 main layout*/
+.mainContentLeft1 {
+    width: 480px;
+    min-width: 480px;
+    height: auto;
+    overflow: hidden;
+}
+
+.mainContentRight1 {
+    width: 340px;
+    min-width: 340px;
+    height: auto;
+    overflow: hidden;
+}
+
+/*2 main layout end*/
+
+/*3 main layout*/
+.mainContentLeft3 {
+    width: 273px;
+    min-width: 273px;
+    height: auto;
+    overflow: hidden;
+}
+
+.mainContentCenter3 {
+    width: 273px;
+    min-width: 273px;
+    height: auto;
+    overflow: hidden;
+}
+
+.mainContentRight3 {
+    width: 273px;
+    min-width: 273px;
+    height: auto;
+    overflow: hidden;
+}
+
+/*3 main layout end*/
+
+.footer {
+    width: 100%;
+    min-height: 18px;
+    height: auto;
+    clear:both;
+}
+
+.footerContent {
+    margin: auto;
+    width: 820px;
+    min-height: 18px;
+    height: auto;
+}
+
+/*styles */
+
+/*FULL SIZE DROP DOWN MENU STYLE SECTION*/
+.menuPageNameText_FULL_HEIGHT_STYLE {
+    font-size: 11pt;
+}
+.subMenu_FULL_HEIGHT_STYLE td, .selectedSubMenu_FULL_HEIGHT_STYLE td.voice {
+    font-size: 9pt;
+}
+.headerContent .menuPageNameText_FULL_HEIGHT_STYLE, .headerContent .menuPageNameText_TREE_STYLE {
+    color:white;
+}
+/*FULL SIZE DROP DOWN MENU STYLE SECTION END*/
+
+  </style>
+    <!-- PAGE_HEADER -->
+</head>
+
+<body>
+<div class="header">
+    <div class="headerContent mediaBlock"></div>
+</div>
+<div class="content">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="mainContentLeftBottom4 mediaBlock"></td>
+            <td class="mainContentRightBottom4 mediaBlock"></td>
+        </tr>
+    </table>
+    <!--/content -->
+</div>
+
+<div class="footer">
+    <div class="footerContent mediaBlock"></div>
+</div>
+
+</body>
+</html>

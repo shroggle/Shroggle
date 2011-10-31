@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding:0;
+}
+
+
+
+.mainDiv {
+    width: 100%;
+}
+
+/* CSS styles for different visual items. Begining */
+
+/*Blog visual item tyles. Beginning*/
+
+.blogPostText p, .blogPostText div {
+    font-family: Tahoma, sans-serif;
+}
+
+.blogPostCommentText p, .blogPostCommentText div {
+    font-family: Tahoma, sans-serif;
+}
+
+.blogName {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+
+    padding: 5px 0;
+}
+
+.addBlogPost {
+    padding-bottom: 10px;
+}
+
+.blogPostTitle {
+    display: block;
+    font-size: 1.1em;
+
+}
+
+.blogPostInfo span, .blogPostCommentInfo span {
+    font-size: 0.8em;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.blogPostLinks span, .blogPostCommentLinks span {
+    padding-right: 20px;
+
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.blogPostLinks {
+    padding: 5px 0;
+}
+
+.blogPostComments {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+/*Blog visual item tyles. The end*/
+
+
+/* - Image visual item tyles. Beginning*/
+.imageTitle {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.imageDescription {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
+
+/* - Image visual item tyles. The end*/
+
+/* - Visitor registration visual item tyles. Beginning*/
+.registrationHeader {
+    font-size: 1.8em;
+}
+
+/* - Visitor registration visual item tyles. The end*/
+
+/* - Login visual item tyles. Beginning*/
+.loginForm div {
+    padding: 5px;
+}
+
+/* Font-Size for the form labels */
+.loginForm .loginFormLabel {
+    font-size: 0.9em;
+}
+
+/* Font-Size for the link to registration */
+.loginForm .loginFormRegLink {
+    font-size: 0.9em;
+}
+
+/* Font-Style for the header */
+.loginForm .loginFormHeader {
+    font-style: italic;
+}
+
+/* - Login visual item tyles. The end*/
+
+/* - Forum visual item tyles. The beginning*/
+
+
+
+.forumBreadCrumbs {
+    border: #999999 solid 2px;
+    padding: 2px;
+    width: 90%;
+    text-align: left;
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.manageForumLink {
+    font-size: 10pt;
+}
+
+.forumAddingLinks {
+    border: 1px solid #999999;
+    padding: 2px 2px 4px 3px;
+    width: 90%;
+    text-align: left;
+}
+
+.postAuthorCell {
+    padding: 5px;
+}
+
+.threadCell {
+    padding: 5px;
+}
+
+.forumError {
+    font-size: 10pt;
+    color: red;
+}
+
+.emptyForumError {
+}
+
+.creationForm {
+    text-align: left;
+}
+
+
+
+/* - Menu visual item tyles. Beginning*/
+
+/* Font-Family for menu items */
+.menuPageNameText_TREE_STYLE, .menuContainer_TREE_STYLE {
+    font-family: Tahoma, serif;
+}
+
+/* Font-Size for first level menu items */
+.menuPageNameText_TREE_STYLE {
+    font-size: 18;
+}
+
+/* Font-Size for submenu items */
+.menuContainer_TREE_STYLE {
+    font-size: 16;
+}
+
+/* - Menu visual item tyles. The end*/
+

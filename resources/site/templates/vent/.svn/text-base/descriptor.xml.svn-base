@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Venture template collection</name>
+    <thumbnail>tn_lavender.png</thumbnail>
+    <order>200</order>
+
+    <layout thumbnailFile="no-col.png" useForDefault="true">
+        <name>Header, Footer, Main Content</name>
+        <file>header_main_footer.html</file>
+        <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+        <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+        <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+            <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+    <layout thumbnailFile="2-col.png">
+        <name>Header, Footer, 2 Main Content</name>
+        <file>header_2main_footer.html</file>
+
+    </layout>
+    <layout thumbnailFile="3-col-even.png">
+        <name>Header, Footer, 3 Main Content</name>
+        <file>header_2main_footer_leftmenu.html</file>
+
+    </layout>
+    <layout thumbnailFile="2-colWithColspanHeader.png">
+        <name>Header, Footer, 1 Top, 2 Bottom</name>
+        <file>header_3main_footer.html</file>
+
+    </layout>
+    <layout thumbnailFile="leftBarTeam.png">
+        <name>Header, Footer, Small Top, Left Menu</name>
+        <file>2headers_main_footer_leftmenu.html</file>
+
+    </layout>
+    <layout thumbnailFile="rightBar.png">
+        <name>Header, Footer, Small Top, Right Menu</name>
+        <file>2headers_main_footer_rightmenu.html</file>
+
+    </layout>
+    <layout thumbnailFile="2head.png">
+        <name>Header, Footer, Small Top Menu and Large Main Content Area</name>
+        <file>2headers_main_footer.html</file>
+
+    </layout>
+    <layout thumbnailFile="leftBarsolo.png">
+        <name>Header, Footer, Left Menu</name>
+        <file>header_main_footer_leftmenu.html</file>
+
+    </layout>
+    <layout thumbnailFile="rightBarsolo.png">
+        <name>Header, Footer, Right Menu</name>
+        <file>header_main_footer_rightmenu.html</file>
+    </layout>
+
+    <theme>
+        <imageFile>venBlack.jpg</imageFile>
+        <name>Venture Black</name>
+        <file>black.css</file>
+        <colorTileFile>tileBlack.jpg</colorTileFile>
+        <thumbnailFile>tn_black.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>venWhite.jpg</imageFile>
+        <name>Venture White</name>
+        <file>white.css</file>
+        <colorTileFile>tileWhite.jpg</colorTileFile>
+        <thumbnailFile>tn_white.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>venGreen.jpg</imageFile>
+        <name>Venture Green</name>
+        <file>green.css</file>
+        <colorTileFile>tileGreen.jpg</colorTileFile>
+        <thumbnailFile>tn_green.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>venPersimon.jpg</imageFile>
+        <name>Venture Persimon</name>
+        <file>persimon.css</file>
+        <colorTileFile>tilePersimon.jpg</colorTileFile>
+        <thumbnailFile>tn_persimon.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>venGrey.jpg</imageFile>
+        <name>Venture Grey</name>
+        <file>grey.css</file>
+        <colorTileFile>tileGrey.jpg</colorTileFile>
+        <thumbnailFile>tn_grey.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>venLavender.jpg</imageFile>
+        <name>Venture Lavender</name>
+        <file>lavender.css</file>
+        <colorTileFile>tileLavender.jpg</colorTileFile>
+        <thumbnailFile>tn_lavender.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>venRedBlack.jpg</imageFile>
+        <name>Venture Red and Black</name>
+        <file>redblack.css</file>
+        <colorTileFile>tileRedBlack.jpg</colorTileFile>
+        <thumbnailFile>tn_redblack.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>venGreenBlue.jpg</imageFile>
+        <name>Venture Green and Blue</name>
+        <file>greenblue.css</file>
+        <colorTileFile>tileGreenBlue.jpg</colorTileFile>
+        <thumbnailFile>tn_greenblue.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>venGreenTeal.jpg</imageFile>
+        <name>Venture Green and Teal</name>
+        <file>greenteal.css</file>
+        <colorTileFile>tileGreenTeal.jpg</colorTileFile>
+        <thumbnailFile>tn_greenteal.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>venYellowBlack.jpg</imageFile>
+        <name>Venture Yellow and Black</name>
+        <file>yellowblack.css</file>
+        <colorTileFile>tileYellowBlack.jpg</colorTileFile>
+        <thumbnailFile>tn_yellowblack.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>venWhiteGrey.jpg</imageFile>
+        <name>Venture White and Grey</name>
+        <file>whitegrey.css</file>
+        <colorTileFile>tileWhiteGrey.jpg</colorTileFile>
+        <thumbnailFile>tn_whitegrey.png</thumbnailFile>
+    </theme>
+
+</template>

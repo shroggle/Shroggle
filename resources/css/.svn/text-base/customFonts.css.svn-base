@@ -1,0 +1,363 @@
+/* Internet Explorer only */
+@font-face {
+    font-family: "Advert MF Italic";
+    src: url(customFonts/Advert_MF_Italic.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Advert MF Italic";
+    src: local("Advert MF Italic"), url(customFonts/Advert_MF_Italic.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Agent Orange";
+    src: url(customFonts/Agent_Orange.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Agent Orange";
+    src: local("Agent Orange"), url(customFonts/Agent_Orange.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Ale and Wenches BB Bold";
+    src: url(customFonts/Ale_and_Wenches_BB_Bold.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Ale and Wenches BB Bold";
+    src: local("Ale and Wenches BB Bold"), url(customFonts/Ale_and_Wenches_BB_Bold.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Angelic War";
+    src: url(customFonts/Angelic_War.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Angelic War";
+    src: local("Angelic War"), url(customFonts/Angelic_War.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Arbuckle Inline NF";
+    src: url(customFonts/Arbuckle_Inline_NF.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Arbuckle Inline NF";
+    src: local("Arbuckle Inline NF"), url(customFonts/Arbuckle_Inline_NF.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Aunt Bertha NF";
+    src: url(customFonts/Aunt_Bertha_NF.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Aunt Bertha NF";
+    src: local("Aunt Bertha NF"), url(customFonts/Aunt_Bertha_NF.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "B690 Script Bold";
+    src: url(customFonts/B690_Script_Bold.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "B690 Script Bold";
+    src: local("B690 Script Bold"), url(customFonts/B690_Script_Bold.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "B821 Deco Regular";
+    src: url(customFonts/B821_Deco_Regular.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "B821 Deco Regular";
+    src: local("B821 Deco Regular"), url(customFonts/B821_Deco_Regular.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Bluff";
+    src: url(customFonts/Bluff.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Bluff";
+    src: local("Bluff"), url(customFonts/Bluff.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Carmen Caps";
+    src: url(customFonts/Carmen_Caps.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Carmen Caps";
+    src: local("Carmen Caps"), url(customFonts/Carmen_Caps.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Carmen CapsInside";
+    src: url(customFonts/Carmen_CapsInside.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Carmen CapsInside";
+    src: local("Carmen CapsInside"), url(customFonts/Carmen_CapsInside.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Carmen CapsOutside";
+    src: url(customFonts/Carmen_CapsOutside.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Carmen CapsOutside";
+    src: local("Carmen CapsOutside"), url(customFonts/Carmen_CapsOutside.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Champignon Alt Swash";
+    src: url(customFonts/Champignon_Alt_Swash.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Champignon Alt Swash";
+    src: local("Champignon Alt Swash"), url(customFonts/Champignon_Alt_Swash.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Chrome Yellow NF";
+    src: url(customFonts/Chrome_Yellow_NF.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Chrome Yellow NF";
+    src: local("Chrome Yellow NF"), url(customFonts/Chrome_Yellow_NF.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Creampuff";
+    src: url(customFonts/Creampuff.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Creampuff";
+    src: local("Creampuff"), url(customFonts/Creampuff.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Dadhand";
+    src: url(customFonts/Dadhand.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Dadhand";
+    src: local("Dadhand"), url(customFonts/Dadhand.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Eager Naturalist";
+    src: url(customFonts/Eager_Naturalist.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Eager Naturalist";
+    src: local("Eager Naturalist"), url(customFonts/Eager_Naturalist.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Encapsulate BRK";
+    src: url(customFonts/Encapsulate_BRK.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Encapsulate BRK";
+    src: local("Encapsulate BRK"), url(customFonts/Encapsulate_BRK.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Fleurs de Liane";
+    src: url(customFonts/Fleurs_de_Liane.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Fleurs de Liane";
+    src: local("Fleurs de Liane"), url(customFonts/Fleurs_de_Liane.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Flores";
+    src: url(customFonts/Flores.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Flores";
+    src: local("Flores"), url(customFonts/Flores.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Folkard";
+    src: url(customFonts/Folkard.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Folkard";
+    src: local("Folkard"), url(customFonts/Folkard.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Grover Heavy";
+    src: url(customFonts/Grover_Heavy.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Grover Heavy";
+    src: local("Grover Heavy"), url(customFonts/Grover_Heavy.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Hawaii Lover";
+    src: url(customFonts/Hawaii_Lover.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Hawaii Lover";
+    src: local("Hawaii Lover"), url(customFonts/Hawaii_Lover.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Jungle Fever Inline NF";
+    src: url(customFonts/Jungle_Fever_Inline_NF.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Jungle Fever Inline NF";
+    src: local("Jungle Fever Inline NF"), url(customFonts/Jungle_Fever_Inline_NF.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Koch Quadrat";
+    src: url(customFonts/Koch_Quadrat.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Koch Quadrat";
+    src: url(customFonts/Koch_Quadrat.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Lombriz";
+    src: url(customFonts/Lombriz.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Lombriz";
+    src: local("Lombriz"), url(customFonts/Lombriz.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Medoc";
+    src: url(customFonts/Medoc.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Medoc";
+    src: local("Medoc"), url(customFonts/Medoc.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "My type of font";
+    src: url(customFonts/My_type_of_font.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "My type of font";
+    src: local("My type of font"), url(customFonts/My_type_of_font.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Rough Draft";
+    src: url(customFonts/Rough_Draft.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Rough Draft";
+    src: local("Rough Draft"), url(customFonts/Rough_Draft.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Scarlet Ribbons";
+    src: url(customFonts/Scarlet_Ribbons.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Scarlet Ribbons";
+    src: local("Scarlet Ribbons"), url(customFonts/Scarlet_Ribbons.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "SydneySerial Medium";
+    src: url(customFonts/SydneySerial_Medium.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "SydneySerial Medium";
+    src: local("SydneySerial Medium"), url(customFonts/SydneySerial_Medium.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Umberto";
+    src: url(customFonts/Umberto.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Umberto";
+    src: local("Umberto"), url(customFonts/Umberto.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Internet Explorer only */
+@font-face {
+    font-family: "Vtks Caps Loco";
+    src: url(customFonts/Vtks_Caps_Loco.eot);
+}
+/* Other Browsers */
+@font-face {
+    font-family: "Vtks Caps Loco";
+    src: local("Vtks Caps Loco"), url(customFonts/Vtks_Caps_Loco.ttf);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/

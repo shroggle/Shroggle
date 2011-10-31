@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Template with corners around</name>
+    <thumbnail>tn_claret.png</thumbnail>
+    <order>50</order>
+
+    <layout thumbnailFile="2headers.gif" useForDefault="true">
+        <name>2 Headers</name>
+        <file>2headers_main.html</file>
+        <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="2"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="2"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="2"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="2"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="2"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="2"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="2"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="2"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="2"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="2"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="2"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="2"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="2"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="2"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="2"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="2"/>
+        </pattern>
+        
+    </layout>
+    <layout thumbnailFile="3headers_2footers.gif">
+        <name>3 Headers, 2 Footers</name>
+        <file>3headers_main_2footers.html</file>
+
+    </layout>
+    <layout thumbnailFile="2headers_2footers_2content.gif">
+        <name>3 Headers, 2 Footers, 2 Equal Content Areas</name>
+        <file>3headers_2main_2footers.html</file>
+       
+    </layout>
+
+    <theme>
+        <imageFile>Presentation_claret.jpg</imageFile>
+        <name>Presentation Claret</name>
+        <file>presentation_claret.css</file>
+        <thumbnailFile>tn_claret.png</thumbnailFile>
+         <colorTileFile>tile_white.gif</colorTileFile>
+    </theme>
+   
+    <theme>
+        <imageFile>Presentation_blue.jpg</imageFile>
+        <name>Presentation Blue</name>
+        <file>presentation_blue.css</file>
+        <thumbnailFile>tn_blue.png</thumbnailFile>
+         <colorTileFile>tile_blue.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>Presentation_forest.jpg</imageFile>
+        <name>Presentation Forest</name>
+        <file>presentation_forest.css</file>
+        <thumbnailFile>tn_forest.png</thumbnailFile>
+         <colorTileFile>tile_forest.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>Presentation_fuscia.jpg</imageFile>
+        <name>Presentation Fuscia</name>
+        <file>presentation_fuscia.css</file>
+        <thumbnailFile>tn_fuchsia.png</thumbnailFile>
+         <colorTileFile>tile_fuchsia.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>Presentation_gunMetalGrey.jpg</imageFile>
+        <name>Presentation Gun Metal Grey</name>
+        <file>presentation_gunMetalGrey.css</file>
+        <thumbnailFile>tn_metalgrey.png</thumbnailFile>
+         <colorTileFile>tile_metalgrey.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>Presentation_purple.jpg</imageFile>
+        <name>Presentation Purple</name>
+        <file>presentation_purple.css</file>
+        <thumbnailFile>tn_purple.png</thumbnailFile>
+         <colorTileFile>tile_purple.gif</colorTileFile>
+    </theme>
+
+</template>

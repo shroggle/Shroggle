@@ -1,0 +1,152 @@
+ul { /*Fix for http://jira.web-deva.com/browse/SW-6425. Tolik*/
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+li { /*Fix for http://jira.web-deva.com/browse/SW-6425. Tolik*/
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.widgets, .widget, .selectedWidget, .selectedEmptyMediaBlock, .selectedMediaBlock, .mediaBlockReal {
+    font-size: 12px;
+    background-color: inherit;
+}
+
+.widgetPosition {
+    background-color: inherit;
+}
+
+.widgetText {
+    margin-bottom: 10px;
+}
+.content_area, .content_area_selected {
+    float: right;
+    position: relative;
+    font-size: 10pt;
+    top: -7px;
+    height:0; /*Fix for http://jira.web-deva.com/browse/SW-6425. Tolik*/
+}
+
+.content_area_selected {
+    font-weight: bold;
+}
+
+.widget_add_button {
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.selectedMediaBlock {
+    color: inherit !important;
+    border: 1px solid black !important;
+    background-color: inherit !important;
+}
+
+.selectedWidget {
+    border: 1px solid #000000 !important;
+}
+
+.mediaBlockReal {
+    list-style-type: none;
+    padding: 0 2px 2px 2px;
+    color: inherit;
+    border: 1px dashed gray;
+    background-color: inherit;
+}
+
+.widget {
+    margin: 3px 0 3px 0;
+    width: 100%;
+}
+
+.widget > div {
+    list-style-type: disc;
+}
+
+.widgetFloating {
+    float: left;
+}
+
+.clearDiv {
+    clear: both;
+}
+
+.placeHolder {
+    border: 2px dashed rgb(126, 126, 126);
+    height: 40px;
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.placeHolderAfterClearDiv {
+    float: left;
+    width: 95%;
+}
+
+.placeHolderFloating {
+    float: left;
+    border: 2px dashed rgb(126, 126, 126);
+    height: 40px;
+    width: 44%;
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.widgetHeader {
+    background: #eeeeff url(../images/selectedBar_blue_widget.gif) repeat-x;
+    border: 1px solid blue;
+    color: black;
+    cursor: move;
+}
+
+.widgetHeaderRequired {
+    cursor: default !important;
+}
+
+.widgetLeftBorder {
+    border-left: 1px blue solid;
+}
+
+.widgetRightBorder {
+    border-right: 1px blue solid;
+}
+
+.widgetBottomBorder {
+    border-bottom: 1px blue solid;
+}
+
+.widgetHeaderSelected {
+    background: #eeffee url(../images/selectedBar_green_widget.gif) repeat-x;
+    border: 1px solid green !important;
+    color: black;
+    cursor: move;
+}
+
+.widgetLeftBorderSelected {
+    border-left: 1px green solid;
+}
+
+.widgetRightBorderSelected {
+    border-right: 1px green solid;
+}
+
+.widgetBottomBorderSelected {
+    border-bottom: 1px green solid;
+}
+
+.emptyMediaBlock .widgetContainer {
+    padding: 10px;
+}

@@ -1,0 +1,2 @@
+ShoppingCartNameIsNullOrEmpty = Please, enter name for Shopping Cart.
+ShoppingCartNameNotUniqueException = Please, enter unique Shopping Cart name.

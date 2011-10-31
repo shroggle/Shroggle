@@ -1,0 +1,17 @@
+exportNames = export names
+recipient = recipient
+frequency = frequency
+lastSuccessfulExport = last successful export
+created = created
+edit = edit
+delete = delete
+download = download
+GOOGLE_BASE = google
+CSV = ftp
+
+DAILY = daily
+WEEKLY = weekly
+EVERY_TWO_WEEKS = every two weeks
+MONTHLY = monthly
+QUARTERLY = quarterly
+YEARLY = yearly

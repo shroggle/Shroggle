@@ -1,0 +1,2473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/test/com/shroggle/logic/form/export/CustomizeDataExportManagerTest.java" line="28" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/resources/js/window.js" line="210" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/shroggle/presentation/site/borderBackground/CreateBackgroundRequest.java" line="22" mnemonic="1" />
+  </component>
+  <component name="CCaseConfig">
+    <option name="checkoutReserved" value="false" />
+    <option name="markExternalChangeAsUpToDate" value="true" />
+    <option name="checkInUseHijack" value="true" />
+    <option name="useUcmModel" value="true" />
+    <option name="isOffline" value="false" />
+    <option name="synchOutside" value="false" />
+    <option name="isHistoryResticted" value="true" />
+    <option name="useIdenticalSwitch" value="true" />
+    <option name="synchActivitiesOnRefresh" value="true" />
+    <option name="lastScr" value="" />
+    <option name="scrTextFileName" value="" />
+    <option name="historyRevisionsNumber" value="4" />
+  </component>
+  <component name="ChangeBrowserSettings">
+    <option name="MAIN_SPLITTER_PROPORTION" value="0.3" />
+    <option name="MESSAGES_SPLITTER_PROPORTION" value="0.8" />
+    <option name="USE_DATE_BEFORE_FILTER" value="false" />
+    <option name="USE_DATE_AFTER_FILTER" value="false" />
+    <option name="USE_CHANGE_BEFORE_FILTER" value="false" />
+    <option name="USE_CHANGE_AFTER_FILTER" value="false" />
+    <option name="DATE_BEFORE" value="" />
+    <option name="DATE_AFTER" value="" />
+    <option name="CHANGE_BEFORE" value="" />
+    <option name="CHANGE_AFTER" value="" />
+    <option name="USE_USER_FILTER" value="false" />
+    <option name="USER" value="" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="d1c3c347-56af-4861-8d37-48383b96a571" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SuperWiki.iws" afterPath="$PROJECT_DIR$/SuperWiki.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shroggle/entity/Border.java" afterPath="$PROJECT_DIR$/src/com/shroggle/entity/Border.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shroggle/entity/Background.java" afterPath="$PROJECT_DIR$/src/com/shroggle/entity/Background.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/shroggle/presentation/site/borderBackground/CreateBorderServiceTest.java" afterPath="$PROJECT_DIR$/test/com/shroggle/presentation/site/borderBackground/CreateBorderServiceTest.java" />
+    </list>
+    <list id="bfece32a-2a4b-4051-b6a3-9902781f530d" name="config" comment="" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ClassPatternConfiguration">
+    <testPatterns>
+      <classPattern testedClass="$CLASS$" testClass="test/$CLASS$Test" />
+    </testPatterns>
+  </component>
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SuperWiki$LightTests.ic" NAME="LightTests Coverage Results" MODIFIED="1279462726827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.shroggle.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="C:/Users/Администратор/.IntelliJIdea70/system/coverage/SuperWiki$com.superwiki in SuperWiki$com.superwiki in SuperWiki.es" NAME="com.superwiki in SuperWiki" MODIFIED="1225164626936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SuperWiki$All tests..es" NAME="All tests" MODIFIED="1234815832984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="C:/Documents and Settings/Anatoly/.IntelliJIdea70/system/coverage/SuperWiki$ConfigureBlogSummaryWidgetServiceTest.execute$ConfigureBlogSummaryWidgetServiceTest.execute.es" NAME="ConfigureBlogSummaryWidgetServiceTest.execute" MODIFIED="1213136339109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kanshin.service.site.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="C:/Users/Администратор/.IntelliJIdea70/system/coverage/SuperWiki$All tests$All in SuperWiki.es" NAME="All tests" MODIFIED="1226604362990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="C:/Documents and Settings/Anatoly/.IntelliJIdea70/system/coverage/SuperWiki$ConfigureBlogSummaryWidgetServiceTest$ConfigureBlogSummaryWidgetServiceTest.es" NAME="ConfigureBlogSummaryWidgetServiceTest" MODIFIED="1213135870281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kanshin.service.site.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="C:/Documents and Settings/Администратор/.IntelliJIdea70/system/coverage/SuperWiki$All tests$All in SuperWiki.es" NAME="All tests" MODIFIED="1215869031531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="C:/Users/Администратор/.IntelliJIdea70/system/coverage/SuperWiki$CreateForumServiceTest$CreateForumServiceTest.es" NAME="CreateForumServiceTest" MODIFIED="1225168904951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.superwiki.presentation.forum.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="C:/Documents and Settings/Dmitry/.IntelliJIdea70/system/coverage/SuperWiki$All tests$All in SuperWiki.es" NAME="All tests" MODIFIED="1216334847062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SuperWiki$All tests.ic" NAME="All tests" MODIFIED="1232556823158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="C:/Documents and Settings/Anatoly/.IntelliJIdea70/system/coverage/SuperWiki$CreateBlogSummaryForWidgetServiceTest.execute$CreateBlogSummaryForWidgetServiceTest.es" NAME="CreateBlogSummaryForWidgetServiceTest.execute" MODIFIED="1213143822890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kanshin.service.site.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="C:/Users/Администратор/.IntelliJIdea70/system/coverage/SuperWiki$UpdatePaymentInfoActionTest$UpdatePaymentInfoActionTest.es" NAME="UpdatePaymentInfoActionTest" MODIFIED="1223495537013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.*</FILTER>
+      <FILTER>com.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="C:/Documents and Settings/Anatoly/.IntelliJIdea70/system/coverage/SuperWiki$ConfigureBlogSummaryWidgetServiceTest.execute$ConfigureBlogSummaryWidgetServiceTest.es" NAME="ConfigureBlogSummaryWidgetServiceTest.execute" MODIFIED="1213140395546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kanshin.service.site.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="D:\Work" />
+    <option name="REVERSE_PATCH" value="false" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/yahoo/platform/yui/compressor/YUICompressor.java" line="111" class="com.yahoo.platform.yui.compressor.YUICompressor" package="com.yahoo.platform.yui.compressor">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/test/com/shroggle/logic/site/WidgetManagerTest.java" line="382" class="com.shroggle.logic.site.WidgetManagerTest" package="com.shroggle.logic.site">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/test/com/shroggle/presentation/site/borderBackground/CreateBorderServiceTest.java" line="89" class="com.shroggle.presentation.site.borderBackground.CreateBorderServiceTest" package="com.shroggle.presentation.site.borderBackground">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/shroggle/presentation/site/borderBackground/CreateBorderService.java" line="75" class="com.shroggle.presentation.site.borderBackground.CreateBorderService$1" package="com.shroggle.presentation.site.borderBackground">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/test/com/shroggle/presentation/site/borderBackground/CreateBorderServiceTest.java" line="92" class="com.shroggle.presentation.site.borderBackground.CreateBorderServiceTest" package="com.shroggle.presentation.site.borderBackground">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_any>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties>
+      <property name="line_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_flattenPackages" value="true" />
+      <property name="method_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_flattenPackages" value="true" />
+      <property name="exception_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_viewId" value="TABLE" />
+      <property name="field_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_groupByClasses" value="true" />
+      <property name="exception_breakpoints_viewId" value="TABLE" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_groupByMethods" value="false" />
+    </ui_properties>
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SuperWiki" />
+  </component>
+  <component name="FavoritesProjectViewPane">
+    <subPane>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" />
+          <option name="myItemType" value="com.intellij.ide.favoritesTreeView.FavoritesTreeNodeDescriptor" />
+        </PATH_ELEMENT>
+      </PATH>
+    </subPane>
+    <subPane subId="SuperWiki">
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" />
+          <option name="myItemType" value="com.intellij.ide.favoritesTreeView.FavoritesTreeNodeDescriptor" />
+        </PATH_ELEMENT>
+      </PATH>
+    </subPane>
+  </component>
+  <component name="FileColors" enabled="true" enabledForTabs="true" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="WorkItem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shroggle/entity/WorkItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="67" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RenderWidgets.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shroggle/presentation/site/render/RenderWidgets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="421" column="0" selection-start="22189" selection-end="22189" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateBorderServiceTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/shroggle/presentation/site/borderBackground/CreateBorderServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="60" selection-start="3965" selection-end="3965" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Persistance.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shroggle/util/persistance/Persistance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="346" column="0" selection-start="10684" selection-end="10684" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersistanceMock.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/shroggle/PersistanceMock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1276" column="56" selection-start="44384" selection-end="44384" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Border.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shroggle/entity/Border.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="25" selection-start="1361" selection-end="1368" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Background.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shroggle/entity/Background.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="32" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.5362832">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateBorderService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shroggle/presentation/site/borderBackground/CreateBorderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="0" selection-start="3440" selection-end="3440" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Widget.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shroggle/entity/Widget.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="22" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DraftItem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shroggle/entity/DraftItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="25" selection-start="375" selection-end="384" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="SORT_ALPHABETICALLY" value="false" />
+    <option name="HIDE_CLASSES_WHERE_METHOD_NOT_IMPLEMENTED" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test/com/shroggle/logic/widget/DefaultNameGetterTest.java" />
+        <option value="$PROJECT_DIR$/src/com/shroggle/logic/site/item/ItemTypeManager.java" />
+        <option value="$PROJECT_DIR$/src/com/shroggle/util/international/itemType.properties" />
+        <option value="$PROJECT_DIR$/test/com/shroggle/entity/ItemTypeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/shroggle/entity/ItemType.java" />
+        <option value="$PROJECT_DIR$/src/com/shroggle/logic/borderBackground/BackgroundLogic.java" />
+        <option value="$PROJECT_DIR$/src/com/shroggle/presentation/site/borderBackground/CreateBackgroundService.java" />
+        <option value="$PROJECT_DIR$/resources/WEB-INF/updates/shroggle105.sql" />
+        <option value="$PROJECT_DIR$/test/com/shroggle/PersistanceMock.java" />
+        <option value="$PROJECT_DIR$/src/com/shroggle/logic/site/item/ItemPosterReal.java" />
+        <option value="$PROJECT_DIR$/src/com/shroggle/logic/site/page/PageManager.java" />
+        <option value="$PROJECT_DIR$/src/com/shroggle/util/persistance/hibernate/HibernatePersistance.java" />
+        <option value="$PROJECT_DIR$/src/com/shroggle/logic/site/item/ItemCopier.java" />
+        <option value="$PROJECT_DIR$/test/com/shroggle/presentation/site/borderBackground/CreateBorderServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/com/shroggle/entity/Border.java" />
+        <option value="$PROJECT_DIR$/src/com/shroggle/entity/Background.java" />
+      </list>
+    </option>
+  </component>
+  <component name="J2EEProjectPane">
+    <subPane subId="file">
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SuperWiki" />
+          <option name="myItemType" value="com.intellij.javaee.module.view.nodes.JavaeeProjectNodeDescriptor" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Web Facets" />
+          <option name="myItemType" value="com.intellij.javaee.module.view.nodes.FacetHolderNodeDescriptor" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SuperWiki (in SuperWiki)" />
+          <option name="myItemType" value="com.intellij.javaee.module.view.web.nodes.WebFacetNodeDescriptor" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SuperWiki" />
+          <option name="myItemType" value="com.intellij.javaee.module.view.nodes.JavaeeProjectNodeDescriptor" />
+        </PATH_ELEMENT>
+      </PATH>
+    </subPane>
+    <subPane subId="deploy">
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SuperWiki" />
+          <option name="myItemType" value="com.intellij.javaee.module.view.nodes.JavaeeProjectNodeDescriptor" />
+        </PATH_ELEMENT>
+      </PATH>
+    </subPane>
+  </component>
+  <component name="JUnitClassTemplateConfiguration">
+    <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
+    <option name="DONT_SHOW_METHODS_DIALOG_IF_ONLY_ONE_METHOD" value="false" />
+    <option name="LAST_TEMPLATE_NAME" value="Default Test Class.java" />
+    <option name="TEST_TEMPLATES">
+      <value>
+        <list size="1">
+          <item index="0" class="java.lang.String" itemvalue="Default Test Class.java" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="JUnitMethodTemplateConfiguration">
+    <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
+    <option name="DONT_SHOW_METHODS_DIALOG_IF_ONLY_ONE_METHOD" value="false" />
+    <option name="LAST_TEMPLATE_NAME" value="Default Test Method.java" />
+    <option name="TEST_TEMPLATES">
+      <value>
+        <list size="2">
+          <item index="0" class="java.lang.String" itemvalue="Default Test Method.java" />
+          <item index="1" class="java.lang.String" itemvalue="Test Method throws Exception.java" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="JUnitTestConfiguration">
+    <option name="IS_AUTO_TEST_CLASS_RENAME_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_CLASS_MOVE_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_CLASS_REFACTORING_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_METHODS_RENAME_ENABLED" value="true" />
+    <option name="IS_UNTESTED_METHOD_ICON_ENABLED" value="true" />
+    <option name="IS_GET_METHOD_ICONS_ENABLED" value="true" />
+    <option name="IS_SET_METHOD_ICONS_ENABLED" value="true" />
+    <option name="IS_UNIT_TEST_ENABLED" value="true" />
+  </component>
+  <component name="JspContextManager">
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/childSiteRegistration/childSiteRegistrationFormSettingsTab.jsp" context-file="file://$PROJECT_DIR$/resources/childSiteRegistration/configureChildSiteRegistration.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/site/formTable.jsp" context-file="file://$PROJECT_DIR$/resources/site/configureContactUsWidget.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/includeHeadApplication.jsp" context-file="file://$PROJECT_DIR$/resources/payment/updatePaymentInfo.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/account/dashboard/dashboardParentSiteWithNetworks.jsp" context-file="file://$PROJECT_DIR$/resources/account/dashboard/dashboard.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/account/dashboard/dashboardNetworks.jsp" context-file="file://$PROJECT_DIR$/resources/account/dashboard/dashboard.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/style/colorInputField.jsp" context-file="file://$PROJECT_DIR$/resources/style/textFieldWithSelect.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/style/styleInputFields.jsp" context-file="file://$PROJECT_DIR$/resources/borderBackground/configureBorder.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/account/accountUsers.jsp" context-file="file://$PROJECT_DIR$/resources/account/accessPermissions.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/site/render/formFileUploadField.jsp" context-file="file://$PROJECT_DIR$/resources/site/render/formFile.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/image/uploadedImageFilesSelect.jsp" context-file="file://$PROJECT_DIR$/resources/image/configureImageLabelsLinks.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/site/render/gallery/renderWidgetGalleryNavigation.jsp" context-file="file://$PROJECT_DIR$/resources/site/render/gallery/renderWidgetGalleryDataNavigation.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/account/dashboard/dashboardBlueprints.jsp" context-file="file://$PROJECT_DIR$/resources/account/dashboard/dashboard.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/style/numbersOnlyInputTextField.jsp" context-file="file://$PROJECT_DIR$/resources/style/textFieldWithSelect.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/includeFooter_home-new.jsp" context-file="file://$PROJECT_DIR$/resources/map.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/video/uploadedVideoSelect.jsp" context-file="file://$PROJECT_DIR$/resources/video/configureVideo.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/includeHeadPresentation-new.jsp" context-file="file://$PROJECT_DIR$/resources/start.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/site/render/gallery/paginatorLinks.jsp" context-file="file://$PROJECT_DIR$/resources/site/render/gallery/renderWidgetGalleryNavigationPaginator.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/includeHeadPresentation-new2.jsp" context-file="file://$PROJECT_DIR$/resources/map.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/account/dashboard/dashboardCommonSites.jsp" context-file="file://$PROJECT_DIR$/resources/account/dashboard/dashboard.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/includeFooter_home.jsp" context-file="file://$PROJECT_DIR$/resources/account/registration/childSiteRigistrationConfirmationSecondState.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/site/render/formFile.jsp" context-file="file://$PROJECT_DIR$/resources/site/render/formVideoFile.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/account/networkRegistrantsTable.jsp" context-file="file://$PROJECT_DIR$/resources/account/manageNetworkRegistrants.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/video/uploadedVideoImages.jsp" context-file="file://$PROJECT_DIR$/resources/video/configureVideo.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/style/styleSelect.jsp" context-file="file://$PROJECT_DIR$/resources/style/textFieldWithSelect.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/site/render/gallery/renderWidgetGalleryNavigationInternal.jsp" context-file="file://$PROJECT_DIR$/resources/site/render/gallery/renderWidgetGalleryNavigation.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/account/accountMenuInclude.jsp" context-file="file://$PROJECT_DIR$/resources/payment/updatePaymentInfo.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/image/configureImageLabelsLinks.jsp" context-file="file://$PROJECT_DIR$/resources/image/configureImage.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/site/render/gallery/renderWidgetGalleryData.jsp" context-file="file://$PROJECT_DIR$/resources/site/render/gallery/renderWidgetGalleryDataNavigation.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/includeHeadApplicationHead.jsp" context-file="file://$PROJECT_DIR$/resources/b2B.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/site/render/gallery/renderWidgetGalleryNavigationPaginator.jsp" context-file="file://$PROJECT_DIR$/resources/site/render/gallery/renderWidgetGalleryNavigationInternal.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/site/render/gallery/paginatorSelect.jsp" context-file="file://$PROJECT_DIR$/resources/site/render/gallery/renderWidgetGalleryNavigationPaginator.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/account/creditCardListTable.jsp" context-file="file://$PROJECT_DIR$/resources/account/creditCardList.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/includeHeadPresentationHead.jsp" context-file="file://$PROJECT_DIR$/resources/featureList.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/style/measureUnitsSelect.jsp" context-file="file://$PROJECT_DIR$/resources/style/textFieldWithSelect.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/style/textFieldWithSelect.jsp" context-file="file://$PROJECT_DIR$/resources/style/styleInputFields.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/childSiteRegistration/childSiteRegistrationNetworkSettingsTab.jsp" context-file="file://$PROJECT_DIR$/resources/childSiteRegistration/configureChildSiteRegistration.jsp" />
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/resources/includeFooter_app.jsp" context-file="file://$PROJECT_DIR$/resources/site/quicklyCreatePages.jsp" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_INTERNAL" />
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="PackagesPane">
+    <subPane />
+  </component>
+  <component name="PerforceChangeBrowserSettings">
+    <option name="USE_CLIENT_FILTER" value="true" />
+    <option name="CLIENT" value="" />
+  </component>
+  <component name="PerforceDirect.Settings">
+    <option name="useNativeApi" value="true" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state />
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkin" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="false" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Compare with SourceSafe Version" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectPane">
+    <subPane>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SuperWiki" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SuperWiki" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SuperWiki" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SuperWiki" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="work" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SuperWiki" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SuperWiki" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="work" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="resources" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SuperWiki" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SuperWiki" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="work" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="resources" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="image" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </subPane>
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="false" />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="payment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="payment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javien" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="payment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authorize" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="customization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javien" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="export" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shroggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SuperWiki">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="work">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SuperWiki">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="work">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/shroggle">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SuperWiki">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="work">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/shroggle">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="util">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SuperWiki">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Favorites" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="414" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="407" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="30" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="420" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.312" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="RunManagerConfig.showSettingsBeforeRunnig" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="328" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="333" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="last_opened_file_path" value="D:\Monique\Heretic\Result1 Result (Dimon)\SITE\admin" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="333" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="500" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="336" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="559" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="RunManagerConfig.compileBeforeRunning" value="true" />
+    <property name="RESOURCE_BUNDLE_SPLITTER_PROPORTION" value="0.5" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.excludes" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="TEMP_MODULE_EXPLODED_DIR_FOR_SuperWiki/web/Web" value="C:\Documents and Settings\Dmitry\Local Settings\Temp\webExplodedDir27537tmp" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.shroggle.presentation.taxRates" />
+      <recent name="com.shroggle.logic.countries.states" />
+      <recent name="com.shroggle.logic.site.taxRates" />
+      <recent name="com.shroggle.presentation.site" />
+      <recent name="com.shroggle.logic.site.item" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shroggle.presentation.site" />
+      <recent name="com.shroggle.util.persistance.hibernate" />
+      <recent name="com.shroggle.entity" />
+      <recent name="com.shroggle.util.payment.javien.javienResponse" />
+      <recent name="com.shroggle.presentation.site.render.childSiteRegistration" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\src\com\shroggle\util\international" />
+      <recent name="D:\work\resources\account\manageRegistrants" />
+      <recent name="D:\work\resources\WEB-INF\updates" />
+      <recent name="D:\work\resources\js" />
+      <recent name="D:\work\resources\forms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\resources\site\form" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.shroggle.logic" />
+      <recent name="com.superwiki.logic.statistics" />
+      <recent name="com.superwiki.logic.statisctics" />
+      <recent name="com.superwiki.presentation.site" />
+      <recent name="com.kanshin.action.site" />
+    </key>
+  </component>
+  <component name="Regex">
+    <option name="pos1" value="623" />
+    <option name="pos2" value="623" />
+    <option name="pos3" value="205" />
+    <option name="pos4" value="1246" />
+    <option name="pos5" value="205" />
+    <option name="autoUpdate" value="true" />
+    <option name="referenceOn" value="false" />
+    <option name="referencePos" value="0" />
+    <option name="showLabels" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.LightTests">
+    <configuration default="false" name="AddWidgetServiceTest.executeWithChildForComposit" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.shroggle.presentation.site.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SuperWiki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shroggle.presentation.site" />
+      <option name="MAIN_CLASS_NAME" value="com.shroggle.presentation.site.AddWidgetServiceTest" />
+      <option name="METHOD_NAME" value="executeWithChildForComposit" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50830" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AccessibleSettingsGetterTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.shroggle.logic.accessibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SuperWiki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shroggle.logic.accessibility" />
+      <option name="MAIN_CLASS_NAME" value="com.shroggle.logic.accessibility.AccessibleSettingsGetterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PageVersionNormalizerTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.shroggle.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SuperWiki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shroggle.logic" />
+      <option name="MAIN_CLASS_NAME" value="com.shroggle.logic.PageVersionNormalizerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DefaultNameGetterTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.shroggle.logic.widget.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SuperWiki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shroggle.logic.widget" />
+      <option name="MAIN_CLASS_NAME" value="com.shroggle.logic.widget.DefaultNameGetterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateBorderServiceTest.execute" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.shroggle.presentation.site.borderBackground.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SuperWiki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shroggle.presentation.site.borderBackground" />
+      <option name="MAIN_CLASS_NAME" value="com.shroggle.presentation.site.borderBackground.CreateBorderServiceTest" />
+      <option name="METHOD_NAME" value="execute" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63375" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="C:/IDEA 6.0/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" runner="emma" />
+      <extension name="snapshooter" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" runner="emma" />
+      <extension name="snapshooter" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings>
+        <option name="DEPLOY_TOMCAT_MANAGER" value="false" />
+        <option name="BASE_DIRECTORY_NAME" value="" />
+      </server-settings>
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="false" name="All tests" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SuperWiki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="2743" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateForumServiceTest" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="true" merge="true" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.superwiki.presentation.forum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SuperWiki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.superwiki.presentation.forum" />
+      <option name="MAIN_CLASS_NAME" value="com.superwiki.presentation.forum.CreateForumServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63476" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateThreadServiceTest.executeForPollWithCorrectData" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.superwiki.presentation.forum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SuperWiki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.superwiki.presentation.forum" />
+      <option name="MAIN_CLASS_NAME" value="com.superwiki.presentation.forum.CreateThreadServiceTest" />
+      <option name="METHOD_NAME" value="executeForPollWithCorrectData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63635" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LightTests" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="true" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shroggle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SuperWiki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.shroggle" />
+      <option name="MAIN_CLASS_NAME" value="com.shroggle.LightTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54640" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GalleryDataManagerTest.testInsertVotingItems" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.shroggle.logic.gallery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SuperWiki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shroggle.logic.gallery" />
+      <option name="MAIN_CLASS_NAME" value="com.shroggle.logic.gallery.GalleryDataManagerTest" />
+      <option name="METHOD_NAME" value="testInsertVotingItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HeavyTests" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.shroggle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SuperWiki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shroggle" />
+      <option name="MAIN_CLASS_NAME" value="com.shroggle.HeavyTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49864" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <deployment>
+        <artifact name="SuperWiki:SuperWiki exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DEPLOY_TOMCAT_MANAGER" value="false" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SuperWiki63f325031" />
+      </server-settings>
+      <log_file path="C:/Users/Anatoliy/.IntelliJIdea8x/system/tomcat/Unnamed_SuperWiki63f325031/logs/localhost*" checked="true" skipped="true" show_all="false" alias="Tomcat Log" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54897" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-6.0.26/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-6.0.26/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-6.0.26/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-6.0.26/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SuperWiki:SuperWiki exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="ChildSiteEmailSenderTest.testSendEmail" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.shroggle.presentation.site.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SuperWiki" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shroggle.presentation.site" />
+      <option name="MAIN_CLASS_NAME" value="com.shroggle.presentation.site.ChildSiteEmailSenderTest" />
+      <option name="METHOD_NAME" value="testSendEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="13">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AddWidgetServiceTest.executeWithChildForComposit" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AccessibleSettingsGetterTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All tests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CreateForumServiceTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CreateThreadServiceTest.executeForPollWithCorrectData" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.LightTests" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.GalleryDataManagerTest.testInsertVotingItems" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.HeavyTests" />
+      <item index="8" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.ChildSiteEmailSenderTest.testSendEmail" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.PageVersionNormalizerTest" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.DefaultNameGetterTest" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.CreateBorderServiceTest.execute" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="ScopeViewComponent">
+    <subPane subId="Problems" />
+    <subPane subId="Project">
+      <PATH>
+        <PATH_ELEMENT USER_OBJECT="Root">
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="" />
+        </PATH_ELEMENT>
+      </PATH>
+    </subPane>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <changelist date="1270054567208">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1270550336299">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\interface_moved_to_another_package.patch" />
+      <option name="DESCRIPTION" value="interface moved to another package" />
+    </changelist>
+    <changelist date="1270551287846">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\package_moved.patch" />
+      <option name="DESCRIPTION" value="package moved" />
+    </changelist>
+    <changelist date="1270551294165">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\package_moved1.patch" />
+      <option name="DESCRIPTION" value="package moved" />
+    </changelist>
+    <changelist date="1270551405530">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\package_moved2.patch" />
+      <option name="DESCRIPTION" value="package moved" />
+    </changelist>
+    <changelist date="1270552590480">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\refactoring.patch" />
+      <option name="DESCRIPTION" value="refactoring" />
+    </changelist>
+    <changelist date="1270552598038">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\refactoring1.patch" />
+      <option name="DESCRIPTION" value="refactoring" />
+    </changelist>
+    <changelist date="1270552998851">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\refactoring2.patch" />
+      <option name="DESCRIPTION" value="refactoring" />
+    </changelist>
+    <changelist date="1270553221063">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\refactoring3.patch" />
+      <option name="DESCRIPTION" value="refactoring" />
+    </changelist>
+    <changelist date="1270555672796">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\refactoring4.patch" />
+      <option name="DESCRIPTION" value="refactoring" />
+    </changelist>
+    <changelist date="1270670739279">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed1.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1271011697985">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\fixed_menuItems_copying.patch" />
+      <option name="DESCRIPTION" value="fixed menuItems copying" />
+    </changelist>
+    <changelist date="1271058301272">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\fixed_menuItems_copying1.patch" />
+      <option name="DESCRIPTION" value="fixed menuItems copying" />
+    </changelist>
+    <changelist date="1271061836551">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\fixed_menuItems_copying2.patch" />
+      <option name="DESCRIPTION" value="fixed menuItems copying" />
+    </changelist>
+    <changelist date="1271064054290">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\fixed_menuItems_copying3.patch" />
+      <option name="DESCRIPTION" value="fixed menuItems copying" />
+    </changelist>
+    <changelist date="1271064459072">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\fixed_menuItems_copying4.patch" />
+      <option name="DESCRIPTION" value="fixed menuItems copying" />
+    </changelist>
+    <changelist date="1271080948910">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-4959_Current_DB_errors_SW-4959_-_fixed.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-4959 Current DB errors SW-4959 - fixed" />
+    </changelist>
+    <changelist date="1271083812549">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-4959_Current_DB_errors_SW-4959_-_fixed1.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-4959 Current DB errors SW-4959 - fixed" />
+    </changelist>
+    <changelist date="1271229610226">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\fixed_config.patch" />
+      <option name="DESCRIPTION" value="fixed config" />
+    </changelist>
+    <changelist date="1271330686558">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\fixed_build.patch" />
+      <option name="DESCRIPTION" value="fixed build" />
+    </changelist>
+    <changelist date="1271337815296">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\fixed_build1.patch" />
+      <option name="DESCRIPTION" value="fixed build" />
+    </changelist>
+    <changelist date="1271337885352">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\fixed_build2.patch" />
+      <option name="DESCRIPTION" value="fixed build" />
+    </changelist>
+    <changelist date="1271494872250">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\fixed_build3.patch" />
+      <option name="DESCRIPTION" value="fixed build" />
+    </changelist>
+    <changelist date="1271850521416">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5060_Opt_out_for_child_site_registration_forms_SW-5060_-_fixed.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5060 Opt out for child site registration forms SW-5060 - fixed" />
+    </changelist>
+    <changelist date="1271883372363">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed2.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1271883393241">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed3.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1271883480049">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed4.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1271885835014">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed5.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1272361413712">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed6.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1272963053818">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed7.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1273147952204">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5048_Some_things_in_Fonts&amp;Colors_for_Site_Menu_vis_item_SW-5048_-.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5048 Some things in Fonts&amp;Colors for Site Menu vis item SW-5048 - fixed" />
+    </changelist>
+    <changelist date="1273595214237">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5280_false_instead_of_text_in_shopping_cart_header_window_SW-5280.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5280 false instead of text in shopping cart header window SW-5280 - fixed" />
+    </changelist>
+    <changelist date="1273596806456">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed8.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1273837260286">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\typo_fixing.patch" />
+      <option name="DESCRIPTION" value="typo fixing" />
+    </changelist>
+    <changelist date="1274475017699">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\fixed_tests.patch" />
+      <option name="DESCRIPTION" value="fixed tests" />
+    </changelist>
+    <changelist date="1276240890560">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5326_Rename__voting_module__into__Gallery_with_Voting__SW-5326_-_.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5326 Rename &quot;voting module&quot; into &quot;Gallery with Voting&quot; SW-5326 - fixed" />
+    </changelist>
+    <changelist date="1276266582308">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5539_Wrong__Summary_Links_to__format_SW-5539_-_fixed.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5539 Wrong 'Summary Links to' format SW-5539 - fixed" />
+    </changelist>
+    <changelist date="1276873653255">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed9.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1277118803316">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\removed_odd_imports.patch" />
+      <option name="DESCRIPTION" value="removed odd imports" />
+    </changelist>
+    <changelist date="1277136360357">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5264_Add_anchor_when_redirect_to_blog_posts__SW-5264_-_fixed.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5264 Add anchor when redirect to blog posts. SW-5264 - fixed" />
+    </changelist>
+    <changelist date="1277137533548">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5264_Add_anchor_when_redirect_to_blog_posts__SW-5264_-_fixed1.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5264 Add anchor when redirect to blog posts. SW-5264 - fixed" />
+    </changelist>
+    <changelist date="1277465001556">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5566_Customize_Manage_Records_View_Window_SW-5566_-_partially_add.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5566 Customize Manage Records View Window SW-5566 - partially added" />
+    </changelist>
+    <changelist date="1277669324905">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5566_Customize_Manage_Records_View_Window_SW-5566_-_fixed.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5566 Customize Manage Records View Window SW-5566 - fixed" />
+    </changelist>
+    <changelist date="1277713726390">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed10.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1277713730874">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed11.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1277744807501">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5545_Distances_between_drop-down_labels_and_corresponding_drop-do.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5545 Distances between drop-down labels and corresponding drop-downs are different SW-5545 - fixed" />
+    </changelist>
+    <changelist date="1277745570613">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5545_Distances_between_drop-down_labels_and_corresponding_drop-do1.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5545 Distances between drop-down labels and corresponding drop-downs are different SW-5545 - fixed" />
+    </changelist>
+    <changelist date="1277758807990">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5545_Distances_between_drop-down_labels_and_corresponding_drop-do2.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5545 Distances between drop-down labels and corresponding drop-downs are different SW-5545 - fixed" />
+    </changelist>
+    <changelist date="1277849783892">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed12.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1277887710195">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed13.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1277891813369">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed14.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1277970781073">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5236__Select_a_Registration_form_for_voters___drop-down_hasn_t_de.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5236 'Select a Registration form for voters ' drop-down hasn't default form selected SW-5236 - fixed" />
+    </changelist>
+    <changelist date="1277991410332">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed15.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+    <changelist date="1278499018407">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\refactoring5.patch" />
+      <option name="DESCRIPTION" value="refactoring" />
+    </changelist>
+    <changelist date="1278673353538">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\http___jira_shroggle_com_browse_SW-5731_Form_data_export_and___SW-5731_-_fixed.patch" />
+      <option name="DESCRIPTION" value="http://jira.shroggle.com/browse/SW-5731 Form data export and ; SW-5731 - fixed" />
+    </changelist>
+    <changelist date="1279185077272">
+      <option name="PATH" value="C:\Users\Anatoliy\.IntelliJIdea90\config\shelf\unnamed16.patch" />
+      <option name="DESCRIPTION" value="" />
+    </changelist>
+  </component>
+  <component name="StarteamConfiguration">
+    <option name="SERVER" value="" />
+    <option name="PORT" value="49201" />
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="PROJECT" value="" />
+    <option name="VIEW" value="" />
+    <option name="ALTERNATIVE_WORKING_PATH" value="" />
+    <option name="LOCK_ON_CHECKOUT" value="false" />
+    <option name="UNLOCK_ON_CHECKIN" value="false" />
+  </component>
+  <component name="Struts Assistant">
+    <option name="showInputs" value="true" />
+    <option name="resources">
+      <value>
+        <option name="strutsPath" />
+        <option name="strutsHelp" />
+      </value>
+    </option>
+    <option name="selectedTaglibs" />
+    <option name="selectedTaglibs" />
+    <option name="myStrutsValidationEnabled" value="true" />
+    <option name="myTilesValidationEnabled" value="true" />
+    <option name="myValidatorValidationEnabled" value="true" />
+    <option name="myReportErrorsAsWarnings" value="true" />
+  </component>
+  <component name="SvnChangesBrowserSettings">
+    <option name="USE_AUTHOR_FIELD" value="true" />
+    <option name="AUTHOR" value="" />
+    <option name="LOCATION" value="" />
+    <option name="USE_PROJECT_SETTINGS" value="true" />
+    <option name="USE_ALTERNATE_LOCATION" value="false" />
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="UPDATE_RUN_STATUS" value="false" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <configuration useDefault="true">C:\Users\Anatoliy\AppData\Roaming\Subversion</configuration>
+    <upgradeMode>none</upgradeMode>
+    <myIsUseDefaultProxy>true</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\work" />
+          <option name="myCopyRoot" value="D:\work" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\work" />
+          <option name="myCopyRoot" value="D:\work" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1c3c347-56af-4861-8d37-48383b96a571" name="Default" comment="" />
+      <created>1270037150098</created>
+      <updated>1270037150098</updated>
+    </task>
+    <task id="LOCAL-00001" summary="config">
+      <changelist id="bfece32a-2a4b-4051-b6a3-9902781f530d" name="config" comment="" />
+      <created>1270037145889</created>
+      <updated>1270037145889</updated>
+    </task>
+    <task id="LOCAL-00002" summary="non-commitedFiles">
+      <changelist id="6e0cc779-a984-424b-ab9e-72e31f8c55f7" name="non-commitedFiles" comment="" />
+      <created>1270037145889</created>
+      <updated>1270037145889</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+      <todo-filter name="Has to be removed" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32299465" sideWeight="0.0" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24933262" sideWeight="0.5026738" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53475934" sideWeight="0.0" order="21" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.0" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48983958" sideWeight="0.0" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3197861" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36642784" sideWeight="0.6594324" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24719702" sideWeight="0.39251336" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988254" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31500268" sideWeight="0.66524065" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35935828" sideWeight="0.0" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45775402" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32927817" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32927817" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="File View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Properties" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32888147" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32927817" sideWeight="0.6686252" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CVS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32441473" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Картинки" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902467" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VCS.FileViewConfiguration">
+    <option name="SELECTED_STATUSES" value="DEFAULT" />
+    <option name="SELECTED_COLUMNS" value="DEFAULT" />
+    <option name="SHOW_FILTERS" value="true" />
+    <option name="CUSTOMIZE_VIEW" value="true" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="true" />
+  </component>
+  <component name="ValidationConfiguration">
+    <option name="VALIDATE_ON_BUILD" value="true" />
+    <option name="VALIDATORS">
+      <map>
+        <entry key="ActionScript Compiler" value="true" />
+        <entry key="EJB Validator" value="true" />
+        <entry key="Faces Validator" value="true" />
+        <entry key="Hibernate Validator" value="true" />
+        <entry key="JPA Validator" value="true" />
+        <entry key="Jasper Validator" value="true" />
+        <entry key="Spring Model Validator" value="true" />
+        <entry key="Struts 2 Model Validator" value="true" />
+        <entry key="Struts 2 Validation Model Validator" value="true" />
+        <entry key="Struts Model validator" value="true" />
+        <entry key="Struts Validation Model validator" value="true" />
+        <entry key="Tiles Model validator" value="true" />
+        <entry key="Web Xml Validator" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed tests" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" value="svn" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <confirmMoveToFailedCommit value="1" />
+    <MESSAGE value="added user not logined exception processing" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5059&#10;No converter found for 'com.shroggle.entity.Page' in logs&#10;SW-5059 - fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5617&#10;Checking 'Label is a link, should automatically check 'Display label' check box&#10;SW-5617 - fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-4437&#10;Showing something instead of pictures before they are non-loaded&#10;SW-4437 - fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5003&#10;Background colors in Fonts&amp;Colors for blog&#10;SW-5003 - fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5712&#10;System creates additional empty record after Bulk Upload in Image field&#10;SW-5712 - fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5711&#10;Image thumbnail is bigger than cell, containing it &#10;SW-5711 - fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5696&#10;Alert about unsaved changes&#10;SW-5696 - fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5713&#10;Problem with page publishing&#10;SW-5713 - fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5716&#10;Should be no space between &lt;item type&gt; and colon in 'Copy Page Configuration'&#10;SW-5716 - fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5718&#10;'Gallery with Voting' is shown as 'Gallery' in 'Copy Page Configuration'&#10;SW-5718 - fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5714&#10;Cannot save blog summary settings&#10;SW-5714 - fixed" />
+    <MESSAGE value="added headers to cuctomize data export" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5727&#10;Redesign Item list pages into one page&#10;SW-5727 - partially fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5727&#10;Redesign Item list pages into one page&#10;SW-5727 - added search by name filter" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5727&#10;Redesign Item list pages into one page&#10;SW-5727 - added opening items content" />
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5726&#10;Change Host selection window to a new extended Select Item to Insert window&#10;" />
+    <MESSAGE value="added test" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5731&#10;Form data export and ;&#10;SW-5731 - fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5691&#10;Insert Item Window changes&#10;SW-5691 - fixed" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5750&#10;Tax Rates visual item&#10;SW-5750 - added" />
+    <MESSAGE value="http://jira.shroggle.com/browse/SW-5751&#10;Common sales tax names &quot;2010 Tax Rates&quot; and with food rates named: &quot;2010 Food Tax Rates&quot; default items&#10;SW-5751 - fixed" />
+    <MESSAGE value="fixed update" />
+    <MESSAGE value="fixed tests" />
+  </component>
+  <component name="VssConfiguration">
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="0" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="ANSWER_NEGATIVELY" value="false" />
+      <option name="ANSWER_POSITIVELY" value="false" />
+      <option name="RECURSIVE" value="false" />
+      <option name="VERSION" />
+    </GetOptions>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <antCommandLine value="" />
+      <runInBackground value="true" />
+      <targetFilters />
+      <treeView value="true" />
+      <verbose value="true" />
+      <viewClosedWhenNoErrors value="false" />
+    </buildFile>
+  </component>
+  <component name="com.intellij.ide.util.scopeChooser.ScopeChooserConfigurable" proportions="" version="1">
+    <option name="myLastEditedConfigurable" />
+  </component>
+  <component name="com.intellij.openapi.roots.ui.configuration.projectRoot.ProjectRootMasterDetailsConfigurable" proportions="0.16666667,0.5" version="1">
+    <option name="myPlainMode" value="false" />
+    <option name="myLastEditedConfigurable" value="SuperWiki" />
+  </component>
+  <component name="com.intellij.profile.ui.ErrorOptionsConfigurable" proportions="" version="1">
+    <option name="myLastEditedConfigurable" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/entity/StylesOwner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="16" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/util/persistance/hibernate/HibernatePersistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3240" column="114" selection-start="140218" selection-end="140226" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/logic/site/page/PageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="208" column="158" selection-start="9028" selection-end="9028" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/logic/site/item/ItemCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="293" column="50" selection-start="13300" selection-end="13300" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/entity/DraftItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="375" selection-end="384" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/entity/Widget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="22" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/entity/WorkItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="67" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/presentation/site/render/RenderWidgets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="421" column="0" selection-start="22189" selection-end="22189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="404" selection-end="404" vertical-scroll-proportion="0.4509284">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/presentation/site/borderBackground/CreateBorderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="3440" selection-end="3440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/entity/Style.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="0" selection-start="3122" selection-end="3122" vertical-scroll-proportion="0.33167082">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/shroggle/presentation/site/borderBackground/CreateBorderServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="60" selection-start="3965" selection-end="3965" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/util/persistance/Persistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="346" column="0" selection-start="10684" selection-end="10684" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/shroggle/PersistanceMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1276" column="56" selection-start="44384" selection-end="44384" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/entity/Border.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="25" selection-start="1361" selection-end="1368" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shroggle/entity/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="32" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.5362832">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl>
+              <option name="proportions">
+                <list>
+                  <option value="0.2" />
+                  <option value="0.5" />
+                </list>
+              </option>
+            </SplitterProportionsDataImpl>
+          </splitter-proportions>
+          <last-edited>SuperWiki:SuperWiki exploded</last-edited>
+          <settings />
+        </UIState>
+      </state>
+      <state key="Copyright.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+        </UIState>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+          <settings />
+        </UIState>
+      </state>
+    </states>
+  </component>
+</project>
+

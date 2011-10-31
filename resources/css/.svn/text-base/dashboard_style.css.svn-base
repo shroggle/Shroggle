@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+
+table td {
+    vertical-align: top;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eceaf5;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #333;
+}
+
+.dashboardWrapper {
+    width: 960px;
+    margin: auto;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
+
+.mainarea {
+    clear: both;
+    margin: 20px 0;
+}
+
+.leftmenu {
+    width: 315px;
+}
+
+.dashboardSelectedAccordion, .dashboardNotSelectedAccordion {
+    background-repeat: no-repeat;
+    width: 302px;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.dashboardSelectedAccordion {
+    background-image: url(../images/dashboard/bg_c1current.png);
+    height: 57px;
+    line-height: 57px;
+    font-size: 18pt;
+    cursor: default !important;
+}
+
+.dashboardAccordionHeader {
+    cursor: pointer;
+}
+
+.dashboardNotSelectedAccordion {
+    background-image: url(../images/dashboard/bg_c1.png);
+    height: 63px;
+    line-height: 63px;
+    font-size: 18pt;
+    margin-bottom: 10px;
+}
+
+.sitesListBackgroundWhite, .sitesListBackgroundWhite_selected, .sitesListBackgroundWhite_last, .sitesListBackgroundGray,
+.sitesListBackgroundGray_selected, .sitesListBackgroundGray_last, .sitesListBackgroundWhite_last_selected, .sitesListBackgroundGray_last_selected {
+    width: 310px;
+    height: 39px;
+    line-height: 39px;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sitesListBackgroundWhite_selected, .sitesListBackgroundGray_selected, .sitesListBackgroundWhite_last_selected, .sitesListBackgroundGray_last_selected {
+    cursor: default;
+}
+
+.sitesListBackgroundWhite span, .sitesListBackgroundWhite_selected span, .sitesListBackgroundWhite_last span,
+.sitesListBackgroundGray span, .sitesListBackgroundGray_selected span, .sitesListBackgroundGray_last span,
+.sitesListBackgroundWhite_last_selected span, .sitesListBackgroundGray_last_selected span {
+    margin-left: 15px;
+}
+
+.sitesListBackgroundWhite.childSite span, .sitesListBackgroundWhite_selected.childSite span, .sitesListBackgroundWhite_last.childSite span,
+.sitesListBackgroundGray.childSite span, .sitesListBackgroundGray_selected.childSite span, .sitesListBackgroundGray_last.childSite span,
+.sitesListBackgroundWhite_last_selected.childSite span, .sitesListBackgroundGray_last_selected.childSite span {
+    margin-left: 30px;
+}
+
+.sitesListBackgroundWhite_last, .sitesListBackgroundWhite_last_selected, .sitesListBackgroundGray_last, .sitesListBackgroundGray_last_selected {
+    margin-bottom: 10px;
+}
+
+/*---------------------------------Element in the list of sites with white background---------------------------------*/
+.sitesListBackgroundWhite {
+    background-image: url(../images/dashboard/bg_c2.png);
+}
+
+.sitesListBackgroundWhite_selected {
+    background-image: url(../images/dashboard/bg_c2current-white.png);
+    color: #DB802F;
+}
+
+.sitesListBackgroundWhite_last {
+    background-image: url(../images/dashboard/bg_c2last.png);
+}
+
+.sitesListBackgroundWhite_last_selected {
+    background-image: url(../images/dashboard/bg_c2last-current-white.png);
+    color: #DB802F;
+}
+
+/*---------------------------------Element in the list of sites with white background---------------------------------*/
+
+/*---------------------------------Element in the list of sites with gray background----------------------------------*/
+.sitesListBackgroundGray {
+    background-image: url(../images/dashboard/bg_c2grey.png);
+}
+
+.sitesListBackgroundGray_selected {
+    background-image: url(../images/dashboard/bg_c2current.png);
+    color: #DB802F;
+}
+
+.sitesListBackgroundGray_last {
+    background-image: url(../images/dashboard/bg_c2last-grey.png);
+}
+
+.sitesListBackgroundGray_last_selected {
+    background-image: url(../images/dashboard/bg_c2last-current-grey.png);
+    color: #DB802F;
+}
+
+/*---------------------------------Element in the list of sites with gray background----------------------------------*/
+
+.td2 {
+}
+
+.mainheader {
+    width: 635px;
+    height: 80px;
+    background-image: url(../images/dashboard/bg_paper.png);
+    background-repeat: no-repeat;
+}
+
+.site_name {
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.site_info {
+    padding: 0 12px;
+}
+
+.site_info a {
+    text-decoration: underline;
+}
+
+.site_info span {
+    font-weight: bold;
+}
+
+.dashboardContent {
+    background-image: url(../images/dashboard/bg_content_bottom.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 635px;
+    height: auto;
+    overflow: hidden;
+}
+
+.content1 {
+    background-image: url(../images/dashboard/bg_content_line.png);
+    background-repeat: repeat-y;
+    width: 635px;
+    margin-bottom: 11px;
+    height: auto;
+    overflow: hidden;
+}
+
+.content_left {
+    float: left;
+    width: 300px;
+    margin: 10px 0;
+    border-right: 1px #999 solid;
+}
+
+.content_left_header {
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 3px 12px;
+}
+
+.content_left_body {
+    padding: 3px 30px;
+    color: #CB630E;
+}
+
+.content_left_body ul li, .content_right_body ul li {
+    line-height: 18px;
+}
+
+.content_left_body a, .content_left_body li {
+    color: #003366;
+}
+
+.content_left_body a:hover {
+    color: #ee7900;
+    text-decoration: underline;
+}
+
+.content_right {
+    float: left;
+    width: 300px;
+    border-left: 1px #999 solid;
+    padding-left: 10px;
+    margin: 10px 0 10px -1px;
+}
+
+.content_right_header {
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 3px 12px;
+}
+
+.content_right_body {
+    color: #7c5c3a;
+    padding: 3px 30px;
+    overflow: auto;
+}
+
+.content_right_body a {
+    color: #000;
+}
+
+.content_right_body a:hover {
+    color: #ee7900;
+    text-decoration: underline;
+}
+
+.content_right_body a.grey {
+    color: #777;
+}
+
+.content_right_body a:hover.grey {
+    color: #ee7900;
+    text-decoration: underline;
+}
+
+/*footer-----*/
+.footer {
+    height: 200px;
+    background-image: url(../images/dashboard/squirrel.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 20px 20px 0;
+    clear: both;
+    font-weight: bold;
+}
+
+.footermenu {
+    margin-top: 110px;
+}
+
+.footermenu a {
+    color: #7F5F39;
+}
+
+.footermenu a:hover {
+    color: #ee7900;
+}
+
+.copy {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    color: #7c5c3a;
+}
+
+.siteStatus_live {
+    color: green;
+}
+
+.siteStatus_offline {
+    color: darkblue;
+}
+
+.dashboardWidgets {
+    height: 215px;
+}
+
+.dashboardWidgets.NETWORK {
+    height: 250px;
+}
+
+.dashboardWidgets.BLUEPRINT, .dashboardWidgets.PUBLISHED_BLUEPRINT, .dashboardWidgets.ACTIVATED_BLUEPRINT {
+    height: 160px;
+}
+
+.dashboardWidgets.CHILD {
+    height: 230px;
+}
+
+.accordionContainer {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* root element for scrollable */
+.scrollable {
+/* required settings */
+    position: relative;
+    overflow: hidden;
+    height: 390px;
+}
+
+/* root element for scrollable items */
+.scrollable .items {
+    position: absolute; /* this time we have very large space for the height */
+    height: 20000em;
+}
+
+.CREATE_BLUEPRINT_CELL {
+    text-align:center;
+    cursor:default;
+}
+
+.CREATE_BLUEPRINT_CELL a {
+    margin-left:-10px;
+}
+
+.dashboardAccordionsHolder {
+    height: 600px;
+}
+
+.dashboardAccordionsHolderIncreased {
+    height: 750px;
+}
+
+.prev.disabled {
+    visibility: hidden;
+}
+
+.next.disabled {
+    visibility: hidden;
+}
+
+.dashboardHeader {
+    margin-top: 15px;
+}
+
+.dashboardScrollablePrevHolder, .dashboardScrollableNextHolder {
+    height: 0;
+    position: relative;
+    left: 50%;
+    z-index: 1;
+    float: left;
+}
+
+.dashboardScrollablePrevHolder {
+    top: -5px;
+}
+
+.dashboardScrollableNextHolder {
+    top: -15px;
+}
+
+.dashboardScrollableNextPrevContainer {
+    float: left;
+    position: relative;
+    left: -60%;
+}
+
+.height250px {
+    height: 250px;
+}
+
+.width100height100 {
+    width: 100%;
+    height: 100%;
+}
+
+.centerAligned {
+    vertical-align: middle;
+    text-align: center;
+}

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Tea template collection</name>
+    <thumbnail>tn_babypink.jpg</thumbnail>
+    <order>190</order>
+
+    <layout thumbnailFile="head-foot-3bottom.jpg" useForDefault="true">
+        <name>Header, Footer, 3 Bottom Content</name>
+        <file>header_4main_footer.html</file>
+   
+           <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="2"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="2"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="2"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="2"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="2"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="2"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="2"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="2"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="2"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="2"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="2"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="2"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="2"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="2"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="2"/>
+        </pattern>
+    </layout>
+  <layout thumbnailFile="head-foot.jpg">
+        <name>Header, Footer </name>
+        <file>header_2main_footer.html</file>
+
+    </layout>
+      <layout thumbnailFile="head-foot-2middle.jpg">
+        <name>Header, Footer, 2 Middle Content </name>
+        <file>header_2main_footer_leftmenu.html</file>
+
+    </layout>
+     <layout thumbnailFile="head-foot-2bottom.jpg">
+        <name>Header, Footer, 2 Bottom Content </name>
+        <file>header_3main_footer.html</file>
+
+    </layout>
+      <layout thumbnailFile="3head-foot-2bottom.jpg">
+        <name>Top Grey Header, Footer, 2 Bottom Content </name>
+        <file>3headers_3main_footer.html</file>
+
+    </layout>
+     <layout thumbnailFile="3head-foot-3bottom.jpg">
+        <name>Top Grey Header, Footer, 3 Bottom Content </name>
+        <file>3headers_3main2_footer.html</file>
+
+    </layout>
+     <layout thumbnailFile="3head-foot.jpg">
+        <name>Top Grey Header, Footer </name>
+        <file>3headers_main_footer.html</file>
+
+    </layout>
+     <layout thumbnailFile="3head-foot-2middle.jpg">
+        <name>Top Grey Header, Footer, 2 Middle Content </name>
+        <file>3headers_2main_footer.html</file>
+       
+    </layout>
+    <theme>
+        <imageFile>teaBabypink.jpg</imageFile>
+        <name>Tea Babypink</name>
+        <file>babypink.css</file>
+        <colorTileFile>tileBabypink.jpg</colorTileFile>
+        <thumbnailFile>tn_babypink.jpg</thumbnailFile>
+    </theme>
+     <theme>
+        <imageFile>teaBeige.jpg</imageFile>
+        <name>Tea Beige</name>
+        <file>beige.css</file>
+        <colorTileFile>tileBeige.jpg</colorTileFile>
+        <thumbnailFile>tn_beige.jpg</thumbnailFile>
+    </theme>
+     <theme>
+        <imageFile>teaBlack.jpg</imageFile>
+        <name>Tea Black</name>
+        <file>black.css</file>
+        <colorTileFile>tileBlack.jpg</colorTileFile>
+        <thumbnailFile>tn_black.jpg</thumbnailFile>
+    </theme>
+       <theme>
+        <imageFile>teaCeladon.jpg</imageFile>
+        <name>Tea Celadon</name>
+        <file>celadon.css</file>
+        <colorTileFile>tileCeladon.jpg</colorTileFile>
+        <thumbnailFile>tn_celadon.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>teaCrimson.jpg</imageFile>
+        <name>Tea Crimson</name>
+        <file>crimson.css</file>
+         <colorTileFile>tileCrimson.jpg</colorTileFile>
+        <thumbnailFile>tn_crimson.jpg</thumbnailFile>
+    </theme>
+       <theme>
+        <imageFile>teaDarkblue.jpg</imageFile>
+        <name>Tea Darkblue</name>
+        <file>darkblue.css</file>
+        <colorTileFile>tileDarkblue.jpg</colorTileFile>
+        <thumbnailFile>tn_darkblue.jpg</thumbnailFile>
+    </theme>
+       <theme>
+        <imageFile>teaDarkgrey.jpg</imageFile>
+        <name>Tea Darkgrey</name>
+        <file>darkgrey.css</file>
+        <colorTileFile>tileDarkgrey.jpg</colorTileFile>
+        <thumbnailFile>tn_darkgrey.jpg</thumbnailFile>
+    </theme>
+       <theme>
+        <imageFile>teaGirlpink.jpg</imageFile>
+        <name>Tea Girlpink</name>
+        <file>girlpink.css</file>
+        <colorTileFile>tileGirlpink.jpg</colorTileFile>
+        <thumbnailFile>tn_girlpink.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>teaLavender.jpg</imageFile>
+        <name>Tea Lavender</name>
+        <file>lavender.css</file>
+        <colorTileFile>tileLavender.jpg</colorTileFile>
+        <thumbnailFile>tn_lavender.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>teaPersimon.jpg</imageFile>
+        <name>Tea Persimon</name>
+        <file>persimon.css</file>
+         <colorTileFile>tilePersimon.jpg</colorTileFile>
+        <thumbnailFile>tn_persimon.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>teaSage.jpg</imageFile>
+        <name>Tea Sage</name>
+        <file>sage.css</file>
+         <colorTileFile>tileSage.jpg</colorTileFile>
+        <thumbnailFile>tn_sage.jpg</thumbnailFile>
+    </theme>
+      <theme>
+        <imageFile>teaTeal.jpg</imageFile>
+        <name>Tea Teal</name>
+        <file>teal.css</file>
+         <colorTileFile>tileTeal.jpg</colorTileFile>
+        <thumbnailFile>tn_teal.jpg</thumbnailFile>
+    </theme>
+       <theme>
+        <imageFile>teaWhite.jpg</imageFile>
+        <name>Tea White</name>
+        <file>white.css</file>
+         <colorTileFile>tileWhite.jpg</colorTileFile>
+        <thumbnailFile>tn_white.jpg</thumbnailFile>
+    </theme>
+    
+</template>

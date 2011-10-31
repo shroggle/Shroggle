@@ -1,0 +1,30 @@
+newBillingInfoSubject = Your {0} membership has expired.
+
+newBillingInfoBody = Following the earlier email notification you were sent on {0} \n\
+your {1} web site is now independent of the {2} web site.\n\
+As a result prices have changed : New prices are:\n\
+250mb - ${3}\n\
+500mb - ${4}\n\
+1gb - ${5}\n\
+3gb - ${6}\n\
+For more information please contact: {7}\n\
+or to make changes to your account please login to your account by going to: {8}\n\n\
+This service is powered by {8} - a great web based tool for building sites and networks of sites.
+
+siteCanBePublishedMessageSubject = Your {0} site can be posted live now.
+
+siteCanBePublishedMessageBody = Please post your {0} site live now. \n\
+As of today your site can be published to the Internet.\n\
+To post your site live, please, login: http://{1} \n\
+Please feel free to contact technical support directly with any questions, {2}.
+
+
+
+networkMembershipExpiredInTenDaysSubject = {0} Membership Expiration Reminder.
+
+networkMembershipExpiredBody = {0} {1}\n\nJust a reminder that your membership with {2} is due to expire on {3}.\n\
+  We know that you have probably put a lot of work into it, so we do not want to just take it down automatically.\n\n\
+  Therefor your site {4} will be allowed to continue, until such time as you choose to manually delete it.\n\
+  Your new monthly subscription fee will be: ${5}\n\nIf you want to keep your site, you do not need to take any action.\n\n\
+  If you want to delete your site then please login at {6}, and from your dashboard page, select \
+  the delete option beneath your site name.\n\nSincere Regards,\n\n{2} and {7}.com

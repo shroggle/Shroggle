@@ -1,0 +1,49 @@
+addEditBackgrounds=Add/Edit Backgrounds
+newBackground=New Background
+existingBackground=Existing Background
+backgroundName=Background Name
+selectColorOrImageText=Select the color or image you wish to apply to the background of the selected area.
+applyBackgroundColor=Apply Background Color
+color=Color
+applyBackgroundImage=Apply Background Image
+selectUploadedImageText=Select background image from those images you have already uploaded.
+imageDisplayTreatment=Image display treatment.
+usingBacgroundImageAloneOrWithColorText=Background images can be used alone or in combination with a background color, they can be used singly or can be tiled edge to edge to cover the background of the selected area completely. Note that not all images look good tiles, please check the page preview before posting live.
+tileImage=Tile / Repeat Image
+align=Align
+selectAndUploadImageText=Browse your computer to select and upload an image
+
+topleft=top left
+topcenter=top center
+topright=top right
+centerleft=center left
+centercenter=center center
+centerright=center right
+bottomleft=bottom left
+bottomcenter=bottom center
+bottomright=bottom right
+
+selectABackground=Select a background
+
+width=Width
+style=Style
+
+cssDefinition=CSS definition
+
+background=Background
+
+borderBackground=Edit {0} Module: Background
+newBorderBackgroundForm=New Background
+existingBorderBackgroundForm=Existing Background
+selectBorderBackground=Select a Background
+formName=Background
+
+
+
+applyThisToAllMySitePages = Apply to all pages of this site 
+allPagesText=The settings you made in this window will be applied to all pages in the current site. Do you wish to continue?
+emptyFile=Please, select the file first.
+browseAndUpload = Browse And Upload
+
+moreInfo = more info
+forItem = Save changes in this module only.

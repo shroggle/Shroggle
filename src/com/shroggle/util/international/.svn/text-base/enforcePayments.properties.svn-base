@@ -1,0 +1,17 @@
+siteSuspendedEmailSubject = Your site has been suspended
+siteSuspendedEmailBody = Dear {0} {1},\n\n\
+Warning. Your {2} powered web site, {3} has been suspended, pending updated payment information.\n\n\
+Follow this link to Update your payment information as soon as possible. http://{4}/account/updatePaymentInfo.action?selectedSiteId={5}\n\n\
+{2} is a fabulous new tool for creating and maintaining\n\
+professional web sites at the push of a button. {2} allows you to create functionally rich sites, with plenty of media.
+
+
+
+
+siteDeactivationWarningEmailSubject = Deactivation Warning - {0} was unable to process your credit card
+siteDeactivationWarningEmailBody = Dear {0} {1},\n\n\
+Deactivation Warning! {2} was unable to process your credit card ending in {3}.\n\n\
+Unless you update your payment information your {2} powered web site, {4}, will be suspended in {5} days,\n\n\
+Follow this link to Update your payment information as soon as possible. http://{6}/account/updatePaymentInfo.action?selectedSiteId={7}\n\n\
+{2} is a fabulous tool for creating and maintaining\n\
+professional web sites at the push of a button. {2} allows you to create functionally rich sites, with plenty of rich media.

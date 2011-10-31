@@ -1,0 +1,21 @@
+header = Manage Your Votes:
+
+subHeaderNoVotes = The 'Manage your Votes' module will list items that you have rated, and allow you to edit your ratings and comments.
+subHeader = Number of items rated: {0} as of {1}
+
+pickAWinnerHeader = Please Cast your votes: Select one item from each category - to designate it as your favorite!
+pickAWinnerSubheader = Your Favorite in Each Category:
+
+afterVoteMessage = Your vote has been changed
+
+itemName = Item Name
+yourRating = Your Rating
+viewEditComments = View / Edit Comments
+viewComments = View Comments
+addComments = Add Comment
+hideComments = Hide Comments
+
+votingIsOver = Voting has ended, for {0} thank you for your participation.
+votingEndedMsg = Voting has ended for the {0}, you may not change your vote at this time.
+
+defaultRecordName = &lt;No name entered&gt;

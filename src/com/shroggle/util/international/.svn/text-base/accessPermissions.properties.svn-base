@@ -1,0 +1,65 @@
+selectAnAccountToEdit=Select An Account To Edit:
+selectAnAccountToEdit2=Select an account
+listOfUsers=List of users with administrative and editor access to your sites.
+accountLevelUsers=Account level administrative users, have complete editing & access permissions to the account & all of its sites, including:<br>\
+  Delete the account, create & delete sites, change contact & billing info, edit content & set access permissions throughout.
+accessPermissions=Access Permissions
+firstName=<b>First Name</b>
+lastName=<b>Last Name</b>
+userId=<b>User ID</b>
+status=<b>Status</b>
+accessType=<b>Access Type</b>
+sites=<b>Site Name</b>
+delete=<b>Delete</b>
+help=Help
+notImplementedYet=Not implemented yet!
+
+
+EDITOR=Site Editor
+ADMINISTRATOR=Administrator
+VISITOR = Visitor
+GUEST = Guest
+
+active=Active
+pending=Pending
+
+
+changeYourEmailAddress=<b>Change Your Email Address:</b> Go to the
+editContactDetailsPage=Edit Contact Details Page
+lostYorPassword=Lost Your Password?
+resetYourPassword=Reset Your Password:
+changePasswordText=If you have any cause to believe that the security of your password has been<br>compromised, then we recommend that you select a new password.
+oldPassword=Old Password:
+newPassword=New Password:
+retypeNewPassword=Retype New Password:
+accountContactDetails=Account Contact Details
+yourContactDetails=Your Contact Details
+siteActivation=Payment & Site Activation
+loginHelp=Login Help
+deleteAccount=Delete Account
+purchaseMailLog = Purchase Mail Logs
+paymentLogs = Payment Logs
+messageSubject=Forgotten password
+hi=Hi
+passwordSent=Your password has been emailed to you, please check your inbox.
+passwordAreNotEqualConfirm=New password and retype new password do not match.
+inputAPassword=Please input a new password!
+yourOldPasswordIsIncorrect=Your old password is incorrect.
+passwordChanged=You have successfully changed your Login Password.
+
+
+emptyEmail=Email cannot be empty!
+emailNotCorrect= &nbsp;is <b>not</b> a valid email address!
+emptyInvitationText=Invitation text cannot be empty!
+siteEmpty=Please select site or select 'Account Administrator' radio button!
+
+
+deleteUserConfirmation=Are you sure that you want to withdraw user(s) access to your site(s)?
+lastAdmin=Request Denied. Account must have a minimum of one, 'full access' administrator. To delete your account please select 'Delete Account'
+pleaseSelectUser=Please select User
+userWasRemoved = Following user was removed:
+usersWereRemoved = Following users were removed:
+removedAccess = `{0}` user`s access to site `{1}` was removed
+userExist=User with email you have entered already has access to selected site(s).
+selectOneOrMoreSites=Select one or more sites to invite an admin to work with them.
+yourUserIsDeleted=Warning, if you delete your connection to the site(s) you will no longer have any access to it at all. This action will not be reversible by you.

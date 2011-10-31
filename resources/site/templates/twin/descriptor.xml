@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Twin template collection</name>
+    <thumbnail>tn_blackwhite.png</thumbnail>
+    <order>180</order>
+
+    <layout thumbnailFile="logo_head_foot_leftmenu.png" useForDefault="true">
+        <name>Logo, Header, Footer, Left side Menu</name>
+        <file>2headers_main_footer_leftmenu.html</file>
+     </layout>
+      <layout thumbnailFile="head_foot.png">
+        <name>1 Header, 1 Footer</name>
+        <file>header_main_footer.html</file>
+         <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+    <layout thumbnailFile="logo_head_foot_3content.png">
+        <name>Logo, Header, Footer, 3 equal Content Areas</name>
+        <file>2headers_3main_footer.html</file>
+
+    </layout>
+     <layout thumbnailFile="logo_head_foot.png">
+        <name>Logo, Header, Footer</name>
+        <file>2headers_main_footer.html</file>
+
+    </layout>
+    <layout thumbnailFile="head_foot_rightmenu.png">
+        <name>1 Header, 1 Footer, Right side Menu</name>
+        <file>header_main_footer_rightmenu.html</file>
+
+    </layout>
+      <layout thumbnailFile="head_foot_3content.png">
+        <name>1 header, 1 Footer, 3 equal Content Areas</name>
+        <file>header_3main_footer.html</file>
+
+    </layout>
+    <layout thumbnailFile="head_foot_leftmenu.png">
+        <name>1 Header, 1 Footer, Left side Menu</name>
+        <file>header_main_footer_leftmenu.html</file>
+     </layout>
+     <layout thumbnailFile="head_2main_footer.png">
+        <name>2 Headers, Main, Footer</name>
+        <file>header_2main_footer.html</file>
+     </layout>
+     <theme>
+        <imageFile>blackgray.jpg</imageFile>
+        <name>Twin black gray</name>
+        <file>blackgray.css</file>
+        <thumbnailFile>tn_blackgray.png</thumbnailFile>
+         <colorTileFile>pv_blackgray.gif</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>blackhotpink.jpg</imageFile>
+        <name>Twin black hot pink</name>
+        <file>blackhotpink.css</file>
+        <thumbnailFile>tn_blackhotpink.png</thumbnailFile>
+         <colorTileFile>pv_blackhotpink.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>blackpink.jpg</imageFile>
+        <name>Twin black pink</name>
+        <file>blackpink.css</file>
+        <thumbnailFile>tn_blackpink.png</thumbnailFile>
+        <colorTileFile>pv_blackpink.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>blackwhite.jpg</imageFile>
+        <name>Twin black white</name>
+        <file>blackwhite.css</file>
+        <thumbnailFile>tn_blackwhite.png</thumbnailFile>
+        <colorTileFile>pv_blackwhite.gif</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>bluegray.jpg</imageFile>
+        <name>Twin blue gray</name>
+        <file>bluegray.css</file>
+        <thumbnailFile>tn_bluegray.png</thumbnailFile>
+         <colorTileFile>pv_bluegray.gif</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>blueteal.jpg</imageFile>
+        <name>Twin blue teal</name>
+        <file>blueteal.css</file>
+        <thumbnailFile>tn_blueteal.png</thumbnailFile>
+         <colorTileFile>pv_blueteal.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>grayblack.jpg</imageFile>
+        <name>Twin gray black</name>
+        <file>grayblack.css</file>
+        <thumbnailFile>tn_grayblack.png</thumbnailFile>
+        <colorTileFile>pv_grayblack.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>graygray.jpg</imageFile>
+        <name>Twin gray gray</name>
+        <file>graygray.css</file>
+        <thumbnailFile>tn_graygray.png</thumbnailFile>
+        <colorTileFile>pv_graygray.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>orangeteal.jpg</imageFile>
+        <name>Twin orange teal</name>
+        <file>orangeteal.css</file>
+        <thumbnailFile>tn_orangeteal.png</thumbnailFile>
+        <colorTileFile>pv_orangeteal.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>redred.jpg</imageFile>
+        <name>Twin red red</name>
+        <file>redred.css</file>
+        <thumbnailFile>tn_redred.png</thumbnailFile>
+        <colorTileFile>pv_redred.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>tealgreen.jpg</imageFile>
+        <name>Twin teal green</name>
+        <file>tealgreen.css</file>
+        <thumbnailFile>tn_tealgreen.png</thumbnailFile>
+        <colorTileFile>pv_tealgreen.gif</colorTileFile>
+    </theme>
+    <theme>
+        <imageFile>tealyellow.jpg</imageFile>
+        <name>Twin teal yellow</name>
+        <file>tealyellow.css</file>
+        <thumbnailFile>tn_tealyellow.png</thumbnailFile>
+        <colorTileFile>pv_tealyellow.gif</colorTileFile>
+    </theme>
+</template>

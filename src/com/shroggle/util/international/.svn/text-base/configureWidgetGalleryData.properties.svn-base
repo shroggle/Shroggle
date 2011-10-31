@@ -1,0 +1,4 @@
+title = Gallery Data Display
+description = This data display item belongs to the "{0}" gallery. \
+  You can manage its setting on the following places:
+noConnectedGalleries = There is no connected galleries.

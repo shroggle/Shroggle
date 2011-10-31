@@ -1,0 +1,87 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+    <title><!-- PAGE_TITLE --></title>
+   <META NAME="Title" CONTENT="How to make a website with Web-Deva, how to build a website">
+<META NAME="Description" CONTENT="Learn how to make a website for free with Web-Deva">
+<META NAME="Keywords" CONTENT="how to make a website, how to build a website">
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+    <META HTTP-EQUIV='CACHE-CONTROL' CONTENT='NO-CACHE'>
+    <META HTTP-EQUIV='PRAGMA' CONTENT='NO-CACHE'>
+    <META HTTP-EQUIV='EXPIRES' CONTENT='Wed, 26 Feb 1997 08:21:57 GMT'>
+      <link rel="stylesheet" href="/css/style_start.css" type="text/css">
+
+    <script type="text/javascript" src="http://www.web-deva.com/js/cookies.js"></script>
+    <script type="text/javascript" src="http://www.web-deva.com/js/serviceCall.js"></script>
+    <!-- PAGE_HEADER -->
+
+</head>
+<body>
+<div id="wrapper">
+    <div id="container">
+   <div id="headerNd">
+     <div id="logoNd">
+        <h1><a href="http://www.demo.web-deva.com/definiton">web-deva.com</a></h1>
+     </div>
+
+   <!--end of headerNd --></div>
+   <div id="topMenuNd">
+    <div class="topMenuButtons">
+         <a onmouseout="$('#createaccountbutton')[0].src = '/images/imagesnew/create1button.gif';" href="/account/createUser.action" onmouseover="$('#createaccountbutton')[0].src = '/images/imagesnew/create1button-roll.gif';"><img src="/images/imagesnew/create1button.gif" alt="create account" id="createaccountbutton" width="230"
+
+                 height="59" border="0"></a>
+    </div>
+    <div class="topMenuButtons">
+        <a href="http://www.demo.web-deva.com/Services"
+
+           onmouseout="$('#services')[0].src = '/images/imagesnew/service1button.gif';"
+
+           onmouseover="$('#services')[0].src = '/images/imagesnew/service1button-roll.gif';">
+            <img src="/images/imagesnew/service1button.gif" alt="services" id="services" width="153" height="59"
+
+                 border="0"></a>
+    </div>
+    <div class="topMenuButtons">
+        <a href="http://www.demo.web-deva.com/Feature_List"
+
+           onmouseout="$('#featurelist')[0].src = '/images/imagesnew/feature1button.gif';"
+
+           onmouseover="$('#featurelist')[0].src = '/images/imagesnew/feature1button-roll.gif';">
+            <img src="/images/imagesnew/feature1button.gif" alt="feature list" id="featurelist" width="186" height="59"
+
+                 border="0">
+        </a>
+    </div>
+      <div><a href="http://blogs.web-deva.com"
+
+             onMouseOut="$('#blogsbutton')[0].src = '/images/imagesnew/blogs.png';"
+
+             onMouseOver="$('#blogsbutton')[0].src = '/images/imagesnew/blogs-roll.png';">
+             <img src="/images/imagesnew/blogs.png" alt="blogs" id="blogsbutton" width="256px" height="80" border="0"></a>
+     </div>
+    <!--end of topMenu --></div>
+    <div id="mainContentNdi" class="clearbothNd ">
+
+     <div class="mainBlock mediaBlock">
+
+</div>
+    </div>
+     <div id="footerBottomNd">
+      <p>
+          <a href="http://www.web-deva.com/account/createUser.action">Create Account</a> |
+          <a href="http://www.demo.web-deva.com/Services">Services</a> |
+          <a href="http://www.demo.web-deva.com/Feature_List">Feature List</a> |
+          <a href="http://www.demo.web-deva.com/FAQ">FAQ</a> |
+          <a href="http://www.demo.web-deva.com/Contact">Contact Us</a> |
+          <a href="http://www.demo.web-deva.com/Terms_and_Conditions">Fees & Conditions</a>
+      </p>
+
+
+    <p><strong>Copyright &copy; 2010 Web-Deva llc</strong>  All rights reserved. XHTML and CSS validated.</p></div>
+<!--end of footer --></div>
+    <!--/container-></div>
+<!--/wrapper--></div>
+</body>
+</html>

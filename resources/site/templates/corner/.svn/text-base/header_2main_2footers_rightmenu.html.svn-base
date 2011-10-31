@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+<title><!-- PAGE_TITLE --></title>
+<style type="text/css">
+* {
+	margin:0;
+	padding:0;
+}
+html, body {height:100%;}
+.clear {
+	clear:both;
+}
+body {
+	background-color:#fff;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+}
+.wrapperTop {
+    width:100%;
+}
+.wrapperBottom {
+    width:100%;
+}
+.wrapper {
+	width:1024px;
+     min-height:500px;
+    margin:auto;
+}
+.header {
+	width:780px;
+	height:auto;
+}
+.content {
+	width:1024px;
+	height:auto;
+	overflow:hidden;
+}
+.contentleft, .contentcenter {
+	width:390px;
+	height:auto;
+	float:left;
+}
+.contentright {
+	width:244px;
+	height:auto;
+	float:left;
+	margin-top:100px;
+}
+.footer {
+	width:1024px;
+	height:auto;
+     min-height:50px;
+	overflow:hidden;
+ }
+.footerleft {
+	width:390px;
+	height:auto;
+	float:left;
+}
+.footerright {
+	width:634px;
+	height:auto;
+	float:left;
+}
+</style>
+    <!-- PAGE_HEADER -->
+</head>
+
+<body>
+
+<div class="wrapperBottom">
+<div class="wrapperTop">
+<div class="wrapper">
+	<div class="header mediaBlock"></div>
+	<div class="content clear">
+		<div class="contentleft mediaBlock"></div>
+		<div class="contentcenter mediaBlock"></div>
+		<div class="contentright mediaBlock"></div>
+</div>
+	
+	<div class="footer clear">
+		<div class="footerleft mediaBlock"></div>
+		<div class="footerright mediaBlock"></div>
+</div>
+</div>
+</div>
+<!-- FOOTER -->
+</div>
+</body>
+</html>

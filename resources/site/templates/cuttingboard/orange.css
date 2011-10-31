@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color:#cc6600;
+      font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+}
+a:link, a:visited {
+   color:#666;
+}
+a:hover, a:active {
+    color:#ff0000;
+}
+
+.middlePaneContainer1 {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/pinboardMiddle.png);
+	background-repeat:repeat-y;
+
+
+}
+
+.middlePaneContainer2 {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/pinboardTop.png);
+	background-repeat:no-repeat;
+
+
+}
+.middlePane {
+
+	background-image: url(<!-- TEMPLATE_RESOURCE -->/images/pinboardBottom.png);
+	background-repeat:no-repeat;
+        background-position:left bottom;
+}

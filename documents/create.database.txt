@@ -1,0 +1,145 @@
+CREATE DATABASE `shroggle1_test`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle1_test.* TO 'shtestuser'@'localhost' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle1_test.* TO 'shtestuser'@'192.168.10.1' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle1_test.* TO 'shtestuser'@'192.168.10.101' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+
+# The next DB
+
+CREATE DATABASE `shroggle2_test`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle2_test.* TO 'shtestuser'@'localhost' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle2_test.* TO 'shtestuser'@'192.168.10.1' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle2_test.* TO 'shtestuser'@'192.168.10.101' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+
+
+# The next DB
+
+CREATE DATABASE `shroggle3_test`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle3_test.* TO 'shtestuser'@'localhost' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle3_test.* TO 'shtestuser'@'192.168.10.1' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle3_test.* TO 'shtestuser'@'192.168.10.101' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+
+# The next DB
+
+CREATE DATABASE `shroggle5_test`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle5_test.* TO 'shtestuser'@'localhost' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle5_test.* TO 'shtestuser'@'192.168.10.1' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle5_test.* TO 'shtestuser'@'192.168.10.101' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle5_test.* TO 'shtestuser'@'192.168.10.107' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+
+# The next DB
+
+CREATE DATABASE `shroggle6_test`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle6_test.* TO 'shtestuser'@'localhost' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle6_test.* TO 'shtestuser'@'192.168.10.1' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle6_test.* TO 'shtestuser'@'192.168.10.101' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle6_test.* TO 'shtestuser'@'192.168.10.107' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+
+CREATE DATABASE `shroggle7_test`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle7_test.* TO 'shtestuser'@'localhost' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle7_test.* TO 'shtestuser'@'192.168.10.1' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle7_test.* TO 'shtestuser'@'192.168.10.101' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle7_test.* TO 'shtestuser'@'192.168.10.107' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+
+CREATE DATABASE `shroggle9_test`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle9_test.* TO 'shtestuser'@'localhost' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle9_test.* TO 'shtestuser'@'192.168.10.1' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle9_test.* TO 'shtestuser'@'192.168.10.101' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle9_test.* TO 'shtestuser'@'192.168.10.107' IDENTIFIED BY 'shtestpasswd' WITH GRANT OPTION;
+
+
+# The producation DB                
+
+CREATE DATABASE `shroggle1`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle1.* TO 'shuser'@'localhost' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle1.* TO 'shuser'@'192.168.10.1' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle1.* TO 'shuser'@'192.168.10.101' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+
+CREATE DATABASE `shroggle2`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle2.* TO 'shuser'@'localhost' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle2.* TO 'shuser'@'192.168.10.1' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle2.* TO 'shuser'@'192.168.10.101' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+
+
+CREATE DATABASE `shroggle3`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle3.* TO 'shuser'@'localhost' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle3.* TO 'shuser'@'192.168.10.1' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle3.* TO 'shuser'@'192.168.10.101' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+
+CREATE DATABASE `shroggle4`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle4.* TO 'shuser'@'localhost' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle4.* TO 'shuser'@'192.168.10.1' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle4.* TO 'shuser'@'192.168.10.101' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+
+CREATE DATABASE `shroggle5`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle5.* TO 'shuser'@'localhost' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle5.* TO 'shuser'@'192.168.10.1' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle5.* TO 'shuser'@'192.168.10.101' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+
+CREATE DATABASE `shroggle6`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON shroggle6.* TO 'shuser'@'localhost' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle6.* TO 'shuser'@'192.168.10.1' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON shroggle6.* TO 'shuser'@'192.168.10.101' IDENTIFIED BY 'shpasswd' WITH GRANT OPTION;
+
+
+CREATE DATABASE `wikalot1`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON wikalot1.* TO 'shwikauser'@'localhost' IDENTIFIED BY 'shwikapasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON wikalot1.* TO 'shwikauser'@'192.168.10.1' IDENTIFIED BY 'shwikapasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON wikalot1.* TO 'shwikauser'@'192.168.10.109' IDENTIFIED BY 'shwikapasswd' WITH GRANT OPTION;
+
+CREATE DATABASE `wikalot2`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON wikalot2.* TO 'shwikauser'@'localhost' IDENTIFIED BY 'shwikapasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON wikalot2.* TO 'shwikauser'@'192.168.10.1' IDENTIFIED BY 'shwikapasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON wikalot2.* TO 'shwikauser'@'192.168.10.109' IDENTIFIED BY 'shwikapasswd' WITH GRANT OPTION;
+
+CREATE DATABASE `wikalot3`
+    CHARACTER SET 'utf8'
+    COLLATE 'utf8_general_ci';
+
+GRANT ALL PRIVILEGES ON wikalot3.* TO 'shwikauser'@'localhost' IDENTIFIED BY 'shwikapasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON wikalot3.* TO 'shwikauser'@'192.168.10.1' IDENTIFIED BY 'shwikapasswd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON wikalot3.* TO 'shwikauser'@'192.168.10.109' IDENTIFIED BY 'shwikapasswd' WITH GRANT OPTION;

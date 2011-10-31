@@ -1,0 +1,15 @@
+addSubHeader = Add Page
+editSubHeader = Edit Page Settings
+
+htmlCodeHeader = HTML Code to be placed on the page
+htmlCodeScriptNameColumn = Script Name
+htmlCodeCodeColumn = Code / Script block
+htmlCodePlacementColumn = Placement
+htmlCodeDeleteColumn = Delete
+htmlCodeSubHeader = Add a new code to the beginning/end of the page:
+htmlCodeInputLabel = Name
+htmlCodeTextAreaLabel = Code / Script
+htmlCodeRadioLabel = Placement
+htmlCodeRadioBeginning = Content beginning
+htmlCodeRadioEnd = End of content
+htmlCodeExplan = Web site analytics tools like 'Google Analytics, Google webmaster tools' require that you place a tracking script on each page of your site that you wish to analyze / track. Use these blocks to enter tracking scripts that need to be placed at the beginning/end of your page.

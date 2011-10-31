@@ -1,0 +1,47 @@
+name=Name:
+header = Edit Blog Summary Module: Module Settings
+blogSummaryHeader=Header / Description
+loadingTextEditor=Loading text editor...
+selectBlogsToIncludeInTheBlogSummaryText=Select blogs to include in the blog summary:
+currentSiteOnly=Current site only
+allAvailableBlogs=All available blogs
+numberOfBlogPostsToIncludeInTheBlogSummary=Number of Blog Posts to include in the blog summary:
+selectBlogPostsBasedOn=Select Blog Posts based on - what criteria?
+SortBlogPostsBasedOn=Sort Blog Posts based on - what criteria?
+whatDataShouldBeDisplayedInTheBlogSummary=What data should be displayed in the Blog Summary?
+blogTitle=Blog Name
+showPostContents=Post Contents
+postAuthor=Author
+postName=Post Name                                                                      
+postDate=Post Date
+MOST_RECENT=Most Recent
+MOST_READ=Most Read
+MOST_COMMENTED=Most Commented
+ALPHABETICALLY_BY_AUTHOR=Alphabetically by author
+CHRONOLOGICALLY_BY_POST_DATE_ASC=Chronologically by post date - oldest first
+CHRONOLOGICALLY_BY_POST_DATE_DESC=Chronologically by post date - newest first
+ALPHABETICALLY_BY_POST_TITLE=Alphabetically by post title
+selectABlogSummary=Select existing blog summary
+disabledOptionText=These options are disables because you don't have available blog summary
+
+apply = Apply
+save=Save
+cancel=Cancel
+edit=Edit
+select=Select
+blogName=Blog Name
+summaryLinksTo=Summary Links to:
+fullText=full text
+numberOfWordsToDisplay=Number of words to display
+
+#itemDescription
+defaultHeader = Header / Description
+displayHeader = Display Header / Description
+
+blogSummaryNameCannotBeEmpty = Blog Summary name cannot be empty!
+emptyBlogSummaryDisplayedData = Data displayed in Blog Summary cannot be empty!
+blogSummaryNameNotUnique = Please, enter unique Blog Summary name.
+readOnlyAccess = You have only read-only access to this module.
+
+
+

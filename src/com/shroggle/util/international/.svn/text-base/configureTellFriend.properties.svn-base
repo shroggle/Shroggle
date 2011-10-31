@@ -1,0 +1,23 @@
+addEdit = Edit Tell a Friend Block Module: Module Settings 
+name = Name this 'Tell a Friend' block
+mailSubject = Specify the subject heading of these emails
+mailText = Include a message in the email that is sent - for example include information about your company or services
+defaultName = New Tell a Friend
+
+mailDefaultSubject = Your friend thinks you might be interested in this
+
+mailDefaultText = This message has been sent from your friend <`from email address`>, while visiting the \
+  <site name> site. They think you might be interested in this page: <url of the page that the tell a friend was on>. \
+  This site is powered by {0} {1}, push button easy web site creation tools.
+
+mailDefaultTextForChildSiteRegistrationConfirmPage = This message has been sent from your friend <`from email address`>, \
+  while visiting the <site name> site ({0}). \
+  This site is powered by {1} {2}, push button easy web site creation tools.
+
+TellFriendNotSelectedException = Please, select an existing Tell Friend.
+
+showExpandingControl = Show expanded controls
+expandingControlHelp = The following options will be shown on your site. It allows your visitors to share links to \
+your page with a variety of social networks, such as Twitter, Facebook, Google Bizz, Digg, Delicious, My Space, etc.
+preview = Preview
+sendingEmails = Sending e-mails

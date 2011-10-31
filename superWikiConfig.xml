@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <!-- Not need restart. Default value 5 days. -->
+    <expireUserTime>432000000</expireUserTime>
+    <!-- Not need restart. Default value 10 days. -->
+    <expireVisitorTime>864000000</expireVisitorTime>
+    <!-- If is true we delete expire users without activate and his account.
+    Default is 10. Need restart when changed. Define how much users will be delete in one iteration.
+    Set to 0 for off delete. -->
+    <expireUserDeleteCount>10</expireUserDeleteCount>
+    <!-- If true show all international properties with special symbol -->
+    <useInternationalHightlight>false</useInternationalHightlight>
+    <!-- Regex if user agent header containt it disable merge, by default it's disabled for IE 6/7 only.
+    for disabled for all agent use .* -->
+    <disableResourceMergeAgent>MSIE 6|MSIE 7</disableResourceMergeAgent>
+    <!-- Absolute path to folder where stored all resources for sites that as images e.g. -->
+    <siteResourcesPath>/accountResources/dddd</siteResourcesPath>
+    <!-- Path to video metadata operation program, need restart and optional, default value [flvmeta] -->
+    <flvmeta>/usr/local/flvmeta</flvmeta>
+    <!-- Resource video settings -->
+    <siteResourcesVideo>
+        <!-- Define where is application store video files absolute path to directory -->
+        <path>/data/video</path>
+        <!-- If is false application create download video link on our action in other cases its
+         create link in ngnix format /prefix/hash/timestamp/file.
+         http://community.livejournal.com/ru_root/1725620.html -->
+        <useNgnix>true</useNgnix>
+        <ngnixUrlPrefix>videos</ngnixUrlPrefix>
+        <!-- Need for ngnix link control -->
+        <ngnixSecretToken>xxxxxxxxxxxxxxxxx</ngnixSecretToken>
+    </siteResourcesVideo>
+    <!-- Part settings for database -->
+    <database>
+        <login>sa</login>
+        <password/>
+        <driver>org.h2.Driver</driver>
+        <url>jdbc:h2:/Users/sirnod/Documents/workspace/shroggle/kanshin/project/db/db;LOCK_MODE=3;LOCK_TIMEOUT=20000</url>
+        <dialect>org.hibernate.dialect.H2Dialect</dialect>
+        <!-- <created>create-drop</created> -->
+        <created></created>
+    </database>
+    <adminLogin>admin</adminLogin>
+    <adminPassword>1</adminPassword>
+    <mail>
+        <!-- using for send mail about child site registration -->
+        <networkFrom>networkadmin@web-deva.com</networkFrom>
+        <login>GrenaderAdmin@web-deva.com</login>
+        <password/>
+        <url>outmail.voliacable.com</url>
+        <emailUpdateApprovalLink>http://localhost:8080/account/emailUpdateApprove.action</emailUpdateApprovalLink>
+    </mail>
+    <useConsoleMailSender>true</useConsoleMailSender>
+
+    <defaultTemplate>
+        <directory>template1</directory>
+        <css>bw.css</css>
+        <layoutFile>twopanel.htm</layoutFile>
+    </defaultTemplate>
+    <registration>
+        <confirm>false</confirm>
+        <registrationUrl/>
+    </registration>
+    <!-- Work application url for email and other with port. NOTE! This url is with www. prefix -->
+    <applicationUrl>localhost:8080</applicationUrl>
+    <!-- Support group email for this application -->
+    <supportEmail>support@localhost</supportEmail>
+    <!-- Set of url that used for main application -->
+    <notUserSiteUrl>localhost</notUserSiteUrl>
+    <notUserSiteUrl>www.localhost</notUserSiteUrl>
+    <notUserSiteUrl>www.web-deva.com</notUserSiteUrl>
+    <notUserSiteUrl>web-deva.com</notUserSiteUrl>
+    <notUserSiteUrl>test.web-deva.com</notUserSiteUrl>
+    <!-- This url used for create user sites url with url prefix: a.sitesUrl -->
+    <userSitesUrl>localhost:8080</userSitesUrl>
+
+    <!-- *.<site-builder-domain> IP address -->
+    <serverIPAddress>127.0.0.1</serverIPAddress>
+
+    <!-- Use cached config, for refresh need restart application -->
+    <useCacheConfigStorage>true</useCacheConfigStorage>
+    <!-- if true use cache fs in this case changes in fs under work app not show -->
+    <useCacheFileSystem>true</useCacheFileSystem>
+    <!-- Defalu value false, need restart application if was changed. -->
+    <useTimeCounterFileSystem>false</useTimeCounterFileSystem>
+    <!-- Defalu value false, need restart application if was changed. -->
+    <useTimeCounterPersistance>false</useTimeCounterPersistance>
+    <!-- Use cache entitys and querys in hibernate, for refresh need restart application, default true -->
+    <useCacheHibernate>true</useCacheHibernate>
+
+    <authorizeNet>
+        <testData>
+            <url>https://test.authorize.net/gateway/transact.dll</url>
+            <login>xxxxxxxxxxxxxxxxx</login>
+            <transactionKey>xxxxxxxxxxxxxxxxx</transactionKey>
+        </testData>
+        <realData>
+            <url>https://secure.authorize.net/gateway/transact.dll</url>
+            <login>xxxxxxxxxxxxxxxxx</login>
+            <transactionKey>xxxxxxxxxxxxxxxxx</transactionKey>
+        </realData>
+    </authorizeNet>
+
+    <payPal>
+        <realData>
+            <APIUserName>paymentprocessing_api1.web-deva.com</APIUserName>
+            <APIPassword>xxxxxxxxxxxxxxxxx</APIPassword>
+            <signature>xxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxx.</signature>
+            <env>live</env>
+        </realData>
+        <testData>
+            <APIUserName>sdk-three_api1.sdk.com</APIUserName>
+            <APIPassword>xxxxxxxxxxxxxxxxx</APIPassword>
+            <signature>xxxxxxxxxxxxxxxxx</signature>
+            <env>sandbox</env>
+        </testData>
+    </payPal>
+    <useProxy>false</useProxy>
+    <proxyHost>192.168.10.1</proxyHost>
+    <proxyPort>3128</proxyPort>
+
+
+
+    <billingInfoProperties>
+        <useTestPaymentSystem>true</useTestPaymentSystem><!--Indicates which of payment system should be used (real or test)-->
+        <checkSitesBillingInfo>false</checkSitesBillingInfo>
+        <executeAtMidnight>true</executeAtMidnight>
+        <mustBePaidBeforePublishing>true</mustBePaidBeforePublishing>
+        <sendPaymentNotificationEmails>false</sendPaymentNotificationEmails>
+        <!--If `executeAtMidnight` == false - execute immediately-->
+        <minutesAfterMidnight>240</minutesAfterMidnight>
+        <!--Time in minutes. If `executeAtMidnight` == true - and this parameter more than zero - system will be executed at midnight plus this time. By default - four hours.-->
+        <executionPeriod>1440</executionPeriod>
+        <!--Time in minutes (1440 minutes == 24 hours). System use this property only if `executeAtMidnight` == false-->
+        <ccExpireNotifyTime>21600</ccExpireNotifyTime>
+        <!--Time in minutes (value in specification == 15 days == 21600 minutes).-->
+        <membersipExpireNotifyTime>14400</membersipExpireNotifyTime>
+        <!--Time in minutes (value in specification == 10 days == 14400 minutes).-->
+        <annualBillingExpirationDate>525600</annualBillingExpirationDate>
+        <!--Time in minutes (value in specification == 365 days == 525600 minutes).-->
+        <monthlyBillingExpirationDate>43200</monthlyBillingExpirationDate>
+        <!--Time in minutes (value in specification == 30 days == 43200 minutes).-->
+        <deactivateSiteAfter>21600</deactivateSiteAfter>
+        <!--Time in minutes (value in specification == 15 days == 21600 minutes).-->
+    </billingInfoProperties>
+
+    <!--<paymentPrices>
+        <item price="300.0" chargeType="SITE_ANNUAL_FEE"/>
+        <item price="29.99" chargeType="SITE_MONTHLY_FEE"/>
+        <item price="0.0" chargeType="SITE_ONE_TIME_FEE"/>
+        <item price="10.0" chargeType="SITE_250MB_MONTHLY_FEE"/>
+        <item price="15.0" chargeType="SITE_500MB_MONTHLY_FEE"/>
+        <item price="25.0" chargeType="SITE_1GB_MONTHLY_FEE"/>
+        <item price="45.0" chargeType="SITE_3GB_MONTHLY_FEE"/>
+    </paymentPrices>-->
+    <paymentPrices>
+        <item price="300.0" chargeType="SITE_ANNUAL_FEE"/>
+        <item price="29.99" chargeType="SITE_MONTHLY_FEE"/>
+        <item price="0.0" chargeType="SITE_ONE_TIME_FEE"/>
+        <item price="29.99" chargeType="SITE_250MB_MONTHLY_FEE"/>
+        <item price="29.99" chargeType="SITE_500MB_MONTHLY_FEE"/>
+        <item price="29.99" chargeType="SITE_1GB_MONTHLY_FEE"/>
+        <item price="29.99" chargeType="SITE_3GB_MONTHLY_FEE"/>
+    </paymentPrices>
+
+    <blockedSubDomain>www</blockedSubDomain>
+    <blockedSubDomain>jira</blockedSubDomain>
+    <blockedSubDomain>wiki</blockedSubDomain>
+    <blockedSubDomain>test</blockedSubDomain>
+    <blockedSubDomain>svn</blockedSubDomain>
+    <blockedSubDomain>cc</blockedSubDomain>
+    <blockedSubDomain>fisheye</blockedSubDomain>
+
+    <helpWindowURL>http://www.demo.web-deva.com/wd_help</helpWindowURL>
+                                                      <!--
+     Define count how many concurrent threads system can use for
+     resize resource.
+     If you are using ResourceResizerStandart you must know thah this
+     resizer need a lot of memory for resize one image because it's
+     read it in memory canvas in raw format (bmp), create new canvas with
+     same size, draw first to second canvas and after this store it in response
+     thread. For example one image 1024 * 1024 pexels need 4 Mb in memory, but we need
+     two (source and destination).
+     You can change this parameter and apply it without restart application.
+    -->
+    <concurrentResizerThreadCount>1</concurrentResizerThreadCount>
+
+    <!--
+    Define how threads can paraller convert video to
+    video flv. If you use VideoTranscodeNative you can increase this
+    parameter to core count in your system for exampe for my Core Quadro
+    processor i set this parameter to 4. For effect if you change this parameter
+    please restart system.
+    -->
+    <concurrentConvertThreadCount>1</concurrentConvertThreadCount>
+
+    <concurrentWriteFileThreadCount>8</concurrentWriteFileThreadCount>
+
+    <!-- Compress js and css files before send on client -->
+    <yuiCompressor>
+        <obfuscate>true</obfuscate>
+        <debug>false</debug>
+        <use>true</use>
+    </yuiCompressor>
+
+    <encryptionKey>xxxxxxxxxxxxxxxxx</encryptionKey>
+    <useJournalToConsole>false</useJournalToConsole>
+    <useStatisticsExecutedHistory>true</useStatisticsExecutedHistory>
+
+    <adminEmail>xxxxxxxxxxxxxxxxx</adminEmail>
+    <adminEmail>xxxxxxxxxxxxxxxxx</adminEmail>
+
+    <applicationName>Web-Deva</applicationName>
+</config>
+

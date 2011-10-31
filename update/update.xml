@@ -1,0 +1,150 @@
+<project name="Shroggle Application. Update Script" default="build" basedir=".">
+    <description>Build Shroggle Application. Prepared for CruiseControl</description>
+
+    <!-- Define project.root varible. -->
+    <import file="update-settings.xml"/>
+
+    <property name="project.dir" value="${project.root}"/>
+
+    <!-- set global properties for this build -->
+    <property name="downloaded" value="${project.dir}/downloaded"/>
+    <property name="extracted.app" value="${project.dir}/extracted.app"/>
+    <property name="extracted.static" value="${project.dir}/extracted.static"/>
+    <property name="assembled.app" value="${project.dir}/assembled.app"/>
+    <property name="assembled.static" value="${project.dir}/assembled.static"/>
+
+    <property name="app.dir" value="${app.root}/app"/>
+    <property name="statis.dir" value="${app.root}/static"/>
+
+    <taskdef resource="net/sf/antcontrib/antcontrib.properties">
+        <classpath>
+            <pathelement location="./ant-contrib-0.6.jar"/>
+        </classpath>
+    </taskdef>
+
+    <target name="initDownload">
+        <mkdir dir="${project.root}"/>
+        <mkdir dir="${downloaded}"/>
+    </target>
+
+    <target name="download" depends="initDownload">
+        <get src="${build.app.part}" username="${build.url.username}"
+             password="${build.url.password}"
+             dest="${downloaded}/${build.app.filename}"/>
+        <get src="${build.static.part}" username="${build.url.username}"
+             password="${build.url.password}"
+             dest="${downloaded}/${build.static.filename}"/>
+    </target>
+
+    <target name="initExtract">
+        <delete dir="${extracted.app}"/>
+        <delete dir="${extracted.static}"/>
+
+        <mkdir dir="${extracted.app}"/>
+        <mkdir dir="${extracted.static}"/>
+    </target>
+
+    <target name="extract" depends="initExtract">
+        <unzip src="${downloaded}/${build.app.filename}" dest="${extracted.app}"/>
+        <unzip src="${downloaded}/${build.static.filename}" dest="${extracted.static}"/>
+    </target>
+
+    <target name="initAssemble">
+        <!--        <delete file="**/**.*"/>-->
+    </target>
+
+    <target name="assemble" depends="initAssemble">
+        <sync todir="${assembled.app}">
+            <fileset dir="${extracted.app}"/>
+            <fileset dir="${extracted.static}">
+                <include name="**/*.css"/>
+            </fileset>
+        </sync>
+
+        <sync todir="${assembled.static}">
+            <fileset dir="${extracted.static}"/>
+        </sync>
+    </target>
+
+    <target name="syncData" depends="syncToApp, syncToStatis, makeGZfiles"/>
+
+    <target name="syncToApp">
+        <sync todir="${app.dir}">
+            <fileset dir="${assembled.app}"/>
+        </sync>
+    </target>
+
+    <target name="syncToStatis">
+        <sync todir="${statis.dir}">
+            <fileset dir="${assembled.static}"/>
+            <preserveintarget>
+                <include name="**/*.gz"/>
+            </preserveintarget>
+        </sync>
+    </target>
+
+    <target name="makeGZfiles">
+        <exec executable="/opt/bin/mkgz.sh">
+            <arg value="${statis.dir}"/>
+        </exec>
+    </target>
+
+    <target name="getBuildNumber">
+
+        <input message="Would you like to update using the latest successful build (y/n)?"
+               validargs="y,n"
+               addproperty="version.getter.option"/>
+
+        <if>
+            <equals arg1="${version.getter.option}" arg2="y"/>
+            <then>
+                <echo message="Getting build number automatically ..."/>
+                <antcallback  target="buildNumberGetter" return="versionNumber"/>
+                <echo message="The latest version is: ${versionNumber}"/>
+
+                <property name="build.build.id" value="${versionNumber}"/>
+            </then>
+            <else>
+                <input message="Please, enter build number (e.g. 20091001115639):"
+                       addproperty="versionNumber"/>
+                <echo message="Your build version is: ${versionNumber}"/>
+
+                <property name="build.build.id" value="${versionNumber}"/>
+            </else>
+        </if>
+    </target>
+
+    <target name="buildNumberGetter">
+
+        <pathconvert property="target.found" setonempty="one">
+            <last count="1">
+                <sort>
+                    <date xmlns="antlib:org.apache.tools.ant.types.resources.comparators"/>
+                    <fileset dir="${cc.artifacts.dir}">
+                        <include name="*/${build.app.filename}"/>
+                    </fileset>
+                </sort>
+            </last>
+            <map from="${cc.artifacts.dir}" to=""/>
+            <map from="${file.separator}" to=""/>
+
+        </pathconvert>
+
+        <propertyregex property="versionNumber"
+                       input="${target.found}"
+                       regexp="([^\${file.separator}]+).*"
+                       select="\1"
+                       casesensitive="false"/>
+    </target>
+
+    <target name="init" depends="getBuildNumber">
+        <property name="build.url"
+                  value="${build.server}/${build.suffix}/${build.project.name}/${build.build.id}"/>
+        <property name="build.app.part" value="${build.url}/${build.app.filename}"/>
+        <property name="build.static.part" value="${build.url}/${build.static.filename}"/>
+
+    </target>
+    <target name="build" depends="init, download, extract, assemble, syncData"/>
+
+
+</project>

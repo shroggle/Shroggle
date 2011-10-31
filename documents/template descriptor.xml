@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Template descriptor describe one template with all themes and layouts. -->
+<template>
+    <name>Template Name</name>
+    <thumbnail>templatePreviewImage.jpg</thumbnail>
+    <!-- You can add more one layout -->
+    <layout thumbnailFile="layoutPreviewImage.png">
+        <name>Layout Name</name>
+        <file>layoutFileWithWidgetPosition.htm</file>
+        <!-- Pattern it's list positions for widget. You can add more one pattern.
+         If you want create default pattern for any page type remove its type.
+         When system create page it find pattern with need type, if it can't find
+         it use pattern without type. Type can use values from PageType enum. -->
+        <pattern type="predefinedPageTypes">
+            <!-- You can add more one position. Type can use values from WidgeType enum.
+             Position without type is default position. -->
+            <position type="BLOG" position="1"/>
+        </pattern>
+    </layout>
+    <!-- You can add more one theme -->
+    <theme>
+        <imageFile>blue.png</imageFile>
+        <name>Simple Baby Blue</name>
+        <file>blue.css</file>
+        <colorTileFile>blueTile.gif</colorTileFile>
+        <thumbnailFile>simple_blue.jpg</thumbnailFile>
+    </theme>
+</template>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sitesResourcesUrl>
+    <url>/pageResourcesBlockGet.action</url>
+    <url>pageResourcesBlockGet.action</url>
+    <url>resourceGetter.action</url>
+    <url>/resourceGetter.action</url>
+    <url>uploadFormFiles.action</url>
+    <url>site/</url>
+    <url>/site/</url>
+    <url>account/</url>
+    <url>/account/</url>
+    <url>blog/</url>
+    <url>/blog/</url>
+    <url>forum/</url>
+    <url>/forum/</url>
+    <url>/forms/</url>
+    <url>forms/</url>
+    <url>video/</url>
+    <url>menu/</url>
+    <url>/menu/</url>
+    <url>gallery/</url>
+    <url>/gallery/</url>
+    <url>/video/</url>
+    <url>fckeditor/</url>
+    <url>/fckeditor/</url>
+    <url>/texteditor.js</url>
+    <url>/cookies.js</url>
+    <url>/contentStoreControl.js</url>
+    <url>tiny_mce/</url>
+    <url>tinymce/</url>
+    <url>dwr/</url>
+    <url>/dwr/</url>
+    <url>js/</url>
+    <url>/js/</url>
+    <url>/noBotImage.action</url>
+    <url>noBotImage.action</url>
+    <url>SWFUpload/</url>
+    <url>images/</url>
+    <url>/images/</url>
+    <url>/image/</url>
+    <url>image/</url>
+    <url>uploadFormFiles.action</url>
+    <url>uploadFormVideoFiles.action</url>
+    <url>payment/</url>
+</sitesResourcesUrl>

@@ -1,0 +1,26 @@
+@charset
+"utf-8"
+;
+/* CSS Document */
+.content {
+    height: auto !important;
+    height: 300px;
+}
+
+.header {
+    zoom: 1
+}
+
+.bodyCont h2 {
+    _background: none;
+    _width: 762px;
+    _height: 18px;
+    _filter: progid: DXImageTransform . Microsoft . AlphaImageLoader( src = '/site/templates/presentation/images/title_bg.png', sizingMethod = 'scale' );
+
+.content {
+font-size : 12 pt;
+    min-height: 300px;
+    margin: 30px 25px 10px;
+    zoom: 1
+}
+ 

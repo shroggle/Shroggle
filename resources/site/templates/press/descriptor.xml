@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Press template collection</name>
+    <thumbnail>tn_press3b.jpg</thumbnail>
+    <order>240</order>
+
+    
+    <layout thumbnailFile="main.jpg" useForDefault="true">
+        <name>Main Content </name>
+        <file>2headers_2main_footer.html</file>
+         <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+    <layout thumbnailFile="leftmenufooter.jpg">
+        <name>Left Menu, Footer</name>
+        <file>2headers_2main_2footers_leftmenu.html</file>
+
+    </layout>
+    <layout thumbnailFile="rightmenufooter.jpg">
+        <name>Right Menu, Footer </name>
+        <file>2headers_2main_2footers_rightmenu.html</file>
+
+    </layout>
+    <layout thumbnailFile="2mainfooter.jpg">
+        <name>2 Main Content, Footer </name>
+        <file>2headers_3main_2footers.html</file>
+
+    </layout>
+    <layout thumbnailFile="widetopfooter.jpg">
+        <name>Wide Top, Main, Footer </name>
+        <file>headers_main_2footers.html</file>
+
+     </layout>
+    <theme>
+        <imageFile>press1.jpg</imageFile>
+        <name>Press Notepad</name>
+        <file>press1.css</file>
+        <colorTileFile>tilepress1.jpg</colorTileFile>
+        <thumbnailFile>tn_press1b.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>press2-parchment.jpg</imageFile>
+        <name>Press Parchment</name>
+        <file>press2.css</file>
+        <colorTileFile>tilepress2-parchment.jpg</colorTileFile>
+        <thumbnailFile>tn_press2b-parchment.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>press3.jpg</imageFile>
+        <name>Press Gears</name>
+        <file>press3.css</file>
+        <colorTileFile>tilepress3.jpg</colorTileFile>
+        <thumbnailFile>tn_press3b.jpg</thumbnailFile>
+    </theme> 
+	<theme>
+        <imageFile>press4.jpg</imageFile>
+        <name>Press Hardcover</name>
+        <file>press4.css</file>
+        <colorTileFile>tilepress4.jpg</colorTileFile>
+        <thumbnailFile>tn_press4b.jpg</thumbnailFile>
+    </theme> 
+	<theme>
+        <imageFile>press5.jpg</imageFile>
+        <name>Press Diamond Plate</name>
+        <file>press5.css</file>
+        <colorTileFile>tilepress5.jpg</colorTileFile>
+        <thumbnailFile>tn_press5b.jpg</thumbnailFile>
+    </theme> 
+	<theme>
+        <imageFile>press6.jpg</imageFile>
+        <name>Press Water</name>
+        <file>press6.css</file>
+        <colorTileFile>tilepress6.jpg</colorTileFile>
+        <thumbnailFile>tn_press6b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>press7.jpg</imageFile>
+        <name>Press Hydrangea</name>
+        <file>press7.css</file>
+        <colorTileFile>tilepress7.jpg</colorTileFile>
+        <thumbnailFile>tn_press7b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>press8.jpg</imageFile>
+        <name>Press Paper</name>
+        <file>press8.css</file>
+        <colorTileFile>tilepress8.jpg</colorTileFile>
+        <thumbnailFile>tn_press8b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>press9.jpg</imageFile>
+        <name>Press Tissue paper</name>
+        <file>press9.css</file>
+        <colorTileFile>tilepress9.jpg</colorTileFile>
+        <thumbnailFile>tn_press9b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>press10.jpg</imageFile>
+        <name>Press Rose Petals</name>
+        <file>press10.css</file>
+        <colorTileFile>tilepress10.jpg</colorTileFile>
+        <thumbnailFile>tn_press10b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>press11.jpg</imageFile>
+        <name>Press Sky</name>
+        <file>press11.css</file>
+        <colorTileFile>tilepress11.jpg</colorTileFile>
+        <thumbnailFile>tn_press11b.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>press12-wood.jpg</imageFile>
+        <name>Press Wood</name>
+        <file>press12.css</file>
+        <colorTileFile>tilepress12-wood.jpg</colorTileFile>
+        <thumbnailFile>tn_press12b-wood.jpg</thumbnailFile>
+    </theme>
+
+</template>

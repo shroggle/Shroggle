@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title><!-- PAGE_TITLE --></title>
+<!-- PAGE_HEADER -->
+<style type="text/css">
+body, div, img, table, tr, td{
+	margin:0;
+	padding:0;
+	font-family:arial, helvetica, sans-serif;
+    font-size:10pt;
+}
+table, tr, td {
+	vertical-align:top;
+}
+
+#wrapper {
+	width:100%;
+	margin:auto;
+}
+
+.headerTop {
+	width:100%;
+	margin:auto;
+	height:70px;
+	overflow:hidden;
+
+}
+.headerBottom {
+	width:100%;
+	margin:auto;
+	height:40px;
+	overflow:hidden;
+
+}
+  .headerTopContent, .headerBottomContent  {
+         width:944px;
+    margin:auto;
+}
+
+.contentTop {
+	width:944px;
+	margin:60px auto 0 auto;
+	height:240px;
+	
+}
+
+.contentBottom {
+	width:944px;
+	margin:auto;
+	height:auto;
+    min-height:500px;
+
+}
+.contentLeft {
+	width:472px;
+	min-width:472px;
+	min-height:500px;
+	
+}
+.contentRight {
+	width:472px;
+	min-width:472px;
+	min-height:500px;
+}
+.footer {
+	width:944px;
+	margin:auto;
+	height:40px;
+    padding-bottom:30px;
+    }
+.subfooter {
+	width:944px;
+	margin:auto;
+	height:70px;
+	margin-bottom:30px;
+	
+}
+
+
+</style>
+
+</head>
+
+<body>
+<div id="wrapper">
+ <div class="headerTop">
+         <div class="headerTopContent"></div>    
+  </div>
+  <div class="headerBottom">
+       <div class="headerBottomContent"></div>
+  </div> 
+  
+  <div class="contentTop">
+         <div class="contentTopBlock mediaBlock"></div>
+  </div>
+  <div class="contentBottom">
+    <table  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="contentLeft mediaBlock"></td>
+        <td class="contentRight mediaBlock"></td>
+      </tr>
+    </table>
+    </div>
+  
+  <div class="footer">
+      <div class="footerContent mediaBlock"></div>
+  </div>
+    <div class="subfooter">
+      <div class="subfooterContent mediaBlock"></div>
+  </div>
+</div>
+
+
+</body>
+</html> 

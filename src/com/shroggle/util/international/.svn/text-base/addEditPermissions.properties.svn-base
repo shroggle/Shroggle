@@ -1,0 +1,33 @@
+addEditAdministrators=Add / Edit Administrators
+firstName=First name
+lastName=Last name
+emailAddress=Email address
+accountAdministrator=Account Administrator
+accountAdminInfoText=An account administrator has full viewing and editing access to all sites in the account and all account contact and payment info.
+siteAdministrator=Site Administrator
+siteAdminInfoText=A site administrator has full viewing and editing access to specified sites - but not to account info or permissions editing.
+selectAllSites=Select All Sites
+invitationTextPart1=Hi, <first name last name>.\nYou have been invited by
+invitationTextPart2=to be <a/an site/account> administrator for the: <site names> web site(s).
+
+
+
+site=a site                  
+account=an account
+
+invitationMessageSubject = Site admin invitation
+invitationMessageBody = {0}\nPlease, follow the link:\n\
+  http://{1}/account/createUser.action?request.invitedUserId={2}&request.userId={3}&showForInvited=true&request.confirmCode={4}\n\
+  to accept the invitation.\n\n\
+  These sites are powered by {5} A simple web based tool for building feature rich, professional web sites and networks of sites.\n\n\
+  Please, visit site builder at: http://{1}.\n\n\
+  Please feel free to contact us directly with any questions, {6}.
+
+accessRepealedSubject = Web site admin invitation has been withdrawn
+accessRepealedBody = Hi, {0} {1}\n\n\
+{2} {3}, has withdrawn your access to the {4} site.\n\n\
+{5} is a web based tool for quickly and easily creating content rich web sites, to your own specifications. {6}\n\
+Please feel free to contact us directly with any questions, {7}.
+
+NoInvitationEmail = No invitation email is applied.
+noSiteIsSelected = no site is selected at the moment.

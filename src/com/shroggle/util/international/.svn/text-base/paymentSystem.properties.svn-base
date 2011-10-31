@@ -1,0 +1,14 @@
+emailSubject = Web-Deva has received payment for {0}
+
+emailBody = Dear {0} {1},\n\n\
+Thank you for choosing Web-Deva. This email confirms that you have paid for 1 {2} of service and hosting from Web-Deva.com\n\n\
+Your site has been activated and is available on {3} address.\n\n\
+Your credit card / paypal account was charged on {4} in the amount of: ${5}\n\n\
+Your next payment will be charged automatically on {6}\n\n\
+To cancel service at any time log into your account and select `Deactivate.`\n\n\n\n\
+Web-Deva is a fabulous new tool for creating and maintaining professional web sites at the push of a button. Web-Deva allows you to create functionally rich sites, with plenty of media.\n\n\
+If you have any questions regarding your account, refer to the FAQs at http://www.demo.{7}/FAQ\n\n\
+or contact us directly with any questions or comments: {8}
+
+YEAR = year
+MONTH = month

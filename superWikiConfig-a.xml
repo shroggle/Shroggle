@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <useInternationalHightlight>false</useInternationalHightlight>
+    <disableResourceMergeAgent>.*</disableResourceMergeAgent>
+    <showSiteEditPagePrototype>true</showSiteEditPagePrototype>
+    <siteResourcesPath>f:/shroggle/projectwiki/exploded/siteResources</siteResourcesPath>
+    <siteResourcesVideo>
+        <path>f:/shroggle/projectwiki/exploded/siteResourcesVideo</path>
+    </siteResourcesVideo>
+    <database>
+        <login>root</login>
+        <password>xxxxxxxxxxxxxxxxx</password>
+        <driver>com.mysql.jdbc.TimeCounterMySqlDriver</driver>
+        <url>jdbc:mysql://localhost/shroggle?useUnicode=true&amp;characterEncoding=utf8</url>
+        <dialect>org.hibernate.dialect.MySQL5InnoDBDialect</dialect>
+        <created>update</created>
+    </database>
+    <mail>
+        <login>artem.stasuk@gmail.com</login>
+        <password/>
+        <url>xxxxxxxxxxxxxxxxx</url>
+    </mail>
+    <adminLogin>admin</adminLogin>
+    <adminPassword>1</adminPassword>
+    <defaultTemplate>
+        <directory>template1</directory>
+        <css>bw.css</css>
+        <layoutFile>twopanel.htm</layoutFile>
+    </defaultTemplate>
+    <registration>
+        <infoEMail>admin@com</infoEMail>
+        <confirm>false</confirm>
+        <registrationUrl/>
+    </registration>
+    <expireUserTime>100000</expireUserTime>
+    <useExpireUserDeleter>false</useExpireUserDeleter>
+    <useConsoleMailSender>true</useConsoleMailSender>
+    <userSitesUrl>localhost:8080</userSitesUrl>
+    <useCacheConfigStorage>false</useCacheConfigStorage>
+    <useCacheFileSystem>false</useCacheFileSystem>
+    <useCacheResourceMerge>false</useCacheResourceMerge>
+    <useCacheShowWorkPageVersion>false</useCacheShowWorkPageVersion>
+    <useCacheHibernate>false</useCacheHibernate>
+    <useJournalToConsole>false</useJournalToConsole>
+    <useJournalToPersistance>false</useJournalToPersistance>
+    <javien>
+        <useTestData>false</useTestData>
+        <testData>
+            <url>http://dps2.javien.com/ws/services/DynamicAPI</url>
+            <adminLogin>mstern@sidratech.com</adminLogin>
+            <adminPassword>xxxxxxxxxxxxxxxxx</adminPassword>
+            <merchantName>sidratech</merchantName>
+        </testData>
+        <realData>
+            <url>http://dps10.javien.com/ws/services/DynamicAPI</url>
+            <adminLogin>admin@shroggle.net</adminLogin>
+            <adminPassword>xxxxxxxxxxxxxxxxx</adminPassword>
+            <merchantName>sidratech</merchantName>
+        </realData>
+    </javien>
+    <payPal>
+        <use>false</use>
+    </payPal>
+    <billingInfoProperties>
+        <executeAtMidnight>true</executeAtMidnight><!--If `executeAtMidnight` == false - execute immediately-->
+        <executionPeriod>1440</executionPeriod><!--Time in minutes (1440 minutes == 24 hours). System use this property only if `executeAtMidnight` == false-->
+        <ccExpireNotifyTime>21600</ccExpireNotifyTime><!--Time in minutes (value in specification == 15 days == 21600 minutes).-->
+        <membersipExpireNotifyTime>14400</membersipExpireNotifyTime><!--Time in minutes (value in specification == 10 days == 14400 minutes).-->
+        <annualBillingExpirationDate>525600</annualBillingExpirationDate><!--Time in minutes (value in specification == 365 days == 525600 minutes).-->
+        <monthlyBillingExpirationDate>43200</monthlyBillingExpirationDate><!--Time in minutes (value in specification == 30 days == 43200 minutes).-->
+    </billingInfoProperties>
+</config>

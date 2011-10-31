@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pageResources>
+    <part name="presentation.css">
+        <item path="/css/reset.css"/>
+        <item path="/css/app_style.css"/>
+        <item path="/css/pages_style.css"/>
+        <item path="/css/window_style.css"/>
+        <item path="/site/editWidgets.css"/>
+        <item path="/colorPicker/colorPicker.css"/>
+        <item path="/SWFUpload/defaultSWFUpload.css"/>
+        <item path="/css/tree.css"/>
+        <item path="/css/customFonts.css"/>
+    </part>
+
+    <part name="application.css">
+        <item path="/css/reset.css"/>
+        <item path="/css/pages_style.css"/>
+        <item path="/css/app_style.css"/>
+        <item path="/css/window_style.css"/>
+        <item path="/site/editWidgets.css"/>
+        <item path="/colorPicker/colorPicker.css"/>
+        <item path="/SWFUpload/defaultSWFUpload.css"/>
+        <item path="/css/tree.css"/>
+        <item path="/css/customSelect.css"/>
+        <item path="/css/customFonts.css"/>
+    </part>
+
+    <part name="presentation.js">
+        <item path="/dwr/engine.js"/>
+        <item path="/js/errors.js"/>
+
+        <item path="/js/jquery.js"/>
+        <item path="/js/jquery-ui.js"/>
+        <item path="/js/util.js"/>
+        <item path="/js/cssBrowserSelector.js"/>
+        <item path="/js/cookies.js"/>
+        <item path="/js/login.js"/>
+        <item path="/js/forgotPassword.js"/>
+        <item path="/js/lastAccessedTime.js"/>
+        <item path="/js/window.js"/>
+
+        <item path="/js/serviceCall.js"/>
+
+        <item path="/site/configureWindow.js"/>
+        <item path="/site/quickyCreatePages.js"/>
+        <item path="/account/loginInAccount.js"/>
+        <item path="/site/createSite.js"/>
+        <item path="/site/siteIconUploader.js"/>
+        <item path="/site/siteIconUploaderHandler.js"/>
+        <item path="/account/createUser.js"/>
+        <item path="/account/states.js"/>
+        <item path="/site/render/tellFriend.js"/>
+
+        <item path="/SWFUpload/swfupload.js"/>
+        <item path="/SWFUpload/uploadersStack.js"/>
+    </part>
+
+    <part name="application.js">
+        <item path="/payment/childSiteRegistrationPaymentInfo.js"/>
+
+        <item path="/js/jquery.js"/>
+        <item path="/js/jquery-ui.js"/>
+
+        <item path="/js/scrollable.js"/>
+        <item path="/js/configureBlog.js"/>
+        <item path="/js/configureForum.js"/>
+        <item path="/js/date.format.js"/>
+        <item path="/js/videoPlayerLook.js"/>
+        <item path="/js/contentStoreControl.js"/>
+        <item path="/js/formTable.js"/>
+        <item path="/js/filledForm.js"/>
+        <item path="/js/tooltip.js"/>
+        <item path="/js/tabs.js"/>
+        <item path="/js/texteditor.js"/>
+        <item path="/js/tree.js"/>
+        <item path="/js/customSelect.js"/>
+        <item path="/js/help.js"/>
+        <item path="/js/addLinkedField.js"/>
+        <item path="/js/corner.js"/>
+        <item path="/js/excanvas.js"/>
+        <item path="/js/jquery.carousel.min.js"/>
+
+        <item path="/js/serviceCall.js"/>
+
+        <item path="/paginator/paginator.js"/>
+
+        <item path="/site/configureItemSettings.js"/>
+        <item path="/image/configureImage.js"/>
+        <item path="/image/imageBulkUploader.js"/>
+        <item path="/image/imageBulkUploaderHandler.js"/>
+        <item path="/image/imageFileUploader.js"/>
+        <item path="/image/imageFileUploaderHandler.js"/>
+        <item path="/image/saveImageScripts.js"/>
+        <item path="/image/showImageText.js"/>
+        <item path="/js/selectImagesControl.js"/>
+        <item path="/js/uploadFilesControl.js"/>
+
+        <item path="/menu/configureMenuWidget.js"/>
+        <item path="/menu/menuImageUploader.js"/>
+        <item path="/menu/menuImageUploaderHandler.js"/>
+
+        <item path="/site/configureShoppingCart.js"/>
+        <item path="/site/configurePurchaseHistory.js"/>
+        <item path="/site/configureScript.js"/>
+
+        <item path="/blogSummary/configureBlogSummary.js"/>
+
+        <item path="/slideShow/configureSlideShow.js"/>
+
+        <item path="/borderBackground/configureBorder.js"/>
+        <item path="/borderBackground/configureBackground.js"/>
+        <item path="/borderBackground/backgroundImageUploader.js"/>
+        <item path="/borderBackground/backgroundImageUploaderHandler.js"/>
+
+        <item path="/blog/blog.js"/>
+
+        <item path="/gallery/configureGallery.js"/>
+        <item path="/gallery/configureGalleryVoting.js"/>
+        <item path="/site/render/gallery/renderWidgetGalleryData.js"/>
+
+        <item path="/account/editChildSiteRegistrationWindow.js"/>
+        <item path="/account/userInfo/userInfo.js"/>
+        <item path="/user/selectSite.js"/>
+        <item path="/payment/updatePaymentInfo.js"/>
+        <item path="/account/manageNetworkRegistrants.js"/>
+        <item path="/account/editChildSiteRegistrationWindow.js"/>
+        <item path="/account/dashboard/dashboard.js"/>
+        <item path="/account/dashboard/keywordManager/keywordManager.js"/>
+        <item path="/account/dashboard/blueprintsPublishing/publishBlueprint.js"/>
+        <item path="/account/dashboard/blueprintsPublishing/screenShotUploader.js"/>
+        <item path="/account/dashboard/blueprintsPublishing/screenShotUploaderHandler.js"/>
+
+        <item path="/js/util.js"/>
+        <item path="/js/cssBrowserSelector.js"/>
+
+        <item path="/account/accessPermissions/accessPermissions.js"/>
+        <item path="/payment/addEditCreditCardInfo.js"/>
+
+        <item path="/account/manageRegistrants/manageRegistrants.js"/>
+        <item path="/account/manageRegistrants/inviteGuests.js"/>
+
+        <item path="/account/groups/groups.js"/>
+
+        <item path="/site/pageVersionMoreInfo.js"/>
+        <item path="/site/configureCopyPage.js"/>
+        <item path="/site/traffic/traffic.js"/>
+        <item path="/site/addWidget.js"/>
+        <item path="/site/siteEditPage/siteEditPage.js"/>
+        <item path="/site/siteEditPage/pageIllustration.js"/>
+        <item path="/site/page/configurePageHtmlAndCss.js"/>
+        <item path="/site/page/configurePageSettings.js"/>
+        <item path="/site/page/configurePageName.js"/>
+        <item path="/site/page/configureBlueprintPagePermissions.js"/>
+        <item path="/site/configureBlueprintItemPermissions.js"/>
+        <item path="/site/page/configurePageSeoMetaTags.js"/>
+        <item path="/site/page/configurePageSeoHtml.js"/>
+        <item path="/site/page/configurePageLayout.js"/>
+        <item path="/site/configureItemSize.js"/>
+        <item path="/site/render/renderSlideShow.js"/>
+        <item path="/site/render/formVideoFile.js"/>
+        <item path="/site/form/manageFormRecords.js"/>
+        <item path="/user/manageItems.js"/>
+        <item path="/account/dashboardMenu.js"/>
+        <item path="/site/sortTable/sortArrows.js"/>
+        <item path="/site/form/export/manageDataExports.js"/>
+        <item path="/site/form/export/dataExportAndScheduler.js"/>
+        <item path="/site/form/customization/customizeManageRecords.js"/>
+        <item path="/site/configureFormFilter.js"/>
+        <item path="/site/showRequestContent.js"/>
+        <item path="/site/configureCustomForm.js"/>
+        <item path="/site/configureItemDescription.js"/>
+        <item path="/site/configureTellFriend.js"/>
+        <item path="/site/configureContactUsWidget.js"/>
+        <item path="/site/configureAdminLogin.js"/>
+        <item path="/site/configureManageVotes.js"/>
+        <item path="/site/configureFontsAndColors.js"/>
+        <item path="/site/configureMediaBlockSettings.js"/>
+        <item path="/site/configureText.js"/>
+        <item path="/site/render/widgetForm.js"/>
+        <item path="/site/render/renderWidgetVideo.js"/>
+        <item path="/site/configureRegistration.js"/>
+        <item path="/site/payment.js"/>
+        <item path="/site/accessibilityForRender/elementAccessibility.js"/>
+
+        <item path="/payment/paymentLogs.js"/>
+
+        <item path="/advancedSearch/configureAdvancedSearch.js"/>
+        <item path="/advancedSearch/editSearchOptions.js"/>
+
+        <item path="/forms/formsFileUploaderHandlers.js"/>
+        <item path="/forms/formsFileUploader.js"/>
+        <item path="/forms/formsBulkUploader.js"/>
+        <item path="/forms/formsBulkUploaderHandlers.js"/>
+        <item path="/forms/formsUploaderUtils.js"/>
+
+        <item path="/childSiteRegistration/configureChildSiteRegistration.js"/>
+        <item path="/childSiteRegistration/logoUploader.js"/>
+        <item path="/childSiteRegistration/logoUploaderHandler.js"/>
+        <item path="/childSiteRegistration/footerImageUploader.js"/>
+        <item path="/childSiteRegistration/footerImageUploaderHandler.js"/>
+
+        <item path="/SWFUpload/swfupload.js"/>
+        <item path="/SWFUpload/uploadersStack.js"/>
+        <item path="/SWFUpload/swfupload.queue.js"/>
+        <item path="/SWFUpload/fileprogress.js"/>
+        <item path="/SWFUpload/swfUploadDefaultHandlers.js"/>
+        <item path="/SWFUpload/swfupload.speed.js"/>
+        <item path="/SWFUpload/extendedSwfupload.js"/>
+
+        <item path="/video/configureVideo.js"/>
+        <item path="/video/videoImageUploader.js"/>
+        <item path="/video/videoImageUploaderHandler.js"/>
+        <item path="/video/videoUploader.js"/>
+        <item path="/video/videoUploaderHandler.js"/>
+        <item path="/video/swfobject.js"/>
+
+        <item path="/colorPicker/colorPicker.js"/>
+
+        <item path="/style/styleInputFields.js"/>
+        <item path="/style/Style.js"/>
+
+        <item path="/taxRates/configureTaxRates.js"/>
+    </part>
+
+    <part name="user.css">
+        <item path="/SWFUpload/defaultSWFUpload.css"/>
+        <item path="/site/templates/jquery.rating.css"/>
+        <item path="/site/templates/default.css"/>
+        <item path="/css/customFonts.css"/>
+    </part>
+
+    <part name="login.css">
+        <item path="/css/reset.css"/>
+        <item path="/css/window_style.css"/>
+        <item path="/css/app_style.css"/>
+        <item path="/css/pages_style.css"/>
+    </part>
+
+    <part name="login.js">
+        <item path="/dwr/engine.js"/>
+        <item path="/js/cookies.js"/>
+        <item path="/js/jquery.js"/>
+        <item path="/js/util.js"/>
+        <item path="/js/cssBrowserSelector.js"/>
+        <item path="/js/jquery-ui.js"/>
+        <item path="/js/window.js"/>
+        <item path="/js/tooltip.js"/>
+        <item path="/js/forgotPassword.js"/>
+        <item path="/js/lastAccessedTime.js"/>
+        <item path="/site/configureWindow.js"/>
+        <item path="/SWFUpload/swfupload.js"/>
+        <item path="/SWFUpload/uploadersStack.js"/>
+        <item path="/js/login.js"/>
+        <item path="/account/loginInAccount.js"/>
+        <item path="/js/serviceCall.js"/>
+    </part>
+
+    <part name="user.js">
+        <item path="/dwr/util.js"/>
+        <item path="/js/jquery.js"/>
+        <item path="/js/jquery-ui.js"/>
+        <item path="/js/jquery.MetaData.js"/>
+        <item path="/js/jquery.rating.js"/>
+        <item path="/js/jquery.carousel.min.js"/>
+        <item path="/dwr/engine.js"/>
+        <item path="/js/util.js"/>
+        <item path="/js/cssBrowserSelector.js"/>
+        <item path="/js/videoPlayerLook.js"/>
+        <item path="/site/render/tellFriend.js"/>
+        <item path="/SWFUpload/swfupload.js"/>
+        <item path="/SWFUpload/uploadersStack.js"/>
+        <item path="/SWFUpload/swfupload.queue.js"/>
+        <item path="/SWFUpload/fileprogress.js"/>
+        <item path="/SWFUpload/swfUploadDefaultHandlers.js"/>
+        <item path="/SWFUpload/swfupload.speed.js"/>
+        <item path="/SWFUpload/extendedSwfupload.js"/>
+        <item path="/forms/formsFileUploaderHandlers.js"/>
+        <item path="/forms/formsFileUploader.js"/>
+        <item path="/forms/formsBulkUploader.js"/>
+        <item path="/forms/formsBulkUploaderHandlers.js"/>
+        <item path="/forms/formsUploaderUtils.js"/>
+        <item path="/site/render/widgetForm.js"/>
+        <item path="/site/render/formVideoFile.js"/>
+        <item path="/site/widget.js"/>
+        <item path="/image/showImageText.js"/>
+        <item path="/image/configureImage.js"/>
+        <item path="/site/trackVisitor.js"/>
+        <item path="/js/date.format.js"/>
+        <item path="/js/cookies.js"/>
+        <item path="/js/contentStoreControl.js"/>
+        <item path="/js/texteditor.js"/>
+        <item path="/js/pageParameters.js"/>
+        <item path="/js/window.js"/>
+        <item path="/js/tooltip.js"/>
+        <item path="/menu/menu.js"/>
+        <item path="/js/corner.js"/>
+        <item path="/js/excanvas.js"/>
+        <item path="/blog/blog.js"/>
+        <item path="/js/errors.js"/>
+        <item path="/video/swfobject.js"/>
+        <item path="/site/render/renderSlideShow.js"/>
+        <item path="/site/render/widgetLogin.js"/>
+        <item path="/site/render/widgetRegistration.js"/>
+        <item path="/site/render/renderWidgetCustomForm.js"/>
+        <item path="/site/render/renderAdminLogin.js"/>
+        <item path="/site/render/renderShoppingCart.js"/>
+        <item path="/site/render/renderWidgetChildSiteRegistration.js"/>
+        <item path="/site/render/renderWidgetContactUs.js"/>
+        <item path="/site/render/renderWidgetVideo.js"/>
+        <item path="/site/render/advancedSearch/renderWidgetAdvancedSearch.js"/>
+        <item path="/site/render/manageVotes/renderWidgetManageVotes.js"/>
+        <item path="/site/payment.js"/>
+        <item path="/payment/addEditCreditCardInfo.js"/>
+        <item path="/payment/childSiteRegistrationPaymentInfo.js"/>
+        <item path="/account/states.js"/>
+        <item path="/js/filledForm.js"/>
+        <item path="/gallery/gallery.js"/>
+        <item path="/gallery/comment/comment.js"/>
+        <item path="/gallery/voting/voting.js"/>
+        <item path="/gallery/galleryVotingLinks.js"/>
+        <item path="/gallery/paypalButton.js"/>
+        <item path="/gallery/navigationResize.js"/>
+        <item path="/site/render/gallery/renderWidgetGalleryData.js"/>
+        <item path="/js/login.js"/>
+        <item path="/js/forgotPassword.js"/>
+        <item path="/js/lastAccessedTime.js"/>
+        <item path="/account/loginInAccount.js"/>
+        <item path="/forum/widgetForum.js"/>
+        <item path="/site/render/shroggleBrowserSupport.js"/>
+        <item path="/site/configureWindow.js"/>
+        <item path="/js/serviceCall.js"/>
+    </part>
+
+    <part name="defaultForInsideApp.css">
+        <item path="/site/templates/defaultForInsideApp.css"/>
+    </part>
+
+    <part name="ajaxDispatcher.js">
+        <item path="/js/jquery.history.js"/>
+        <item path="/js/ajaxDispatcher.js"/>
+    </part>
+
+    <part name="ajaxDispatcherFake.js">
+        <item path="/js/ajaxDispatcherFake.js"/>
+    </part>
+
+    <part name="editUser.css">
+        <item path="/SWFUpload/defaultSWFUpload.css"/>
+        <item path="/site/templates/jquery.rating.css"/>
+        <item path="/site/siteEditPage.css"/>
+        <item path="/site/templates/default.css"/>
+        <item path="/css/customFonts.css"/>
+    </part>
+
+    <part name="editUser.js">
+        <item path="/dwr/engine.js"/>
+        <item path="/SWFUpload/swfupload.js"/>
+        <item path="/SWFUpload/uploadersStack.js"/>
+        <item path="/SWFUpload/swfupload.queue.js"/>
+        <item path="/SWFUpload/fileprogress.js"/>
+        <item path="/SWFUpload/swfUploadDefaultHandlers.js"/>
+        <item path="/SWFUpload/swfupload.speed.js"/>
+        <item path="/SWFUpload/extendedSwfupload.js"/>
+        <item path="/forms/formsFileUploaderHandlers.js"/>
+        <item path="/forms/formsFileUploader.js"/>
+        <item path="/forms/formsBulkUploader.js"/>
+        <item path="/forms/formsBulkUploaderHandlers.js"/>
+        <item path="/forms/formsUploaderUtils.js"/>
+        <item path="/gallery/navigationResize.js"/>
+        <item path="/site/render/gallery/renderWidgetGalleryData.js"/>
+        <item path="/site/render/widgetForm.js"/>
+        <item path="/site/render/formVideoFile.js"/>
+        <item path="/js/texteditor.js"/>
+        <item path="/js/cookies.js"/>
+        <item path="/dwr/util.js"/>
+        <item path="/js/cssBrowserSelector.js"/>
+        <item path="/js/contentStoreControl.js"/>
+        <item path="/js/util.js"/>
+        <item path="/js/jquery.js"/>
+        <item path="/js/jquery-ui.js"/>
+        <item path="/js/jquery.carousel.min.js"/>
+        <item path="/gallery/voting/voting.js"/>
+        <item path="/gallery/galleryVotingLinks.js"/>
+        <item path="/gallery/paypalButton.js"/>
+        <item path="/js/videoPlayerLook.js"/>
+        <item path="/js/date.format.js"/>
+        <item path="/site/render/widgetLogin.js"/>
+        <item path="/site/widget.js"/>
+        <item path="/image/configureImage.js"/>
+        <item path="/site/trackVisitor.js"/>
+        <item path="/blog/blog.js"/>
+        <item path="/js/errors.js"/>
+        <item path="/video/swfobject.js"/>
+        <item path="/site/render/renderSlideShow.js"/>
+        <item path="/site/render/widgetRegistration.js"/>
+        <item path="/site/render/renderWidgetCustomForm.js"/>
+        <item path="/site/render/renderShoppingCart.js"/>
+        <item path="/site/render/renderWidgetChildSiteRegistration.js"/>
+        <item path="/site/render/renderWidgetContactUs.js"/>
+        <item path="/site/render/renderWidgetVideo.js"/>
+        <item path="/payment/childSiteRegistrationPaymentInfo.js"/>
+        <item path="/js/filledForm.js"/>
+        <item path="/js/login.js"/>
+        <item path="/js/forgotPassword.js"/>
+        <item path="/js/lastAccessedTime.js"/>
+        <item path="/account/loginInAccount.js"/>
+        <item path="/forum/widgetForum.js"/>
+        <item path="/js/formTable.js"/>
+        <item path="/js/configureForum.js"/>
+        <item path="/js/jquery.MetaData.js"/>
+        <item path="/js/jquery.rating.js"/>
+        <item path="/js/window.js"/>
+        <item path="/menu/menu.js"/>
+        <item path="/js/corner.js"/>
+        <item path="/js/excanvas.js"/>
+        <item path="/image/showImageText.js"/>
+        <item path="/site/configureText.js"/>
+        <item path="/blogSummary/configureBlogSummary.js"/>
+        <item path="/site/configureItemDescription.js"/>
+        <item path="/site/siteEditPage/pageIllustrationInit.js"/>
+        <item path="/site/configureBlueprintItemPermissions.js"/>
+        <item path="/site/siteEditPage/pageIllustration.js"/>
+        <item path="/site/configureWindow.js"/>
+        <item path="/js/serviceCall.js"/>
+    </part>
+</pageResources>  

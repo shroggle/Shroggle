@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC
+        "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN"
+        "http://getahead.org/dwr/dwr20.dtd">
+
+<dwr>
+    <allow>
+        <convert match="com.shroggle.exception.TextLargeException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.WrongSubDomainNameException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.WidgetNotFoundException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.BlogPostNotFoundException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.GalleryNameIncorrectException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.SiteOnItemRightExistException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.VideoNotFoundException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.NotEnoughWatchedPercentageOfCurrentFileException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.NotEnoughWatchedFilesException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.UserNotActivatedException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.TellFriendNameNullOrEmptyException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.TellFriendNameNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.SlideShowNameNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.PageNotFoundException" converter="exception">
+            <param name="include" value="message, javaClassName, loginedUser"/>
+        </convert>
+        <convert match="com.shroggle.exception.WidgetNotFoundException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.VideoWriteException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.GalleryNameNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.BlogNameEmptyException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.BlogNameNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.CannotSendMailWithEmptyMessageException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.PageVersionNameIncorrectException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.ImageDuplicateNameException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.PageVersionNameNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.PageVersionUrlNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.PageVersionAliaseUrlNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.SiteItemNotFoundException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.PageVersionUrlIncorrectException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.MenuNameNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.RegistrationFormNotUniqueNameException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.BlogSummaryNameNotUnique" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.ContactUsNameNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.ChildSiteRegistrationNameNotUnique" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.ImageNotSelectException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.ImageSizeIncorrectException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.ForumNameNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.CannotShowHelpWindowException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.VisitorWithNullOrEmptyEmailException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.PayPalWrongEmailException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.VisitorWithNullPasswordException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.VisitorWithNotEqualsPasswordAndConfirmPaswordException"
+                 converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.VisitorWithNotUniqueLogin" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.VisitorNotFoundException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.NotValidVisitorEmailException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.VistorEmailAndRetypeEmailAreNotEqual" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.CustomFormNameNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.IncorrectEmailException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.WrongVerificationCodeException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.NullOrEmptyEmailException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.FormFilterNotUniqueNameException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.PageBreakBeforeRequiredFieldsException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.ManageVotesNotUniqueNameException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.ManageVotesNullOrEmptyNameException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.RegistrationFormNullOrEmptyNameException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.JavienException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.PayPalException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.PaymentBlockOnFirstPageException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.InvalidContactUsEmailException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.ExpiredVisitorAttemptToRegisterException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.ShoppingCartNameNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+        <convert match="com.shroggle.exception.PurchaseHistoryNameNotUniqueException" converter="exception">
+            <param name="include" value="message, javaClassName"/>
+        </convert>
+
+        <convert match="com.shroggle.logic.gallery.GalleryLabelEdit" converter="bean"/>
+        <convert match="com.shroggle.logic.gallery.GalleryEdit" converter="bean"/>
+        <convert match="com.shroggle.logic.gallery.GalleryItemEdit" converter="bean"/>
+        <convert match="com.shroggle.logic.gallery.comment.GalleryCommentInfo" converter="bean"/>
+        <convert match="com.shroggle.logic.form.filter.FormFilterRuleEdit" converter="bean"/>
+        <convert match="com.shroggle.logic.form.filter.FormFilterEdit" converter="bean"/>
+        <convert match="com.shroggle.logic.form.filter.FilterFormItemInfo" converter="bean"/>
+        <convert match="com.shroggle.logic.form.FormFileTypeForDeletion" converter="enum"/>
+        <convert match="com.shroggle.logic.manageVotes.WinnerInfo" converter="bean"/>
+        <convert match="com.shroggle.logic.user.items.UserItemsSortType" converter="enum"/>
+        <convert match="com.shroggle.logic.manageRegistrants.ManageRegistrantsSortType" converter="enum"/>
+        <convert match="com.shroggle.logic.user.dashboard.keywordManager.SEOTerm" converter="enum"/>
+
+        <convert match="com.shroggle.entity.AccessibleElementType" converter="enum"/>
+        <convert match="com.shroggle.entity.AccessForRender" converter="enum"/>
+        <convert match="com.shroggle.entity.PaymentMethod" converter="enum"/>
+        <convert match="com.shroggle.entity.DraftShoppingCart" converter="bean"/>
+        <convert match="com.shroggle.entity.DraftPurchaseHistory" converter="bean"/>
+        <convert match="com.shroggle.entity.MenuUrlType" converter="enum"/>
+        <convert match="com.shroggle.entity.MenuStructureType" converter="enum"/>
+        <convert match="com.shroggle.entity.DisplayPosts" converter="enum"/>
+        <convert match="com.shroggle.entity.Country" converter="enum"/>
+        <convert match="com.shroggle.entity.CreditCardType" converter="enum"/>
+        <convert match="com.shroggle.entity.AccessGroup" converter="enum"/>
+        <convert match="com.shroggle.entity.GalleryOrientation" converter="enum"/>
+        <convert match="com.shroggle.entity.GallerySortOrder" converter="enum"/>
+        <convert match="com.shroggle.entity.GalleryItemColumn" converter="enum"/>
+        <convert match="com.shroggle.entity.GalleryAlign" converter="enum"/>
+        <convert match="com.shroggle.entity.GalleryNavigationPaginatorType" converter="enum"/>
+        <convert match="com.shroggle.entity.GalleryDataPaginatorType" converter="enum"/>
+        <convert match="com.shroggle.entity.GalleryDataPaginator" converter="bean"/>
+        <convert match="com.shroggle.entity.VoteSettings" converter="bean"/>
+        <convert match="com.shroggle.entity.GalleryBackToNavigation" converter="bean"/>
+        <convert match="com.shroggle.entity.GalleryComment" converter="bean"/>
+        <convert match="com.shroggle.entity.DraftManageVotesSettings" converter="bean"/>
+        <convert match="com.shroggle.entity.DraftMenuItem" converter="bean"/>
+        <convert match="com.shroggle.entity.RegistrantFilterType" converter="enum"/>
+        <convert match="com.shroggle.entity.ImageFileType" converter="enum"/>
+        <convert match="com.shroggle.entity.ImageLinkType" converter="enum"/>
+        <convert match="com.shroggle.entity.ImagePdfDisplaySettings" converter="enum"/>
+        <convert match="com.shroggle.entity.ImageAudioDisplaySettings" converter="enum"/>
+        <convert match="com.shroggle.entity.ImageFlashDisplaySettings" converter="enum"/>
+        <convert match="com.shroggle.entity.ExternalUrlDisplaySettings" converter="enum"/>
+        <convert match="com.shroggle.entity.InternalPageDisplaySettings" converter="enum"/>
+        <convert match="com.shroggle.entity.Group" converter="bean"/>
+        <convert match="com.shroggle.entity.TextAreaDisplaySettings" converter="enum"/>
+        <convert match="com.shroggle.entity.WidgetSizeType" converter="enum"/>
+        <convert match="com.shroggle.entity.WidgetOverflowType" converter="enum"/>
+        <convert match="com.shroggle.entity.MeasureUnit" converter="enum"/>
+        <convert match="com.shroggle.entity.StyleType" converter="enum"/>
+        <convert match="com.shroggle.entity.BorderStyle" converter="enum"/>
+        <convert match="com.shroggle.entity.PostDisplayCriteria" converter="enum"/>
+        <convert match="com.shroggle.entity.PostSortCriteria" converter="enum"/>
+        <convert match="com.shroggle.entity.TitlePosition" converter="enum"/>
+        <convert match="com.shroggle.entity.PageType" converter="enum"/>
+        <convert match="com.shroggle.entity.PageVersionType" converter="enum"/>
+        <convert match="com.shroggle.entity.ChargeType" converter="enum"/>
+        <convert match="com.shroggle.entity.RegistrantFilterType" converter="enum"/>
+        <convert match="com.shroggle.entity.SiteOnItemRightType" converter="enum"/>
+        <convert match="com.shroggle.entity.DraftAdvancedSearchOption" converter="bean"/>
+        <convert match="com.shroggle.entity.AddEditCreditCardRequest" converter="bean"/>
+        <convert match="com.shroggle.entity.DraftBlog" converter="bean"/>
+        <convert match="com.shroggle.entity.Background" converter="bean"/>
+        <convert match="com.shroggle.entity.Border" converter="bean"/>
+        <convert match="com.shroggle.entity.DraftForum" converter="bean"/>
+        <convert match="com.shroggle.entity.ThemeId" converter="bean"/>
+        <convert match="com.shroggle.entity.Template" converter="bean"/>
+        <convert match="com.shroggle.entity.Theme" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.WidgetInfo" converter="bean"/>
+        <convert match="com.shroggle.entity.Site" converter="bean"/>
+        <convert match="com.shroggle.entity.Background" converter="bean"/>
+        <convert match="com.shroggle.entity.Border" converter="bean"/>
+        <convert match="com.shroggle.entity.MeasureUnits" converter="bean"/>
+        <convert match="com.shroggle.entity.StyleValue" converter="bean"/>
+        <convert match="com.shroggle.entity.Style" converter="bean"/>
+        <convert match="com.shroggle.entity.DraftMenu" converter="bean"/>
+        <convert match="com.shroggle.entity.AdvancedSearchOrientationType" converter="enum"/>
+        <convert match="com.shroggle.entity.OptionDisplayType" converter="enum"/>
+        <convert match="com.shroggle.entity.DraftRegistrationForm" converter="bean"/>
+        <convert match="com.shroggle.entity.DraftContactUs" converter="bean"/>
+        <convert match="com.shroggle.entity.DraftFormItem" converter="bean"/>
+        <convert match="com.shroggle.entity.FilledForm" converter="bean"/>
+        <convert match="com.shroggle.entity.FilledFormItem" converter="bean"/>
+        <convert match="com.shroggle.entity.FormItemName" converter="enum"/>
+        <convert match="com.shroggle.entity.MenuStyleType" converter="enum"/>
+        <convert match="com.shroggle.entity.CreditCard" converter="bean"/>
+        <convert match="com.shroggle.entity.PageSEOSettings" converter="bean"/>
+        <convert match="com.shroggle.entity.SEOSettings" converter="bean"/>
+        <convert match="com.shroggle.entity.SEOHtmlCode" converter="bean"/>
+        <convert match="com.shroggle.entity.CSVDataExportField" converter="bean"/>
+        <convert match="com.shroggle.entity.ItemSize" converter="bean"/>
+        <convert match="com.shroggle.entity.CodePlacement" converter="enum"/>
+        <convert match="com.shroggle.entity.SiteShowOption" converter="enum"/>
+        <convert match="com.shroggle.entity.FormItemType" converter="enum"/>
+        <convert match="com.shroggle.entity.ResourceType" converter="enum"/>
+        <convert match="com.shroggle.entity.FormType" converter="enum"/>
+        <convert match="com.shroggle.entity.SlideShowTransitionEffectType" converter="enum"/>
+        <convert match="com.shroggle.entity.SlideShowDisplayType" converter="enum"/>
+        <convert match="com.shroggle.entity.SlideShowType" converter="enum"/>
+        <convert match="com.shroggle.entity.CustomizeManageRecordsField" converter="bean"/>
+        <convert match="com.shroggle.entity.AccessibleSettings" converter="bean"/>
+
+        <convert match="com.shroggle.presentation.site.GetAllowItem" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.accessibilityForRender.CreateAccessibilitySettingsRequest"
+                 converter="bean"/>
+        <convert match="com.shroggle.presentation.site.accessibilityForRender.CreateAccessibilitySettingsResponse"
+                 converter="bean"/>
+        <convert match="com.shroggle.presentation.site.SaveAdminLoginRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.ConfigureType" converter="enum"/>
+        <convert match="com.shroggle.presentation.site.ManageFormRecordSortType" converter="enum"/>
+        <convert match="com.shroggle.presentation.site.YourFormTableFormItemInfo" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.CreateVisitorResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.CreateChildSiteRegistrationRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.CreateChildSiteResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.SendContactUsInfoResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.CheckDateResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.CreateContactUsWidgetRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.SendContactUsInfoRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.page.SavePageResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.LoginInAccountRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.CreateVisitorRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.VisitorLoginRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.WidgetRegistrationSettingsRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.CreateVideoWidgetRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.MoveWidgetRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.SaveTextRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.SetWidgetImageRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.PageWithPosition" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.WidgetId" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.TrackVisitorRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.FunctionalWidgetInfo" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.SetRegistrationToWidgetRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.EditPageVersionKeywordsGroup" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.CreateSiteKeywordsGroup" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.AccountInfoResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.customForm.CreateCustomFormRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.UpdateCustomFormResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.RegisteredVisitorInfo" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.CreateChildSiteRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.CreateItemSizeRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.page.SavePageRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.AddOrEditPageKeywordsGroup" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.AddWidgetRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.AddItemRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.AddItemResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.GuestInvitationRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.account.accessPermissions.AddEditPermissionsRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.LoginUserRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.AddEditCreditCardRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.SaveScriptRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.AddEditCreditCardResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.UpdateContactUsFormResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.UpdateRegistrationFormResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.UpdateChildSiteRegistrationResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.SiteAccessLevelHolderRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.DeletePageResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.ConfigureItemSettingsResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.ConfigureMediaBlockSettingsTab" converter="enum"/>
+        <convert match="com.shroggle.presentation.site.ConfigureItemSettingsTab" converter="enum"/>
+        <convert match="com.shroggle.presentation.lastAccessTime.CheckLoginedUserResponse" converter="bean"/>
+
+        <convert match="com.shroggle.presentation.site.requestContent.RequestContentItemType" converter="enum"/>
+        <convert match="com.shroggle.presentation.site.requestContent.RequestContentItem" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.requestContent.GetRequestContentResponse" converter="bean"/>
+
+        <convert match="com.shroggle.presentation.site.cssParameter.CssParameter" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.cssParameter.CreateFontsAndColorsRequest" converter="bean"/>
+
+        <convert match="com.shroggle.presentation.site.payment.PaypalRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.payment.GoToPaypalResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.payment.PaypalButtonPaymentRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.payment.UpdateSitePaymentInfoRequest" converter="bean"/>
+
+        <convert match="com.shroggle.presentation.site.render.customForm.SubmitCustomFormRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.render.customForm.SubmitCustomFormResponse" converter="bean"/>
+
+        <convert match="com.shroggle.presentation.site.forms.ShowFormPageRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.forms.FormPageAdditionalParameters" converter="bean"/>
+
+        <convert match="com.shroggle.presentation.site.borderBackground.UpdateBorderResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.site.borderBackground.UpdateBackgroundResponse" converter="bean"/>
+
+        <convert match="com.shroggle.presentation.groups.SaveGroupsRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.groups.GroupIdWithNewName" converter="bean"/>
+        <convert match="com.shroggle.presentation.groups.AddGroupResponse" converter="bean"/>
+
+        <convert match="com.shroggle.logic.gallery.PaypalSettingsData" converter="bean"/>
+        <convert match="com.shroggle.logic.gallery.SaveGalleryRequest" converter="bean"/>
+        <convert match="com.shroggle.logic.gallery.VoteStarsLinks" converter="bean"/>
+        <convert match="com.shroggle.logic.gallery.ChildSiteLinkData" converter="bean"/>
+
+        <convert match="com.shroggle.presentation.gallery.ShowGalleryDataResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.gallery.ConfigureGalleryResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.gallery.GetSitePagesItem" converter="bean"/>
+        <convert match="com.shroggle.presentation.gallery.HideGalleryWatchedVideosRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.gallery.HideGalleryWatchedVideosResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.gallery.GalleryDispatchRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.gallery.GalleryCustomerGroup" converter="bean"/>
+        <convert match="com.shroggle.presentation.gallery.comment.AddGalleryCommentRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.gallery.comment.EditGalleryCommentRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.gallery.comment.ShowGalleryCommentRequest" converter="bean"/>
+
+        <convert match="com.shroggle.presentation.manageRegistrants.ShowManageRegistrantsRequest" converter="bean"/>
+
+        <convert match="com.shroggle.presentation.voting.VoteServiceRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.form.filter.ConfigureFormFilterResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.form.filledForms.ShowFilledFormsResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.form.filledForms.ShowFilledFormsRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.form.filledForms.SortProperties" converter="bean"/>
+        <convert match="com.shroggle.presentation.form.filledForms.ReloadManageRegistrantsTableRequest"
+                 converter="bean"/>
+        <convert match="com.shroggle.presentation.form.ShowAddLinkedFieldRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.form.AvailableFormResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.form.customization.SaveCustomizeManageRecordsRequest"
+                 converter="bean"/>
+
+        <convert match="com.shroggle.presentation.blogSummary.BlogIdWidgetIdResponse" converter="bean"/>
+        <convert match="com.shroggle.presentation.blogSummary.CreateBlogSummaryRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.manageVotes.SaveManageVotesRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.registration.SaveRegistrationRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.advancedSearch.EditSearchOptionsRequest" converter="bean"/>
+        <convert match="com.shroggle.presentation.advancedSearch.SaveAdvancedSearchRequest" converter="bean"/>
+
+    </allow>
+</dwr>

@@ -1,0 +1,118 @@
+.progressWrapper {
+    /*width: 300px;*/
+    height: 50px;
+    overflow: hidden;
+    margin: 5px;
+    padding: 4px;
+    border: solid 1px #E8E8E8;
+    background-color: #F7F7F7;
+}
+
+.progressCancel {
+    font-size: 0;
+    display: none;
+    height: 14px;
+    width: 14px;
+    float: left;
+    cursor: pointer;
+    background: url(../images/cancelbutton.gif) no-repeat -14px 0;
+}
+
+.progressCancel:hover {
+    background-position: 0 0;
+}
+
+.uploadProgress {
+    width: 95%;
+    height: 47px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 7pt;
+    color: #555;
+    font-weight: 700;
+    float: left;
+}
+
+.uploadProgressTable .firstTd {
+    width: 30%;
+    text-align: right;
+}
+
+.uploadProgressTable .secondTd {
+    width: 70%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.progressBarInProgress,
+    .progressBarComplete,
+    .progressBarError {
+    font-size: 0;
+    width: 0;
+    height: 2px;
+    background-color: blue;
+    margin-top: 2px;
+}
+
+/* Error */
+.red {
+    border: solid 1px #B50000;
+    background-color: #FFEBEB;
+}
+
+/* Current */
+.green {
+    border: solid 1px #DDF0DD;
+    background-color: #EBFFEB;
+}
+
+/* Complete */
+.blue {
+    border: solid 1px #CEE2F2;
+    background-color: #F0F5FF;
+}
+
+.progressBarComplete {
+    width: 100%;
+    background-color: green;
+    visibility: hidden;
+}
+
+.progressBarError {
+    width: 100%;
+    background-color: red;
+    visibility: hidden;
+}
+
+/* -- SWFUpload Object Styles ------------------------------- */
+.swfupload {
+    vertical-align: middle;
+}
+
+.progressContainer {
+    float: right;
+}
+
+.progressContainer .texts {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.progressContainer .progress {
+    text-align: left;
+}
+
+.progressContainer .progress div {
+    width: 170px;
+    height: 12px;
+    overflow: hidden;
+}
+
+.progressContainer .texts div {
+    height: 12px;
+    overflow: hidden;
+}
+
+.clearBoth {
+    clear: both;
+}

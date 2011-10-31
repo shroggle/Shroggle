@@ -1,0 +1,3477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cssParametersLibrary>
+    <records>
+        <itemType>BLOG</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.blogPostText p, .blogPostText div</selector>
+            <description>Font Family for Post Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.blogPostCommentText p, .blogPostCommentText div</selector>
+            <description>Font Family for Comment Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.blogPostTitle a</selector>
+            <description>Font Family for Post Title</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.blogPostText p, .blogPostText div</selector>
+            <description>Font Size for Post Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.blogPostCommentText p, .blogPostCommentText div</selector>
+            <description>Font Size for Comment Texts</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.blogPostTitle a</selector>
+            <description>Font Size for Post Title</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.blogPostText p, .blogPostText div</selector>
+            <description>Font Color for Post Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.blogPostCommentText p, .blogPostCommentText div</selector>
+            <description>Font Color for Comment Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.blogPostTitle a</selector>
+            <description>Font Color for Blog Post Title</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.blogPostComments</selector>
+            <description>Padding for Comments Area</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.blogPostInfo span, .blogPostCommentInfo span</selector>
+            <description>Font Size for Post and Comment Info (Author, Date, ...)</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.blogPostInfo span, .blogPostCommentInfo span</selector>
+            <description>Font Family for Post and Comment Info (Author, Date, ...)</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.blogPostInfo span, .blogPostCommentInfo span</selector>
+            <description>Font Color for Post and Comment Info (Author, Date, ...)</description>
+        </cssParameters>
+        <cssParameters>
+            <type>size</type>
+            <name>padding</name>
+            <selector>.blogPost</selector>
+            <description>Padding for Post Area</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.blogPost</selector>
+            <description>Background Color for Post Area</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.blogPostComments</selector>
+            <description>Background Color for Comments Area</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>FORUM</itemType>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.forumFont</selector>
+            <description>Font Style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.forumLink</selector>
+            <description>Font Color for Add Forum/Subforum/Thread Link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.forumLink:hover</selector>
+            <description>Roll-over Font Color for Forum Add Forum/Subforum/Thread Link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.subForumName</selector>
+            <description>Font Color for Subforum Link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.subForumName:hover</selector>
+            <description>Roll-over Font Color for Subforum Link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>size</type>
+            <name>font-size</name>
+            <selector>.subForumDescription</selector>
+            <description>Font Size for Subforum Description</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.subForumDescription</selector>
+            <description>Font Style for Subforum Description</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.manageForumLink</selector>
+            <description>Font Color for Forum Managing Links</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.navigateForumLink</selector>
+            <description>Font Color for `Return to Forums` Link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.navigateForumLink:hover</selector>
+            <description>Roll-over Font Color for `Return to Forums` Link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.navigateForumText</selector>
+            <description>Font Color for Navigated Forum Name</description>
+        </cssParameters>
+        <cssParameters>
+            <type>size</type>
+            <name>font-size</name>
+            <selector>.navigateForumLink</selector>
+            <description>Font Size for `Return to Forum` Link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>size</type>
+            <name>font-size</name>
+            <selector>.navigateForumLink:hover</selector>
+            <description>Roll-over Font Size for `Return to Forum` Link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>size</type>
+            <name>font-size</name>
+            <selector>.navigateForumText</selector>
+            <description>Font Size for Navigated Forum Name</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>background-color</name>
+            <selector>.forumBreadCrumbs</selector>
+            <description>Background Color for Forum Bread Crumbs</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>border</name>
+            <selector>.forumBreadCrumbs</selector>
+            <description>Border for Forum Bread Crumbs</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.forumBreadCrumbs</selector>
+            <description>Font Color for Forum Bread Crumbs</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.forumBreadCrumbs</selector>
+            <description>Font Family for Forum Bread Crumbs</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.forumBreadCrumbs</selector>
+            <description>Font Size Forum Bread Crumbs</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>background-color</name>
+            <selector>.threadList</selector>
+            <description>Font Color for Thread List Border</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>background-color</name>
+            <selector>.threadListHeading</selector>
+            <description>Background Color for Thread List Header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>background-color</name>
+            <selector>.threadRow</selector>
+            <description>Background Color for Thread List Item</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>background-color</name>
+            <selector>.threadManageRow</selector>
+            <description>Background Color for Thread Manage Row</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>background-color</name>
+            <selector>.subForumManageRow</selector>
+            <description>Background Color for Sub-forum Manage Row</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>background-color</name>
+            <selector>.subForumRow</selector>
+            <description>Background Color for Sub-forum List Item</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>background-color</name>
+            <selector>.evenPostBGColor</selector>
+            <description>Background Color for Even Posts</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>background-color</name>
+            <selector>.notEvenPostBGColor</selector>
+            <description>Background Color for Not Even Post</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>background-color</name>
+            <selector>.postManageRow</selector>
+            <description>Background Color for Post Manage Row</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.postAuthorText</selector>
+            <description>Font Color for Post Author Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>size</type>
+            <name>font-size</name>
+            <selector>.postAuthorText</selector>
+            <description>Font Size for Post Author Text</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>IMAGE</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.imageTitle</selector>
+            <description>Font Size for Image Title</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.imageTitle</selector>
+            <description>Font Family for Image Title</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.imageTitle</selector>
+            <description>Font Color for Image Title</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.imageTitle</selector>
+            <description>Font Style for Image Title</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.imageTitle</selector>
+            <description>Padding for Image Title</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>text-align</name>
+            <selector>.imageTitle</selector>
+            <description>Text Align for Image Title</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.imageDescription</selector>
+            <description>Font Size for Image Description</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.imageDescription</selector>
+            <description>Font Family for Image Description</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.imageDescription</selector>
+            <description>Font Color for Image Description</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.imageDescription</selector>
+            <description>Font Style for Image Description</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.imageDescription</selector>
+            <description>Padding for Image Description</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>text-align</name>
+            <selector>.imageDescription</selector>
+            <description>Text Align for Image Description</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>LOGIN</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.loginForm</selector>
+            <description>Font Size for Login Block</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm</selector>
+            <description>Font Family for Login Block</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.loginForm</selector>
+            <description>Font Color for Login Block</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm</selector>
+            <description>Font Style for Login Block</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.loginForm</selector>
+            <description>Font Weight for Login Block</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.loginForm</selector>
+            <description>Padding for Login Block</description>
+        </cssParameters>
+
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.loginForm .loginFormErrorBlock</selector>
+            <description>Font Size for Login Error Message</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm .loginFormErrorBlock</selector>
+            <description>Font Family for Login Login Error Message</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.loginForm .loginFormErrorBlock</selector>
+            <description>Font Color for Login Error Message</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm .loginFormErrorBlock</selector>
+            <description>Font Style for Login Error Message</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.loginForm .loginFormErrorBlock</selector>
+            <description>Font Weight for Login Error Message</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.loginForm .loginFormErrorBlock</selector>
+            <description>Padding for Login Error Message</description>
+        </cssParameters>
+
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.loginForm .loginFormHeader</selector>
+            <description>Font Size for Login Header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm .loginFormHeader</selector>
+            <description>Font Family for Login Header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.loginForm .loginFormHeader</selector>
+            <description>Font Color for Login Header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm .loginFormHeader</selector>
+            <description>Font Style for Login Header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.loginForm .loginFormHeader</selector>
+            <description>Font Weight for Login Header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.loginForm .loginFormHeader</selector>
+            <description>Padding for Login Header</description>
+        </cssParameters>
+
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.loginForm .loginFormLabel</selector>
+            <description>Font Size for Login Form Labels</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm .loginFormLabel</selector>
+            <description>Font Family for Login Form Labels</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.loginForm .loginFormLabel</selector>
+            <description>Font Color for Login Form Labels</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm .loginFormLabel</selector>
+            <description>Font Style for Login Form Labels</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.loginForm .loginFormLabel</selector>
+            <description>Font Weight for Login Form Labels</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.loginForm .loginFormLabel</selector>
+            <description>Padding for Login Form Labels</description>
+        </cssParameters>
+
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.loginForm .loginFormRegLink</selector>
+            <description>Font Size for Link to Registration</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm .loginFormRegLink</selector>
+            <description>Font Family for Link to Registration</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.loginForm .loginFormRegLink</selector>
+            <description>Font Color for Link to Registration</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm .loginFormRegLink</selector>
+            <description>Font Style for Link to Registration</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.loginForm .loginFormRegLink</selector>
+            <description>Font Weight for Link to Registration</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.loginForm .loginFormRegLink</selector>
+            <description>Padding for Link to Registration</description>
+        </cssParameters>
+
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.loginForm .loginFormButton input</selector>
+            <description>Font Size for Login Button</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm .loginFormButton input</selector>
+            <description>Font Family for Login Button</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.loginForm .loginFormButton input</selector>
+            <description>Font Color for Login Button</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm .loginFormButton input</selector>
+            <description>Font Style for Login Button</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.loginForm .loginFormButton input</selector>
+            <description>Font Weight for Login Button</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.loginForm .loginFormButton</selector>
+            <description>Padding for Login Button</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>width</name>
+            <selector>.loginForm .loginFormButton input</selector>
+            <description>Width of Login Button</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>height</name>
+            <selector>.loginForm .loginFormButton input</selector>
+            <description>Height of Login Button</description>
+        </cssParameters>
+
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.loginForm .loginFormInput input</selector>
+            <description>Font Size for Form Fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm .loginFormInput input</selector>
+            <description>Font Family for Form Fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.loginForm .loginFormInput input</selector>
+            <description>Font Color for Form Fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.loginForm .loginFormInput input</selector>
+            <description>Font Style for Form Fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.loginForm .loginFormInput input</selector>
+            <description>Font Weight for Form Fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.loginForm .loginFormInput</selector>
+            <description>Padding for Form Fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>width</name>
+            <selector>.loginForm .loginFormInput input</selector>
+            <description>Width of Form Fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>height</name>
+            <selector>.loginForm .loginFormInput input</selector>
+            <description>Height of Form Fields</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>VIDEO</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>background-color</name>
+            <selector>none</selector>
+            <description>Background Color</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>TEXT</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>none</selector>
+            <description>Font Size for Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>none</selector>
+            <description>Font Family for Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>none</selector>
+            <description>Font Color for Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>none</selector>
+            <description>Padding for Text Area</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>text-align</name>
+            <selector>none</selector>
+            <description>Text Align for Text</description>
+        </cssParameters>
+
+
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>a:link</selector>
+            <description>Normal links color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>a:visited</selector>
+            <description>Visited links color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>a:active</selector>
+            <description>Active links color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>a:hover</selector>
+            <description>Hover links color</description>
+        </cssParameters>
+
+    </records>
+    <records>
+        <itemType>COMPOSIT</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>none</selector>
+            <description>Font Size for Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>none</selector>
+            <description>Font Family for Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>none</selector>
+            <description>Font Color for Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>none</selector>
+            <description>Padding for Media Block</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>margin</name>
+            <selector>none</selector>
+            <description>Margin for Media Block</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>width</name>
+            <selector>none</selector>
+            <description>Width of Media Block</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>height</name>
+            <selector>none</selector>
+            <description>Height of Media Block</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>text-align</name>
+            <selector>none</selector>
+            <description>Text Align for Media Block Content</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>overflow-y</name>
+            <selector>none</selector>
+            <description>Vertical Overflow for Media Block Content</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>overflow-x</name>
+            <selector>none</selector>
+            <description>Horizontal Overflow for Media Block Content</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>MENU</itemType>
+        <menuStyleType>TREE_STYLE</menuStyleType>
+        <cssParameters>
+            <type>text-align</type>
+            <name>text-align</name>
+            <selector>.topLevelMenuItem_TREE_STYLE, .selectedTopLevelMenuItem_TREE_STYLE</selector>
+            <description>Top level menu items align</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.menuPageNameText_TREE_STYLE, .menuPageNameTextSubLevel_TREE_STYLE</selector>
+            <description>Font Family for menu items</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.menuContainer_TREE_STYLE</selector>
+            <description>Sub-menu background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.topLevelMenuItem_TREE_STYLE.mouseOver span</selector>
+            <description>Top level menu mouse over font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.topLevelMenuItem_TREE_STYLE.mouseOver span</selector>
+            <description>Top level menu mouse over font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weigh</type>
+            <name>font-weigh</name>
+            <selector>.topLevelMenuItem_TREE_STYLE.mouseOver span</selector>
+            <description>Top level menu mouse over font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.topLevelMenuItem_TREE_STYLE.mouseOver span</selector>
+            <description>Top level menu mouse over font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.subMenu_TREE_STYLE.mouseOver td</selector>
+            <description>Sub-menu mouse over background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.subMenu_TREE_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.subMenu_TREE_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weigh</type>
+            <name>font-weigh</name>
+            <selector>.subMenu_TREE_STYLE.mouseOver td span</selector>
+            <description>Sub-menu mouse over font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.subMenu_TREE_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.subMenu_TREE_STYLE td span, .selectedSubMenu_TREE_STYLE td span</selector>
+            <description>Sub-menu page name font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.selectedSubMenu_TREE_STYLE td</selector>
+            <description>Sub-menu selected item background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weight</type>
+            <name>font-weight</name>
+            <selector>.menuPageNameText_TREE_STYLE</selector>
+            <description>Top level menu page name font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.menuPageNameText_TREE_STYLE</selector>
+            <description>Top level menu page name font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.topLevelMenuItem_TREE_STYLE a, .selectedTopLevelMenuItem_TREE_STYLE a, .horizontalSeparator</selector>
+            <description>Top level menu page name font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weight</type>
+            <name>font-weight</name>
+            <selector>.menuPageNameTextSubLevel_TREE_STYLE</selector>
+            <description>Sub-menu page name font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.menuPageNameTextSubLevel_TREE_STYLE</selector>
+            <description>Sub-menu page name font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.subMenu_TREE_STYLE td a, .selectedSubMenu_TREE_STYLE td a</selector>
+            <description>Sub-menu page name font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>width</type>
+            <name>width</name>
+            <selector>.topLevelMenuItem_TREE_STYLE a, .selectedTopLevelMenuItem_TREE_STYLE a, .rootVoices_TREE_STYLE.vertical</selector>
+            <description>Top level menu item width</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>MENU</itemType>
+        <menuStyleType>DROP_DOWN_STYLE</menuStyleType>
+        <cssParameters>
+            <type>height</type>
+            <name>height</name>
+            <selector>.rootVoices_DROP_DOWN_STYLE</selector>
+            <description>Top level menu height</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-width</type>
+            <name>border-width</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE a, .selectedTopLevelMenuItem_DROP_DOWN_STYLE a</selector>
+            <description>Top level menu item border width</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-style</type>
+            <name>border-style</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE a, .selectedTopLevelMenuItem_DROP_DOWN_STYLE a</selector>
+            <description>Top level menu item border style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-color</type>
+            <name>border-color</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE a, .selectedTopLevelMenuItem_DROP_DOWN_STYLE a</selector>
+            <description>Top level menu item border color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE a, .selectedTopLevelMenuItem_DROP_DOWN_STYLE a</selector>
+            <description>Top level menu item border padding</description>
+        </cssParameters>
+        <cssParameters>
+            <type>margin</type>
+            <name>margin</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE a, .selectedTopLevelMenuItem_DROP_DOWN_STYLE a</selector>
+            <description>Top level menu item border margin</description>
+        </cssParameters>
+        <cssParameters>
+            <type>text-align</type>
+            <name>text-align</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE, .selectedTopLevelMenuItem_DROP_DOWN_STYLE</selector>
+            <description>Top level menu items align</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding-left</type>
+            <name>padding-left</name>
+            <selector>.subMenu_DROP_DOWN_STYLE.subMenuLevel3 td a, .selectedSubMenu_DROP_DOWN_STYLE.subMenuLevel3 td a</selector>
+            <description>Third level menu items indent</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding-left</type>
+            <name>padding-left</name>
+            <selector>.subMenu_DROP_DOWN_STYLE.subMenuLevel4 td a, .selectedSubMenu_DROP_DOWN_STYLE.subMenuLevel4 td a</selector>
+            <description>Fourth level menu items indent</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding-left</type>
+            <name>padding-left</name>
+            <selector>.subMenu_DROP_DOWN_STYLE.subMenuLevel2 td a, .selectedSubMenu_DROP_DOWN_STYLE.subMenuLevel2 td a</selector>
+            <description>Second level menu items indent</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.menuStrecher_DROP_DOWN_STYLE</selector>
+            <description>Top level menu background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background</type>
+            <name>background</name>
+            <selector>.selectedTopLevelMenuItem_DROP_DOWN_STYLE</selector>
+            <description>Top level menu selected item background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.menuContainer_DROP_DOWN_STYLE</selector>
+            <description>Sub-menu background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE.mouseOver</selector>
+            <description>Top level menu mouse over background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE.mouseOver span.menuPageNameText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page name mouse over font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE.mouseOver span.menuPageNameText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page name mouse over font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weigh</type>
+            <name>font-weigh</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE.mouseOver span.menuPageNameText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page name mouse over font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE.mouseOver span.menuPageNameText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page name mouse over font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.menuPageNameText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page name font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE.mouseOver span.menuPageDescText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page description mouse over font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE.mouseOver span.menuPageDescText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page description mouse over font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weigh</type>
+            <name>font-weigh</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE.mouseOver span.menuPageDescText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page description mouse over font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE.mouseOver span.menuPageDescText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page description mouse over font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.subMenu_DROP_DOWN_STYLE.mouseOver td</selector>
+            <description>Sub-menu mouse over background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.subMenu_DROP_DOWN_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.subMenu_DROP_DOWN_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weigh</type>
+            <name>font-weigh</name>
+            <selector>.subMenu_DROP_DOWN_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.subMenu_DROP_DOWN_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.subMenu_DROP_DOWN_STYLE td, .selectedSubMenu_DROP_DOWN_STYLE td span</selector>
+            <description>Sub-menu page name font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.selectedSubMenu_DROP_DOWN_STYLE td</selector>
+            <description>Sub-menu selected item background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.menuPageNameText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page name font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weight</type>
+            <name>font-weight</name>
+            <selector>.menuPageNameText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page name font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.menuPageNameText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page name font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.menuPageDescText_DROP_DOWN_STYLE</selector>
+            <description>Top level menu page description font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.menuPageNameTextSubLevel_DROP_DOWN_STYLE, .menuPageNameTextSubLevel_FULL_HEIGHT_STYLE</selector>
+            <description>Sub-menu page name font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.menuPageNameTextSubLevel_DROP_DOWN_STYLE, .menuPageNameTextSubLevel_FULL_HEIGHT_STYLE</selector>
+            <description>Sub-menu page name font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weight</type>
+            <name>font-weight</name>
+            <selector>.menuPageNameTextSubLevel_DROP_DOWN_STYLE, .menuPageNameTextSubLevel_FULL_HEIGHT_STYLE</selector>
+            <description>Sub-menu page name font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>width</type>
+            <name>width</name>
+            <selector>.topLevelMenuItem_DROP_DOWN_STYLE a, .selectedTopLevelMenuItem_DROP_DOWN_STYLE a, .rootVoices_DROP_DOWN_STYLE.vertical</selector>
+            <description>Top level menu item width</description>
+        </cssParameters>
+        <cssParameters>
+            <type>width</type>
+            <name>width</name>
+            <selector>.menuContainer_DROP_DOWN_STYLE</selector>
+            <description>Sub-menu width</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.selectedTopLevelMenuItem_DROP_DOWN_STYLE span</selector>
+            <description>Top level menu selected item page name color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>.selectedSubMenu_DROP_DOWN_STYLE td
+            <selector>.selectedSubMenu_DROP_DOWN_STYLE td span.menuPageNameTextSubLevel_DROP_DOWN_STYLE</selector>
+            <description>Sub-menu page name color for selected item</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>MENU</itemType>
+        <menuStyleType>TABBED_STYLE</menuStyleType>
+        <cssParameters>
+            <type>line-height</type>
+            <name>line-height</name>
+            <selector>.topLevelMenuItem_TABBED_STYLE, .selectedTopLevelMenuItem_TABBED_STYLE</selector>
+            <description>Top level menu height</description>
+        </cssParameters>
+        <cssParameters>
+            <type>text-align</type>
+            <name>text-align</name>
+            <selector>.topLevelMenuItem_TABBED_STYLE, .selectedTopLevelMenuItem_TABBED_STYLE</selector>
+            <description>Top level menu items align</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.topLevelMenuItem_TABBED_STYLE</selector>
+            <description>Top level menu background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.selectedTopLevelMenuItem_TABBED_STYLE</selector>
+            <description>Top level menu selected item background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.topLevelMenuItem_TABBED_STYLE.mouseOver, .submenuColumnsHolder_TABBED_STYLE</selector>
+            <description>Top level menu mouse over background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.menuContainer_TABBED_STYLE, .submenuColumnsTD_TABBED_STYLE</selector>
+            <description>Sub-menu background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.subMenu_TABBED_STYLE.mouseOver td</selector>
+            <description>Sub-menu mouse over background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.selectedSubMenu_TABBED_STYLE td</selector>
+            <description>Sub-menu selected item background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.selectedTopLevelMenuItem_TABBED_STYLE span</selector>
+            <description>Top level menu selected item page name color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.selectedSubMenu_TABBED_STYLE td span.menuPageNameTextSubLevel_TABBED_STYLE</selector>
+            <description>Sub-menu page name color for selected item</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.topLevelMenuItem_TABBED_STYLE.mouseOver span</selector>
+            <description>Top level menu mouse over font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.topLevelMenuItem_TABBED_STYLE.mouseOver span</selector>
+            <description>Top level menu mouse over font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weigh</type>
+            <name>font-weigh</name>
+            <selector>.topLevelMenuItem_TABBED_STYLE.mouseOver span</selector>
+            <description>Top level menu mouse over font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.topLevelMenuItem_TABBED_STYLE.mouseOver span</selector>
+            <description>Top level menu mouse over font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.subMenu_TABBED_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.subMenu_TABBED_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weigh</type>
+            <name>font-weigh</name>
+            <selector>.subMenu_TABBED_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.subMenu_TABBED_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.subMenu_TABBED_STYLE td span, .selectedSubMenu_TABBED_STYLE td span</selector>
+            <description>Sub-menu page name font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.menuPageNameText_TABBED_STYLE</selector>
+            <description>Top level menu page name font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weight</type>
+            <name>font-weight</name>
+            <selector>.menuPageNameText_TABBED_STYLE</selector>
+            <description>Top level menu page name font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.menuPageNameText_TABBED_STYLE</selector>
+            <description>Top level menu page name font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.menuPageNameTextSubLevel_TABBED_STYLE</selector>
+            <description>Sub-menu page name font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.subMenu_TABBED_STYLE span, .selectedSubMenu_TABBED_STYLE span</selector>
+            <description>Sub-menu page name font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weight</type>
+            <name>font-weight</name>
+            <selector>.subMenu_TABBED_STYLE span, .selectedSubMenu_TABBED_STYLE span</selector>
+            <description>Sub-menu page name font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.topLevelMenuItem_TABBED_STYLE a, .selectedTopLevelMenuItem_TABBED_STYLE a</selector>
+            <description>Top level menu padding</description>
+        </cssParameters>
+        <cssParameters>
+            <type>width</type>
+            <name>width</name>
+            <selector>.topLevelMenuItem_TABBED_STYLE a, .selectedTopLevelMenuItem_TABBED_STYLE a, .rootVoices_TABBED_STYLE.vertical</selector>
+            <description>Top level menu item width</description>
+        </cssParameters>
+        <cssParameters>
+            <type>width</type>
+            <name>width</name>
+            <selector>.menuContainer_TABBED_STYLE</selector>
+            <description>Sub-menu width</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>MENU</itemType>
+        <menuStyleType>FULL_HEIGHT_STYLE</menuStyleType>
+        <cssParameters>
+            <type>border-width</type>
+            <name>border-width</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE a, .selectedTopLevelMenuItem_FULL_HEIGHT_STYLE a</selector>
+            <description>Top level menu item border width</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-style</type>
+            <name>border-style</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE a, .selectedTopLevelMenuItem_FULL_HEIGHT_STYLE a</selector>
+            <description>Top level menu item border style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-color</type>
+            <name>border-color</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE a, .selectedTopLevelMenuItem_FULL_HEIGHT_STYLE a</selector>
+            <description>Top level menu item border color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE a, .selectedTopLevelMenuItem_FULL_HEIGHT_STYLE a</selector>
+            <description>Top level menu item border padding</description>
+        </cssParameters>
+        <cssParameters>
+            <type>margin</type>
+            <name>margin</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE a, .selectedTopLevelMenuItem_FULL_HEIGHT_STYLE a</selector>
+            <description>Top level menu item border margin</description>
+        </cssParameters>
+        <cssParameters>
+            <type>text-align</type>
+            <name>text-align</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE, .selectedTopLevelMenuItem_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu items align</description>
+        </cssParameters>
+        <cssParameters>
+            <type>height</type>
+            <name>height</name>
+            <selector>.rootVoices_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu height</description>
+        </cssParameters>
+        <cssParameters>
+            <type>height</type>
+            <name>height</name>
+            <selector>.menuContainer_FULL_HEIGHT_STYLE</selector>
+            <description>Sub-menu height</description>
+        </cssParameters>
+        <cssParameters>
+            <type>text-align</type>
+            <name>text-align</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE a, .selectedSubMenu_FULL_HEIGHT_STYLE a</selector>
+            <description>Sub-menu items align</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding-left</type>
+            <name>padding-left</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE.subMenuLevel3 td a, .selectedSubMenu_FULL_HEIGHT_STYLE.subMenuLevel3 td a</selector>
+            <description>Third level menu items indent</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding-left</type>
+            <name>padding-left</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE.subMenuLevel4 td a, .selectedSubMenu_FULL_HEIGHT_STYLE.subMenuLevel4 td a</selector>
+            <description>Fourth level menu items indent</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-width</type>
+            <name>border-width</name>
+            <selector>.rootVoices_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu border width</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-style</type>
+            <name>border-style</name>
+            <selector>.rootVoices_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu border style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-color</type>
+            <name>border-color</name>
+            <selector>.rootVoices_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu border color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-width</type>
+            <name>border-width</name>
+            <selector>.menuContainer_FULL_HEIGHT_STYLE</selector>
+            <description>Sub-menu border width</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-style</type>
+            <name>border-style</name>
+            <selector>.menuContainer_FULL_HEIGHT_STYLE</selector>
+            <description>Sub-menu border style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-color</type>
+            <name>border-color</name>
+            <selector>.menuContainer_FULL_HEIGHT_STYLE</selector>
+            <description>Sub-menu border color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-width</type>
+            <name>border-width</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE td, .selectedSubMenu_FULL_HEIGHT_STYLE td</selector>
+            <description>Sub-menu item border width</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-style</type>
+            <name>border-style</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE td, .selectedSubMenu_FULL_HEIGHT_STYLE td</selector>
+            <description>Sub-menu item border style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-color</type>
+            <name>border-color</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE td, .selectedSubMenu_FULL_HEIGHT_STYLE td</selector>
+            <description>Sub-menu item border color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding-left</type>
+            <name>padding-left</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE.subMenuLevel2 td a, .selectedSubMenu_FULL_HEIGHT_STYLE.subMenuLevel2 td a</selector>
+            <description>Second level menu items indent</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.rootVoices_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.selectedTopLevelMenuItem_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu selected item background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.menuContainer_FULL_HEIGHT_STYLE</selector>
+            <description>Sub-menu background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE.mouseOver</selector>
+            <description>Top level menu mouse over background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE.mouseOver span.menuPageNameText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page name mouse over font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE.mouseOver span.menuPageNameText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page name mouse over font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weigh</type>
+            <name>font-weigh</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE.mouseOver span.menuPageNameText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page name mouse over font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE.mouseOver span.menuPageNameText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page name mouse over font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.menuPageNameText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page name font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE.mouseOver span.menuPageDescText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page description mouse over font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE.mouseOver span.menuPageDescText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page description mouse over font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weigh</type>
+            <name>font-weigh</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE.mouseOver span.menuPageDescText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page description mouse over font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE.mouseOver span.menuPageDescText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page description mouse over font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE.mouseOver td</selector>
+            <description>Sub-menu mouse over background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weigh</type>
+            <name>font-weigh</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE.mouseOver td span</selector>
+            <description>Sub-menu page name mouse over font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE td, .selectedSubMenu_FULL_HEIGHT_STYLE td span</selector>
+            <description>Sub-menu page name font style</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.selectedSubMenu_FULL_HEIGHT_STYLE td</selector>
+            <description>Sub-menu selected item background color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.menuPageNameText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page name font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.menuPageNameText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page name font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.menuPageDescText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page description font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.menuPageNameTextSubLevel_DROP_DOWN_STYLE, .menuPageNameTextSubLevel_FULL_HEIGHT_STYLE</selector>
+            <description>Sub-menu page name font color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.menuPageNameTextSubLevel_DROP_DOWN_STYLE, .menuPageNameTextSubLevel_FULL_HEIGHT_STYLE</selector>
+            <description>Sub-menu page name font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weight</type>
+            <name>font-weight</name>
+            <selector>.menuPageNameText_FULL_HEIGHT_STYLE</selector>
+            <description>Top level menu page name font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-weight</type>
+            <name>font-weight</name>
+            <selector>.menuPageNameTextSubLevel_DROP_DOWN_STYLE, .menuPageNameTextSubLevel_FULL_HEIGHT_STYLE</selector>
+            <description>Sub-menu page name font weight</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.subMenu_FULL_HEIGHT_STYLE td a, .selectedSubMenu_FULL_HEIGHT_STYLE td a</selector>
+            <description>Sub-menu menu item padding</description>
+        </cssParameters>
+        <cssParameters>
+            <type>width</type>
+            <name>width</name>
+            <selector>.topLevelMenuItem_FULL_HEIGHT_STYLE a, .selectedTopLevelMenuItem_FULL_HEIGHT_STYLE a, .rootVoices_FULL_HEIGHT_STYLE.vertical</selector>
+            <description>Top level menu item width</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.selectedTopLevelMenuItem_FULL_HEIGHT_STYLE span</selector>
+            <description>Top level menu selected item page name color</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.selectedTopLevelMenuItem_FULL_HEIGHT_STYLE span</selector>
+            <description>Top level menu selected item page name font size</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.selectedSubMenu_FULL_HEIGHT_STYLE td span.menuPageNameTextSubLevel_FULL_HEIGHT_STYLE</selector>
+            <description>Sub-menu page name color for selected item</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>BLOG_SUMMARY</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.blogSummaryHeader</selector>
+            <description>Font Size for Blog Summary Header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.blogSummaryHeader</selector>
+            <description>Font Family for Blog Summary Header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.blogSummaryHeader</selector>
+            <description>Font Color for Blog Summary Header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.blogSummaryHeader</selector>
+            <description>Padding for Blog Summary Header</description>
+        </cssParameters>
+
+
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.blogSummaryBlogName</selector>
+            <description>Font Size for Blog Summary Blog Names</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.blogSummaryBlogName</selector>
+            <description>Font Family for Blog Summary Blog Names</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.blogSummaryBlogName</selector>
+            <description>Font Color for Blog Summary Blog Names</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.blogSummaryBlogName</selector>
+            <description>Padding for Blog Summary Blog Names</description>
+        </cssParameters>
+
+
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.blogSummaryPostName</selector>
+            <description>Font Size for Blog Summary Post Names</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.blogSummaryPostName</selector>
+            <description>Font Family for Blog Summary Post Names</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.blogSummaryPostName</selector>
+            <description>Font Color for Blog Summary Post Names</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.blogSummaryPostName</selector>
+            <description>Padding for Blog Summary Post Names</description>
+        </cssParameters>
+
+
+        <!--<cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.blogSummaryPostAuthor</selector>
+            <description>Font Size for Blog Summary Post Authors</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.blogSummaryPostAuthor</selector>
+            <description>Font Family for Blog Summary Post Authors</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.blogSummaryPostAuthor</selector>
+            <description>Font Color for Blog Summary Post Authors</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.blogSummaryPostAuthor</selector>
+            <description>Padding for Blog Summary Post Authors</description>
+        </cssParameters>-->
+
+
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.blogSummaryPostDate</selector>
+            <description>Font Size for Blog Summary Post Date</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.blogSummaryPostDate</selector>
+            <description>Font Family for Blog Summary Post Date</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.blogSummaryPostDate</selector>
+            <description>Font Color for Blog Summary Post Date</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.blogSummaryPostDate</selector>
+            <description>Padding for Blog Summary Post Date</description>
+        </cssParameters>
+
+
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.blogSummaryPostText</selector>
+            <description>Font Size for Blog Summary Posts Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.blogSummaryPostText</selector>
+            <description>Font Family for Blog Summary Posts Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.blogSummaryPostText</selector>
+            <description>Font Color for Blog Summary Posts Text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.blogSummaryPostText</selector>
+            <description>Padding for Blog Summary Posts Text</description>
+        </cssParameters>
+    </records>
+
+
+    <records>
+        <itemType>REGISTRATION</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.registrationHeader</selector>
+            <description>Font Size for Account Registration Header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.registrationHeader</selector>
+            <description>Padding for Account Registration Header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.formHeader</selector>
+            <description>Font Size for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.formHeader</selector>
+            <description>Font Family for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.formHeader</selector>
+            <description>Font Color for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.formHeader</selector>
+            <description>Padding for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.formInstruction</selector>
+            <description>Font Size for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.formInstruction</selector>
+            <description>Font Family for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.formInstruction</selector>
+            <description>Font Color for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.formInstruction</selector>
+            <description>Padding for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.registrationTable</selector>
+            <description>Font Size for Account Registration Fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.registrationTable</selector>
+            <description>Font Family for Account Registration Fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.registrationTable</selector>
+            <description>Font Color for Account Registration Fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.registrationTable td</selector>
+            <description>Padding for Account Registration Fields</description>
+        </cssParameters>
+
+
+        <cssParameters>
+            <type>color</type>
+            <name>float</name>
+            <selector>.registrationButtons</selector>
+            <description>Alignment for Account Registration Buttons</description>
+        </cssParameters>
+    </records>
+
+    <records>
+        <itemType>ADVANCED_SEARCH</itemType>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.advancedSearchOptionCriteria</selector>
+            <description>Font Size for search option criterias</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.advancedSearchOptionCriteria</selector>
+            <description>Font Family for search option criterias</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.advancedSearchOptionCriteria</selector>
+            <description>Font Color for search option criterias</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.searchOptionHeaderText</selector>
+            <description>Font Size for search option header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.searchOptionHeaderText</selector>
+            <description>Font Family for search option header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.searchOptionHeaderText</selector>
+            <description>Font Color for search option header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.advancedSearchOptionResultsNumber</selector>
+            <description>Font Size for search option results number</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.advancedSearchOptionResultsNumber</selector>
+            <description>Font Family for search option results number</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.advancedSearchOptionResultsNumber</selector>
+            <description>Font Color for search option results number</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.advancedSearchOptionHeader</selector>
+            <description>Padding for search option header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>background-color</type>
+            <name>background-color</name>
+            <selector>.advancedSearchOptionHeader</selector>
+            <description>Background color for search option header</description>
+        </cssParameters>
+    </records>
+
+    <floatRecord itemType="GALLERY">
+        <floatParameter name="color" selector=".galleryData" description="Gallery data font color"/>
+        <floatParameter name="font-weight" selector=".galleryData" description="Gallery data font weight"/>
+        <floatParameter name="font-size" selector=".galleryData" description="Gallery data font size"/>
+        <floatParameter name="font-family" selector=".galleryData" description="Gallery data font family"/>
+
+        <floatParameter name="margin" selector=".galleryDataItemLabel" description="Gallery data item label margin"/>
+        <floatParameter name="color" selector=".galleryDataItemLabel" description="Gallery data item label color"/>
+        <floatParameter name="font-weight" selector=".galleryDataItemLabel"
+                        description="Gallery data item label font weight"/>
+        <floatParameter name="font-size" selector=".galleryDataItemLabel"
+                        description="Gallery data item label font size"/>
+        <floatParameter name="font-family" selector=".galleryDataItemLabel"
+                        description="Gallery data item label font family"/>
+
+        <floatParameter name="margin" selector=".galleryDataItemText" description="Gallery data item text margin"/>
+        <floatParameter name="font-size" selector=".galleryDataItemText"
+                        description="Gallery data item text font size"/>
+        <floatParameter name="font-family" selector=".galleryDataItemText"
+                        description="Gallery data item text font family"/>
+        <floatParameter name="color" selector=".galleryDataItemText" description="Gallery data item text color"/>
+        <floatParameter name="font-weight" selector=".galleryDataItemText"
+                        description="Gallery data item text font weight"/>
+
+        <floatParameter name="padding" selector=".galleryDataPrev" description="Gallery data Previous link padding"/>
+        <floatParameter name="font-size" selector=".galleryDataPrev"
+                        description="Gallery data Previous link  font size"/>
+        <floatParameter name="font-family" selector=".galleryDataPrev"
+                        description="Gallery data Previous link  font family"/>
+        <floatParameter name="color" selector=".galleryDataPrev" description="Gallery data Next Previous color"/>
+        <floatParameter name="font-weight" selector=".galleryDataPrev"
+                        description="Gallery data Previous link font weight"/>
+
+        <floatParameter name="padding" selector=".galleryDataNext" description="Gallery data Next link padding"/>
+        <floatParameter name="font-size" selector=".galleryDataNext" description="Gallery data Next link  font size"/>
+        <floatParameter name="font-family" selector=".galleryDataNext"
+                        description="Gallery data Next link  font family"/>
+        <floatParameter name="color" selector=".galleryDataNext" description="Gallery data Next link color"/>
+        <floatParameter name="font-weight" selector=".galleryDataNext"
+                        description="Gallery data Next link font weight"/>
+    </floatRecord>
+
+
+    <floatRecord itemType="ADMIN_LOGIN">
+        <floatParameter name="color" selector=".adminLoginError" description="Error block font color"/>
+        <floatParameter name="font-size" selector=".adminLoginError" description="Error block font size"/>
+        <floatParameter name="font-family" selector=".adminLoginError" description="Error block font family"/>
+        <floatParameter name="padding" selector=".adminLoginError" description="Error block padding"/>
+
+        <floatParameter name="color" selector=".adminLoginShow" description="Show link font color"/>
+        <floatParameter name="font-size" selector=".adminLoginShow" description="Show link font size"/>
+        <floatParameter name="font-family" selector=".adminLoginShow" description="Show link font family"/>
+        <floatParameter name="padding" selector=".adminLoginShow" description="Show link padding"/>
+
+        <floatParameter name="color" selector=".adminLoginTable" description="Table font color"/>
+        <floatParameter name="font-size" selector=".adminLoginTable" description="Table font size"/>
+        <floatParameter name="font-family" selector=".adminLoginTable" description="Table font family"/>
+        <floatParameter name="padding" selector=".adminLoginTable" description="Table padding"/>
+
+        <floatParameter name="color" selector=".adminLoginSubmit" description="Submit font color"/>
+        <floatParameter name="font-size" selector=".adminLoginSubmit" description="Submit font size"/>
+        <floatParameter name="font-family" selector=".adminLoginSubmit" description="Submit font family"/>
+        <floatParameter name="padding" selector=".adminLoginSubmit" description="Submit padding"/>
+    </floatRecord>
+
+    <floatRecord itemType="TELL_FRIEND">
+        <floatParameter name="color" selector=".tellFriendShow" description="`Tell a friend` link font color"/>
+        <floatParameter name="font-size" selector=".tellFriendShow" description="`Tell a friend` link font size"/>
+        <floatParameter name="font-family" selector=".tellFriendShow" description="`Tell a friend` link font family"/>
+        <floatParameter name="padding" selector=".tellFriendShow" description="`Tell a friend` link padding"/>
+
+        <floatParameter name="color" selector=".tellFriendMainDiv" description="Whole item font color"/>
+        <floatParameter name="font-size" selector=".tellFriendMainDiv" description="Whole item font size"/>
+        <floatParameter name="font-family" selector=".tellFriendMainDiv" description="Whole item font family"/>
+        <floatParameter name="padding" selector=".tellFriendMainDiv" description="Whole item padding"/>
+
+        <floatParameter name="color" selector=".tellFriendButton" description="Submit and Cancel buttons font color"/>
+        <floatParameter name="font-size" selector=".tellFriendButton"
+                        description="Submit and Cancel buttons font size"/>
+        <floatParameter name="font-family" selector=".tellFriendButton"
+                        description="Submit and Cancel buttons font family"/>
+        <floatParameter name="padding" selector=".tellFriendButton" description="Submit and Cancel buttons padding"/>
+
+        <floatParameter name="text-align" selector=".tellFriendButtonsDiv"
+                        description="Submit and Cancel buttons align"/>
+
+        <floatParameter name="color" selector=".tellFriendAsterisk" description="Asterisk color"/>
+        <floatParameter name="font-size" selector=".tellFriendAsterisk" description="Asterisk font-size"/>
+    </floatRecord>
+
+    <records>
+        <itemType>CONTACT_US</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.contactUsTable td</selector>
+            <description>Font Size for Contact Us table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.contactUsTable td</selector>
+            <description>Font Family for Contact Us table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.contactUsTable td</selector>
+            <description>Font Color for Contact Us table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.formHeader</selector>
+            <description>Font Size for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.formHeader</selector>
+            <description>Font Family for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.formHeader</selector>
+            <description>Font Color for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.formHeader</selector>
+            <description>Padding for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.formInstruction</selector>
+            <description>Font Size for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.formInstruction</selector>
+            <description>Font Family for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.formInstruction</selector>
+            <description>Font Color for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.formInstruction</selector>
+            <description>Padding for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.contactUsHeader</selector>
+            <description>Font Color for Contact Us header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.contactUsHeader</selector>
+            <description>Font Size for Contact Us header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.contactUsHeader</selector>
+            <description>Font Family for Contact Us header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.contactUsHeader</selector>
+            <description>Padding for Contact Us header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.contactUsSubmitBlock</selector>
+            <description>Padding for Contact Us submit buttons</description>
+        </cssParameters>
+        <cssParameters>
+            <type>text-align</type>
+            <name>text-align</name>
+            <selector>.contactUsSubmitBlock</selector>
+            <description>Alignment for Contact Us submit buttons</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.contactUsSecurityCodeText</selector>
+            <description>Font Color for security image information text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.contactUsSecurityCodeText</selector>
+            <description>Font Size for security image information text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.contactUsSecurityCodeText</selector>
+            <description>Font Family for security image information text</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>CUSTOM_FORM</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.customFormTable td</selector>
+            <description>Font Size for Forms and Registrations table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.customFormTable td</selector>
+            <description>Font Family for Forms and Registrations table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.customFormTable td</selector>
+            <description>Font Color for Forms and Registrations table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.formHeader</selector>
+            <description>Font Size for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.formHeader</selector>
+            <description>Font Family for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.formHeader</selector>
+            <description>Font Color for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.formHeader</selector>
+            <description>Padding for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.formInstruction</selector>
+            <description>Font Size for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.formInstruction</selector>
+            <description>Font Family for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.formInstruction</selector>
+            <description>Font Color for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.formInstruction</selector>
+            <description>Padding for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.customFormHeader</selector>
+            <description>Font Size for Forms and Registrations header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.customFormHeader</selector>
+            <description>Font Family for Forms and Registrations header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.customFormHeader</selector>
+            <description>Padding for Forms and Registrations header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.customFormSubmitBlock</selector>
+            <description>Padding for Forms and Registrations submit buttons</description>
+        </cssParameters>
+        <cssParameters>
+            <type>text-align</type>
+            <name>text-align</name>
+            <selector>.customFormSubmitBlock</selector>
+            <description>Alignment for Forms and Registrations submit buttons</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.customFormSercurityCodeText</selector>
+            <description>Font Color for security image information text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.customFormSercurityCodeText</selector>
+            <description>Font Size for security image information text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.customFormSercurityCodeText</selector>
+            <description>Font Family for security image information text</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>CHILD_SITE_REGISTRATION</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.childSiteRegistrationTable td</selector>
+            <description>Font Size for Child Site Registration table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.childSiteRegistrationTable td</selector>
+            <description>Font Family for Child Site Registration table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.childSiteRegistrationTable td</selector>
+            <description>Font Color for Child Site Registration table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.formHeader</selector>
+            <description>Font Size for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.formHeader</selector>
+            <description>Font Family for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.formHeader</selector>
+            <description>Font Color for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.formHeader</selector>
+            <description>Padding for `Header` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.formInstruction</selector>
+            <description>Font Size for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.formInstruction</selector>
+            <description>Font Family for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.formInstruction</selector>
+            <description>Font Color for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.formInstruction</selector>
+            <description>Padding for `Instruction` fields</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.childSiteRegistrationHeader</selector>
+            <description>Font Size for Child Site Registration header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.childSiteRegistrationHeader</selector>
+            <description>Font Family for Child Site Registration header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.childSiteRegistrationHeader</selector>
+            <description>Padding for Child Site Registration header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.childSiteRegistrationSubmitBlock</selector>
+            <description>Padding for Child Site Registration submit buttons</description>
+        </cssParameters>
+        <cssParameters>
+            <type>text-align</type>
+            <name>text-align</name>
+            <selector>.childSiteRegistrationSubmitBlock</selector>
+            <description>Alignment for Child Site Registration submit buttons</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.CSRSecurityCodeText</selector>
+            <description>Font Color for security image information text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.CSRSecurityCodeText</selector>
+            <description>Font Size for security image information text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.CSRSecurityCodeText</selector>
+            <description>Font Family for security image information text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.registerToJoin</selector>
+            <description>Font Color for `register to join` text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.registerToJoin</selector>
+            <description>Font Size for `register to join` text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.registerToJoin</selector>
+            <description>Font Family for `register to join` text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.membershipLimited</selector>
+            <description>Font Color for `membership is limited` text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.membershipLimited</selector>
+            <description>Font Size for `membership is limited` text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.membershipLimited</selector>
+            <description>Font Family for `membership is limited` text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.startEndDate</selector>
+            <description>Font Color for `start and end date` text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-size</type>
+            <name>font-size</name>
+            <selector>.startEndDate</selector>
+            <description>Font Size for `start and end date` text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>font-family</type>
+            <name>font-family</name>
+            <selector>.startEndDate</selector>
+            <description>Font Family for `start and end date` text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.startEndDate</selector>
+            <description>Padding for `start and end date` text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.membershipLimited</selector>
+            <description>Padding for `membership is limited` text</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.registerToJoin</selector>
+            <description>Padding for `register to join` text</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>GALLERY</itemType>
+        <!--/////////////////////////////////////////Pagination cells styles/////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.paginationCells</selector>
+            <description>Font Color for pagination cells</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.paginationCells</selector>
+            <description>Font Size for pagination cells</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.paginationCells</selector>
+            <description>Font Family for pagination cells</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.paginationCells</selector>
+            <description>Padding for pagination cells</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>border-style</name>
+            <selector>.paginationCells</selector>
+            <description>Border style for pagination cells</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>border-color</name>
+            <selector>.paginationCells</selector>
+            <description>Border color for pagination cells</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>border-width</name>
+            <selector>.paginationCells</selector>
+            <description>Border width for pagination cells</description>
+        </cssParameters>
+        <!--/////////////////////////////////////////Pagination cells styles/////////////////////////////////////////-->
+        <!--////////////////////////////////////Pagination "Previous" cell styles////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.paginationPreviousCell</selector>
+            <description>Font Color for pagination "Previous" cell</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.paginationPreviousCell</selector>
+            <description>Font Size for pagination "Previous" cell</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.paginationPreviousCell</selector>
+            <description>Font Family for pagination "Previous" cell</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.paginationPreviousCell</selector>
+            <description>Padding for pagination "Previous" cell</description>
+        </cssParameters>
+        <!--////////////////////////////////////Pagination "Previous" cell styles////////////////////////////////////-->
+        <!--//////////////////////////////////////Pagination "Next" cell styles//////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.paginationNextCell</selector>
+            <description>Font Color for pagination "Next" cell</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.paginationNextCell</selector>
+            <description>Font Size for pagination "Next" cell</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.paginationNextCell</selector>
+            <description>Font Family for pagination "Next" cell</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.paginationNextCell</selector>
+            <description>Padding for pagination "Next" cell</description>
+        </cssParameters>
+        <!--//////////////////////////////////////Pagination "Next" cell styles//////////////////////////////////////-->
+        <!--////////////////////////////////////Pagination "number" cells styles/////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.paginationNumberCell</selector>
+            <description>Font Color for pagination "number" cells</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.paginationNumberCell</selector>
+            <description>Font Size for pagination "number" cells</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.paginationNumberCell</selector>
+            <description>Font Family for pagination "number" cells</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.paginationNumberCell</selector>
+            <description>Padding for pagination "number" cells</description>
+        </cssParameters>
+        <!--////////////////////////////////////Pagination "number" cells styles/////////////////////////////////////-->
+        <!--////////////////////////////////////////Navigation labels styles/////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.navigationLabels</selector>
+            <description>Font Color for navigation labels</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.navigationLabels</selector>
+            <description>Font Size for navigation labels</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.navigationLabels</selector>
+            <description>Font Family for navigation labels</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.navigationLabels</selector>
+            <description>Padding for navigation labels</description>
+        </cssParameters>
+        <!--////////////////////////////////////////Navigation labels styles/////////////////////////////////////////-->
+
+
+        <!--///////////////////////////////////////////Data items styles/////////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataItem</selector>
+            <description>Font Color for data item</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataItem</selector>
+            <description>Font Size for data item</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.galleryDataItem</selector>
+            <description>Font Weight for data item</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataItem</selector>
+            <description>Font Family for data item</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding-left, padding-right</name>
+            <selector>.galleryDataItem</selector>
+            <description>Horizontal padding for data columns</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding-top, padding-bottom</name>
+            <selector>.galleryDataItem</selector>
+            <description>Vertical padding for data columns</description>
+        </cssParameters>
+
+        <cssParameters>
+            <type>border-width</type>
+            <name>border-width</name>
+            <selector>.galleryDataItem</selector>
+            <description>Border width for data display item</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-style</type>
+            <name>border-style</name>
+            <selector>.galleryDataItem</selector>
+            <description>Border style for data display item</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border-color</type>
+            <name>border-color</name>
+            <selector>.galleryDataItem</selector>
+            <description>Border color for data display item</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////Data items styles/////////////////////////////////////////////-->
+        <!--///////////////////////////////////////////Data item label///////////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataItemLabel</selector>
+            <description>Font Color for data item label</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataItemLabel</selector>
+            <description>Font Size for data item label</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.galleryDataItemLabel</selector>
+            <description>Font Weight for data item label</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataItemLabel</selector>
+            <description>Font Family for data item label</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataItemLabel</selector>
+            <description>Padding for data item label</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////Data item label///////////////////////////////////////////////-->
+        <!--///////////////////////////////////////////Data prev styles//////////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataPrev</selector>
+            <description>Font Color for data display Prev link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataPrev</selector>
+            <description>Font Size for data display Prev link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataPrev</selector>
+            <description>Font Family for data display Prev link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataPrev</selector>
+            <description>Padding for data display Prev link</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////data display Prev link styles//////////////////////////////////////////////-->
+        <!--///////////////////////////////////////////Data next styles//////////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataNext</selector>
+            <description>Font Color for data display Next link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataNext</selector>
+            <description>Font Size for data display Next link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataNext</selector>
+            <description>Font Family for data display Next link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataNext</selector>
+            <description>Padding for data display Next link</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////Data next styles//////////////////////////////////////////////-->
+        <!--///////////////////////////////////////////Data next item styles/////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataItemNext</selector>
+            <description>Font Color for data display number link next to the current page</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataItemNext</selector>
+            <description>Font Size for data display number link next to the current page</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataItemNext</selector>
+            <description>Font Family for data display number link next to the current page</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataItemNext</selector>
+            <description>Padding for data display number link next to the current page</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////data display Next link item styles/////////////////////////////////////////-->
+        <!--///////////////////////////////////////////data display Prev link item styles/////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataItemPrev</selector>
+            <description>Font Color for data display number link before to the current page</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataItemPrev</selector>
+            <description>Font Size for data display number link before to the current page</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataItemPrev</selector>
+            <description>Font Family for data display number link before to the current page</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataItemPrev</selector>
+            <description>Padding for data display number link before to the current page</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////data display Prev link item styles/////////////////////////////////////////-->
+        <!--///////////////////////////////////data display link item styles/////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataPageNumber</selector>
+            <description>Font Color for data display number link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataPageNumber</selector>
+            <description>Font Size for data display number link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataPageNumber</selector>
+            <description>Font Family for data display number link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataPageNumber</selector>
+            <description>Padding for data display number link</description>
+        </cssParameters>
+        <!--///////////////////////////////////data display link item styles/////////////////////////////////////////-->
+        <!--///////////////////////////////////////////Data current item styles//////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataItemCurrent</selector>
+            <description>Font Color for data display current page number</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataItemCurrent</selector>
+            <description>Font Size for data display current page number</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataItemCurrent</selector>
+            <description>Font Family for data display current page number</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataItemCurrent</selector>
+            <description>Padding for data display current page number</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////Data current item styles//////////////////////////////////////-->
+        <!--///////////////////////////////////////////Data after item styles////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataAfterItemBordered</selector>
+            <description>Font Color for data item after bordered</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataAfterItemBordered</selector>
+            <description>Font Size for data item after bordered</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataAfterItemBordered</selector>
+            <description>Font Family for data item after bordered</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataAfterItemBordered</selector>
+            <description>Padding for data item after bordered</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////Data after item styles////////////////////////////////////////-->
+        <!--///////////////////////////////////////////Data before item styles///////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataBeforeItemBordered</selector>
+            <description>Font Color for data item before bordered</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataAfterItemBordered</selector>
+            <description>Font Size for data item before bordered</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataAfterItemBordered</selector>
+            <description>Font Family for data item before bordered</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataAfterItemBordered</selector>
+            <description>Padding for data item before bordered</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////Data before item styles///////////////////////////////////////-->
+        <!--///////////////////////////////////////////Data item styles//////////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataItemBordered</selector>
+            <description>Font Color for data item bordered</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataItemBordered</selector>
+            <description>Font Size for data item bordered</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataItemBordered</selector>
+            <description>Font Family for data item bordered</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataItemBordered</selector>
+            <description>Padding for data item bordered</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////Data item styles//////////////////////////////////////////////-->
+        <!--///////////////////////////////////////////Data current item bordered styles/////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataCurrentItemBordered</selector>
+            <description>Font Color for current data item bordered</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataCurrentItemBordered</selector>
+            <description>Font Size for current data item bordered</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataCurrentItemBordered</selector>
+            <description>Font Family current for data item bordered</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataCurrentItemBordered</selector>
+            <description>Padding for current data item bordered</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////Data current item bordered styles/////////////////////////////-->
+        <!--///////////////////////////////////////////Data left arrow///////////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataLeftArrow</selector>
+            <description>Padding for data left arrow</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////Data left arrow///////////////////////////////////////////////-->
+        <!--///////////////////////////////////////////Data right arrow//////////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataRightArrow</selector>
+            <description>Padding for data right arrow</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////Data right arrow//////////////////////////////////////////////-->
+        <!--/////////////////////////////////////////Manage Your Votes Link//////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataManageYourVotesLink a</selector>
+            <description>Font Color for Manage Your Votes link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataManageYourVotesLink a</selector>
+            <description>Font Size for Manage Your Votes link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataManageYourVotesLink a</selector>
+            <description>Font Family for Manage Your Votes link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataManageYourVotesLink a</selector>
+            <description>Padding for Manage Your Votes link</description>
+        </cssParameters>
+        <!--/////////////////////////////////////////Manage Your Votes Link//////////////////////////////////////////-->
+        <!--/////////////////////////////////////////Register / Login Link///////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataRegisterLoginLink a</selector>
+            <description>Font Color for Register / Login link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataRegisterLoginLink a</selector>
+            <description>Font Size for Register / Login link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataRegisterLoginLink a</selector>
+            <description>Font Family for Register / Login link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataRegisterLoginLink a</selector>
+            <description>Padding for Register / Login link</description>
+        </cssParameters>
+        <!--/////////////////////////////////////////Register / Login Link///////////////////////////////////////////-->
+        <!--///////////////////////////////////////////Add Comments Link/////////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.addGalleryCommentLink</selector>
+            <description>Font Color for Add Comments link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.addGalleryCommentLink</selector>
+            <description>Font Size for Add Comments link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.addGalleryCommentLink</selector>
+            <description>Font Family for Add Comments link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.addGalleryCommentLink</selector>
+            <description>Padding for Add Comments link</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////Add Comments Link/////////////////////////////////////////////-->
+        <!--///////////////////////////////////////////Hide Comments Link////////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.hideGalleryCommentsLink</selector>
+            <description>Font Color for Hide Comments link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.hideGalleryCommentsLink</selector>
+            <description>Font Size for Hide Comments link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.hideGalleryCommentsLink</selector>
+            <description>Font Family for Hide Comments link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.hideGalleryCommentsLink</selector>
+            <description>Padding for Hide Comments link</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////Hide Comments Link////////////////////////////////////////////-->
+        <!--///////////////////////////////////////////View Comments Link////////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.viewGalleryCommentsLink</selector>
+            <description>Font Color for View Comments link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.viewGalleryCommentsLink</selector>
+            <description>Font Size for View Comments link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.viewGalleryCommentsLink</selector>
+            <description>Font Family for View Comments link</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.viewGalleryCommentsLink</selector>
+            <description>Padding for View Comments link</description>
+        </cssParameters>
+        <!--///////////////////////////////////////////View Comments Link////////////////////////////////////////////-->
+        <!--/////////////////////////////////////////Data display item texts/////////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataItemText</selector>
+            <description>Font Color for gallery data display item texts</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataItemText</selector>
+            <description>Font Size for gallery data display item texts</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataItemText</selector>
+            <description>Font Family for gallery data display item texts</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.galleryDataItemText</selector>
+            <description>Font Weight for gallery data display item texts</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>margin</name>
+            <selector>.galleryDataItemText</selector>
+            <description>Margin for gallery data display item texts</description>
+        </cssParameters>
+        <!--/////////////////////////////////////////Data display item texts/////////////////////////////////////////-->
+
+        <!--/////////////////////////////////////View Larger/View Normal links///////////////////////////////////////-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.galleryDataNormalLargeVideoLinks a</selector>
+            <description>Font Color for View Larger/View Normal links</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.galleryDataNormalLargeVideoLinks a</selector>
+            <description>Font Size for View Larger/View Normal links</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.galleryDataNormalLargeVideoLinks a</selector>
+            <description>Font Family for View Larger/View Normal links</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>padding</name>
+            <selector>.galleryDataNormalLargeVideoLinks a</selector>
+            <description>Padding for View Larger/View Normal links</description>
+        </cssParameters>
+        <!--/////////////////////////////////////View Larger/View Normal links///////////////////////////////////////-->
+    </records>
+    <records>
+        <itemType>SHOPPING_CART</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.shoppingCartTable</selector>
+            <description>Font size for Shopping Cart table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.shoppingCartTable</selector>
+            <description>Font Family for Shopping Cart table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.shoppingCartTable</selector>
+            <description>Font Color for Shopping Cart table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.shoppingCartProductName</selector>
+            <description>Font size for product name</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.shoppingCartProductName</selector>
+            <description>Font Family for product name</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.shoppingCartProductName</selector>
+            <description>Font Color for product name</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.shoppingCartProductDescription</selector>
+            <description>Font size for product description</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.shoppingCartProductDescription</selector>
+            <description>Font Family for product description</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.shoppingCartProductDescription</selector>
+            <description>Font Color for product description</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.shoppingCartTable td</selector>
+            <description>Shopping Cart table cell padding</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border</type>
+            <name>border</name>
+            <selector>.shoppingCartTable</selector>
+            <description>Shopping Cart table border</description>
+        </cssParameters>
+        <cssParameters>
+            <type>text-align</type>
+            <name>text-align</name>
+            <selector>.shoppingCartCheckoutButtons</selector>
+            <description>Shopping Cart checkout, continue shopping controls align.</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>PURCHASE_HISTORY</itemType>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.purchaseHistoryTable</selector>
+            <description>Font size for Purchase History table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.purchaseHistoryTable</selector>
+            <description>Font Family for Purchase History table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.purchaseHistoryTable</selector>
+            <description>Font Color for Purchase History table</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.purchaseHistoryTableHeader</selector>
+            <description>Font size for Purchase History table header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.purchaseHistoryTableHeader</selector>
+            <description>Font Family for Purchase History table header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.purchaseHistoryTableHeader</selector>
+            <description>Font Color for Purchase History table header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.purchaseHistoryProductName</selector>
+            <description>Font size for product name</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.purchaseHistoryProductName</selector>
+            <description>Font Family for product name</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.purchaseHistoryProductName</selector>
+            <description>Font Color for product name</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.purchaseHistoryTable td</selector>
+            <description>Purchase History table cell padding</description>
+        </cssParameters>
+        <cssParameters>
+            <type>border</type>
+            <name>border</name>
+            <selector>.purchaseHistoryTable</selector>
+            <description>Purchase History table border</description>
+        </cssParameters>
+    </records>
+    <records>
+        <itemType>MANAGE_VOTES</itemType>
+        <!--___________________________________________Record Name header____________________________________________-->
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.manageVotesRecordNameHeader</selector>
+            <description>Font size for `Record Name` header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.manageVotesRecordNameHeader</selector>
+            <description>Font Weight for `Record Name` header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.manageVotesRecordNameHeader</selector>
+            <description>Font Family for `Record Name` header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.manageVotesRecordNameHeader</selector>
+            <description>Font Color for `Record Name` header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.manageVotesRecordNameHeader</selector>
+            <description>Padding for `Record Name` header</description>
+        </cssParameters>
+        <!--___________________________________________Record Name header____________________________________________-->
+
+        <!--___________________________________________Your Rating header____________________________________________-->
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.manageVotesYourRatingHeader</selector>
+            <description>Font size for `Your Rating` header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.manageVotesYourRatingHeader</selector>
+            <description>Font Weight for `Your Rating` header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.manageVotesYourRatingHeader</selector>
+            <description>Font Family for `Your Rating` header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.manageVotesYourRatingHeader</selector>
+            <description>Font Color for `Your Rating` header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.manageVotesYourRatingHeader</selector>
+            <description>Padding for `Your Rating` header</description>
+        </cssParameters>
+        <!--___________________________________________Your Rating header____________________________________________-->
+
+        <!--______________________________________View / Edit Comments header________________________________________-->
+        <cssParameters>
+            <type>color</type>
+            <name>font-size</name>
+            <selector>.manageVotesViewEditCommentsHeader</selector>
+            <description>Font size for `View / Edit Comments` header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-weight</name>
+            <selector>.manageVotesViewEditCommentsHeader</selector>
+            <description>Font Weight for `View / Edit Comments` header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>font-family</name>
+            <selector>.manageVotesViewEditCommentsHeader</selector>
+            <description>Font Family for `View / Edit Comments` header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.manageVotesViewEditCommentsHeader</selector>
+            <description>Font Color for `View / Edit Comments` header</description>
+        </cssParameters>
+        <cssParameters>
+            <type>padding</type>
+            <name>padding</name>
+            <selector>.manageVotesViewEditCommentsHeader</selector>
+            <description>Padding for `View / Edit Comments` header</description>
+        </cssParameters>
+        <!--______________________________________View / Edit Comments header________________________________________-->
+
+        <!--___________________________________________Record Name links_____________________________________________-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.manageVotesRecordNameLink:link</selector>
+            <description>Normal links color for `Record Name`</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.manageVotesRecordNameLink:hover</selector>
+            <description>Hover links color for `Record Name`</description>
+        </cssParameters>
+        <!--___________________________________________Record Name links_____________________________________________-->
+
+        <!--_______________________________________View / Edit Comments links________________________________________-->
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.addGalleryCommentLink:link, .hideGalleryCommentsLink:link, .viewGalleryCommentsLink:link</selector>
+            <description>Normal links color for `View / Edit Comments`</description>
+        </cssParameters>
+        <cssParameters>
+            <type>color</type>
+            <name>color</name>
+            <selector>.addGalleryCommentLink:hover, .hideGalleryCommentsLink:hover, .viewGalleryCommentsLink:hover</selector>
+            <description>Hover links color for `View / Edit Comments`</description>
+        </cssParameters>
+        <!--_______________________________________View / Edit Comments links________________________________________-->
+    </records>
+</cssParametersLibrary>

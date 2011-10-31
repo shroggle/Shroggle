@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="com.shroggle.ant.settings">
+    <description>Build Shroggle Application Settings.</description>
+
+    <property name="compiler.path" value="C:\Program Files\JDK\bin\javac.exe"/>
+
+</project>

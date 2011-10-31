@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#000033;
+      font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+}
+
+.topPane,  .bottomPane, .shroggleLogo  {
+    color: #fff;
+}
+.topPane a:link, .topPane a:visited, .bottomPane a:link, .bottomPane a:visited {
+   color:#eee;
+}
+.topPane a:hover, .topPane a:active, .bottomPane a:active, .bottomPane a:hover {
+   color:#fff;
+}
+
+.middlePaneContainer1 {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/pinboardMiddle.png);
+	background-repeat:repeat-y;
+
+
+}
+
+.middlePaneContainer2 {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/pinboardTop.png);
+	background-repeat:no-repeat;
+
+
+}
+.middlePane {
+
+	background-image: url(<!-- TEMPLATE_RESOURCE -->/images/pinboardBottom.png);
+	background-repeat:no-repeat;
+        background-position:left bottom;
+}

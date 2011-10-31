@@ -1,0 +1,678 @@
+body {
+    color: black;
+}
+
+.topPane, .bottomPane {
+    background-color: white;
+    color: black !important;
+}
+
+.topPane a {
+    color: black !important;
+}
+
+/* Item styles */
+
+.postForm {
+    border: black solid 1px;
+}
+
+/*forum styles*/
+
+.widgetFORUMStyle a {
+    padding-left: 2px;
+    padding-right: 3px;
+    font-size: 10pt;
+}
+
+.manageForumLink {
+    color: #526697;
+}
+
+.manageForumLink:hover {
+    color: #528897;
+}
+
+.forumLink {
+    color: #526697;
+}
+
+.forumLink:hover {
+    color: #528897;
+}
+
+.threadNameLink {
+    color: dodgerblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.threadNameLink:hover {
+    color: #666666;
+}
+
+.postList {
+    border: 1px solid dimgray;
+}
+
+.postListHeading {
+    background-color: #dedfdf;
+}
+
+.forumFont {
+    font-family: Tahoma, sans-serif;
+}
+
+.postRow {
+    background-color: #ffffff;
+}
+
+.subForumListHeadingRow {
+    background-color: #dedfdf;
+}
+
+.threadDescription {
+    color: navy;
+    font-size: 9pt;
+
+}
+
+.subForumListBorder {
+    background-color: #E6E0D2;
+}
+
+.subForumNameCell {
+}
+
+.subForumRow {
+    background-color: white;
+}
+
+.postCountCell {
+}
+
+.threadCountCell {
+}
+
+.subForumLastUpdatedCell {
+    background-color: white;
+}
+
+.subForumNameLink {
+    color: dodgerblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.subForumNameLink:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+.subForumDescription {
+    font-size: 9pt;
+    color: navy;
+}
+
+.manageSubForumText {
+    color: #333333;
+}
+
+.forumBreadCrumbs {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+a.navigateForumLink {
+    color: #526697;
+    text-decoration: none;
+}
+
+.forumAddingLinks {
+    background-color: white;
+
+}
+
+.forumAddingLinks a:hover {
+    color: #528897;
+}
+
+.threadList {
+    background-color: #E6E0D2;
+}
+
+.threadListHeading {
+    background-color: #dddddd;
+}
+
+.threadRow {
+    background-color: #ffffff;
+}
+
+.evenPostBGColor {
+    background-color: #ffffff;
+}
+
+.notEvenPostBGColor {
+    background-color: #ffffff;
+}
+
+.postAuthorText {
+
+}
+
+/* forum style end*/
+blockquote {
+    background-color: #ffffff;
+    border: 1px solid black;
+    text-align: left;
+}
+
+/*Blog visual item tyles. Beginning*/
+.widgetBLOGStyle a {
+    font-size: 10pt;
+    font-weight: bold;
+    color: darkorchid;
+}
+
+.widgetBLOGStyle a:hover {
+    color: dodgerblue;
+}
+
+.blogName {
+    color: darkmagenta;
+    font-size: 16pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blogPostTitle {
+    display: block;
+    color: darkseagreen;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 1px solid #dedede;
+
+}
+
+.blogPostInfo {
+    margin-left: 30px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 8pt;
+}
+
+.blogPostDate {
+    padding-left: 20px;
+}
+
+.addBlogPost a:link, .addBlogPost a:visited, .addBlogPost a:visited {
+    color: darkorchid;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.blogPostLinks   a:link,
+    .addBlogPostComment  a:link, addBlogPostComment a:visited,
+    .blogPostCommentsShowHide a:link, .blogPostCommentsShowHide a:visited {
+    color: darkorchid;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.addBlogPost a:hover, .addBlogPost a:active,
+    .blogPostLinks   a:hover, .addBlogPost a:active,
+    .addBlogPostComment  a:hover, addBlogPostComment a:active,
+    .blogPostCommentsShowHide a:hover, .blogPostCommentsShowHide a:active {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.blogPostUpdate {
+    padding-left: 20px;
+}
+
+.blogPostText p {
+    text-align: justify;
+    line-height: 1.6em;
+    font-size: 10pt;
+}
+
+.addBlogPostComment {
+    padding-top: 7px;
+    padding-bottom: 3px;
+}
+
+.blogPostCommentsShowHide {
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+.blogPostComments {
+    margin-left: 50px;
+    padding: 10px;
+    border: 1px solid #dedede;
+    font-size: 9pt;
+}
+
+/*Blog visual item tyles. The end*/
+
+/* image    styles*/
+.widgetIMAGEStyle {
+
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.imageTitle {
+    padding-top: 7px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: darkmagenta;
+
+}
+
+.imageDescription {
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: #666666;
+}
+
+/*Image visual item tyles. The end*/
+
+#smallContentPane {
+    background-color: white !important;
+}
+
+.rightColumn {
+    color: black !important;
+}
+
+/*Menu visual item tyles. Beginning*/
+
+
+.horizontalSeparator {
+    color: darkmagenta;
+}
+
+.topLevelMenuItem_TREE_STYLE.mouseOver a, .selectedTopLevelMenuItem_TREE_STYLE span {
+    color: #333333;
+}
+
+.topLevelMenuItem_TREE_STYLE a, .selectedTopLevelMenuItem_TREE_STYLE a {
+    font-weight: bold;
+}
+
+.subMenu_TREE_STYLE.mouseOver td, .selectedSubMenu_TREE_STYLE td {
+    background-color: #E6E0D2;
+}
+
+/*Text visual item tyles. Beginning*/
+.widgetTEXTStyle {
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: #333333;
+}
+
+/*Text visual item tyles. The end*/
+
+/*blog summary visual item styles*/
+.widgetBLOG_SUMMARYStyle {
+    padding: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.blogSummaryHeader {
+    font-size: 14pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: darkseagreen;
+    display: block;
+}
+
+.blogSummaryPostName {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: darkmagenta;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.blogSummaryPostText {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-top: 3px;
+    display: block;
+    font-size: 9pt;
+}
+
+.widgetBLOG_SUMMARYStyle a {
+    font-size: 9pt;
+    color: darkorchid;
+}
+
+.widgetBLOG_SUMMARYStyle a:hover {
+    color: dodgerblue;
+}
+
+/*blog summary visual item styles. the end*/
+
+/*video item style*/
+
+.widgetVIDEOStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #333333;
+}
+
+/*video item style. the end*/
+
+/*login form style*/
+.widgetLOGINStyle {
+    padding-left: 15px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: darkmagenta;
+}
+
+.widgetLOGINStyle td {
+    font-size: 10pt;
+    color: #526697;
+    padding: 5px;
+
+}
+
+.loginForm {
+    font-size: 11pt !important;
+    padding: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.loginForm a:link {
+    color: #526697;
+    text-decoration: underline;
+    font-size: 10pt;
+}
+
+.loginForm a:hover {
+    color: darkorchid;
+
+}
+
+.loginFormHeader {
+    font-size: 12pt;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: darkmagenta;
+
+}
+
+.loginFormLabel {
+    font-size: 10pt;
+    padding-top: 5px;
+}
+
+a:link.loginFormReturnToRegLink {
+    color: #526697 !important;
+    text-decoration: underline;
+    font-size: 10pt;
+}
+
+a:link.loginFormRegLink {
+    color: darkorchid !important;
+}
+
+/*login form style the end */
+/*Registration item styles. The beginning*/
+.widgetREGISTRATIONStyle {
+    padding-left: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+.registrationHeader p {
+    padding-bottom: 15px;
+    display: block;
+    font-size: 14pt;
+    color: darkmagenta;
+}
+
+.registrationTable {
+    font-size: 9pt;
+    color: #526697;
+}
+
+.registrationTable td {
+    padding: 3px;
+}
+
+#securityCodeText {
+
+    font-size: 10pt;
+    color: darkmagenta;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+/*Registration item styles. The End*/
+/*Contact us item style. The beginning*/
+.widgetCONTACT_USStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.widgetCONTACT_USStyle td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #717276;
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+/*Contact us item style. The end*/
+
+.formInstruction {
+    margin-left: 5px;
+    margin-top: -5px;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+/*custom form style. the beginning*/
+.widgetCUSTOM_FORMStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    width: 100%;
+    font-size: 10pt;
+    color: #526697;
+}
+
+.widgetCUSTOM_FORMStyle  td {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    color: #526697;
+    font-size: 10pt;
+
+}
+
+/*custom form style. the end*/
+/*child site registration. the beginning*/
+.widgetCHILD_SITE_REGISTRATIONStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: bold;
+    font-size: 11pt;
+    color: darkmagenta;
+}
+
+.widgetCHILD_SITE_REGISTRATIONStyle p {
+    color: #526697;
+}
+
+.widgetCHILD_SITE_REGISTRATIONStyle td {
+    font-size: 9pt;
+
+}
+
+/*child site registration. the end*/
+/* gallery styles*/
+/*next*/
+.galleryDataAfterItemBordered {
+    border: 1px solid #dedede;
+}
+
+/*digits*/
+.galleryDataItemBordered {
+    border: 1px solid #dedede;
+}
+
+/*current*/
+
+.galleryDataCurrentItemBordered {
+    border: 1px solid #4d6498;
+    background-color: #4d6498;
+    color: #dedede;
+}
+
+/*previous*/
+.galleryDataBeforeItemBordered {
+    border: 1px solid #dedede;
+}
+
+/* gallery styles, the end */
+
+/*FULL SIZE DROP DOWN MENU STYLE SECTION*/
+.menuContainer_FULL_HEIGHT_STYLE {
+    background: #606060;
+}
+.selectedSubMenu_FULL_HEIGHT_STYLE td {
+    background-color: #3f3b38;
+}
+/*FULL SIZE DROP DOWN MENU STYLE SECTION END*/
+
+
+/*gallery data display field labels*/
+
+
+/*gallery data display field labels end*/
+/*INDIE ROAR MENU STYLE SECTION*/
+
+.topLevelMenuItem_FULL_HEIGHT_STYLE a.topLevelItem1, .selectedTopLevelMenuItem_FULL_HEIGHT_STYLE a.topLevelItem1 {
+    color: #808080 !important;
+    width: 110px !important;
+    font-weight: bold;
+}
+
+.topLevelMenuItem_FULL_HEIGHT_STYLE a.topLevelItem2, .selectedTopLevelMenuItem_FULL_HEIGHT_STYLE a.topLevelItem2 {
+    color: #E44679 !important;
+    width: 120px !important;
+    font-weight: bold;
+}
+
+.topLevelMenuItem_FULL_HEIGHT_STYLE a.topLevelItem3, .selectedTopLevelMenuItem_FULL_HEIGHT_STYLE a.topLevelItem3 {
+    color: #4693FB !important;
+    width: 160px !important;
+    font-weight: bold;
+}
+
+.topLevelMenuItem_FULL_HEIGHT_STYLE a.topLevelItem4, .selectedTopLevelMenuItem_FULL_HEIGHT_STYLE a.topLevelItem4 {
+    color: #72D632 !important;
+    width: 110px !important;
+    font-weight: bold;
+}
+
+.subMenu1 td {
+    background: #808080 !important;
+    font-weight: bold;
+}
+
+.subMenu2 {
+    background: #E44679 !important;
+    font-weight: bold;
+}
+
+.subMenu3 {
+    background: #4693FB !important;
+    font-weight: bold;
+}
+
+.subMenu4 {
+    background: #72D632 !important;
+    font-weight: bold;
+}
+
+.subMenu1 td a:hover {
+    background: #505050;
+    font-weight: bold;
+}
+
+.subMenu2 td a:hover {
+    background: #B11346;
+    font-weight: bold;
+}
+
+.subMenu3 td a:hover {
+    background: #1360C9;
+    font-weight: bold;
+}
+
+.subMenu4 td a:hover {
+    background: #40A300;
+    font-weight: bold;
+}
+
+.subMenu4 .selectedSubMenu_TREE_STYLE td a, .subMenu4 .selectedSubMenu_DROP_DOWN_STYLE td a,
+.subMenu4 .selectedSubMenu_FULL_HEIGHT_STYLE td a, .subMenu4 .selectedSubMenu_TABBED_STYLE td a{
+    background: #40A300;
+    cursor: default
+}
+
+/*INDIE ROAR MENU STYLE SECTION END*/
+
+/* Indie Roar Custom menu hover background. Beginning */
+.subMenu_FULL_HEIGHT_STYLE.subMenuItemNumber1_1.mouseOver td a {
+    background-color: #FFCC00 !important;
+}
+
+.subMenu_FULL_HEIGHT_STYLE.subMenuItemNumber1_2.mouseOver td a {
+    background-color: #CC3333 !important;
+}
+
+.subMenu_FULL_HEIGHT_STYLE.subMenuItemNumber1_3.mouseOver td a {
+    background-color: #333399 !important;
+}
+
+.subMenu_FULL_HEIGHT_STYLE.subMenuItemNumber1_4.mouseOver td a {
+    background-color: #33CCCC !important;
+}
+
+.subMenu_FULL_HEIGHT_STYLE.subMenuItemNumber1_5.mouseOver td a {
+    background-color: #339933 !important;
+}
+
+/* Indie Roar Custom menu hover background. End */
+
+/*manage votes*/
+.widgetMANAGE_VOTESStyle h4 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #666666;
+    padding: 5px;
+}
+
+.widgetMANAGE_VOTESStyle h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #666666;
+    padding: 5px;
+    font-weight: normal !important;
+}
+
+/*manage votes end*/

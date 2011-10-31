@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/bg_red.jpg);
+	background-repeat:repeat-x;
+}
+.footercontainer {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/bg_footer_red.jpg);
+	background-repeat:repeat-x;
+}
+.header, .subheader, .footer{
+     color:#fff;
+}

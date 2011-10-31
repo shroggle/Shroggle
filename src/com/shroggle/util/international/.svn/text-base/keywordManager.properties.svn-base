@@ -1,0 +1,67 @@
+header = Manage Keywords:
+subHeader = Keyword manager
+
+moreInfo = More info on how to read this page
+
+pageName = Page Name
+processingPage = Processing page...
+primaryKeyphrase = Primary Keyphrase
+
+contentType = Content Type
+content = Content
+uniqueDensity = Unique / Keyword Density
+keyphrase = Keyphrase
+
+metaTagKeywords = Meta tag keywords
+metaTagDescription = Meta tag description
+pageTitle = Page Title
+url = URL
+pageHeader = Page Header (H1)
+pageContent = Page Content
+
+present = Present
+notPresent = Not Present
+undefined = Undefined
+wordsCount = Words count:
+contentInner = Content:
+density = Density:
+
+unique = Unique
+duplicate = Duplicate
+notFound = Not Found
+
+updateKeyphrase = Update keyphrase data
+processingKeyphrase = Processing keyphrase...
+densityNotEntered = Density: Enter keyphrase
+
+noPages = Site has no pages. Go to
+noPages2 = to create some.
+
+#More info
+moreInfoHeader = Search Engine Optimization requires that:
+
+moreInfoBlock1 = Each page have a unique 'keyphrase' upon which all content is focused.
+moreInfoBlock2 = The set of 'Meta keywords' associated with each page should:
+moreInfoBlock2_1 = a) Include the primary keyphrase.<br>
+moreInfoBlock2_2 = b) Be unique and different from all other pages on the site.<br>
+moreInfoBlock2_3 = c) Should not have repetition within them.<br>
+moreInfoBlock3 = The 'Meta description' associated with each page should:
+moreInfoBlock3_1 = a) Include the primary keyphrase.<br>
+moreInfoBlock3_2 = b) Be unique and different from all other pages on the site.<br>
+moreInfoBlock3_3 = c) Should not have repetition within it.<br>
+moreInfoBlock4 = The 'page title' should
+moreInfoBlock4_1 = a) Include the primary keyphrase.<br>
+moreInfoBlock4_2 = b) Be unique and different from all other pages on the site.<br>
+moreInfoBlock4_3 = c) Should not be exactly the same as either the meta description or page content.<br>
+moreInfoBlock5 = The 'page URL' should:
+moreInfoBlock5_1 = a) Include the primary keyphrase.<br>
+moreInfoBlock6 = The 'page header' should:
+moreInfoBlock6_1 = a) Include the primary keyphrase.<br>
+moreInfoBlock6_2 = b) Be unique and different from all other pages on the site.<br>
+moreInfoBlock6_3 = c) Should not be exactly the same as either the meta description or page content.<br>
+moreInfoBlock7 = The 'page content' should:
+moreInfoBlock7_1 = a) Include the primary keyphrase.<br>
+moreInfoBlock7_2 = b) Be unique and different from all other pages on the site.<br>
+moreInfoBlock7_3 = c) Should not be exactly the same as either the meta description.<br>
+moreInfoBlock7_4 = d) Should be more than 300 words in length.<br>
+moreInfoBlock7_5 = e) Should not include the keyphrase more than is logical for natural language.<br>

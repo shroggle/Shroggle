@@ -1,0 +1,24 @@
+TITLE = Set default template for site
+SELECT_THEME_FOR_MORE = Select theme for more!
+SELECT_THEME_FOR_SITE = Select theme for site!
+MORE = more
+ADD_CONTENT = ADD CONTENT
+SELECT_FEATURES = SELECT FEATURES
+CREATE_ACCOUNT = CREATE AN ACCOUNT
+step2Of3=Step 2 of 3
+HEADER_INFORMATION = Select Page Layout &amp; Design
+DESCRIPTION_INFORMATION = Select one of the layout / color options below, you will be able to change layouts and colors later.
+SUB_HEADER_INFORMATION = Select one of the layout / color options
+BLUEPRINT_SUB_HEADER_INFORMATION = Site Blueprint suggested / required by your site administrator. (Blueprints include default pages and content)
+BLUEPRINT_DESCRIPTION_INFORMATION = Select one of the Blueprints and color option.
+#APPROVE_THEME_CHANGE = Note that changing a template will affect every page on your site. We recommend that you \
+#  check each page after changing your template. To confirm change press 'Ok'.
+APPROVE_THEME_CHANGE = You are currently editing the site design for: {0}. \\n\\n\
+  Note that changing a template will affect every page on your site. We recommend that you check each page after changing your template. \\n\\n\
+  To confirm change press 'Ok'.
+#APPROVE_THEME_CHANGE_FOR_BLUEPRINT = You are about to discard the blueprint. Your site pages and shared content \
+#  modules will be kept, all restrictions will be removed, but you won't be able to use blueprints again. \
+#  Do you want to processed?\
+APPROVE_THEME_CHANGE_FOR_BLUEPRINT = You are about to discard the blueprint for site {0}. \\n\\nYour site pages and shared content \
+  modules will be kept, all restrictions will be removed, but you won't be able to use blueprints again. \\n\\n\
+  Do you want to processed?

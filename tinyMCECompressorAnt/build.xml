@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<project name="TinyMCE" default="compress">
+
+    <property name="srcDir" location="src"/>
+    <property name="buildDir" location="build"/>
+
+    <target name="init">
+       <tstamp/>
+       <mkdir dir="${buildDir}"/>
+    </target>
+ 
+
+    <target name="compile" depends="init">
+       <javac srcdir="${srcDir}" destdir="${buildDir}"/>
+    </target>
+
+    <target name="compress" depends="compile">
+        <ant antfile="compressor.xml" target="main"/>
+     </target>
+
+
+</project>

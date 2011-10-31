@@ -1,0 +1,32 @@
+/*********************************************************************
+ *                                                                   *
+ * Copyright (c) 2007-2011 by Web-Deva.                              *
+ * All rights reserved.                                              *
+ *                                                                   *
+ * This computer program is protected by copyright law and           *
+ * international treaties. Unauthorized reproduction or distribution *
+ * of this program, or any portion of it, may result in severe civil *
+ * and criminal penalties, and will be prosecuted to the maximum     *
+ * extent possible under the law.                                    *
+ *                                                                   *
+ *********************************************************************/
+
+package com.shroggle.util.mail;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MockMailSender implements MailSender {
+
+    @Override
+    public void send(final Mail mail) {
+        mails.add(mail);
+    }
+
+    public List<Mail> getMails() {
+        return mails;
+    }
+
+    private final List<Mail> mails = new ArrayList<Mail>();
+
+}

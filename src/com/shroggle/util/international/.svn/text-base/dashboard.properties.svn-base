@@ -1,0 +1,133 @@
+dashboard = Dashboard
+createSiteNowButton = Create a site now
+cantBePublishedUntil=This site can not be published to the Internet until
+
+
+
+manageBlueprint = Manage Blueprint
+blueprintSettings = Blueprint Settings
+blueprintPermissions = Blueprint Permissions
+deleteBlueprint = Delete
+manageBlueprints = Manage Your Blueprint Sites
+numberDashboardChilds = Number of sites using this Blueprint:
+createSiteBlueprint = Create a Site Blueprint
+manageYourNetworks=Manage your networks
+manageYourNetworkSite=Manage your Network Site
+directoryOf=Directory Of
+networkMembers=Network Members
+manageSitesInThe=Manage Sites in the
+networks=networks
+noChildSiteFound=No child site found.
+moreInfo=more info
+localCharities=Local Charities
+editThisHubSite=Edit
+previewHubSite=Preview
+lastUpdatedJan=Last Updated: Jan 01 2007
+numberOfSitesInYourNetwork=Number of sites in your network: 23
+blogRecipeIdeas=<b>Blog</b> - Recipe Ideas
+blogGrandChildren=<b>Blog</b> - Grand Children
+forumApples=<b>Forum</b> - Apples
+calendarPickingSeaso=<b>Calendar</b> - Picking Seaso...
+manageNetworkHubSite=Manage Network Hub Site:
+trafficLogs=Traffic & Logs
+viewEditVisitorRegistrations=View / Edit Account Registrations
+templatesLayouts = Templates & Layouts
+previewBlueprint = Preview
+permissions=Site Access
+delete=Delete
+viewEditNetworkRegistrations=View / Edit Network Registrations
+editThisSite=Edit
+requestContent=Request Content
+dashboardTitle = Dashboard
+siteDelete = You are about to delete this website. In doing so you will be deleting all of the pages on the site, but not the individual elements eg. blogs, forums, images, galleries etc. Do you wish to continue?
+deleteActivatedBlueprint = You are about to remove this blueprint from the 'Templates and Blueprints\n Click Ok to proceed.
+dashboardHeader = Dashboard:
+createNetSite = Create a Network of connected sites
+
+createSite = Create a Website
+viewBlogs = Manage Blogs
+viewForums = Manage Forums
+viewForms = Manage Forms & Records
+viewGalleries = Manage Galleries
+dashboardTraffic = Traffic
+dashboardSettings = Settings
+dashboardHelp = Help
+theOptionNotYetAvailable= The option that you have selected is not yet available.\\nPlease try again later.
+
+dashboardNewsletter = Newsletter
+dashboardInvite = Email Invitations
+
+manageSites = Manage your websites
+editSiteInfo = You may edit a site by clicking 'Edit' link or by clicking on a feature by name. Please note, not all site content is listed here, click 'Edit' for a full list of pages and functionality.
+
+editBlueprint = Edit
+editSite = Edit
+previewSite = Preview
+lastUpdated = Last Updated:&nbsp;
+manageSite = Manage Site:
+manageNetworks = Manage Network:
+manageNetworkRegistrants = Manage Network Registrants
+incomeSettings=Income Settings
+networkSettings=Network Settings
+siteSettings = Site Settings
+siteSEOSettings = SEO Settings
+deleteSite = Delete
+permSite = Permissions
+tempAndLayoutsSite = Templates & Layouts
+visRegSite = View / Edit Account Registrations
+trafficAndLogs = Traffic & Logs
+viewOrderForms = Order Management
+
+deactivate=Deactivate
+removeFromNetworkConfirm = You are about to separate this site from the '<network name>' Network. \
+  If you proceed any content that belongs to the Network will be removed from this site. You also will \
+  loose access to this site and it will disappear from your Dashboard. Any restrictions on this site content, \
+  imposed by the network, will be lifted. Press 'OK' to proceed.
+optOutFromNetworkConfirm = You are about to separate your site from the '<network name>' Network.  \
+  If you proceed any content on your site that belongs to the Network, will be removed from your site. \
+  Any restrictions on your site content, imposed by the network, will be lifted. Press 'OK' to proceed
+
+removeFromNetworkInfo = All network administrators have lost their access to the former child site. All content \
+  belonging to the Network has been removed from this site. To withdraw content manually shared by the former \
+  child site please visit the following pages from your Dashboard: 'Manage Blogs', 'Manage Forums', 'Manage Forms & Records'.
+
+optOutFromNetworkInfo = Please NOTE: Your site may now have a different subscription fee:<br><br><b>Your monthly subscription \
+  fee is now : ${0}</b><br><br>All access to your administrative functionality has been withdrawn from the Network \
+  Administrator.<br><br>All content belonging to the Network has been removed from your site. We recommend that you examine \
+  your site carefully now to make sure that it is as you would want it to be.<br>To withdraw shared content from the \
+  Network administrators please visit the following pages from your Dashboard: 'Manage Blogs', 'Manage Forums', \
+  'Manage Forms & Records'.
+
+goLive=Go Live
+offLine=Off Line
+liveSite=Live Site
+offlineSiteConfirm=You are about to take your site offline. While it is deactivated a page will display an under construction message. Click OK to deactivate the site, or Cancel to leave it live.
+
+removeFromNetwork=Remove from Network
+notImplementedYet=Not implemented yet!
+
+blueprintInstructionText=Sites within your Network may optionally be based on a 'Site Blueprint'. Blueprints are created by you, and allow you to create guidelines or requirements for how network members should structure their site or what content they should include.<br/><br/>\
+            You will be asked to specify whether pages and content are optional, non optional, editable, non editable.<br/><br/>\
+            You can create multiple blueprints, and you can link one or more blueprints to your network. Use the Network Settings Page to link a blueprint to a Network.
+
+
+
+
+
+
+
+
+
+createWebsite = Create a Website
+traffic = Traffic
+contentModules = Content Modules
+blogs = Blogs
+formsRecords = Forms & Records
+galleries = Galleries
+yourSites = Your Sites
+childSites = Child Sites
+blueprints = Blueprints
+publishedBlueprints = Published Blueprints
+activatedBlueprints = Activated Blueprints
+
+hasBeenPublished = This blueprint has been published already.

@@ -1,0 +1,179 @@
+.tree_links_box_minimized {
+    float: left;
+    height: 100%;
+    display: inline;
+    width: 90%;
+}
+
+.tree_links_box_maximized {
+    float: left;
+    height: 100%;
+    display: inline;
+    width: 30%;
+}
+
+.ddList {
+    list-style: disc;
+    list-style-position: inside;
+    padding: 10px;
+}
+
+.livePage {
+    color: #336633 !important
+}
+
+.configureMenuPage {
+    color: black !important
+}
+
+.draftPage {
+    color: #cc6600 !important
+}
+
+.postedText {
+    color: #999999 !important
+}
+
+span.pageName {
+    font-size: 12px;
+}
+
+span.postedText {
+    font-size: 11px;
+}
+
+.blogSummaryTilte:before {
+    content: attr(title);
+    display: none;
+}
+
+.blogSummaryBlogsArea {
+    border: 1px solid #EFF0F1;
+    margin: 0 20px 0 10px;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 92%;
+    height: 220px;
+}
+
+.pageTreeMenu {
+    color: #454440;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.backgroundTilte:before {
+    content: attr(title);
+    display: none;
+}
+
+.errorBlock {
+    color: red;
+    font-size: 10pt;
+}
+
+span.notReadyItem {
+    color: #AAA6A6;
+}
+
+.newWidgetHeader {
+    font-size: medium;
+    color: darkblue;
+}
+
+/*addWidget.jsp. Class for first span in info about widgets on page blog. Don't change name. Pls :)*/
+.firstSelectedWidgetInfo {
+    background-color: #E3DEDA;
+    display: block;
+    padding: 3px 10px 3px 10px;
+}
+
+/*addWidget.jsp.Class for second span in info about widgets on page blog. Don't change name. Pls :)*/
+.secondSelectedWidgetInfo {
+    background-color: #F5F1EF;
+    display: block;
+    padding: 3px 10px 3px 10px;
+}
+
+/*addWidget.jsp.Class for selected span in info about widgets. Don't change name. Pls :)*/
+.selectedWidgetInfo {
+    background-color: lightblue;
+    display: block;
+    padding: 3px 10px 3px 10px;
+}
+
+.registrationErrorBlock {
+    color: red;
+    font-size: 10pt;
+}
+
+.registrationHeader1 {
+    font-size: medium;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.registrationHeader2 {
+    font-size: small;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.registrationParameterDiv {
+    height: 320px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.accountRegistrationFormTableDiv {
+    height: 290px
+}
+
+.accountRegistrationFormTableDiv .registrationParameterDiv {
+    height: 200px;
+}
+
+.registrationInnerDiv {
+    border: 1px solid #ECE9E6;
+    margin: 25px 0 0 0;
+    padding: 10px;
+}
+
+.registrationFirst {
+/* background: darkgray;*/
+
+}
+
+.registrationSecond {
+/*background: gainsboro;*/
+}
+
+.cssParametersDiv {
+    max-height: 560px;
+    min-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.cssParametersDiv input {
+    width: 90%;
+}
+
+td.confugureImageTabbedArea {
+    text-align: left;
+    border-left: 3px solid #cccccc;
+    border-right: 3px solid #cccccc;
+    border-bottom: 3px solid #cccccc;
+    border-top: 3px solid #ffffff;
+    padding: 10px 20px;
+}
+
+div.tabbedArea {
+    text-align: left;
+    border-left: 3px solid #cccccc;
+    border-right: 3px solid #cccccc;
+    border-bottom: 3px solid #cccccc;
+    padding: 10px 20px;
+}
+

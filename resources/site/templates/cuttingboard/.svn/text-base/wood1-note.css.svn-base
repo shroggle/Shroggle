@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+       background-image:url(<!-- TEMPLATE_RESOURCE -->/images/wood.jpg);
+      font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.middlePaneContainer1 {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/pinboardMiddle.png);
+	background-repeat:repeat-y;
+
+
+}
+
+.middlePaneContainer2 {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/pinboardTop-note.png);
+	background-repeat:no-repeat;
+
+
+}
+.middlePane {
+
+	background-image: url(<!-- TEMPLATE_RESOURCE -->/images/pinboardBottom.png);
+	background-repeat:no-repeat;
+        background-position:left bottom;
+}

@@ -1,0 +1,62 @@
+1  -
+2  -
+3  -
+4  -
+5  -
+6  -
+7  -
+8  -
+9  -
+10 -
+11 -
+12 -
+13 -
+14 -
+15 -
+16 -
+17 -
+18 -
+19 -
+20 -
+21 -
+22 -
+23 -
+24 -
+25 -
+26 -
+27 -
+28 -
+29 -
+30 -
+31 -
+32 -
+33 -
+34 -
+35 -
+36 -
+37 -
+38 - Tolik. set siteId to work and draft items (connected to widgets) without siteId. Change titlePosition in draft/workImage from int to string.
+39 - Tolik. removed. odd update
+40 -
+41 -
+42 -
+43 -
+44 - Dima. Fixes galleries with null paypalSettings. Sets gallery.paypalSettings = new PaypalSettingsForGallery();
+45 -
+46 -
+47 - Dima. Changeing formType = "VISITOR_REGISTRATION" to formType="REGISTRATION" in filledForms.
+48 - 
+49 - Tolik. Fixing "css" in PageManager and "selector" in PageVersionCssParameterValue
+50 -
+51 - Dima. Executing alter: update galleries set trackOrders = false where trackOrders is null;
+52 -
+53 - Tolik. Fixing errors in DB, removing wrong tables (http://jira.web-deva.com/browse/SW-4959, http://jira.web-deva.com/browse/SW-4915).
+54 - Artem, Tolik. Post elements 
+55 - Tolik. Removing odd pageVersions.
+56 -
+57 -
+58 -
+59 -
+60 -
+61 - Tolik. Restoring old child sites.
+64 - Tolik. Posting restored child sites live.

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>
+<!-- PAGE_TITLE -->
+</title>
+
+<style type="text/css">
+body, div, p, img {
+	margin: 0;
+	padding: 0;
+}
+table, tr, td {
+	vertical-align: top;
+}
+body {
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+	width:1100px;
+	min-height:700px;
+	 margin:auto;
+}
+#content {
+	margin: 20px auto;
+	width: 800px;
+	min-height:700px;
+	height: auto;
+
+}
+.topPane {
+    width: 750px;
+    margin-left:50px;
+    min-height: 70px;
+	height: auto;
+}
+.middlePane {
+	width: 750px;
+    margin-left:50px;
+	min-height: 650px;
+	height: auto;
+	clear: both;
+}
+.bottomPane {
+	width: 750px;
+    margin-left:50px;
+	min-height: 30px;
+	height: auto;
+	clear: both;
+}
+
+</style>
+<!-- PAGE_HEADER -->
+</head>
+<body>
+<div id="wrapper">
+  <div id="content">
+    <div class="topPane mediaBlock"></div>
+    <div class="middlePane mediaBlock"></div>
+    <div class="bottomPane mediaBlock"></div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Stage</name>
+    <thumbnail>images/tn_black-purple-b.jpg</thumbnail>
+    <order>300</order>
+
+    
+    <layout thumbnailFile="images/header_2main_footer.jpg">
+        <name>Header, Footer, 2 Main Content </name>
+        <file>header_2main_footer.html</file>
+
+
+    </layout>
+    <layout thumbnailFile="images/header_main_footer.jpg" useForDefault="true">
+        <name>Header, Main Content, Footer</name>
+        <file>header_main_footer.html</file>
+              <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+
+    </layout>
+    <layout thumbnailFile="images/header_mainwide_footer.jpg">
+        <name>Header, Large Main Area, Footer </name>
+        <file>header_mainwide_footer.html</file>
+
+    </layout>
+    <layout thumbnailFile="images/2headers_main_footer.jpg">
+        <name>2Headers, Main Content, Footer</name>
+        <file>2headers_main_footer.html</file>
+
+    </layout>
+   <layout thumbnailFile="images/2headers_3main_footer.jpg">
+        <name>2 Headers, 3 Content, Footer </name>
+        <file>2headers_3main_footer.html</file>
+
+    </layout>
+	<layout thumbnailFile="images/header_2col_main_footer.jpg">
+        <name>Header, Left and Right Menu, Content, Footer </name>
+        <file>header_main_footer_2menu.html</file>
+
+    </layout>
+	<layout thumbnailFile="images/2headers_2col_main_footer.jpg">
+        <name>2 Headers, Left and Right Menu, Content, Footer </name>
+        <file>2headers_main_footer_2menu.html</file>
+       
+    </layout>
+    <theme>
+        <imageFile>images/black-blue.jpg</imageFile>
+        <name>Black and Blue</name>
+        <file>black-blue.css</file>
+        <colorTileFile>images/tile_black-blue.jpg</colorTileFile>
+        <thumbnailFile>images/tn_black-blue-b.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/black-gold.jpg</imageFile>
+        <name>Black and Gold</name>
+        <file>black-gold.css</file>
+        <colorTileFile>images/tile_black-gold.jpg</colorTileFile>
+        <thumbnailFile>images/tn_black-gold-b.jpg</thumbnailFile>
+    </theme>
+	    <theme>
+        <imageFile>images/black-grey.jpg</imageFile>
+        <name>Black and Grey</name>
+        <file>black-grey.css</file>
+        <colorTileFile>images/tile_black-grey.jpg</colorTileFile>
+        <thumbnailFile>images/tn_black-grey-b.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>images/black-purple.jpg</imageFile>
+        <name>Black and Purple</name>
+        <file>black-purple.css</file>
+        <colorTileFile>images/tile_black-purple.jpg</colorTileFile>
+        <thumbnailFile>images/tn_black-purple-b.jpg</thumbnailFile>
+    </theme>
+	    <theme>
+        <imageFile>images/black-red.jpg</imageFile>
+        <name>Black and Red</name>
+        <file>black-red.css</file>
+        <colorTileFile>images/tile_black-red.jpg</colorTileFile>
+        <thumbnailFile>images/tn_black-red-b.jpg</thumbnailFile>
+    </theme>
+	    <theme>
+        <imageFile>images/black-teal.jpg</imageFile>
+        <name>Black and Teal</name>
+        <file>black-teal.css</file>
+        <colorTileFile>images/tile_black-teal.jpg</colorTileFile>
+        <thumbnailFile>images/tn_black-teal-b.jpg</thumbnailFile>
+    </theme>
+
+	 <theme>
+        <imageFile>images/cut-greypurple.jpg</imageFile>
+        <name>Cut Grey and Purple</name>
+        <file>cut-greypurple.css</file>
+        <colorTileFile>images/tile_cut-greypurple.jpg</colorTileFile>
+        <thumbnailFile>images/tn_cut-greypurple-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/cut-greyred.jpg</imageFile>
+        <name>Cut Grey and Red</name>
+        <file>cut-greyred.css</file>
+        <colorTileFile>images/tile_cut-greyred.jpg</colorTileFile>
+        <thumbnailFile>images/tn_cut-greyred-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/cut-purple.jpg</imageFile>
+        <name>Cut Purple</name>
+        <file>cut-purple.css</file>
+        <colorTileFile>images/tile_cut-purple.jpg</colorTileFile>
+        <thumbnailFile>images/tn_cut-purple-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/cut-red.jpg</imageFile>
+        <name>Cut Red</name>
+        <file>cut-red.css</file>
+        <colorTileFile>images/tile_cut-red.jpg</colorTileFile>
+        <thumbnailFile>images/tn_cut-red-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/cut-teal.jpg</imageFile>
+        <name>Cut Teal</name>
+        <file>cut-teal.css</file>
+        <colorTileFile>images/tile_cut-teal.jpg</colorTileFile>
+        <thumbnailFile>images/tn_cut-teal-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/cut-tealred.jpg</imageFile>
+        <name>Cut Teal and Red</name>
+        <file>cut-tealred.css</file>
+        <colorTileFile>images/tile_cut-tealred.jpg</colorTileFile>
+        <thumbnailFile>images/tn_cut-tealred-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/full-blueteal.jpg</imageFile>
+        <name>Full Blue an Teal</name>
+        <file>full-blueteal.css</file>
+        <colorTileFile>images/tile_full-blueteal.jpg</colorTileFile>
+        <thumbnailFile>images/tn_full-blueteal-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/full-goldteal.jpg</imageFile>
+        <name>Full Gold and Teal</name>
+        <file>full-goldteal.css</file>
+        <colorTileFile>images/tile_full-goldteal.jpg</colorTileFile>
+        <thumbnailFile>images/tn_full-goldteal-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/full-purple.jpg</imageFile>
+        <name>Full Purple</name>
+        <file>full-purple.css</file>
+        <colorTileFile>images/tile_full-purple.jpg</colorTileFile>
+        <thumbnailFile>images/tn_full-purple-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/full-red.jpg</imageFile>
+        <name>Full Red</name>
+        <file>full-red.css</file>
+        <colorTileFile>images/tile_full-red.jpg</colorTileFile>
+        <thumbnailFile>images/tn_full-red-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/full-redpurple.jpg</imageFile>
+        <name>Full Red and Purple</name>
+        <file>full-redpurple.css</file>
+        <colorTileFile>images/tile_full-redpurple.jpg</colorTileFile>
+        <thumbnailFile>images/tn_full-redpurple-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/full-redteal.jpg</imageFile>
+        <name>Full Red and Teal</name>
+        <file>full-redteal.css</file>
+        <colorTileFile>images/tile_full-redteal.jpg</colorTileFile>
+        <thumbnailFile>images/tn_full-redteal-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/full-teal.jpg</imageFile>
+        <name>Full Teal</name>
+        <file>full-teal.css</file>
+        <colorTileFile>images/tile_full-teal.jpg</colorTileFile>
+        <thumbnailFile>images/tn_full-teal-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/sky-blue.jpg</imageFile>
+        <name>Sky Blue</name>
+        <file>sky-blue.css</file>
+        <colorTileFile>images/tile_sky-blue.jpg</colorTileFile>
+        <thumbnailFile>images/tn_sky-blue-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/sky-grey.jpg</imageFile>
+        <name>Sky Grey</name>
+        <file>sky-grey.css</file>
+        <colorTileFile>images/tile_sky-grey.jpg</colorTileFile>
+        <thumbnailFile>images/tn_sky-grey-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/sky-purple.jpg</imageFile>
+        <name>Sky Purple</name>
+        <file>sky-purple.css</file>
+        <colorTileFile>images/tile_sky-purple.jpg</colorTileFile>
+        <thumbnailFile>images/tn_sky-purple-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/sky-red.jpg</imageFile>
+        <name>Sky Red</name>
+        <file>sky-red.css</file>
+        <colorTileFile>images/tile_sky-red.jpg</colorTileFile>
+        <thumbnailFile>images/tn_sky-red-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/sky-teal.jpg</imageFile>
+        <name>Sky Teal</name>
+        <file>sky-teal.css</file>
+        <colorTileFile>images/tile_sky-teal.jpg</colorTileFile>
+        <thumbnailFile>images/tn_sky-teal-b.jpg</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>images/white-blue.jpg</imageFile>
+        <name>White Blue</name>
+        <file>white-blue.css</file>
+        <colorTileFile>images/tile_white-blue.jpg</colorTileFile>
+        <thumbnailFile>images/tn_white-blue-b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/white-gold.jpg</imageFile>
+        <name>White Gold</name>
+        <file>white-gold.css</file>
+        <colorTileFile>images/tile_white-gold.jpg</colorTileFile>
+        <thumbnailFile>images/tn_white-gold-b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/white-grey.jpg</imageFile>
+        <name>White Grey</name>
+        <file>white-grey.css</file>
+        <colorTileFile>images/tile_white-grey.jpg</colorTileFile>
+        <thumbnailFile>images/tn_white-grey-b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/white-purple.jpg</imageFile>
+        <name>White Purple</name>
+        <file>white-purple.css</file>
+        <colorTileFile>images/tile_white-purple.jpg</colorTileFile>
+        <thumbnailFile>images/tn_white-purple-b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/white-red.jpg</imageFile>
+        <name>White Red</name>
+        <file>white-red.css</file>
+        <colorTileFile>images/tile_white-red.jpg</colorTileFile>
+        <thumbnailFile>images/tn_white-red-b.jpg</thumbnailFile>
+    </theme>
+    	<theme>
+        <imageFile>images/white-teal.jpg</imageFile>
+        <name>White Teal</name>
+        <file>white-teal.css</file>
+        <colorTileFile>images/tile_white-teal.jpg</colorTileFile>
+        <thumbnailFile>images/tn_white-teal-b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/whiteroom-blue.jpg</imageFile>
+        <name>White Room Blue</name>
+        <file>whiteroom-blue.css</file>
+        <colorTileFile>images/tile_whiteroom-blue.jpg</colorTileFile>
+        <thumbnailFile>images/tn_whiteroom-blue-b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/whiteroom-gold.jpg</imageFile>
+        <name>White Room Gold</name>
+        <file>whiteroom-gold.css</file>
+        <colorTileFile>images/tile_whiteroom-gold.jpg</colorTileFile>
+        <thumbnailFile>images/tn_whiteroom-gold-b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/whiteroom-grey.jpg</imageFile>
+        <name>White Room Grey</name>
+        <file>whiteroom-grey.css</file>
+        <colorTileFile>images/tile_whiteroom-grey.jpg</colorTileFile>
+        <thumbnailFile>images/tn_whiteroom-grey-b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/whiteroom-purple.jpg</imageFile>
+        <name>White Room Purple</name>
+        <file>whiteroom-purple.css</file>
+        <colorTileFile>images/tile_whiteroom-purple.jpg</colorTileFile>
+        <thumbnailFile>images/tn_whiteroom-purple-b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/whiteroom-red.jpg</imageFile>
+        <name>White Room Red</name>
+        <file>whiteroom-red.css</file>
+        <colorTileFile>images/tile_whiteroom-red.jpg</colorTileFile>
+        <thumbnailFile>images/tn_whiteroom-red-b.jpg</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>images/whiteroom-teal.jpg</imageFile>
+        <name>White Room Teal</name>
+        <file>whiteroom-teal.css</file>
+        <colorTileFile>images/tile_whiteroom-teal.jpg</colorTileFile>
+        <thumbnailFile>images/tn_whiteroom-teal-b.jpg</thumbnailFile>
+    </theme>
+
+</template>

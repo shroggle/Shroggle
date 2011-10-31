@@ -1,0 +1,7 @@
+#header {
+    border: 1px solid black
+}
+
+#content {
+    border: 1px solid black
+}

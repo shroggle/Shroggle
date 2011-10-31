@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>a</name>
+    <theme>
+        <name>c</name>
+        <file>black.css</file>
+        <thumbnailFile>blackThumbnail.png</thumbnailFile>
+        <colorTileFile>blackSelect.png</colorTileFile>
+        <imageFile>black.png</imageFile>
+    </theme>
+    <layout thumbnailFile="layoutThumbnail.png">
+        <name>a1</name>
+        <file>topBottom.htm</file>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="11"/>
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position position="1"/>
+        </pattern>
+        <pattern>
+            <position position="2"/>
+        </pattern>
+    </layout>
+</template>

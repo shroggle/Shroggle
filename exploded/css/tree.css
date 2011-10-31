@@ -1,0 +1,183 @@
+.simpleTree {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.simpleTree div {
+    margin: 0;
+    line-height: 20px;
+    white-space: nowrap;
+    height: 100%;
+}
+
+.simpleTree li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* IE7 Hack in order to display tree without 15px root ul padding. */
+.ie7 .simpleTree .root{
+    margin-top:-15px;
+}
+
+.simpleTree li span {
+    display: inline;
+    white-space: nowrap;
+}
+
+.simpleTree ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* TREE DROP LINES */
+.simpleTree .line {
+    margin: 0;
+    padding: 0;
+    line-height: 2px;
+    height: 2px;
+    font-size: 2px;
+}
+
+.simpleTree .line-over {
+    margin: 0;
+    padding: 0;
+    line-height: 1px;
+    height: 1px;
+    font-size: 1px;
+    border-top: 1px dotted #36C;
+}
+
+/* TREE TEXT */
+.simpleTree span {
+    padding: 2px 0 2px 2px;
+    vertical-align:top;
+}
+
+/* TREE OVER ELEMENT*/
+.simpleTree .nodeOver {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.simpleTree .nodeOver span {
+    background-color: #eee;
+    padding: 2px 0 2px 2px;
+}
+
+/* TREE ACTIVE ELEMENT*/
+.simpleTree .active {
+    cursor: default;
+    background-color: #c0d0f0;
+}
+
+.simpleTree .active span {
+    background-color: #c0d0f0;
+    padding: 2px 0 2px 2px;
+}
+
+/* TREE IMAGES */
+.simpleTree img.doc {
+    background: url(/images/tree/leaf.gif) no-repeat center center;
+}
+
+.simpleTree img.folder {
+    background: url(/images/tree/folder.gif) no-repeat center center;
+}
+
+.simpleTree img.folder-open {
+    background: url(/images/tree/folder-open.gif) no-repeat center center;
+}
+
+.simpleTree img.elbow-plus {
+    background: url(/images/tree/arrows.gif) no-repeat scroll 0 0;
+}
+
+.simpleTree .overElbow img.elbow-plus {
+    background: url(/images/tree/arrows.gif) no-repeat scroll -32px 0;
+}
+
+.simpleTree img.elbow-minus {
+    background: url(/images/tree/arrows.gif) no-repeat scroll -16px 0;
+}
+
+.simpleTree .overElbow img.elbow-minus {
+    background: url(/images/tree/arrows.gif) no-repeat scroll -48px 0;
+}
+
+.simpleTree img.padlock {
+    background: url(/images/padlocksymbol_normal.gif) no-repeat center center !important;
+}
+
+.simpleTree img.treeImage {
+    display: inline;
+    border: 0 none;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+}
+
+/* TREE DRAG CONTAINER STYLES*/
+#drag_container {
+    background: #ffffff;
+    color: #000;
+    font: normal 11px arial, tahoma, helvetica, sans-serif;
+    border: 1px dashed #767676;
+}
+
+#drag_container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#drag_container li {
+    list-style: none;
+    background-color: #ffffff;
+    line-height: 18px;
+    white-space: nowrap;
+    margin: 0;
+}
+
+#drag_container li div {
+    padding: 0;
+}
+
+#drag_container img.doc {
+    background: url(/images/tree/leaf.gif) no-repeat center center;
+}
+
+#drag_container img.folder {
+    background: url(/images/tree/folder.gif) no-repeat center center;
+}
+
+#drag_container img.padlock {
+    background: url(/images/padlocksymbol_normal.gif) no-repeat center center !important;
+}
+
+#drag_container img.treeImage {
+    border: 0 none;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+}
+
+#drag_container img.elbow {
+    width: 0 !important;
+}
+
+#drag_container img.spacer {
+    width: 0 !important;
+}
+
+img.spacer {
+    visibility:hidden;
+}
+

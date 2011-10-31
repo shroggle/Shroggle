@@ -1,0 +1,7 @@
+title = Edit Page Selector
+description = Select how the user will navigate from one Data Display Page to the next
+arrow = Page forward & back using arrows:
+paginator = Pagination
+paginatorDescription = Select pagination style:
+save = Save
+cancel = Cancel

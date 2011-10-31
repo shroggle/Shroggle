@@ -1,0 +1,16 @@
+subHeader = Edit Purchase History Module: Module Settings
+explan = The Purchase History item ... TBD.
+name = Purchase History &ndash; Name
+desc = Header / Description
+editDesc = Edit
+
+settings = Purchase History display settings
+showImage = Show product image in the first column
+showProductDescription = Show product description next to the product name
+imageDimensions = Product image dimensions:
+
+defaultHeader = Header / Description
+displayHeader = Display Header / Description
+
+PurchaseHisotryNameIsNullOrEmpty = Please, enter name for Purchase History.
+PurchaseHistoryNameNotUniqueException = Please, enter unique Purchase History name.

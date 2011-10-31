@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="mainProperty">
+
+    <property name="sourceDirectory" value="source"/>
+    <property name="javaCompilerFile" value="c:/program files/JDK 1-6-5/bin/javac.exe"/>
+    <property name="webServerLibsDirectory" value="c:/program files (x86)/Tomcat 6-0-14/lib"/>
+    <property name="destinationDirectory" value="destination"/>
+    <property name="webApplicationWarFile" value="${destinationDirectory}/superwiki.war"/>
+
+</project>

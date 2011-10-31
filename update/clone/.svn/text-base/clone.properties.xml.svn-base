@@ -1,0 +1,21 @@
+<project name="global.backup.properties">
+
+    <!-- mySQL server information. >>>> -->
+    <property name="mySQL.path" value=""/>
+    <property name="mySQL.host" value="192.168.10.1"/>
+    <!-- <<<< mySQL server information. -->
+
+    <property name="original.db.name" value="shroggle5"/>
+    <property name="original.db.user" value="shuser"/>
+    <property name="original.db.passwd" value="shpasswd"/>
+
+    <property name="clone.db.name" value="wikalot1"/>
+    <property name="clone.db.user" value="shwikauser"/>
+    <property name="clone.db.passwd" value="shwikapasswd"/>
+
+    <property name="original.data.dir" value="/data/hosting/shroggle.com/data/"/>
+    <property name="clone.data.dir" value="/data/hosting/wikalot.com/data/"/>
+
+    <property name="tmp.dir" value="/tmp"/>
+
+</project>

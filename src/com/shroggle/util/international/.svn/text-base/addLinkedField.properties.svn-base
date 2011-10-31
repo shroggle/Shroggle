@@ -1,0 +1,23 @@
+subHeader = Add/Edit Linked Field
+
+newFormHeader = New Form
+
+linkedFormHeader = Linked Form
+selectFormDefaultOption = Select a form
+editSelected = Edit Selected
+createNewForm = Create New Form
+
+linkedFormExplanHeader = Linked forms are displayed in whole or in part in another form.
+selectFormItemLabel = Display field:
+selectFormItemDefaultOption = Select a form item
+
+linkedFieldItemTypeSelect = Select how these options should be displayed:&nbsp;
+dropDownBoxItemTypeOption = Drop-down box
+radioBoxesItemTypeOption = Radio buttons
+checkboxesItemTypeOption = Check boxes (multiple select)
+linkedFieldTextEdit = Edit custom field label:&nbsp;
+
+#Exceptions
+AddLinkedFieldFormNotSelectedException = Please, select a form.
+AddLinkedFieldFormItemNotSelectedException = Please, select a form item.
+AddLinkedFieldDuplicateNameException = Rename duplicate fields to ensure each field has a different name.

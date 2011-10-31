@@ -1,0 +1,24 @@
+<!-- update-settings.xml -->
+<project name="update-settings">
+    <property name="build.server" value="http://localhost:8088"/>
+    <property name="build.suffix" value="/cruisecontrol/artifacts"/>
+    <property name="build.project.name" value="SuperWiki"/>
+    <property name="build.url.username" value="shroggle"/>
+    <property name="build.url.password" value="superwiki"/>
+
+
+<!--
+    <property name="build.build.id" value="20080521155525"/>
+-->
+
+    <property name="build.app.filename" value="shroggle.war.zip"/>
+    <property name="build.static.filename" value="shroggle-static.zip"/>
+
+    <!--  http://localhost:8088/cruisecontrol/artifacts/SuperWiki/20080521155525/shroggle.war.zip -->
+
+    <property name="project.root" value="d:/update-prj/"/>
+    <property name="app.root" value="c:/dir/"/>
+
+    <property name="cc.artifacts.dir" value="c:/!/cc/"/>
+
+</project>

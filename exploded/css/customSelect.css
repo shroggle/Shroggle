@@ -1,0 +1,88 @@
+.triggerImage {
+    width: 17px;
+    height: 20px;
+    border-bottom: 1px solid #C1B4A0;
+    border-right: 1px solid #C1B4A0;
+    border-top: 1px solid #C1B4A0;
+    background: transparent url(/images/customSelect/selectVerticalTransparency.png) no-repeat;
+    cursor: pointer;
+    float: right;
+}
+
+.triggerImageOver {
+    background-color: #E5D8C4;
+}
+
+.selectText {
+    float: right;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    height: 18px;
+    padding: 2px 3px 0 3px;
+    background: #fff url(/images/customSelect/text-bg.gif) repeat-x;
+    border: 1px solid #C1B4A0;
+    cursor:pointer;
+}
+
+.selectContainer {
+    background-color: white;
+    border: 1px solid #C1B4A0;
+}
+
+.selectContainer div {
+    cursor: pointer;
+}
+
+.selectContainer li {
+    list-style: none;
+}
+
+.selectContainer span {
+    display: block;
+}
+
+.selectContainer div {
+    padding: 3px 2px 3px 2px;
+}
+
+.selectContainer .postedText {
+    display: block;
+    font-size: 10px;
+}
+
+.selectContainer .pageName {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.elementMouseOver {
+    background-color: #eee;
+}
+
+.selectedElement {
+    background-color: #e3deda;
+    cursor: default !important;
+}
+
+.selectContainer .customSelectSpacer {
+    display: inline;
+    float: left;
+    border: 0 none;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+}
+
+#select_strecher {
+    display: inline;
+    border: 1px solid #C1B4A0;
+    height: 18px;
+    float: right;
+    width: 250px;
+    padding: 1px 3px;
+}
+

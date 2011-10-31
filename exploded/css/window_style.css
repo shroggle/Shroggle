@@ -1,0 +1,459 @@
+/*login*/
+.loginError {
+    color: #ff0000;
+    margin: 0 20px 0 20px;
+    overflow-y: auto;
+    overflow: auto;
+    height: 32px;
+}
+
+.forgottenPasswordError {
+    color: #ff0000;
+    margin: 0 20px 0 20px;
+    text-align: left;
+    overflow-y: auto;
+    overflow: auto;
+    height: 32px;
+}
+
+.box_2 {
+    border: 3px solid #8E9DB1;
+    border-bottom-width: 2px;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    padding: 10px;
+    background: url(/images/window/bg_main_light.png) no-repeat;
+}
+
+.box_2 a {
+    color: #22303B;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.box_2 a:hover {
+    color: #333399;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.forgottenPasswordButtonDiv {
+    text-align:center;
+}
+
+.forgottenPassMainDiv label {
+    position: relative;
+    top: -2px;
+}
+
+.forgottenPasswordCreateAccountLinks {
+    text-align: center;
+}
+
+.forgottenPasswordCreateAccountLinks a {
+    color: #22303B;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.forgottenPasswordCreateAccountLinks a:hover {
+    color: #333399;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#loginFakeForm a {
+    color: #313155;
+    font-weight: bold;
+    line-height: 20px;
+    text-decoration: underline;
+}
+
+#loginFakeForm a:hover {
+    color: #333399;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.align_r {
+    text-align: right !important;
+    padding: 6px;
+    line-height: 13px !important;
+    width: 80px !important;
+}
+
+.ui-resizable {
+    position: relative;
+}
+
+.ui-resizable-handle {
+    position: absolute;
+    font-size: 0.1px;
+    z-index: 99999;
+    display: block;
+}
+
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle {
+    display: none;
+}
+
+.ui-resizable-s {
+    cursor: s-resize;
+    height: 7px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    position: absolute;
+}
+
+.ui-resizable-e {
+    cursor: e-resize;
+    height: 100%;
+    right: -5px;
+    top: 0;
+    width: 7px;
+}
+
+.ui-resizable-se {
+    bottom: 1px;
+    cursor: se-resize;
+    background: transparent url(/images/resize.png) no-repeat scroll 0%;
+    height: 12px;
+    right: 1px;
+    width: 12px;
+}
+
+.loginHeader {
+    background: transparent url(/images/wdfooter-logo.png) no-repeat scroll center top;
+    color: #1B2944;
+    font-family: arial, tahoma, verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: normal;
+    padding: 25px 0 4px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.loginPanel {
+    font-family: tahoma, arial, helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin-right: 5px;
+    padding: 0;
+    background: url(/images/window/bg_main_light.png) no-repeat;
+}
+
+/*NEW WINDOWS*/
+.window {
+    -webkit-box-shadow: 1px 1px 8px #000;
+    -moz-box-shadow: 1px 1px 8px #000;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 0 10px;
+    color: black;
+}
+
+.dialog {
+    -webkit-box-shadow: 1px 1px 4px #000;
+    -moz-box-shadow: 1px 1px 4px #000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    padding: 0 3px;
+    color: black;
+}
+
+.dialogHeaderTextDiv {
+    float: left;
+    padding-top: 2px;
+}
+
+.alertDialog .dialogImage {
+    background: url(/images/alert.png) no-repeat;
+    padding: 15px 17px;
+    float: left;
+    margin-right: 5px;
+}
+
+.dialog .windowOneColumn {
+    padding: 10px 10px 10px 5px !important;
+    box-shadow: 1px 1px 4px #000 !important;
+    border-radius: 4px !important;
+    -webkit-box-shadow: 1px 1px 4px #000 !important;
+    -moz-box-shadow: 1px 1px 4px #000 !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+}
+
+.dialog .windowCloseButton {
+    width: 16px !important;
+    height: 16px !important;
+    float: right !important;
+    margin-top: 1px !important;
+    margin-right: 0 !important;
+}
+
+.dialog .windowPanel {
+    height: 18px !important;
+}
+
+.dialog .bottomCloseButtonDiv {
+    margin-top: 5px;
+}
+
+.window h1 {
+    font-size: 12pt;
+    color: #de752e;
+    margin: 0 10px 10px 0;
+    font-weight: bold;
+}
+
+.window h2 {
+    font-size: 9pt;
+    color: #2B3443;
+    margin: 0 10px 10px 0;
+    font-weight: bold;
+}
+
+.ie .window {
+    border: 1px solid black;
+}
+
+.windowPanel {
+    height: 14px !important;
+}
+
+.windowContent {
+    height: 100% !important;
+}
+
+.windowCloseButton {
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-top: -15px;
+    margin-right: -22px;
+}
+
+.windowMainContent {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 100%;
+}
+
+.windowOneColumn {
+    background: url(/images/window/bg_main_light.png) no-repeat;
+    box-shadow: 1px 1px 8px #000;
+    border-radius: 8px;
+    padding: 20px 30px 20px 30px;
+    -webkit-box-shadow: 1px 1px 8px #000;
+    -moz-box-shadow: 1px 1px 8px #000;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.windowTopLine {
+    background: url(/images/window/topline.png) no-repeat left bottom;
+    height: 5px;
+}
+
+/*Two column window layout*/
+.mainarea {
+    padding-top: 10px;
+}
+
+.c1_over_A {
+    display: inline;
+    background: url(/images/left_menu_over_A.png) no-repeat;
+    padding: 12px;
+    position: relative;
+    top: 16px;
+    left: -10px;
+}
+
+.c1 {
+    padding-left: 20px;
+    height: 37px;
+    width: 170px;
+    font-weight: bold;
+    font-size: 9pt;
+    background: url(/images/window/btn_menu_blue.png) no-repeat;
+    margin: 7px;
+}
+
+.c1 span {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    height: 32px;
+    padding: 0 0 5px 20px;
+    position: relative;
+    top: -6px;
+    cursor: pointer;
+}
+
+.c1 span:hover {
+    text-decoration: none;
+    color: #333333;
+}
+
+.c1current {
+    padding-left: 20px;
+    height: 37px;
+    width: 170px;
+    font-weight: bold;
+    font-size: 9pt;
+    background: url(/images/window/btn_menu_orange.png) no-repeat;
+    margin: 7px;
+}
+
+.c1current span {
+    display: block;
+    color: #333333;
+    text-decoration: none;
+    height: 32px;
+    padding: 0 0 5px 20px;
+    position: relative;
+    top: -6px;
+    cursor: pointer;
+}
+
+.twoColumnsWindow_columnWrapper {
+    float: left;
+    height: 93%;
+}
+
+.twoColumnsWindow_leftColumn {
+    width: 200px;
+    box-shadow: 1px 1px 8px #000;
+    margin-right: 20px;
+    padding-bottom: 40px;
+}
+
+.twoColumnsWindow_rightColumn {
+    padding: 20px 30px;
+    height: 100% !important;
+}
+
+.twoColumnsWindow_leftColumn, .twoColumnsWindow_rightColumn {
+    background: url(/images/window/bg_main_light.png) no-repeat;
+    -webkit-box-shadow: 1px 1px 8px #000;
+    -moz-box-shadow: 1px 1px 8px #000;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.ie .twoColumnsWindow_leftColumn {
+    border: 1px solid black;
+}
+
+.ie .twoColumnsWindow_rightColumn {
+    border: 1px solid black;
+}
+
+#wrap_1 {
+    width: 200px;
+    background: url(/images/window/bg_main_light.png) no-repeat;
+    position: relative;
+    box-shadow: 1px 1px 8px #000;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 1px 8px #000;
+    -moz-box-shadow: 1px 1px 8px #000;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.ie #wrap_1 {
+    border: 1px solid black;
+}
+
+#wrap_2 {
+    position: relative;
+    left: 100% !important;
+    margin: 0 -200% -10px 20px;
+    background: url(/images/window/bg_main_light.png) no-repeat;
+    -webkit-box-shadow: 1px 1px 8px #000;
+    -moz-box-shadow: 1px 1px 8px #000;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.ie #wrap_2 {
+    border: 1px solid black;
+}
+
+.leftmenu {
+    float: left;
+    left: -160px;
+    margin-left: -60px;
+    margin-right: -100%;
+    position: relative;
+}
+
+.ie .leftmenu {
+    left: -161px !important;
+    top: -1px;
+}
+
+.leftmenu_header {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 15px;
+    height: 44px;
+    width: 150px;
+    background: #3d4c53 url(/images/gears.png) no-repeat 10px 10px;
+    -webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    -moz-border-radius-topleft: 7px;
+    -moz-border-radius-topright: 7px;
+}
+
+.leftmenu_body {
+    padding: 8px;
+}
+
+/* WINDOW CONTENT STYLES */
+
+.window label {
+    color: black;
+}
+
+.window .tbl_dblborder {
+    border: 3px double #778;
+    border-collapse: collapse;
+}
+
+.window .tbl_dblborder td {
+    border: 1px solid #778;
+    text-align: left;
+    padding: 3px;
+}
+
+.window .tbl_dblborder td input {
+    text-align: left;
+}
+
+.window .tbl_dblborder thead td {
+    color: #1F2B41;
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.window .tbl_dblborder tbody {
+    color: #1F2B41;
+}
+
+.window .tbl_dblborder b {
+    color: #1F2B41;
+}
+

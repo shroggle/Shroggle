@@ -1,0 +1,15 @@
+deleteAccount=Delete Account
+purchaseMailLog = Purchase Mail Logs
+paymentLogs = Payment Logs
+infoInstructions=By clicking on the 'Delete' button below, you can completely and irreversibly delete the account and all related payment info. The sites will be unlinked from your account and will cease to be accessible to you. If you want to delete the sites in this account, go to the dashboard page and click on the [Delete] button for each site.
+youHaveNoAccessToDeleteSelectedAccount=You have no access to deletion of selected account data.
+accountDeleteConfirm=Confirming this action will completely and irreversibly delete the account information, and payment info. The sites will be unlinked from your account and won`t be accessible.
+selectAnAccountToEdit=Select An Account To Edit:
+deleteLabel = Delete
+accountContactDetails=Account Contact Details
+yourContactDetails=Your Contact Details
+siteActivation=Payment & Site Activation
+loginHelp=Login Help
+accessPermissions=Access Permissions
+help=Help
+notImplementedYet=Not implemented yet!

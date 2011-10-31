@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Name of the template</name>
+    <thumbnail>default template thumbnail image (220x135)</thumbnail>
+    <layout>
+        <name>Name of the first layout</name>
+        <file>html file of the first layout</file>
+        <thumbnail>
+            <themeFile>CSS of the first color scheme</themeFile>
+            <thumbnailFile>thumbnail image that represents the first layout (220x135)</thumbnailFile>
+        </thumbnail>
+        <thumbnail>
+            <themeFile>CSS of the second color scheme</themeFile>
+            <thumbnailFile>thumbnail image that represents the first layout (220x135)</thumbnailFile>
+        </thumbnail>
+        <default>
+            <layoutDefault>true/false</layoutDefault>
+            <pageType>identifier of the visual item</pageType>
+            <widgetPosition>number of the media block that is supposed to be default for the current type of visual
+                item
+            </widgetPosition>
+        </default>
+    </layout>
+    <layout>
+        <name>Name of the second layout</name>
+        <file>html file of the second layout</file>
+        <thumbnail>
+            <themeFile>CSS of the first color scheme</themeFile>
+            <thumbnailFile>thumbnail image that represents the second layout (220x135)</thumbnailFile>
+        </thumbnail>
+        <thumbnail>
+            <themeFile>CSS of the second color scheme</themeFile>
+            <thumbnailFile>thumbnail image that represents the second layout (220x135)</thumbnailFile>
+        </thumbnail>
+    </layout>
+    <theme>
+        <imageFile>big image that represents the first color scheme</imageFile>
+        <name>Name of the first color scheme</name>
+        <file>CSS of the first color scheme</file>
+        <colorTileFile>small image file that lays under the radio button (32x32)</colorTileFile>
+        <thumbnailFile>thumbnail file that represents the first color scheme (220x135)</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>big image that represents the second color scheme</imageFile>
+        <name>Name of the second color scheme</name>
+        <file>CSS of the second color scheme</file>
+        <colorTileFile>small image file that lays under the radio button (32x32)</colorTileFile>
+        <thumbnailFile>thumbnail file that represents the second color scheme (220x135)</thumbnailFile>
+    </theme>
+</template>

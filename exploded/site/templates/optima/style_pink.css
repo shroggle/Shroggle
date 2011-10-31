@@ -1,0 +1,475 @@
+@charset
+"utf-8"
+;
+/* CSS Document */
+body {
+    background-color: #f966c7;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #e2265a;
+}
+
+a:hover {
+    color: green;
+}
+
+#main {
+    background-color: #ffffff;
+}
+
+#menu {
+    background-color: #e3accb;
+}
+
+.block4 {
+    background-color: #d9d8e8;
+}
+
+.Content_bottom_block1 {
+    background-color: #d9d8e8;
+}
+
+.Content_bottom_block2 {
+    background-color: #d9d8e8;
+}
+
+.Content_bottom_block3 {
+    background-color: #d9d8e8;
+}
+
+.Content_bottom_block4 {
+    background-color: #d9d8e8;
+}
+
+.bottom_top_left {
+    background-color: #d3c1e9;
+}
+
+.bottom_top_right {
+    background-color: #d3c1e9;
+}
+
+/*Blog visual item tyles. Beginning*/
+.widgetBLOGStyle {
+    width: 100%;
+    padding: 15px;
+    font-size: 10pt;
+}
+
+.blogPostText p, .blogPostText div {
+
+    font-size: 10pt;
+}
+
+.blogPostCommentText p, .blogPostCommentText div {
+
+    font-size: 10pt;
+}
+
+.blogName {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.addBlogPost {
+    padding-bottom: 15px;
+    display: block;
+}
+
+.blogPostTitle {
+    display: block;
+    font-size: 12pt;
+    padding-top: 20px;
+    border-top: 1px dotted #333333;
+}
+
+.blogPostInfo span, .blogPostCommentInfo span {
+    font-size: 8pt;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.blogPostLinks span, .blogPostCommentLinks span {
+    padding-right: 20px;
+
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+.blogPostLinks {
+    padding: 5px 0;
+}
+
+.blogPostComments {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+/*Blog visual item tyles. The end*/
+/*blog summary visual item styles*/
+
+.widgetBLOG_SUMMARYStyle {
+
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 10pt;
+    padding: 15px;
+}
+
+.widgetBLOG_SUMMARYStyle p, .widgetBLOG_SUMMARYStyle span {
+    padding: 0;
+    margin: 0;
+}
+
+.blogSummaryHeader {
+    font-size: 12pt;
+    padding-top: 5px;
+    padding-bottom: 15px !important;
+    font-weight: bold;
+    color: #e2265a;
+    display: block;
+}
+
+.blogSummaryPostName {
+    font-size: 11pt;
+    font-weight: bold;
+    display: block;
+}
+
+.blogSummaryPostText {
+    color: #333333;
+    font-size: 10pt;
+}
+
+/*blog summary visual item styles. the end*/
+
+/* - Login visual item tyles. Beginning*/
+
+.widgetLOGINStyle {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #748453;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.loginFormHeader {
+
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: #333333;
+
+}
+
+.loginForm {
+    font-weight: bold;
+    line-height: 1.6em;
+    padding-top: 5px;
+}
+
+.loginFormLabel {
+    font-size: 10pt;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.loginForm a:link {
+    color: #e2265a;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.loginForm a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+#loginForm110 {
+    line-height: 1.6em;
+}
+
+a:link.loginFormReturnToRegLink {
+    color: #333333;
+    font-weight: bold;
+    font-size: 11pt;
+    text-decoration: none;
+}
+
+a:hover.loginFormReturnToRegLink {
+    color: #e2265a;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+a:link.loginFormRegLink {
+    color: #333333;
+    font-size: 11pt;
+}
+
+a:hover.loginFormRegLink {
+    color: #e2265a;
+}
+
+#forgotPasswordArea110 {
+    color: #333333;
+    font-size: 10pt;
+    margin-top: 30px;
+    line-height: 1.6em;
+}
+
+#forgotPasswordArea110 td {
+    color: #748453;
+    padding: 5px;
+
+}
+
+#forgotPasswordOkArea110 {
+
+    padding-top: 30px;
+    line-height: 1.6em;
+}
+
+#forgotPasswordOkArea110  span {
+    color: #748453 !important;
+}
+
+/* - Login visual item tyles. The end*/
+/*Registration item styles. The beginning*/
+.widgetREGISTRATIONStyle {
+    padding-left: 15px;
+
+}
+
+.registrationHeader p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #333333;
+    letter-spacing: 1px;
+}
+
+.registrationTable {
+    font-size: 11pt;
+    color: #e2265a;
+    font-weight: bold;
+}
+
+.registrationTable td {
+    padding: 3px;
+}
+
+/*Registration item styles. The End*/
+/*Contact us item style. The beginning*/
+.widgetCONTACT_USStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    width: 100%;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #333333;
+}
+
+.widgetCONTACT_USStyle p {
+    font-size: 12pt !important;
+}
+
+.widgetCONTACT_USStyle td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 9pt;
+}
+
+/*Contact us item style. The end*/
+/*Contact us item style. The beginning*/
+.widgetCONTACT_USStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    width: 100%;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #333333;
+}
+
+.widgetCONTACT_USStyle p {
+    font-size: 12pt !important;
+}
+
+.widgetCONTACT_USStyle td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 9pt;
+}
+
+/*Contact us item style. The end*/
+
+.formInstruction {
+    margin-left: 5px;
+    margin-top: -5px;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+/*custom form style. the beginning*/
+.widgetCUSTOM_FORMStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    width: 100%;
+    font-weight: bold;
+    color: #e2265a;
+    font-size: 9pt;
+}
+
+.widgetCUSTOM_FORMStyle  td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #e2265a;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+/*custom form style. the end*/
+/*child site registration. the beginning*/
+.widgetCHILD_SITE_REGISTRATIONStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: bold;
+    font-size: 11pt;
+    padding-left: 5px;
+    color: #333333;
+}
+
+.widgetCHILD_SITE_REGISTRATIONStyle p {
+    color: #e2265a;
+}
+
+.widgetCHILD_SITE_REGISTRATIONStyle td {
+    font-size: 9pt;
+}
+
+/*child site registration. the end*/
+/*text item style. the beginning*/
+.widgetTEXTStyle {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 10pt;
+}
+
+#menu .widgetTEXTStyle {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    line-height: 0.4em;
+    font-size: 10pt;
+}
+
+/*text item style. the end*/
+/*video item style*/
+
+.widgetVIDEOStyle {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #333333;
+}
+
+/*video item style. the end*/
+/*Menu visual item tyles. Beginning*/
+
+
+
+.horizontalSeparator {
+    color: #f2f6f9;
+}
+
+.topLevelMenuItem_TREE_STYLE.mouseOver a, .selectedTopLevelMenuItem_TREE_STYLE span {
+    color: #333333;
+}
+
+.topLevelMenuItem_TREE_STYLE a, .selectedTopLevelMenuItem_TREE_STYLE a {
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+.subMenu_TREE_STYLE.mouseOver td, .selectedSubMenu_TREE_STYLE td {
+    background-color: #f2f6f9;
+
+}
+
+
+
+/*menu 2  */
+
+#menu .horizontalSeparator {
+    color: #f2f6f9;
+}
+
+#menu .topLevelMenuItem_TREE_STYLE.mouseOver a, #menu .selectedTopLevelMenuItem_TREE_STYLE span {
+    color: #f2f6f9;
+}
+
+#menu .topLevelMenuItem_TREE_STYLE a, #menu .selectedTopLevelMenuItem_TREE_STYLE a {
+    color: #f2f6f9;
+    font-weight: bold;
+}
+
+#menu .subMenu_TREE_STYLE td a, .selectedSubMenu_TREE_STYLE td a {
+    color: #594D99;
+    font-weight: bold;
+}
+
+#menu .subMenu_TREE_STYLE.mouseOver td, .selectedSubMenu_TREE_STYLE td {
+    background-color: #f2f6f9;
+
+}
+
+
+/* Menu visual item tyles. The end*/
+/* gallery styles*/
+/*next*/
+.galleryDataAfterItemBordered {
+    border: 1px solid #dedede;
+}
+
+/*digits*/
+.galleryDataItemBordered {
+    border: 1px solid #dedede;
+}
+
+/*current*/
+
+.galleryDataCurrentItemBordered {
+    border: 1px solid #4d6498;
+    background-color: #4d6498;
+    color: #dedede;
+}
+
+/*previous*/
+.galleryDataBeforeItemBordered {
+    border: 1px solid #dedede;
+}
+
+/* gallery styles, the end */
+
+
+
+
+/*gallery data display field labels*/
+
+
+/*gallery data display field labels end*/

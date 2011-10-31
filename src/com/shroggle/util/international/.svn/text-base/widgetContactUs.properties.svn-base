@@ -1,0 +1,15 @@
+message = Message:
+securityCode = Please enter the text that you see below
+verificationCode = Verification image-code
+send = Send
+reset = Reset
+back = Back
+next = Continue
+
+autoFill=Auto fill contact info
+
+emptyCode=Please, complete the text verification field.
+wrongCode=Please, enter the correct verification code.
+messageHeading=A message from the contact us page of {0}
+messageSent= Thank you for contacting
+CannotSendMailWithEmptyMessage = Please, enter the message field.

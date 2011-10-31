@@ -1,0 +1,92 @@
+addSubHeader = Add Page
+editSubHeader = Edit Page Settings
+
+blueprintInform = Pages and functionality added here have no access or editing restrictions placed on them.\
+        To set access or editing restrictions later, select page or module 'blueprint permissions' option.
+
+PAGE_CREATE = New page
+
+HOME = Home
+ABOUT = About
+CONTACT = Contact us
+BLOG = Blog
+STORE = Store
+CATALOG = Catalog
+GALLERY = Gallery
+DIRECTORY = Directory
+REGISTRATION = Registration form
+SHOPPING_CART = Shopping cart
+PURCHASE_HISTORY = Purchase history
+PUBLIC_FORMS = Public forms
+LINK_LIST = Link list
+TERMS_AND_CONDITIONS = Terms and Conditions
+FORUM = Forum
+BLANK = Blank page
+FAQ = FAQ
+TESTIMONIALS = Testimonials
+
+typeOfPage=Type of Page:
+pageName=Page Name:
+PubliclydisplayedPageName=The 'Page name' that you select will be publicly displayed in the site navigation menus.
+pageTitle=Page Title:
+pageTitleDisplayedText=The 'Page Title' will be displayed publicly at the top of the site visitor's browser, in the title bar.
+pageURL=Page&nbsp;URL:&nbsp;
+specifyTheUurl=Use '-' (hyphen) or '+' (plus sign) as word separators, for search engine optimization.
+urlMore = more info
+yourOwnDomainName=Your Own Domain Name:
+specifyYourOwnDomainName=If you have a different top level domain, that you would like to use for this page -  enter it here. (different from your site's primary domain name).
+howToSetUpYourOwnDomainName=how to set up your own domain name
+pageIncludeInMenus = Include in Site Menus
+pageKeywordGroups = Page Keyword Groups (Meta Tags):
+include = Include
+groupName = Group Name
+keywords = Keywords
+keywordsMoreInfo = more info
+pageKeywordsDisplayedText = Page Meta Tags are the keywords that the search engines index
+addAdditionalKeywords = Add additional meta tags to this page:
+
+domainNameText= <p> In order to get your existing domain name to bring up your new web site you will need to provide your&nbsp;\
+                domain name registrar with our IP address. </p>\
+            <p>IP (66.209.86.46)</p>\
+            <p>What is a domain name registrar?<br>\
+                The organization responsible for registering your domain name with the proper internet authorities, \
+                so that the domain can be found when called by a browser. This is typically the agent through which \
+                you purchased your domain name. eg. GoDaddy.com, Yahoo.com etc </p>\
+            <p>What is an IP address? <br>\
+                It is the address which uniquely identifies the location of the computer where your web site lives.</p>\
+            <p>How do I change my IP address?<br>\
+                Depending on who you registered your domain with this process can vary. \
+                Most larger registrars have a password protected web interface that allows you to log in and edit \
+                information yourself. </p>\
+            <p>The catch is that there are several terms for this information so to navigate to the appropriate page, \
+               you may have to look out for any of the following terms: </p>\
+            <p>Domain Details <br>\
+                DNS controls <br>\
+                'A' records <br>\
+                Zone files <br>\
+                MX records <br>\
+                IP address </p>\
+            <p>These tools are generally regarded as 'advanced' domain editing controls and may well be hidden \
+               under an 'advanced' tab somewhere. </p>\
+            <p>Note that during this process you are likely to come across an interface for editing your 'name server'. \
+               You don't need to do this - so don't worry about it, but note that the controls for editing your IP \
+               address on GoDaddy.com are actually under the Name Server Summary section.</p>\
+            <p>If the domain registrar does not offer this editing interface or if you can't find it on their web site \
+               you can typically email or call them.<br>\
+               Just ask them to change your IP address to: 66.209.86.46</p>
+
+titleSize = This fields has character limit 110. We suggest 65 characters.
+
+#Exceptions
+NOT_UNIQUE_ALIASE_URL_EXCEPTION  The Page Domain that you entered already exists. Please select a different one.
+NOT_UNIQUE_PAGE_EXCEPTION = The Page Name that you entered has already used for live or draft page on this site. Please select a different one.
+SITE_NOT_FOUND_EXCEPTION = Cannot find site in PageCreatorRequest.
+EMPTY_PAGE_NAME_EXCEPTION = Please enter page name.
+PAGE_NAME_WITH_SPECIAL_CHARACHTERS = Page name can't contain < or > symbol!
+KEYWORD_GROUP_NOT_FOUND_EXCEPTION = Can't set not exist keywords group!
+NOT_UNIQUE_URL_EXCEPTION = The URL that you entered already exists in the system. Please select a different one.
+URL_INCORRECT_EXCEPTION = The URL that you entered contains characters that are not allowed. Please reenter the URL.
+EMPTY_URL_EXCEPTION = The URL cannot by empty.
+PAGE_NOT_FOUND_EXCEPTION = Cannot find page in PageCreatorRequest.
+siteDomain = &lt;site-domain&gt;
+emptyPageName = Please enter page name.

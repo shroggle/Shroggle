@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title><!-- PAGE_TITLE --></title>
+
+    <link href="/site/templates/presentation/stylesheets/structure.css" type="text/css" rel="stylesheet"/>
+
+    <style type="text/css">
+
+        .bodyContH2 {
+            background: url(/site/templates/presentation/images/title_bg.png) no-repeat;
+            height: 43px;
+            overflow: hidden;
+            color: white;
+        }
+
+        .description {
+            margin: 30px 38px 10px;
+            padding: 0 0 0 10px;
+            border-bottom: 1px solid #6f6f6f;
+            min-height: 46px;
+            height: auto;
+
+        }
+
+      
+    </style>
+    <!-- PAGE_HEADER -->
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="headersub left"></div>
+        <div class="headersub right"></div>
+    </div>
+    <div class="bodyCont">
+        <div class="bodyContrsub">
+            <div class="bodyContH2 media_block_fixed mediaBlock"></div>
+            <div class="description mediaBlock"></div>
+            <div class="content mediaBlock"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footersub left"></div>
+        <div class="footersub right"></div>
+    </div>
+</div>
+
+</body>
+</html>

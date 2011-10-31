@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4"
+         xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+    <filter>
+        <filter-name>TimeCounterFilter</filter-name>
+        <filter-class>com.shroggle.util.process.timecounter.TimeCounterFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>TimeCounterFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>StripesAjaxExceptionFilter</filter-name>
+        <filter-class>com.shroggle.presentation.StripesAjaxExceptionFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>StripesAjaxExceptionFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>ContextFilter</filter-name>
+        <filter-class>com.shroggle.util.context.ContextFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ContextFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!-- Open hibenate context before processing request and after behind it -->
+    <filter>
+        <filter-name>HibernateSessionFilter</filter-name>
+        <filter-class>com.shroggle.util.persistance.PersistanceContextFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>HibernateSessionFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>JournalFilter</filter-name>
+        <filter-class>com.shroggle.util.journal.JournalFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>JournalFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!-- Need for processing stripes actions -->
+    <servlet>
+        <servlet-name>loginInAccount</servlet-name>
+        <jsp-file>/account/loginInAccount.jsp</jsp-file>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginInAccount</servlet-name>
+        <url-pattern>/account/loginInAccount.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StripesDispatcher</servlet-name>
+        <servlet-class>net.sourceforge.stripes.controller.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StripesDispatcher</servlet-name>
+        <url-pattern>*.action</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StripesDispatcher</servlet-name>
+        <url-pattern>/images1/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StripesDispatcher</servlet-name>
+        <url-pattern>/thumbnails/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GoogleSpellChecker</servlet-name>
+        <servlet-class>org.tinymce.spellchecker.GoogleSpellChekerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GoogleSpellChecker</servlet-name>
+        <url-pattern>/googleSpellChecker</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>StripesFilter</filter-name>
+        <filter-class>net.sourceforge.stripes.controller.StripesFilter</filter-class>
+        <init-param>
+            <param-name>ActionResolver.Packages</param-name>
+            <param-value>com.shroggle</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ActionResolver.Class</param-name>
+            <param-value>com.shroggle.util.html.stripes.StripesActionResolverOverClasses</param-value>
+        </init-param>
+        <init-param>
+            <param-name>MultipartWrapperFactory.Class</param-name>
+            <param-value>com.shroggle.util.html.stripes.CustomMultipartWrapperFactory</param-value>
+        </init-param>
+        <init-param>
+            <param-name>MultipartWrapper.Class</param-name>
+            <param-value>net.sourceforge.stripes.controller.multipart.CommonsMultipartWrapper</param-value>
+        </init-param>
+        <init-param>
+            <param-name>LocalePicker.Locales</param-name>
+            <param-value>en_US:UTF-8,ru_RU:UTF-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>Interceptor.Classes</param-name>
+            <param-value>
+                com.shroggle.util.process.synchronize.annotation.SynchronizeForStripesInterceptor,
+                com.shroggle.util.security.SecurityForStripesInterceptor
+            </param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>StripesFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>PagesFilter</filter-name>
+        <filter-class>com.shroggle.presentation.PagesFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>PagesFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>SitesFilter</filter-name>
+        <filter-class>com.shroggle.presentation.SitesFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>SitesFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>CacheControlFilter</filter-name>
+        <filter-class>com.shroggle.util.html.optimization.CacheControlFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CacheControlFilter</filter-name>
+        <url-pattern>/dwr/interface/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>CacheControlFilter</filter-name>
+        <url-pattern>/pageResourcesInternal.action</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>CacheControlFilter</filter-name>
+        <url-pattern>/pageResourcesInternalLazy.action</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>CacheControlFilter</filter-name>
+        <url-pattern>/resourceGetter.action</url-pattern>
+    </filter-mapping>
+
+    <!-- DWR -->
+    <servlet>
+        <servlet-name>dwr-invoker</servlet-name>
+        <servlet-class>org.directwebremoting.servlet.DwrServlet</servlet-class>
+
+        <init-param>
+            <param-name>org.directwebremoting.extend.AjaxFilterManager</param-name>
+            <param-value>org.directwebremoting.impl.DefaultAjaxFilterManager</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>autoSearchServiceFilter</param-name>
+            <param-value>^(?!Test)[a-zA-Z0-9]+Service\.class</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>customConfigurator</param-name>
+            <!-- Now we don't need insert each DWR Service in web.xml,
+            this configurator automatic bind all service in project to dwr -->
+            <!--<param-value>com.shroggle.util.html.dwr.DwrConfiguratorAutoSearcham-value>-->
+            <param-value>com.shroggle.util.html.dwr.DwrConfiguratorOverClasses</param-value>
+        </init-param>
+
+        <!-- Look previous lines this parameter is deprecated <init-param>-->
+            <!--<param-name>classes</param-name>-->
+            <!--<param-value>-->
+            <!--</param-value>-->
+        <!--</init-param>-->
+
+        <!--Uncomment to enable debugging-->
+        <!--<init-param>-->
+            <!--<param-name>debug</param-name>-->
+            <!--<param-value>true</param-value>-->
+        <!--</init-param>-->
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dwr-invoker</servlet-name>
+        <url-pattern>/dwr/*</url-pattern>
+    </servlet-mapping>
+
+    <listener>
+        <listener-class>com.shroggle.logic.start.StartWeb</listener-class>
+    </listener>
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/site/pageNotFound.jsp</location>
+    </error-page>
+
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type>
+        <location>/500.jsp</location>
+    </error-page>
+
+    <welcome-file-list>
+        <welcome-file>/index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <jsp-config>
+        <taglib>
+            <taglib-uri>/WEB-INF/tags/optimization/pageResources.tld</taglib-uri>
+            <taglib-location>/WEB-INF/tags/optimization/pageResources.tld</taglib-location>
+        </taglib>
+        <taglib>
+            <taglib-uri>/WEB-INF/tags/international/international.tld</taglib-uri>
+            <taglib-location>/WEB-INF/tags/international/international.tld</taglib-location>
+        </taglib>
+    </jsp-config>
+
+    <!--
+        <session-config>
+            <session-timeout>2</session-timeout>
+        </session-config>
+    -->
+
+</web-app>

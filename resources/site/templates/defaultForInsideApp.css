@@ -1,0 +1,818 @@
+/*This file is included only if page/widget is shown inside app*/
+
+.errorBorder {
+    background: url(/images/error_bg.gif) bottom repeat-x;
+    border: 1px solid #ff0000 !important;
+}
+
+.error {
+    background-color: #9C3612;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 50px;
+    overflow-y: auto;
+    border: 2px solid #DDDDDD;
+    margin-bottom: 5px;
+}
+
+.error  div {
+    background: url(/images/minus-circle.png) no-repeat 8px 5px;
+    padding: 6px 10px 0 32px;
+}
+
+.emptyError {
+    margin-right: 40px;
+    padding: 5px 10px 5px 28px;
+    height: 45px;
+    margin-bottom: 5px;
+}
+
+.emptyHiddenError {
+    display: none;
+}
+
+.manageForumLink {
+    color: #444444;
+    font-size: 11pt;
+}
+
+.managePostLink {
+    color: #444444;
+    font-size: 10pt;
+}
+
+.inform_mark {
+    background: url(/images/InformMark.png) no-repeat left 2px;
+    padding: 3px 0 3px 20px;
+    margin-left: 0;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+    color: gray;
+}
+
+.ie .createThreadForm {
+    width: 90%;
+}
+
+.gecko .createThreadForm {
+    width: 100%;
+}
+
+.ie .createSubForumForm {
+    width: 85%;
+}
+
+.gecko .createSubForumForm {
+    width: 100%;
+}
+
+.bottomButtonsDiv {
+/*@todo: add proper style*/
+}
+
+.pageTitle {
+    font-size: 16px;
+    color: #2B3443;
+    margin: 0 10px 10px 0;
+    font-weight: bold;
+}
+
+.pageTitleForum {
+    font-size: 12px !important;
+    color: #2B3443;
+    font-weight: bold;
+}
+
+.but_w73, .but_w73_Over {
+    background: transparent url(/images/Btn_w73.png) no-repeat scroll 0%;
+    color: #333;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: medium none;
+    height: 25px;
+    width: 73px;
+    cursor: pointer;
+}
+
+.but_w73_Over {
+    color: #fff;
+}
+
+.but_w73_misc, .but_w73_Over_misc {
+    background: transparent url(/images/Btn_w73_misc.png) no-repeat scroll 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: medium none;
+    height: 25px;
+    width: 73px;
+    cursor: pointer;
+}
+
+.but_w73_Over_misc {
+    color: #333;
+}
+
+.but_w100, .but_w100_Over {
+    background: transparent url(/images/Btn_w100.png) no-repeat scroll 0;
+    color: #333;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: medium none;
+    height: 25px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.but_w100_Over {
+    color: white;
+}
+
+.but_w100_misc, .but_w100_Over_misc {
+    background: transparent url(/images/Btn_w100_misc.png) no-repeat scroll 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: medium none;
+    height: 25px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.but_w100_Over_misc {
+    color: #333;
+}
+
+.but_w130, .but_w130_Over {
+    background: transparent url(/images/Btn_w130.png) no-repeat scroll 0%;
+    color: #333;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.but_w130_Over {
+    color: white;
+}
+
+.but_w230, .but_w230_Over {
+    background: transparent url(/images/Btn_w230.png) no-repeat scroll 0%;
+    color: #333;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.but_w230_Over {
+    color: white;
+}
+
+.but_w130, .but_w130_Over {
+    border: medium none;
+    height: 25px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.but_w230, .but_w230_Over {
+    border: medium none;
+    height: 25px;
+    width: 230px;
+    cursor: pointer;
+}
+
+.but_w100,
+.but_w100_misc,
+.but_w130,
+.but_w230,
+.but_w73,
+.but_w73_misc {
+    background-position: left 0;
+}
+
+.but_w100_Over,
+.but_w100_Over_misc,
+.but_w130_Over,
+.but_w230_Over,
+.but_w73_Over,
+.but_w73_Over_misc {
+    background-position: left -25px;
+}
+
+.divider {
+    height: 4px
+}
+
+.ie .divider {
+    display: none;
+}
+
+.ie7 .divider {
+    display: none;
+}
+
+.forumLink {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.moveThreadTable {
+}
+
+.forumLink:hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+.threadNameLink {
+    color: navy;
+}
+
+.threadNameLink:hover {
+    color: darkred;
+}
+
+.subForumListHeadingRow td {
+    background-color: #dedfdf;
+}
+
+.subForumManageRow td {
+    background-color: #dedfdf;
+}
+
+.threadManageRow td {
+    background-color: #dedfdf;
+}
+
+.postManageRow td {
+    background-color: #efefef;
+    border-width: 3px;
+    border-bottom: dimgray double 3px;
+}
+
+.postManageRow span {
+    font-size: 10pt;
+}
+
+.subForumManageRowDiv {
+    padding-left: 8px
+}
+
+.subForumListHeadingRowText {
+    color: dimgray;
+}
+
+.threadListHeadingRowText {
+    color: dimgray;
+}
+
+.postListHeadingRowText {
+    color: dimgray;
+}
+
+.subForumListBorder {
+    border: 1px solid dimgray;
+}
+
+.subForumNameCell {
+}
+
+.subForumRow {
+    background-color: white;
+}
+
+.postCountCell {
+}
+
+.threadCountCell {
+}
+
+.subForumLastUpdatedCell {
+}
+
+.subForumName {
+    color: navy;
+}
+
+.threadName {
+    color: navy;
+}
+
+.subForumNameLink {
+    color: navy;
+}
+
+.subForumNameLink:hover {
+    color: darkred;
+}
+
+.subForumPostCount {
+    color: navy;
+}
+
+.subForumThreadCount {
+    color: navy;
+}
+
+.subForumCreated {
+    color: navy;
+    font-size: 10pt;
+}
+
+.threadPostCount {
+    color: navy;
+}
+
+.threadCreated {
+    color: navy;
+    font-size: 10pt;
+}
+
+.threadAuthor {
+    color: navy;
+}
+
+.postAuthor {
+    color: navy;
+}
+
+.windowOneColumn {
+    background: url(/images/window/bg_main_light.png) no-repeat;
+    box-shadow: 1px 1px 8px #000;
+    border-radius: 8px;
+    padding: 20px 30px 20px 30px;
+    -webkit-box-shadow: 1px 1px 8px #000;
+    -moz-box-shadow: 1px 1px 8px #000;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.forumFont {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.postCreated {
+    color: navy;
+    font-size: 10pt;
+}
+
+.manageSubForumText {
+    color: black;
+}
+
+.manageThreadText {
+    color: black;
+}
+
+.subForumDescription {
+    color: navy;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.threadDescription {
+    color: navy;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.forumBreadCrumbs {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+a.navigateForumLink {
+    color: #2B3443;
+    font-size: 11px;
+}
+
+.forumAddingLinks {
+    background-color: #dddddd;
+}
+
+.threadList {
+    border: 1px solid dimgray;
+}
+
+.postList {
+    border-left: 1px solid dimgray;
+    border-right: 1px solid dimgray;
+    border-top: 1px solid dimgray;
+}
+
+.threadListHeading td {
+    background-color: #dedfdf;
+}
+
+.postListHeading td {
+    background-color: #dedfdf;
+}
+
+.postRow td {
+    background-color: #ffffff;
+}
+
+.threadRow td {
+    background-color: #ffffff;
+}
+
+.threadRowDiv {
+    padding: 5px;
+}
+
+.evenPostBGColor {
+    background-color: #ffffff;
+}
+
+.notEvenPostBGColor {
+    background-color: #ffffff;
+}
+
+.notEvenPostBGColor div {
+    padding-left: 5px;
+}
+
+.evenPostBGColor div {
+    padding-left: 5px;
+}
+
+.postAuthor {
+    color: navy;
+    font-size: 10pt;
+}
+
+blockquote {
+    background-color: #ffffff;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.creationForm {
+    text-align: left;
+}
+
+.createThreadForm, .createSubforumForm {
+    text-align: left; /* font-family: Verdana, sans-serif;*/
+}
+
+.forumBreadCrumbs {
+    border: #999999 solid 2px;
+    padding: 2px;
+    width: 90%;
+
+    /* font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10pt;   */
+    font-weight: bold;
+}
+
+.answers {
+    width: 90%;
+}
+
+.forumAddingLinks {
+    border: 1px solid #999999;
+    padding: 2px 2px 4px 3px;
+    width: 90%;
+}
+
+.postAuthorCell {
+    padding: 5px;
+}
+
+.threadCell {
+    padding: 5px;
+}
+
+.forumError {
+    font-size: 10pt;
+    color: red;
+}
+
+.emptyForumError {
+    display: none;
+}
+
+.windowOneColumn .header {
+    font-size: 12px !important;
+}
+
+/*Add new form recrod styles*/
+/*REGISTRATION*/
+.widgetRegistrationBlock input[type='text'] {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.widgetRegistrationBlock input[type='password'] {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.widgetRegistrationBlock input[type='file'] {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.widgetRegistrationBlock textarea {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.widgetRegistrationBlock select {
+    border: 1px solid #999999;
+}
+
+.widgetRegistrationBlock {
+    color: #666666;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.registrationTable {
+    font-size: 12px;
+    color: #666666;
+}
+
+.registrationHeader {
+    font-size: 1.8em;
+}
+
+/*CONTACT_US*/
+.contactUsBlock input[type='text'] {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.contactUsBlock input[type='password'] {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.contactUsBlock input[type='file'] {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.contactUsBlock textarea {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.contactUsBlock select {
+    border: 1px solid #999999;
+}
+
+.contactUsBlock {
+    color: #666666;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.contactUsTable {
+    font-size: 12px;
+    color: #666666;
+}
+
+.contactUsHeader {
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+/*CUSTOM_FORM*/
+.customFormBlock input[type='text'] {
+    border: 1px solid #999999;
+    width: 50%;
+}
+
+.customFormBlock input[type='password'] {
+    border: 1px solid #999999;
+    width: 50%;
+}
+
+/*.customFormBlock input[type='file'] {
+    border: 1px solid #999999;
+    width: 100%;
+}*/
+
+.customFormBlock textarea {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.customFormBlock select {
+    border: 1px solid #999999;
+}
+
+.customFormBlock {
+    color: #666666;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.customFormTable {
+    font-size: 12px;
+    color: #666666;
+    width: 100%;
+}
+
+.customFormHeader {
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+/*CHILD_SITE_REGISTRATION*/
+.childSiteRegistrationBlock input[type='text'] {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.childSiteRegistrationBlock input[type='password'] {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.childSiteRegistrationBlock input[type='file'] {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.childSiteRegistrationBlock textarea {
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.childSiteRegistrationBlock select {
+    border: 1px solid #999999;
+}
+
+.childSiteRegistrationBlock {
+    color: #666666;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.childSiteRegistrationTable {
+    font-size: 12px;
+    color: #666666;
+}
+
+.childSiteRegistrationHeader {
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+.formHeader {
+    margin-left: 5px;
+    font-size: 13pt;
+    font-weight: normal;
+}
+
+/*END. Add new form recrod styles*/
+
+/*-----------------------------------------------------BLOG-----------------------------------------------------------*/
+
+.blogPostTitle a {
+    color: #368;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.blogPostTitle a:hover {
+    color: #933;
+}
+
+.blogName {
+    color: #678;
+    font-size: 35px;
+}
+
+.blogPostAuthor {
+    color: #aaa;
+}
+
+.blogPostDate {
+    color: #aaa;
+}
+
+.blogPostLinks {
+    border-top: 1px #aaa dashed;
+    margin-top: 7px;
+}
+
+.blogPostLinks a {
+    color: #368;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 5px;
+    border-bottom: 1px #368 dashed;
+}
+
+.blogPostLinks a:hover {
+    color: #933;
+    border-bottom: 1px #933 dashed;
+}
+
+.blogPostCommentLinks a {
+    color: #368;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 5px;
+    border-bottom: 1px #368 dashed;
+}
+
+.addComment a {
+    color: #368;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 5px;
+    border-bottom: 1px #368 dashed;
+}
+
+.addComment a:hover {
+    color: #933;
+    border-bottom: 1px #933 dashed;
+}
+
+.blogPostComment {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.blogPostCommentInfo {
+    color: #333;
+    font-size: 13px;
+}
+
+.blogPostCommentDate {
+    color: #aaa;
+}
+
+.commentsHeader {
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+}
+
+.blogPostCommentLinks a:hover {
+    color: #933;
+    border-bottom: 1px #933 dashed;
+}
+
+.blogPostText p {
+    margin: 0;
+}
+
+.blogPostShifted {
+    margin-top: 25px;
+}
+
+.blogsBackToTop a {
+    font-size: 14px;
+    color: #368;
+}
+
+.blogsBackToTop a:hover {
+    color: #933;
+}
+
+.blogHeader {
+    border-bottom: 1px #aaa dashed;
+    margin-bottom: 7px;
+    padding-bottom: 5px;
+}
+
+.blogsBackToTop {
+    margin-top: 10px;
+}
+
+.previousOrNextBlogPosts {
+    margin-top: 10px;
+}
+
+.previousOrNextBlogPosts a {
+    font-size: 14px;
+    color: #368;
+}
+
+.previousOrNextBlogPosts a:hover {
+    color: #933;
+}
+
+.naviagtionLowerBlock {
+    margin-top: 15px;
+}
+
+.naviagtionUpperBlock {
+    margin-bottom: 15px;
+}
+
+/*blog edit end*/

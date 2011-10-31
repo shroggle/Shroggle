@@ -1,0 +1,7 @@
+loadingTextEditor=Loading text editor...
+name=Text Name
+header=Edit Text Module: Module Settings
+large=Your have exceeded text size limit. Text can't be saved.<br>Please, reduce the text or use several text components.
+textStyles=If you do not manually select font styles, size and color, they will be set by the page template that you are using. \
+Please note that styles defined by the template defaults are not shown in the RTF editor. To see your text with \
+these default styles, please save and preview this page

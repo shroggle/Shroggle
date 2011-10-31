@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Tech template collection</name>
+    <thumbnail>tn_pink.png</thumbnail>
+    <order>220</order>
+
+    <layout thumbnailFile="1main.jpg" useForDefault="true">
+        <name>1 Main Content</name>
+        <file>header_main_footer.html</file>
+        
+           <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+  <layout thumbnailFile="2main.jpg">
+        <name>2 Main Content </name>
+        <file>header_2main_footer.html</file>
+
+    </layout>
+      <layout thumbnailFile="2mainrow.jpg">
+        <name>2 Main Row Content</name>
+        <file>header_3main_footer.html</file>
+
+    </layout>
+	  <layout thumbnailFile="wide1.jpg">
+        <name>Wide Header 1 Main Content</name>
+        <file>2main_footer.html</file>
+
+    </layout>
+     
+    <layout thumbnailFile="wide2.jpg">
+        <name>Wide Header 1 Content 2 Footer</name>
+        <file>header_3main2_footer.html</file>
+         
+		    </layout>
+   
+    <theme>
+        <imageFile>blue.jpg</imageFile>
+        <name>Tech Blue</name>
+        <file>blue.css</file>
+        <colorTileFile>tileblue.jpg</colorTileFile>
+        <thumbnailFile>tn_blue.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>crimson.jpg</imageFile>
+        <name>Tech Crimson</name>
+        <file>crimson.css</file>
+        <colorTileFile>tilecrimson.jpg</colorTileFile>
+        <thumbnailFile>tn_crimson.png</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>green.jpg</imageFile>
+        <name>Tech Green</name>
+        <file>green.css</file>
+        <colorTileFile>tilegreen.jpg</colorTileFile>
+        <thumbnailFile>tn_green.png</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>grey.jpg</imageFile>
+        <name>Tech Grey</name>
+        <file>grey.css</file>
+        <colorTileFile>tilegrey.jpg</colorTileFile>
+        <thumbnailFile>tn_grey.png</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>olive.jpg</imageFile>
+        <name>Tech Olive</name>
+        <file>olive.css</file>
+        <colorTileFile>tileolive.jg</colorTileFile>
+        <thumbnailFile>tn_olive.png</thumbnailFile>
+    </theme>
+     <theme>
+        <imageFile>pink.jpg</imageFile>
+        <name>Tech Pink</name>
+        <file>pink.css</file>
+        <colorTileFile>tilepink.jpg</colorTileFile>
+        <thumbnailFile>tn_pink.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>red.jpg</imageFile>
+        <name>Tech Red</name>
+        <file>red.css</file>
+        <colorTileFile>tilered.jpg</colorTileFile>
+        <thumbnailFile>tn_red.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>slateblue.jpg</imageFile>
+        <name>Tech Slateblue</name>
+        <file>slateblue.css</file>
+        <colorTileFile>tileslateblue.jpg</colorTileFile>
+        <thumbnailFile>tn_slateblue.png</thumbnailFile>
+    </theme>
+	 <theme>
+        <imageFile>slategrey.jpg</imageFile>
+        <name>Tech Slategrey</name>
+        <file>slategrey.css</file>
+        <colorTileFile>tileslategrey.jpg</colorTileFile>
+        <thumbnailFile>tn_slategrey.png</thumbnailFile>
+    </theme>
+	<theme>
+        <imageFile>teal.jpg</imageFile>
+        <name>Tech Teal</name>
+        <file>teal.css</file>
+        <colorTileFile>tileteal.jpg</colorTileFile>
+        <thumbnailFile>tn_teal.png</thumbnailFile>
+    </theme>
+</template>

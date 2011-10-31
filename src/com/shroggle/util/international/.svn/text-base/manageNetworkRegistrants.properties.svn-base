@@ -1,0 +1,13 @@
+manageChildSiteRegistrantsHeader=Manage Child Site Registrants
+firstName=First Name
+lastName=Last Name
+userId=User Id
+created=Created
+updated=Updated
+formName=Form Name
+siteNames=Site Names
+helpText=You may search by first name, last name or email address. If you enter two names the search results will return all matches for either name.<br>
+search = Search:
+showAll=show all
+
+noRegistrants = There are no registrants

@@ -1,0 +1,53 @@
+<project name="Shroggle Server. Clone Production Script" default="build" basedir=".">
+    <description>Clone production database and data files to use them with wikalot application
+    </description>
+
+    <import file="clone.properties.xml"/>
+
+    <property name="tmp.dump.filename" value="${tmp.dir}/${original.db.name}.3sql"/>
+
+    <target name="cloneDB">
+        <echo message="Making original DB dump ..."/>
+
+        <exec command="${mySQL.path}mysqldump -h ${mySQL.host} -u ${original.db.user} -p${original.db.passwd} -n ${original.db.name} "
+              output="${tmp.dump.filename}"/>
+
+        <echo message="Recreating clone DB ..."/>
+        <exec command="${mySQL.path}mysql -h ${mySQL.host} -u ${clone.db.user} -p${clone.db.passwd} -e'drop database ${clone.db.name}; create database ${clone.db.name} CHARACTER SET utf8 COLLATE utf8_general_ci'"/>
+
+        <!--
+               <exec command="${mySQL.path}mysql -h ${mySQL.host} -u ${clone.db.user} -p${clone.db.passwd} -e'create database ${clone.db.name} CHARACTER SET utf8 COLLATE utf8_general_ci'"/>
+        -->
+
+        <echo message="Inserting dump into clone DB ..."/>
+        <exec command="${mySQL.path}mysql -h ${mySQL.host} -u ${clone.db.user} -p${clone.db.passwd} -B ${clone.db.name}"
+              input="${tmp.dump.filename}"/>
+
+        <!--
+                <delete file="${tmp.dump.filename}"/>
+        -->
+    </target>
+
+    <target name="cloneDataFiles">
+        <echo message="Synchronizing original data files into clone data directory ..."/>
+        <sync todir="${clone.data.dir}">
+            <fileset dir="${original.data.dir}"/>
+        </sync>
+
+        <!--  Set a common group and define file access right  -->
+        <chgrp group="hosting">
+            <fileset dir="${clone.data.dir}">
+                <include name="**/*.*"/>
+            </fileset>
+        </chgrp>
+        <chmod perm="g+w">
+            <fileset dir="${clone.data.dir}">
+                <include name="**/*.*"/>
+            </fileset>
+        </chmod>
+    </target>
+
+    <target name="build" depends="cloneDB, cloneDataFiles"/>
+                 
+
+</project>

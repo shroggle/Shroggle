@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Scholar template collection</name>
+    <thumbnail>tn_bluegrey.png</thumbnail>
+    <order>210</order>
+
+    <layout thumbnailFile="1top-1bottom.jpg" useForDefault="true">
+        <name>Header, Footer, 1 Top, 1 Bottom Main Content</name>
+        <file>header_2main_footer.html</file>
+        
+           <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+
+    <layout thumbnailFile="3top-1bottom.jpg">
+        <name>Header, Footer, 3 Top, 1 Bottom Main Content</name>
+        <file>header_3main_footer_rightmenu.html</file>
+        <pattern>
+            <position position="1"/>
+        </pattern>
+    </layout>
+    <layout thumbnailFile="2top-2bottom-left.jpg">
+        <name>Header, Footer, 2 Top, 2 Bottom Main Content Small Left</name>
+        <file>header_2main_footer_leftmenu.html</file>
+        <pattern>
+            <position position="1"/>
+        </pattern>
+    </layout>
+    <layout thumbnailFile="2top-2bottom-right.jpg">
+        <name>Header, Footer, 2 Top, 2 Bottom Main Content Small Right</name>
+        <file>header_2main_footer_rightmenu.html</file>
+        <pattern>
+            <position position="1"/>
+        </pattern>
+    </layout>
+
+    <layout thumbnailFile="1top-1bottom-maskedarea.jpg">
+        <name>Header, Footer, 1 Top, 1 Bottom, masked area</name>
+        <file>header_2main_footer_maskedarea.html</file>
+        <pattern>
+            <position position="2"/>
+        </pattern>
+    </layout>
+
+    <theme>
+        <imageFile>BlueGrey.jpg</imageFile>
+        <name>Scholar Blue Grey</name>
+        <file>bluegrey.css</file>
+        <colorTileFile>tileBlueGrey.jpg</colorTileFile>
+        <thumbnailFile>tn_bluegrey.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>BlueSage.jpg</imageFile>
+        <name>Scholar Blue Sage</name>
+        <file>bluesage.css</file>
+        <colorTileFile>tileBlueSage.jpg</colorTileFile>
+        <thumbnailFile>tn_bluesage.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>SageBlue.jpg</imageFile>
+        <name>Scholar Sage Blue</name>
+        <file>sageblue.css</file>
+        <colorTileFile>tileSageBlue.jpg</colorTileFile>
+        <thumbnailFile>tn_sageblue.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>SageRose.jpg</imageFile>
+        <name>Scholar Sage Rose</name>
+        <file>sagerose.css</file>
+        <colorTileFile>tileSageRose.jpg</colorTileFile>
+        <thumbnailFile>tn_sagerose.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>Blue.jpg</imageFile>
+        <name>Scholar Blue</name>
+        <file>blue.css</file>
+        <colorTileFile>tileBlue.jpg</colorTileFile>
+        <thumbnailFile>tn_blue.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>Brown.jpg</imageFile>
+        <name>Scholar Brown</name>
+        <file>brown.css</file>
+        <colorTileFile>tileBrown.jpg</colorTileFile>
+        <thumbnailFile>tn_brown.png</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>BrownWhite.jpg</imageFile>
+        <name>Scholar Brown White</name>
+        <file>brownwhite.css</file>
+        <colorTileFile>tileBrownWhite.jpg</colorTileFile>
+        <thumbnailFile>tn_brownwhite.png</thumbnailFile>
+    </theme>
+
+</template>

@@ -1,0 +1,59 @@
+.color_picker_trigger_image {
+    width: 17px;
+    height: 21px;
+    border-bottom: 1px solid #B5B8C8;
+    background: transparent url(/colorPicker/color-trigger.gif) no-repeat;
+    cursor: pointer;
+    float: left;
+}
+
+.color_picker_text {
+    float: left;
+    height: 18px;
+    padding: 1px 3px;
+    background: #fff url(/colorPicker/text-bg.gif) repeat-x;
+    border: 1px solid #B5B8C8;
+}
+
+.color_picker_text_invalid {
+    float: left;
+    height: 18px;
+    padding: 1px 3px;
+    background: #fff url(/colorPicker/invalid_line.gif) repeat-x bottom;
+    border: 1px solid #dd7870;
+}
+
+
+.color_picker_palette {
+    width: 148px;
+    height: 112px;
+    cursor: pointer;
+    border: 1px solid #718bb7;
+	z-index: 15000;
+	background: #fff;
+	padding: 2px;
+}
+
+.color_picker_palette div:hover, .color_picker_palette div.color_picker_selected_palette {
+    border: 1px solid #8BB8F3;
+    background: #deecfd;
+}
+
+.color_picker_palette div {
+    border: 1px solid #fff;
+    float: left;
+    padding: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0 none;
+}
+
+.color_picker_palette div span {
+    float: left;
+    cursor: pointer;
+    height: 10px;
+    line-height: 10px;
+    width: 10px;
+    border: 1px solid #ACA899;
+    outline: 0 none;
+}

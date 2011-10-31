@@ -1,0 +1,482 @@
+<project name="Shroggle Server. BackUp Script" default="build" basedir=".">
+    <description>Archive directories prepared for backup and upload everything on Amazon S3
+    </description>
+
+    <import file="global.backup.properties.xml"/>
+
+
+    <tstamp>
+        <!-- Full format is "yyyy-MM-dd-HH-mm" -->
+        <format property="TIME" pattern="yyyy-MM-dd" locale="en,UK"/>
+    </tstamp>
+    <property name="current.time.dir" value="BackUp-${TIME}"/>
+    <property name="current.storage.dir"
+              value="${archives.storage.dir}/backups/${current.time.dir}"/>
+
+    <property name="storage.dir" value="${archives.storage.dir}/backups/"/>
+    <property name="results.storage.dir" value="${archives.storage.dir}/results"/>
+    <property name="previous.storage.dir" value="${archives.storage.dir}/previous"/>
+
+    <tstamp>
+        <format property="PREVIOUS_TIME" pattern="yyyy-MM-dd" offset="-14" unit="day"
+                locale="en,US"/>
+    </tstamp>
+    <property name="previous.time.dir" value="BackUp-${PREVIOUS_TIME}"/>
+
+    <tstamp>
+        <format property="PREVIOUS_PREVIOUS_TIME" pattern="yyyy-MM-dd" offset="-15" unit="day"
+                locale="en,US"/>
+    </tstamp>
+    <property name="previous.previous.time.dir" value="BackUp-${PREVIOUS_PREVIOUS_TIME}"/>
+
+    <path id="seDependencies">
+        <pathelement location="lib/awstasks-1.1.jar"/>
+        <pathelement location="lib/commons-logging-1.1.jar"/>
+        <pathelement location="lib/jets3t-0.6.0.jar"/>
+        <pathelement location="lib/commons-httpclient-3.1.jar"/>
+        <pathelement location="lib/commons-codec-1.3.jar"/>
+        <pathelement location="lib/makeDirDiff-1.0.jar"/>
+        <pathelement location="lib/jsCssMin-1.0.jar"/>
+        <pathelement location="lib/ant-contrib-1.0b1.jar"/>
+    </path>
+
+    <target name="makeArchive">
+        <zip destfile="${current.storage.dir}/${item.name}.zip">
+            <fileset dir="${item.dir}">
+                <include name="${item.include}"/>
+                <exclude name="${item.exclude}"/>
+            </fileset>
+        </zip>
+
+        <exec executable="split">
+            <arg value="-b"/>
+            <arg value="500m"/>
+            <arg value="${current.storage.dir}/${item.name}.zip"/>
+            <arg value="${current.storage.dir}/${item.name}.zip.part_"/>
+        </exec>
+        <delete file="${current.storage.dir}/${item.name}.zip"/>
+    </target>
+
+    <target name="makeIncrementalArchive">
+        <taskdef name="makeDirDiff" classname="org.grenader.makedirdiff.MakeDirDiff">
+            <classpath refid="seDependencies"/>
+        </taskdef>
+
+        <property name="item.result.dir" value="${results.storage.dir}/${item.name}/"/>
+        <makeDirDiff
+                destDir="${item.result.dir}/"
+                prevDir="${previous.storage.dir}/${item.name}/">
+            <fileset dir="${item.dir}">
+                <include name="${item.include}"/>
+                <exclude name="${item.exclude}"/>
+            </fileset>
+        </makeDirDiff>
+
+
+        <zip destfile="${current.storage.dir}/${item.name}.zip">
+            <fileset dir="${item.result.dir}" includes="${item.include}"/>
+        </zip>
+
+        <exec executable="split">
+            <arg value="-b"/>
+            <arg value="500m"/>
+            <arg value="${current.storage.dir}/${item.name}.zip"/>
+            <arg value="${current.storage.dir}/${item.name}.zip.part_"/>
+        </exec>
+        <delete file="${current.storage.dir}/${item.name}.zip"/>
+    </target>
+
+    <target name="makeDBArchive">
+        <exec command="${mySQL.path}mysqldump -h ${mySQL.host} -u ${db.username} -p${db.password} -B ${db.name}"
+              output="${current.storage.dir}/${item.name}.sql"/>
+        <zip destfile="${current.storage.dir}/${item.name}.zip">
+            <fileset file="${current.storage.dir}/${item.name}.sql"/>
+        </zip>
+        <delete file="${current.storage.dir}/${item.name}.sql"/>
+    </target>
+
+    <target name="backup.to.S3.multithread">
+        <taskdef name="S3Upload" classname="dak.ant.taskdefs.S3Upload">
+            <classpath refid="seDependencies"/>
+        </taskdef>
+
+        <parallel threadCount='12'>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/*"
+                         excludes="${current.time.dir}/**/*.*_a?"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_aa"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ab"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ac"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ad"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ae"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_af"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ag"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ah"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ai"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_aj"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ak"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_al"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_am"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_an"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ao"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ap"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_aq"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ar"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_as"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_au"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_av"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_aw"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ax"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_ay"/>
+            </S3Upload>
+            <S3Upload verbose="true"
+                      accessId="${aws.accessId}"
+                      secretKey="${aws.secretKey}"
+                      bucket="${aws.bucket}">
+                <fileset dir="${storage.dir}" includes="${current.time.dir}/**/*.*_az"/>
+            </S3Upload>
+        </parallel>
+    </target>
+
+    <!--   One thread  -->
+    <target name="backup.to.S3">
+        <taskdef name="S3Upload" classname="dak.ant.taskdefs.S3Upload">
+            <classpath refid="seDependencies"/>
+        </taskdef>
+
+        <S3Upload verbose="true"
+                  accessId="${aws.accessId}"
+                  secretKey="${aws.secretKey}"
+                  bucket="${aws.bucket}">
+            <fileset dir="${storage.dir}" includes="${current.time.dir}/*"/>
+        </S3Upload>
+    </target>
+
+
+    <target name="remove.S3.backup">
+        <taskdef name="S3Delete" classname="dak.ant.taskdefs.S3Delete">
+            <classpath refid="seDependencies"/>
+        </taskdef>
+        <S3Delete verbose="true"
+                  accessId="${aws.accessId}"
+                  secretKey="${aws.secretKey}"
+                  bucket="${aws.bucket}" prefix="${previous.time.dir}">
+        </S3Delete>
+        <S3Delete verbose="true"
+                  accessId="${aws.accessId}"
+                  secretKey="${aws.secretKey}"
+                  bucket="${aws.bucket}" prefix="${previous.previous.time.dir}">
+        </S3Delete>
+    </target>
+
+    <target name="sendData" depends="backup.to.S3.multithread"/>
+
+    <target name="removeOldData" depends="remove.S3.backup"/>
+
+    <target name="clearPreviousDir">
+        <tstamp>
+            <format property="CURRENT_WEEK_DAY" pattern="E" locale="en,UK"/>
+        </tstamp>
+        <echo message="Current week day code is ${CURRENT_WEEK_DAY}"/>
+
+        <taskdef resource="net/sf/antcontrib/antlib.xml">
+            <classpath refid="seDependencies"/>            
+        </taskdef>
+        <if>
+            <equals arg1="${CURRENT_WEEK_DAY}" arg2="Tue"/>
+            <then>
+                <echo message="The previous version of a data should be deleted ..."/>
+
+                <delete dir="${previous.storage.dir}"/>
+                <mkdir dir="${previous.storage.dir}"/>
+            </then>
+        </if>
+    </target>
+
+    <target name="clearResultDir">
+        <delete dir="${results.storage.dir}"/>
+        <mkdir dir="${results.storage.dir}"/>
+    </target>
+
+    <target name="makeArchives" depends="clearPreviousDir, clearResultDir">
+        <mkdir dir="${current.storage.dir}"/>
+
+        <antcall target="makeDBArchive">
+            <param name="item.name" value="database.com"/>
+            <param name="db.username" value="shuser"/>
+            <param name="db.password" value="shpasswd"/>
+            <param name="db.name" value="shroggle5"/>
+        </antcall>
+
+        <antcall target="makeDBArchive">
+            <param name="item.name" value="database.net"/>
+            <param name="db.username" value="shtestuser"/>
+            <param name="db.password" value="shtestpasswd"/>
+            <param name="db.name" value="shroggle8_test"/>
+        </antcall>
+
+        <antcall target="makeDBArchive">
+            <param name="item.name" value="database.jira"/>
+            <param name="db.username" value="jira"/>
+            <param name="db.password" value="shrogglejira"/>
+            <param name="db.name" value="jiradb"/>
+        </antcall>
+
+        <antcall target="makeDBArchive">
+            <param name="item.name" value="database.wiki"/>
+            <param name="db.username" value="confluence"/>
+            <param name="db.password" value="shrogglewiki"/>
+            <param name="db.name" value="confluencedb"/>
+        </antcall>
+
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="scripts"/>
+            <param name="item.dir" value="/data/scripts/"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="svn.repository"/>
+            <param name="item.dir" value="/data/SVN/repository"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+
+        <!--
+                <antcall target="makeArchive">
+                    <param name="item.name" value="mail.settings"/>
+                    <param name="item.dir" value="/etc/mail"/>
+                    <param name="item.include" value="**.*"/>
+                </antcall>
+        -->
+
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="cruise.tomcat.conf"/>
+            <param name="item.dir" value="/opt/zones/env3/catalina/conf"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="cruise.webapps"/>
+            <param name="item.dir" value="/data1/CC/cruisecontrol/webapps"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="cruise.settings"/>
+            <param name="item.dir" value="/data1/CC/cruisecontrol/"/>
+            <param name="item.include" value="*.xml"/>
+        </antcall>
+
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="jira.conf"/>
+            <param name="item.dir" value="/opt/zones/env4/catalina/conf/"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="jira.webapps"/>
+            <param name="item.dir" value="/opt/zones/env4/catalina/webapps/"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="jira.attach"/>
+            <param name="item.dir" value="/data1/jira/attach"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="wiki.conf"/>
+            <param name="item.dir" value="/opt/zones/env5/catalina/conf/"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="wiki.webapps"/>
+            <param name="item.dir" value="/opt/zones/env5/catalina/webapps/"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="wiki.attachments"/>
+            <param name="item.dir" value="/data1/confluence/attachments/"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="nginx.conf"/>
+            <param name="item.dir" value="/opt/nginx/conf/"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="com.conf"/>
+            <param name="item.dir" value="/data/hosting/shroggle.com"/>
+            <param name="item.include" value="*.xml"/>
+        </antcall>
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="com.code.app"/>
+            <param name="item.dir" value="/data/hosting/shroggle.com/app"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="com.code.statis"/>
+            <param name="item.dir" value="/data/hosting/shroggle.com/static"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="com.data"/>
+            <param name="item.dir" value="/data/hosting/shroggle.com/data"/>
+            <param name="item.include" value="**/*"/>
+            <param name="item.exclude" value="**/video_id_*.flv"/>            
+        </antcall>
+
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="net.conf"/>
+            <param name="item.dir" value="/data/hosting/shroggle.net"/>
+            <param name="item.include" value="*.xml"/>
+        </antcall>
+        <!--
+                <antcall target="makeArchive">
+                    <param name="item.name" value="net.data"/>
+                    <param name="item.dir" value="/data/hosting/shroggle.net/data"/>
+                    <param name="item.include" value="**/*"/>
+                </antcall>
+        -->
+
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="wikalot.conf"/>
+            <param name="item.dir" value="/data/hosting/wikalot.com"/>
+            <param name="item.include" value="*.xml"/>
+        </antcall>
+<!--
+        <antcall target="makeIncrementalArchive">
+            <param name="item.name" value="wikalot.data"/>
+            <param name="item.dir" value="/data/hosting/wikalot.com/data"/>
+            <param name="item.include" value="**/*"/>
+        </antcall>
+-->
+    </target>
+
+    <target name="build" depends="makeArchives, sendData, removeOldData"/>
+
+
+</project>

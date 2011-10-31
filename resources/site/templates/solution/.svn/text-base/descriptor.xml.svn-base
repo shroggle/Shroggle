@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Solution template collection</name>
+    <thumbnail>tn_solution-blue.png</thumbnail>
+    <order>100</order>
+
+    <layout thumbnailFile="logo_head_foot_leftmenu.png">
+        <name>Logo, Header, Footer, Left side Menu</name>
+        <file>2headers_main_footer_leftmenu.html</file>
+
+
+    </layout>
+      <layout thumbnailFile="head_foot.png" useForDefault="true">
+        <name>1 Header, 1 Footer</name>
+        <file>header_main_footer.html</file>
+              <pattern type="REGISTRATION">
+            <position type="REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="BLANK">
+            <position position="1"/>
+        </pattern>
+        <pattern type="BLOG">
+            <position type="BLOG" position="1"/>
+        </pattern>
+        <pattern type="CALENDAR">
+            <position type="CALENDAR" position="1"/>
+        </pattern>
+         <pattern type="CHILD_REGISTRATION">
+            <position type="CHILD_SITE_REGISTRATION" position="1"/>
+        </pattern>
+         <pattern type="CONTACT">
+            <position type="CONTACT_US" position="1"/>
+        </pattern>
+         <pattern type="CUSTOM_FORM">
+            <position type="CUSTOM_FORM" position="1"/>
+        </pattern>
+        <pattern type="DISPLAY_REGISTRATION">
+            <position type="DISPLAY_REGISTRATION" position="1"/>
+        </pattern>
+        <pattern type="FORUM">
+            <position type="FORUM" position="1"/>
+        </pattern>
+        <pattern type="GALLERY">
+            <position type="GALLERY" position="1"/>
+        </pattern>
+        <pattern type="HOME">
+            <position type="BLOG_SUMMARY" position="1"/>
+        </pattern>
+        <pattern type="E_COMMERCE">
+            <position type="E_COMMERCE_STORE" position="1"/>
+        </pattern>
+        <pattern type="SHOPPING_CART">
+                   <position type="SHOPPING_CART" position="1"/>
+        </pattern>
+        <pattern type="LOGIN">
+            <position type="LOGIN" position="1"/>
+        </pattern>
+        <pattern type="SLIDE">
+            <position type="SLIDESHOW" position="1"/>
+        </pattern>
+        <pattern type="VIDEO">
+            <position type="VIDEO" position="1"/>
+        </pattern>
+    </layout>
+    <layout thumbnailFile="logo_head_foot_3content.png">
+        <name>Logo, Header, Footer, 3 equal Content Areas</name>
+        <file>2headers_3main_footer.html</file>
+
+    </layout>
+     <layout thumbnailFile="logo_head_foot.png">
+        <name>Logo, Header, Footer</name>
+        <file>2headers_main_footer.html</file>
+
+    </layout>
+    <layout thumbnailFile="head_foot_rightmenu.png">
+        <name>1 Header, 1 Footer, Right side Menu</name>
+        <file>header_main_footer_rightmenu.html</file>
+
+    </layout>
+      <layout thumbnailFile="head_foot_3content.png">
+        <name>1 header, 1 Footer, 3 equal Content Areas</name>
+        <file>header_3main_footer.html</file>
+
+    </layout>
+    <layout thumbnailFile="head_foot_leftmenu.png">
+        <name>1 Header, 1 Footer, Left side Menu</name>
+        <file>header_main_footer_leftmenu.html</file>
+      
+    </layout>
+     <theme>
+        <imageFile>Solution-Black.jpg</imageFile>
+        <name>Solution Black</name>
+        <file>solution_black.css</file>
+        <thumbnailFile>tn_solution-black.png</thumbnailFile>
+        <colorTileFile>tile_solution-black.png</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>Solution-Blue.jpg</imageFile>
+        <name>Solution Blue</name>
+        <file>solution_blue.css</file>
+        <thumbnailFile>tn_solution-blue.png</thumbnailFile>
+         <colorTileFile>tile_solution-blue.png</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>Solution-Dove.jpg</imageFile>
+        <name>Solution Dove</name>
+        <file>solution_dove.css</file>
+        <thumbnailFile>tn_solution-dove.png</thumbnailFile>
+         <colorTileFile>tile_solution-dove.png</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>Solution-Pink.jpg</imageFile>
+        <name>Solution Pink</name>
+        <file>solution_pink.css</file>
+        <thumbnailFile>tn_solution-pink.png</thumbnailFile>
+         <colorTileFile>tile_solution-pink.png</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>Solution-Purple.jpg</imageFile>
+        <name>Solution Purple</name>
+        <file>solution_purple.css</file>
+        <thumbnailFile>tn_solution-purple.png</thumbnailFile>
+         <colorTileFile>tile_solution-purple.png</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>Solution-Red.jpg</imageFile>
+        <name>Solution Red</name>
+        <file>solution_red.css</file>
+        <thumbnailFile>tn_solution-red.png</thumbnailFile>
+         <colorTileFile>tile_solution-red.png</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>Solution-Sunshine.jpg</imageFile>
+        <name>Solution Sunshine</name>
+        <file>solution_sunshine.css</file>
+        <thumbnailFile>tn_solution-sunshine.png</thumbnailFile>
+         <colorTileFile>tile_solution-sunshine.png</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>Solution-Teal.jpg</imageFile>
+        <name>Solution Teal</name>
+        <file>solution_teal.css</file>
+        <thumbnailFile>tn_solution-teal.png</thumbnailFile>
+         <colorTileFile>tile_solution-teal.png</colorTileFile>
+    </theme>
+     <theme>
+        <imageFile>Solution-Turquoise.jpg</imageFile>
+        <name>Solution Turquoise</name>
+        <file>solution_turquoise.css</file>
+        <thumbnailFile>tn_solution-turquoise.png</thumbnailFile>
+         <colorTileFile>tile_solution-turquoise.png</colorTileFile>
+    </theme>
+
+</template>

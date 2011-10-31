@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template>
+    <name>Simple template collection</name>
+    <thumbnail>simple_blue.jpg</thumbnail>
+    <layout>
+        <name>Two panel (up and down)</name>
+        <file>twopanel.htm</file>
+        <thumbnail>
+            <themeFile>navy.css</themeFile>
+            <thumbnailFile>thumbnailNavy.png</thumbnailFile>
+        </thumbnail>
+        <thumbnail>
+            <themeFile>blue.css</themeFile>
+            <thumbnailFile>thumbnailBlue.png</thumbnailFile>
+        </thumbnail>
+        <default>
+            <pageType>BLOG</pageType>
+            <widgetPosition>1</widgetPosition>
+        </default>
+    </layout>
+    <layout>
+        <name>Three panel (small on the left)</name>
+        <file>threeLeftPanel.htm</file>
+        <thumbnail>
+            <themeFile>navy.css</themeFile>
+            <thumbnailFile>navyThreePanel.png</thumbnailFile>
+        </thumbnail>
+        <thumbnail>
+            <themeFile>blue.css</themeFile>
+            <thumbnailFile>navyThreePanel.png</thumbnailFile>
+        </thumbnail>
+    </layout>
+    <theme>
+        <imageFile>blue.png</imageFile>
+        <name>Simple Baby Blue</name>
+        <file>blue.css</file>
+        <colorTileFile>blueTile.gif</colorTileFile>
+        <thumbnailFile>simple_blue.jpg</thumbnailFile>
+    </theme>
+    <theme>
+        <imageFile>beige.png</imageFile>
+        <name>Simple Beige</name>
+        <file>beige.css</file>
+        <colorTileFile>beigeTile.gif</colorTileFile>
+        <thumbnailFile>simple_beige.jpg</thumbnailFile>
+    </theme>
+</template>

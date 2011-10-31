@@ -1,0 +1,5 @@
+emptyPurchaseHistory = You haven't made any purchases yet.
+purchaseDate = Purchase Date
+itemPurchased = Item(s) Purchased
+charged = Charged
+orderStatus = Order status

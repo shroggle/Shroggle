@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title><!-- PAGE_TITLE --></title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+}
+table, tr, td{
+	border:0;
+	vertical-align:top;
+}
+img{
+	border:0;
+}
+.wrapper {
+	width:1360px;
+	margin:auto;
+	
+}
+.maincontent {
+	width:auto;
+
+}
+.leftcol, .rightcol {
+	width:200px;
+	height:auto;
+
+}
+.header{
+	width:auto;
+	height:25px;
+	
+	
+}
+
+.content{
+	width:840px;
+	margin:40px auto 0;
+	height:600px;
+     overflow:hidden;
+}
+.footer {
+	width:960px;
+	height:auto;
+	
+	padding:50px 0 0 0;
+}
+
+</style>
+<!-- PAGE_HEADER -->
+</head>
+
+<body>
+<div class="wrapper">
+<div class="maincontent">	<table border="0" cellspacing="0" cellpadding="0" >
+	<tr>
+		<td rowspan="4" class="leftcol mediaBlock"></td>
+		<td class="header madiaBlock"></td>
+		<td rowspan="4" class="rightcol mediaBlock"></td>
+	</tr>
+
+	<tr>
+		
+		<td >
+			<div class="content mediaBlock"></div></td>
+	</tr>
+	<tr>
+	
+		<td class="footer mediaBlock"></td>
+	</tr>
+</table>
+</div>
+
+</div>
+</body>
+</html>

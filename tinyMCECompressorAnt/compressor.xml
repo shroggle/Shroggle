@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<project default="main">
+    <taskdef name="tinyMCECompressor"
+             classname="TinyMceCompressor"
+             classpath="${buildDir}"/>
+    <target name="main">
+        <tinyMCECompressor languages="en" themes="advanced"
+                           plugins="example,safari,layer,table,save,advhr,advimage,advlink,emotions,iespell,media,searchreplace,contextmenu,paste,directionality,template,inlinepopups"/>
+
+    </target>
+</project>

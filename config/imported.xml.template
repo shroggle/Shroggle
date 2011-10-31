@@ -1,0 +1,9 @@
+<!-- imported.xml -->
+<project name="imported">
+  <property name="project.root" value="." />
+  <property name="tomcat.home" value="C:/apache-tomcat-6.0.24" />
+  <property name="version" value="v1" />
+
+<!--  Only for local building. On the production server this variable set by CruiseControl-->
+  <property name="label" value="build.1"/>
+</project>

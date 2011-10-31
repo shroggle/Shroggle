@@ -1,0 +1,15 @@
+itemSettingsHeader = Module Settings
+dataExport = Data Export
+scheduledExport = Scheduled Export
+
+
+# Errors
+wrongStartDate = Please, input correct `Start Date`
+inputCorrectName = Please, input correct name
+nameNotUnique = Selected name not unique
+ftpCantBeEmpty = Ftp address can`t be empty
+googleUsernameCantBeEmpty = Google Base account username can`t be empty
+googlePasswordCantBeEmpty = Google Base account password can`t be empty
+selectGallery = Please, select gallery
+selectTitle = Please, select title
+selectDescription = Please, select description

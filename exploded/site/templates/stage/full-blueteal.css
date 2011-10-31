@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#000;
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/bg-gray.png);
+	background-repeat:repeat-x;
+	color:#fff;
+}
+.wrapper {
+	background-image:url(<!-- TEMPLATE_RESOURCE -->/images/full-blueteal.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	min-height:768px;
+}

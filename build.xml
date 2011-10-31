@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<project name="com.shroggle.ant" default="update.assemble">
+    <description>Build Shroggle Application.</description>
+
+    <import file="buildSetting.xml"/>
+
+    <property name="number" value="0"/>
+
+    <target name="compile.clear">
+        <delete dir="exploded"/>
+        <mkdir dir="exploded"/>
+    </target>
+
+    <target name="compile.copy" depends="compile.clear">
+        <copy todir="exploded/WEB-INF/lib">
+            <fileset dir="lib">
+                <exclude name="**/one-jar-ant-task-0.96-bin.jar"/>
+                <exclude name="**/ant.jar"/>
+                <exclude name="**/ant-junit.jar"/>
+                <exclude name="**/antnextnumber.jar"/>
+                <exclude name="**/axis-ant.jar"/>
+                <exclude name="**/junit.jar"/>
+            </fileset>
+        </copy>
+
+        <copy todir="exploded/WEB-INF/classes">
+            <fileset dir="src"/>
+                <!--<exclude name="**/*.java"/>
+            </fileset>-->
+        </copy>
+    </target>
+
+    <path id="webServerAndApplicationLibs">
+        <fileset dir="exploded/WEB-INF/lib">
+            <include name="**/*.jar"/>
+        </fileset>
+
+        <fileset dir="${compiler.tomcat}/lib"/>
+
+        <path path="${compiler.ee}"/>
+    </path>
+
+    <target name="compile.execute" depends="compile.copy">
+        <mkdir dir="exploded/WEB-INF/classes"/>
+        <javac srcdir="src" classpathref="webServerAndApplicationLibs" debug="true"
+               destdir="exploded/WEB-INF/classes" executable="${compiler.path}" fork="true"
+               taskname="javac1.6"/>
+    </target>
+
+    <target name="test.execute" depends="compile.execute">
+        <!--<target name="test.execute">-->
+        <!--<cobertura-instrument todir="${destinationDirectory}/WEB-INF/coverageClasses">-->
+        <!--<fileset dir="${destinationDirectory}/WEB-INF/classes">-->
+        <!--<include name="**/*.class"/>-->
+        <!--<exclude name="**/*Test.class"/>-->
+        <!--</fileset>-->
+        <!--</cobertura-instrument>-->
+
+        <mkdir dir="exploded/WEB-INF/tests"/>
+
+        <junit printsummary="yes" showoutput="true" filtertrace="true" haltonerror="true" fork="true" forkmode="once">
+            <!--<sysproperty key="net.sourceforge.cobertura.datafile" file="${destinationDirectory}/cobertura.ser"/>-->
+            <!--<classpath location="exploded/WEB-INF/coverageClasses"/>-->
+            <classpath>
+                <pathelement path="exploded/WEB-INF/classes"/>
+                <pathelement path="exploded/WEB-INF/lib"/>
+                <fileset dir="exploded/WEB-INF/lib">
+                    <include name="**/*.jar"/>
+                </fileset>
+                <!--<fileset dir="${webServerLibsDirectory}">-->
+                <!--<include name="**/*.jar"/>-->
+                <!--</fileset>-->
+            </classpath>
+            <formatter type="xml"/>
+            <batchtest fork="yes" todir="exploded/WEB-INF/tests">
+                <fileset dir="exploded/WEB-INF/classes">
+                    <include name="**/LightTests.class"/>
+                    <include name="**/HeavyTests.class"/>
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <!--<target name="compileHtmlResultExecuteTests" depends="runTests">-->
+    <!--<cobertura-report-->
+    <!--format="xml" destdir="${destinationDirectory}/coverageResults"-->
+    <!--datafile="${destinationDirectory}/cobertura.ser" srcdir="${sourceDirectory}/src"/>-->
+    <!---->
+    <!--<xslt-->
+    <!--in="${destinationDirectory}/coverageResults/coverage.xml"-->
+    <!--out="${destinationDirectory}/coverageResults/coverage.html"-->
+    <!--style="documents/coverageXmlToHtml.xsl"/>-->
+    <!---->
+    <!--<junitreport todir="${destinationDirectory}/testsResults">-->
+    <!--<fileset dir="${destinationDirectory}/testsResults">-->
+    <!--<include name="TEST-*.xml"/>-->
+    <!--</fileset>-->
+    <!--<report format="noframes" todir="${destinationDirectory}/testsResults"/>-->
+    <!--</junitreport>-->
+    <!--</target>-->
+
+    <!--<target name="sendTestsResultsOnMail" depends="compileHtmlResultExecuteTests">-->
+    <!--<mail mailhost="192.168.137.121" mailport="25" subject="Tests result on superwiki project" charset="utf-8"-->
+    <!--user="builder"-->
+    <!--password="21imkuD">-->
+    <!--<from address="builder@infoprog.com.ua"/>-->
+    <!--<to address="artem.stasuk@gmail.com"/>-->
+    <!--<cc address="dmitry.solomadin@gmail.com"/>-->
+    <!--<cc address="anatoly.balakirev@gmail.com"/>-->
+    <!--<cc address="igor.kanshin@gmail.com"/>-->
+    <!--<message mimetype="text/html" src="${destinationDirectory}/testsResults/junit-noframes.html"/>-->
+    <!--</mail>-->
+    <!--<mail mailhost="192.168.137.121" mailport="25" subject="Code coverage in superwiki project by unit tests"-->
+    <!--charset="utf-8"-->
+    <!--user="builder"-->
+    <!--password="21imkuD">-->
+    <!--<from address="builder@infoprog.com.ua"/>-->
+    <!--<to address="artem.stasuk@gmail.com"/>-->
+    <!--<cc address="dmitry.solomadin@gmail.com"/>-->
+    <!--<cc address="anatoly.balakirev@gmail.com"/>-->
+    <!--<cc address="igor.kanshin@gmail.com"/>-->
+    <!--<message mimetype="text/html" src="${destinationDirectory}/coverageResults/coverage.html"/>-->
+    <!--</mail>-->
+    <!--</target>-->
+
+    <target name="update.detectNext">
+        <typedef name="nextnumber" classname="com.shroggle.util.ant.AntTaskNextNumber"
+                 classpath="lib/antnextnumber.jar"/>
+        <nextnumber dir="resources/WEB-INF/updates" prefix="shroggle" property="nextupdate"/>
+    </target>
+
+    <target name="update.assemble" depends="update.detectNext, compile.execute">
+    <!--<target name="update.assemble" depends="update.detectNext">-->
+        <mkdir dir="resources/WEB-INF/updates"/>
+
+        <taskdef name="one-jar" classname="com.simontuffs.onejar.ant.OneJarTask"
+                 classpath="lib/one-jar-ant-task-0.98.jar" onerror="report" />
+
+        <one-jar destfile="resources/WEB-INF/updates/shrogglenext.jar"
+                 onejarmainclass="com.shroggle.logic.start.StartUpdate">
+
+            <main>
+                <!-- Construct main.jar from classes and source code -->
+                <fileset dir="exploded/WEB-INF/classes"/>
+            </main>
+
+            <lib>
+                <fileset dir="exploded/WEB-INF/lib" />
+            </lib>
+        </one-jar>
+
+        <!--<jar destfile="resources/WEB-INF/updates/shrogglenext.jar" basedir="exploded/WEB-INF/classes">-->
+            <!--<zipfileset dir="exploded/WEB-INF/lib" prefix="lib"/>-->
+
+
+        <!--</jar>-->
+
+        <rename src="resources/WEB-INF/updates/shrogglenext.jar"
+                dest="resources/WEB-INF/updates/shroggle${nextupdate}.jar"/>
+    </target>
+
+</project>

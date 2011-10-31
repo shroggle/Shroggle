@@ -1,0 +1,156 @@
+body {}
+
+.postForm {
+    border: black solid 1px;
+}
+
+.manageForumLink {
+    color: darkblue;
+}
+
+.forumLink {
+    color: darkblue;
+}
+
+.forumLink:hover {
+    color: darkred;
+}
+
+.threadNameLink {
+    color: darkblue;
+    font-size: 14pt;
+}
+
+.postList {
+    border: 1px solid dimgray;
+}
+
+.postListHeading {
+    background-color: #4E1957;
+}
+
+.forumFont{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.postRow {
+    background-color: #ffffff;
+}
+
+.threadDescription {
+    color: navy;
+    font-size: small;
+    font-style: italic;
+}
+
+.threadNameLink:hover {
+    color: darkred;
+    font-size: 14pt;
+}
+
+.subForumListHeadingRow {
+    background-color: #dedfdf;
+}
+
+.subForumListBorder {
+    background-color: black;
+}
+
+.subForumNameCell {
+}
+
+.subForumRow {
+    background-color:white;
+}
+
+.postCountCell {
+}
+
+.threadCountCell {
+}
+
+.subForumLastUpdatedCell {
+}
+
+.subForumNameLink {
+    color: darkblue;
+    font-size: 14pt;
+}
+
+.subForumNameLink:hover {
+    color: darkred;
+    font-size: 14pt;
+}
+
+.subForumDescription {
+    font-size: small;
+    font-style: italic;
+}
+
+.forumBreadCrumbs {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+a.navigateForumLink {
+    color: darkblue;
+}
+
+.forumAddingLinks {
+    background-color: #dddddd;
+}
+
+.threadList {
+    background-color: #999999;
+}
+
+.threadListHeading {
+    background-color: #dddddd;
+}
+
+.threadRow {
+    background-color: #ffffff;
+}
+
+.evenPostBGColor {
+    background-color: #ffffff;
+}
+
+.notEvenPostBGColor {
+    background-color: #dddddd;
+}
+
+.postAuthorText {
+
+}
+
+blockquote {
+    background-color: #ffffff;
+    border: 1px solid black;
+    text-align: left;
+}
+
+/*#topPane {
+    background-color: #5B1E65;
+}
+
+#bottomPane {
+    background-color: white;
+} */
+
+.rightColumn {
+    background-color: black;
+}
+
+/*Blog visual item tyles. Beginning*/
+.blogName {
+    color: darkblue;
+}
+
+.blogPostTitle {
+    color: darkblue;
+}
+
+/*Blog visual item tyles. The end*/
+
+
